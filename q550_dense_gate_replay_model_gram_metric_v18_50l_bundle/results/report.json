@@ -1,0 +1,176 @@
+{
+  "version": "v18.50l",
+  "title": "Dense-Gate Physical Replay & Model-Jet Gram Metric Audit",
+  "classification": "NEW_SHORT_MODEL_RHS_REPLAYS_DENSE_EVENT_BRACKETS_NOT_KINETIC_METRIC_OR_CERTIFIED_CONTINUOUS_ROOT",
+  "genealogy": {
+    "k_zip_sha256": "2af6057c34b39b4a32ade3c5c60da38829b90b2a3a94061d24b8f0098aaa0933",
+    "j_zip_sha256": "97c63ef5bf908fa5cf3c6a4acce85a6b53d19245778dcf64b8b55621bcdec419",
+    "i_zip_sha256": "7007f083462b8d867383570911f293c2a86eb17357f0358068101dd81820aa9c",
+    "k_source_entries": 14,
+    "k_output_entries": 7,
+    "i_verified_entries": 18
+  },
+  "kappa0": {
+    "original": 0.16666666666666666,
+    "autonomous": 0.16659961041764054
+  },
+  "protocol": {
+    "ramp_xi": 0.24,
+    "shape": "beta:2:2",
+    "start": 0.00104,
+    "end": 0.00109,
+    "samples": 513,
+    "epsilons": [
+      0.0001,
+      1e-05
+    ],
+    "rtol": 3e-12,
+    "atol": 3e-13,
+    "max_step": 0.0001,
+    "direction_step": 1e-06,
+    "kick_state_component": 8,
+    "model_jet_gram_regularizations": [
+      0.1,
+      1.0
+    ]
+  },
+  "counts": {
+    "short_10D_driven_clock_ivps": 10,
+    "dense_vector_rows": 8208,
+    "cases": 16,
+    "physical_natural_seed_replays": 2
+  },
+  "checks": {
+    "max_common_stationary_difference_from_interpolated_k": 6.488962559988987e-09,
+    "reference_event_order": true,
+    "autonomous_event_order": true,
+    "max_linearized_vs_ivp_error": 2.523772061855935e-09
+  },
+  "reference": {
+    "kind": "original",
+    "epsilon": 0.0001,
+    "metric": "common_parent_c",
+    "has_parity": true,
+    "has_stationary": true,
+    "event_order": true,
+    "parity_xi": 0.0010591159204452099,
+    "stationary_xi": 0.0010688314983893865,
+    "delay_xi": 9.715577944176658e-06,
+    "parity_sample_bracket": "[0.00105904296875, 0.001059140625]",
+    "stationary_sample_bracket": "[0.00106880859375, 0.00106890625]",
+    "max_sample_cancel": 0.5793828766383713,
+    "sample_peak_xi": 0.00106880859375,
+    "orientation_log_gain_at_stationary": 2.093885370477919,
+    "imbalance_log_cost_at_stationary": -2.093885370481843,
+    "resultant_rate_at_stationary": 131.7701548201321,
+    "parity_theta_deg": 130.25038452907378,
+    "stationary_theta_deg": 130.25541538222205,
+    "historical_k_stationary_xi": 0.0010688353243933368,
+    "event_mesh_convergence": "{\"129\": {\"delay\": 9.717771303937184e-06, \"parity\": 0.001059115920053943, \"stationary\": 0.0010688336913578802}, \"257\": {\"delay\": 9.720044675369478e-06, \"parity\": 0.0010591159200147124, \"stationary\": 0.001068835964690082}, \"513\": {\"delay\": 9.715577944176658e-06, \"parity\": 0.0010591159204452099, \"stationary\": 0.0010688314983893865}}"
+  },
+  "autonomous": {
+    "kind": "autonomous",
+    "epsilon": 0.0001,
+    "metric": "common_parent_c",
+    "has_parity": true,
+    "has_stationary": true,
+    "event_order": true,
+    "parity_xi": 0.0010587068207812739,
+    "stationary_xi": 0.0010684172645951293,
+    "delay_xi": 9.710443813855472e-06,
+    "parity_sample_bracket": "[0.00105865234375, 0.00105875]",
+    "stationary_sample_bracket": "[0.0010683203125, 0.00106841796875]",
+    "max_sample_cancel": 0.5793103979753322,
+    "sample_peak_xi": 0.00106841796875,
+    "orientation_log_gain_at_stationary": 2.0943280148046677,
+    "imbalance_log_cost_at_stationary": -2.0943280147952956,
+    "resultant_rate_at_stationary": 131.86093089545193,
+    "parity_theta_deg": 130.2412294878732,
+    "stationary_theta_deg": 130.24625930971627,
+    "historical_k_stationary_xi": 0.0010684237535576893,
+    "event_mesh_convergence": "{\"129\": {\"delay\": 9.716431313568086e-06, \"parity\": 0.0010587068217775212, \"stationary\": 0.0010684232530910893}, \"257\": {\"delay\": 9.714759944880755e-06, \"parity\": 0.001058706821065605, \"stationary\": 0.0010684215810104858}, \"513\": {\"delay\": 9.710443813855472e-06, \"parity\": 0.0010587068207812739, \"stationary\": 0.0010684172645951293}}"
+  },
+  "observer_metric_meta": {
+    "original_model_jet_gram_alpha_0p1": {
+      "alpha": 0.1,
+      "input_scale_rule": "input_j=max(1,|seed_j|); B_j=dDirection/dstate_j / input_j",
+      "gram_eigenvalues": [
+        1.462789891751962e-10,
+        0.23745949701395883,
+        1.5444205687130528,
+        100539.06920275441
+      ],
+      "metric_eigenvalues": [
+        0.03226617686969924,
+        1.322078033358666,
+        1.3227654121823482,
+        1.3228903775892875
+      ],
+      "metric_condition_number": 40.99929108216094
+    },
+    "original_model_jet_gram_alpha_1": {
+      "alpha": 1.0,
+      "input_scale_rule": "input_j=max(1,|seed_j|); B_j=dDirection/dstate_j / input_j",
+      "gram_eigenvalues": [
+        1.462789891751962e-10,
+        0.23745949701395883,
+        1.5444205687130528,
+        100539.06920275441
+      ],
+      "metric_eigenvalues": [
+        0.2500088614066127,
+        1.2499497809202502,
+        1.2500147742141952,
+        1.2500265834589417
+      ],
+      "metric_condition_number": 4.999929108216316
+    },
+    "autonomous_model_jet_gram_alpha_0p1": {
+      "alpha": 0.1,
+      "input_scale_rule": "input_j=max(1,|seed_j|); B_j=dDirection/dstate_j / input_j",
+      "gram_eigenvalues": [
+        1.459133545612768e-10,
+        0.23760593256632523,
+        1.5451058336498193,
+        100655.02790163406
+      ],
+      "metric_eigenvalues": [
+        0.032266171307822056,
+        1.322078396608927,
+        1.3227652668396912,
+        1.3228901652435594
+      ],
+      "metric_condition_number": 40.99929156834485
+    },
+    "autonomous_model_jet_gram_alpha_1": {
+      "alpha": 1.0,
+      "input_scale_rule": "input_j=max(1,|seed_j|); B_j=dDirection/dstate_j / input_j",
+      "gram_eigenvalues": [
+        1.459133545612768e-10,
+        0.23760593256632523,
+        1.5451058336498193,
+        100655.02790163406
+      ],
+      "metric_eigenvalues": [
+        0.2500088553294113,
+        1.2499498171279129,
+        1.2500147623142723,
+        1.2500265652284048
+      ],
+      "metric_condition_number": 4.999929156834751
+    }
+  },
+  "limitations": [
+    "New short integrations of the authentic model RHS, not an independent experimental material law.",
+    "The two kappa families begin from separately prepared natural turning seeds; do not interpret their agreement as a same-state physical experiment.",
+    "Model-jet Gram is a frozen, regularized, coordinate-dependent candidate observer metric. It is NOT proven to be kinetic/physical/covariant.",
+    "Event brackets are based on densely sampled numerical trajectories; spline root is NOT a mathematically certified continuous root.",
+    "A sign-balanced derivative of a chosen normalized cancellation functional does not certify conserved energy or a material memory law.",
+    "The plasticity and polymer/metallic-glass analogy is conceptual, not a constitutive identification."
+  ],
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1"
+  }
+}

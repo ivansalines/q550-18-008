@@ -1,0 +1,22 @@
+v18.50l geometry, label symmetry and event extraction tests PASS
+REPLAY COMPLETE original kappa 0.16666666666666666 IVPs 5
+REPLAY COMPLETE autonomous kappa 0.16659961041764054 IVPs 5
+v18.50l COMPLETED {
+  "ivps": 10,
+  "rows": 8208,
+  "original": {
+    "parity_xi": 0.0010591159204452099,
+    "stationary_xi": 0.0010688314983893865,
+    "delay_xi": 9.715577944176658e-06
+  },
+  "autonomous": {
+    "parity_xi": 0.0010587068207812739,
+    "stationary_xi": 0.0010684172645951293,
+    "delay_xi": 9.710443813855472e-06
+  },
+  "historical_max_diff": 6.488962559988987e-09
+}
+Traceback (most recent call last):
+  File "/root/elab1/hysteresis/q550_dense_gate_replay_model_gram_metric_v18_50l_bundle/scripts/verify_source_manifest.py", line 10, in <module>
+    raise RuntimeError('Source drift: '+file)
+RuntimeError: Source drift: run_on_server.sh

@@ -1,0 +1,14 @@
+{
+  "version": "v18.50l",
+  "mode": "per-execution outputs",
+  "python": "3.13.16",
+  "file_sha256": {
+    "results/dense_balance_ratio.png": "b5b4571a1de56fc5621d6e177fdfaa3e159f74720c1e4ddad3eb977570b2745e",
+    "results/dense_gate_event_brackets.csv": "cedeaa55af3978c5010d3af4c4f88bff284317737af677dc25d2caf3c31764d2",
+    "results/dense_gate_vector_ledger.csv": "695562f37db610e5caaba9496b14a09ef3a2f7965cf9eee1e27bb2b30fdda846",
+    "results/dense_replay_both_kappa.png": "5032c1c387adc6c6d8e0fd8e59003256c2ab83faa7119c9088f51cda0ecfb0bb",
+    "results/metric_comparison_dense_replay.png": "24afefb0c95be79d786f50b6122e678cd2831674d4cde4de298ee173b1e30b8c",
+    "results/report.json": "3089580621136b03d5b8e736232403d7cc3d7ddebd73199c716655423c0651c1",
+    "results/turn_replay_checks.csv": "bf4a2e7de22ca5f09d04cd62e55445ced426e72ed031cd0c5808ecc3fca576e8"
+  }
+}

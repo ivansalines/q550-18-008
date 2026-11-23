@@ -1,0 +1,18 @@
+{
+  "root": "q550_dense_gate_replay_model_gram_metric_v18_50l_bundle",
+  "version": "v18.50l",
+  "scope": "immutable source bytes; results/ and runtime/ excluded",
+  "files": {
+    "README.md": "a325698863dc5a734888d1fdc53115e1615c121951b23849bb6c809925280c78",
+    "SCIENTIFIC_DECISION_RULES.md": "20300299c668a676edf5e81231847c8ab933104d17b3d568aa8f81e3ab4b94d7",
+    "SCIENTIFIC_REPORT.md": "dd652d94291874c34e89f12fb98eb99182156d981836efaf7834cd611c686e35",
+    "inputs/q550_log_balance_orientation_gate_transport_v18_50k_bundle_sendback.zip": "2af6057c34b39b4a32ade3c5c60da38829b90b2a3a94061d24b8f0098aaa0933",
+    "requirements.txt": "fc427f96792059ce540ca8adc5b06cdd1692436654fc3569648ef0d16fc4577b",
+    "run_on_server.sh": "32c3a388734788783dfdaf029be2170e8da338eb18b718d72cc7416940272f3d",
+    "scripts/pack_sendback.py": "d7caeac4fd501db85c713a389cce3ba7da7281dc672af885adf7c63d3236683e",
+    "scripts/run_audit.py": "a32a109d6508fe1f7812b0df69cd902f4002cd307f5a9508811085fd64dd9f8b",
+    "scripts/verify_source_manifest.py": "6d821a85845b9596473a7eb50efd94f46ff5afb9c25220bc845cede0a766728b",
+    "scripts/write_output_manifest.py": "d6f1a094ba22133b9404cca281a32ad4006f9bdaf141bdabc7f16cede7a2603a",
+    "tests/test_metric_and_gate.py": "de436bac8c36fd12559ce6998af89921bced4aba24273bb8b2236db5423204a0"
+  }
+}
