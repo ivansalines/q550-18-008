@@ -1,0 +1,14 @@
+# Scientific decision rules — v18.50r
+
+1. **Provenance gate.** The v18.50q server sendback must pass ZIP CRC and every source/output SHA-256 check. The version and numerical rank classification are verified. Original ancestors are temporarily staged but never altered.
+2. **Analytic tangent gate.** Derive `J10` from the 11D structural jet and the inherited chart scales; verify it against the actual *driven* ten-dimensional RHS via finite differences. A discrepancy larger than the declared threshold stops the audit. Do not assume that the 11D clock equation is unmodified.
+3. **Rank gate.** The normalized four-component observer has an exact left null direction. Assert rank 3 separately at every sampled state; only the seven-dimensional full kernel is analyzed. No assertion of rank on a continuous unsampled interval.
+4. **Differential kernel criterion.** `D=(Bdot+B J10)P` is the instantaneous observable leakage of transported kernel tangents. `D=0` is the infinitesimal invariance criterion in the inherited representation. Relative error norms are not energies.
+5. **Projector identity.** For constant rank, `Pdot=−Bplus Bdot P−P Bdot.T Bplus.T`, while the transported orthogonal projector has rate `(I−P)J10 P+P J10.T(I−P)`. Their difference equals `−(Bplus D+(Bplus D).T)`. Test both identities numerically.
+6. **Third-order derivative limitation.** The historic structural jet contains `F`, `DF`, and `D²F` only. Consequently `Bdot` is sampled by fourth-order centered temporal differences along a newly integrated trajectory, using two resolutions. The description **analytic tangent generator** applies to `J10`, **not** to `Bdot`.
+7. **Meaning of a defect.** A stable nonzero `D` is evidence of non-invariance of the *chosen observer kernel in the stated chart* at sampled points. It is not automatically a material coupling, a stress overshoot mechanism, energy transfer, torsional memory, or observer-independent curvature.
+8. **Metric sensitivity.** The orthogonal null projector depends on the fixed chart metric. A true material metric/connection has not been identified. Covariance under an explicit change of coordinates is a distinct property.
+9. **No predetermined sign/threshold.** Report whichever numerical result appears, including zero or low-order instability; do not reinterpret a near-zero result as a discovered material direction. Comparison with the v18.50q integrated projector gap is descriptive, not a proof of a global transport law.
+10. **Reproduction and file identity.** Source SHA-256 identity is mandatory. Generated PNG byte differences across Matplotlib versions do not invalidate numerically equivalent results; numerical tolerance comparisons remain mandatory when comparing independent runs.
+
+**Classification intended (subject to successful full replay):** `MODEL_JET_TANGENT_AND_SAMPLED_DIFFERENTIAL_KERNEL_DIAGNOSTIC_NOT_MATERIAL_INVARIANCE_CERTIFICATE`.

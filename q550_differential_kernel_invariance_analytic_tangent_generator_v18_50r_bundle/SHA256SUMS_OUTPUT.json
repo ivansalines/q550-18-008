@@ -1,0 +1,11 @@
+{
+  "root": "q550_differential_kernel_invariance_analytic_tangent_generator_v18_50r_bundle",
+  "file_sha256": {
+    "results/differential_kernel_invariance_ledger.csv": "d8e45aecf9543ad0a44f0fa7566aef156a02dd00bd35228d3801a4fd0aad7fca",
+    "results/kernel_projector_rate_balance.png": "6209f3f1b9d745be370a182115bf352384ef2cb7302ea2cf049f7795c5e72723",
+    "results/kernel_source_competition.png": "8975d0fec2b3f9dede02aa34ad96ccb7c4981e5d0e2994ae2eaa351a89871566",
+    "results/parent_q_transport_comparison.csv": "3010d95619bb84ea5f44d475f18bb6f1e80682091a6b0a4f716f6197499bc35c",
+    "results/report.json": "1cc1483638e371eafceb83717bbd587f117bc6e7388b3cbd5aba14b46d62315f",
+    "results/temporal_derivative_stability.png": "2e91363bee6b604df57a2b57d2739130cdfc68591d6eb1d193f78002bc8b760d"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "root": "q550_differential_kernel_invariance_analytic_tangent_generator_v18_50r_bundle",
+  "files": {
+    "README.md": "80705d7b8787510065a29655ffb9c32dfedb89ede4b21d9adb61df7379646852",
+    "SCIENTIFIC_DECISION_RULES.md": "b529eb9a0bb472a3c0d68d85f37750504d5a3d2d98ad88f666138792eb59b164",
+    "SCIENTIFIC_REPORT.md": "dc50ebbeb7af166aa481d019f4fbb7e3b1349381af490e58abef4e4cd4208ec6",
+    "inputs/q550_analytic_observer_jacobian_nullspace_projector_transport_v18_50q_bundle_server_sendback.zip": "7eef7cb8f8293b66f74f6022cd13f96ce882becc8af1c6ab688e1c71bae64696",
+    "requirements.txt": "9c2faeeb60a1d9a84f7abd23e721d04051ff8c54dae8863aaa9e423a819a2f07",
+    "run_on_server.sh": "2d4e916ab15fff38755877fc4bd1996733dcefbb3e18702f86e801a918968616",
+    "scripts/pack_sendback.py": "743e4f1159be435408b9476f24053173465c55cc2f848c0c684f23e38e5f24c6",
+    "scripts/run_audit.py": "7a4d7d9606efb17c71f4e361e5a265819b2b7ff401391170addba5160c7d8be9",
+    "scripts/verify_source_manifest.py": "d1cf52a59f9230aaa8b4e6ca42475d895252329b51b872c7d808aaaf9971433f",
+    "scripts/write_output_manifest.py": "369c72d0e619837151a02614213ea2c8f627ea21ef6cc380ec49dff1f8164931",
+    "tests/test_kernel_invariance.py": "d48c98a830ffa27ce71bdb824edeaa55620f0000f8f9fc9da87cfbeb3bc9e339"
+  }
+}

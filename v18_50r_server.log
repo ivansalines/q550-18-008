@@ -1,0 +1,22 @@
+v18.50r SOURCE IDENTITY VERIFIED 11
+v18.50r algebraic kernel, analytic chart, stencil and projector tests PASS
+AUTHENTICATED q SEND-BACK {'q_sha256': '7eef7cb8f8293b66f74f6022cd13f96ce882becc8af1c6ab688e1c71bae64696', 'source_files': 11, 'output_files': 6, 'classification': 'ANALYTIC_NORMALIZATION_RANK_BOUND_AND_NUMERICAL_10D_PROJECTOR_TRANSPORT_NOT_MATERIAL_CERTIFICATE'}
+EXACT IDENTITIES: B P=0; Pdot=-Bplus Bdot P -transpose; kernel drift=(Bdot+B J)P
+AUTHENTICATED MODEL: staging 10D physical solver
+REPLAY v18.50r original
+BRANCH COMPLETE original max defect 503.7418195723377
+REPLAY v18.50r autonomous
+BRANCH COMPLETE autonomous max defect 504.0026207284182
+v18.50r COMPLETE {
+  "sampled_sections": 34,
+  "max_generator_fd_rel_error": 1.0754970950340523e-10,
+  "max_structural_vs_driven_rhs_rel_error": 1.5228939883980985e-15,
+  "max_Bdot_refinement_rel": 1.3895601934232666e-09,
+  "max_projector_fd_relative": 4.8767289049360466e-08,
+  "max_kernel_defect": 504.0026207284182,
+  "min_kernel_defect": 503.7239798457751,
+  "max_projector_rate_defect": 5.903766563881497,
+  "max_algebraic_identity_rel": 3.028549931743073e-11
+}
+v18.50r OUTPUT MANIFEST WRITTEN 6
+v18.50r SENDBACK CREATED /root/elab1/hysteresis/q550_differential_kernel_invariance_analytic_tangent_generator_v18_50r_bundle_server_sendback.zip files 19 bytes 57819378
