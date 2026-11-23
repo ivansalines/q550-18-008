@@ -1,0 +1,100 @@
+{
+  "version": "v18.50n",
+  "title": "Covariant Velocity Opposition & Observer-Metric Transport Audit",
+  "classification": "AUTHENTICATED_POSTPROCESSING_PASSIVE_GAUGE_COVARIANCE_NOT_PHYSICAL_CONNECTION_OR_KINETIC_METRIC",
+  "parent": {
+    "parent_m_sha256": "f899d318485563d0f94bdf45c4dd47b167c0bb4cab7a74e7c233b433fe27d3d5",
+    "m": {
+      "source_count": 11,
+      "result_count": 7,
+      "version": "v18.50m"
+    },
+    "l": {
+      "source_count": 11,
+      "result_count": 7,
+      "version": "v18.50l"
+    }
+  },
+  "counts": {
+    "parent_l_rows": 8208,
+    "angle_case_rows": 18,
+    "gauge_control_rows": 84,
+    "phase_rows": 2052,
+    "new_physical_integrations": 0
+  },
+  "primary": {
+    "fixed_derivative_angle_deg": 159.78518028221396,
+    "response_locked_uncorrected_derivative_angle_deg": 172.8685155500559,
+    "gauge_rate_300_naive_deg": 77.48914197860618,
+    "gauge_rate_300_covariant_deg": 159.78518028221396
+  },
+  "metric_fit_diagnostics": [
+    {
+      "kind": "original",
+      "metric": "model_jet_gram_alpha_0p1",
+      "normal_matrix_condition": 79395626193.60895,
+      "max_holdout_quadratic_error": 9.020562075079397e-17,
+      "metric_eigenvalues": [
+        0.03226617691695943,
+        1.3220780376954193,
+        1.322765410665897,
+        1.322890369728899
+      ],
+      "fit_relative_residual": 6.127451061434602e-16
+    },
+    {
+      "kind": "original",
+      "metric": "model_jet_gram_alpha_1",
+      "normal_matrix_condition": 79395626193.60895,
+      "max_holdout_quadratic_error": 9.71445146547012e-17,
+      "metric_eigenvalues": [
+        0.250008861371106,
+        1.2499497540639748,
+        1.2500144849453623,
+        1.2500265805757156
+      ],
+      "fit_relative_residual": 7.067430717110982e-16
+    },
+    {
+      "kind": "autonomous",
+      "metric": "model_jet_gram_alpha_0p1",
+      "normal_matrix_condition": 79023446164.32536,
+      "max_holdout_quadratic_error": 6.938893903907228e-17,
+      "metric_eigenvalues": [
+        0.03226617123060582,
+        1.3220784467266136,
+        1.322765977374927,
+        1.3228901799664539
+      ],
+      "fit_relative_residual": 5.911841633753649e-16
+    },
+    {
+      "kind": "autonomous",
+      "metric": "model_jet_gram_alpha_1",
+      "normal_matrix_condition": 79023446164.32536,
+      "max_holdout_quadratic_error": 1.249000902703301e-16,
+      "metric_eigenvalues": [
+        0.2500088553859592,
+        1.2499497661662922,
+        1.250014073279313,
+        1.2500265543133005
+      ],
+      "fit_relative_residual": 8.243497818914334e-16
+    }
+  ],
+  "limitations": [
+    "This is analysis of the authenticated v18.50l RHS replay from the v18.50m parent, not a new integration.",
+    "All angles, norms, and connection terms are attached to declared 4D sensitivities in model \u03be.",
+    "Gram metrics recovered from redundant published quadratic measurements have an ill-conditioned design; holdout and eigenvalue checks are enforced.",
+    "Raw-coordinate observer is a distinct normalized nonlinear observable, not a passive pullback metric of the common chart.",
+    "Artificial orthogonal and shear gauges prove covariance of an explicitly chosen passive connection by algebra; this does not identify a material or kinetic connection.",
+    "A response-locked rotation-minimizing local frame is chosen, not physically privileged; it removes the resultant transverse component by construction.",
+    "The deliberately derivative-targeted SPD negative control is not a candidate physical material metric.",
+    "No universal metric-independent directional opposition, polymer analogy, material memory or torsional flip certified."
+  ],
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1"
+  }
+}

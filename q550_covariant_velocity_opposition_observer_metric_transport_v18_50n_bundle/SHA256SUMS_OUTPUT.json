@@ -1,0 +1,14 @@
+{
+  "root": "q550_covariant_velocity_opposition_observer_metric_transport_v18_50n_bundle",
+  "version": "v18.50n",
+  "file_sha256": {
+    "results/co_moving_phase_ledger.csv": "8f898350bc95914499403adc001e78215712a967cd3b31bc8bd4148be3c2370d",
+    "results/gauge_covariance_velocity_control.png": "0a45a587fca42a10feb11018276f06943b95821504fcf92ad68e7c01ab20a08e",
+    "results/moving_gauge_controls.csv": "76fa109fe190d51bc1a07c507155f13ba733f3a7fdc265fb0d6e9fdb80442b4e",
+    "results/observer_velocity_angle_summary.csv": "10fe664acf0405ef4275a8e8db03391626340c298c913ae56a01bdff72b4b1af",
+    "results/recovered_metric_validation.csv": "98eaaee82604eb8125cdd1d76e63a7405f935e769b36eaf9c9f35c62aa08d46c",
+    "results/report.json": "be2c959a01cbb226ed866d6407f5d6871fdcea03deae1c76494e17c880155bc1",
+    "results/response_locked_frame_comparison.png": "0e9f954dd0e98490c665738d350c62cc27151030994aa69fe7dc72b5477b484c",
+    "results/velocity_opposition_metric_comparison.png": "c4c2a5a89f99f69029e4a2e0f7924a7d0b63523a81db592800ac2caf235465af"
+  }
+}

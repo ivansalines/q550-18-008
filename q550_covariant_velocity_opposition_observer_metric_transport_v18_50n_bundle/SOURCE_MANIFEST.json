@@ -1,0 +1,18 @@
+{
+  "root": "q550_covariant_velocity_opposition_observer_metric_transport_v18_50n_bundle",
+  "version": "v18.50n",
+  "files": {
+    "README.md": "56cf3143aac178cc08c24aaf8996134689aaeb44772b72c01346c05820e3b6b4",
+    "SCIENTIFIC_DECISION_RULES.md": "c14e3154fff824ecfd1cab5ba934b7c5ae8e5bda7463980110d9cd66cd24ffad",
+    "SCIENTIFIC_REPORT.md": "48a0a7fbcbe8af643fd8c6949a694d8bdc0e8c393303a00e7337e2541e8e40b6",
+    "inputs/q550_resultant_advance_intensity_orientation_rate_v18_50m_bundle_server_sendback.zip": "f899d318485563d0f94bdf45c4dd47b167c0bb4cab7a74e7c233b433fe27d3d5",
+    "requirements.txt": "999fa14ce226d75b4660e2f539a338d674061078434132d86e7f0ca3491fa3ce",
+    "run_on_server.sh": "7f708a8eddc325660b6b1800a7c90ff8e4567f5a43910cf8b6f89349c5babb35",
+    "scripts/pack_sendback.py": "78557a66822f2e3dbbac4cc111d568a7ce433fc97b2978ae8baab477fb14a21f",
+    "scripts/run_audit.py": "208f1b5f5bef1ffbd341490a9996c3a2e58a0aad1902a38e314e2dd3b6b7ba33",
+    "scripts/verify_sources.py": "0f2b7cc8b05a8de8db82ecf6dad0e17f14d74da8e294d698254c00f6bf1115af",
+    "scripts/write_output_manifest.py": "1787a9d7028d8b940d4d7d840050dc2bdd15e4ecc36bb5caf5f4c724403fc014",
+    "tests/test_observer_transport.py": "b0479e75e9cdcc0fee7d7f2eeb298d4c3ca1342222075aeab039faf3906951d9",
+    "tests/test_parent_regression.py": "9debfdab22d39706f4aedc22eec2118f7258fb22987f426f38bd42456678688e"
+  }
+}

@@ -1,0 +1,49 @@
+v18.50n immutable sources VERIFIED 12
+v18.50n mathematical observer/covariance tests PASS
+v18.50n COMPLETED {
+  "parent_verified": {
+    "parent_m_sha256": "f899d318485563d0f94bdf45c4dd47b167c0bb4cab7a74e7c233b433fe27d3d5",
+    "m": {
+      "source_count": 11,
+      "result_count": 7,
+      "version": "v18.50m"
+    },
+    "l": {
+      "source_count": 11,
+      "result_count": 7,
+      "version": "v18.50l"
+    }
+  },
+  "rows": 18,
+  "main": {
+    "fixed_derivative_angle_deg": 159.78518028221396,
+    "response_locked_uncorrected_derivative_angle_deg": 172.8685155500559,
+    "gauge_rate_300_naive_deg": 77.48914197860618,
+    "gauge_rate_300_covariant_deg": 159.78518028221396
+  },
+  "metrics_original_1e4": [
+    [
+      "common_parent_c",
+      159.7852
+    ],
+    [
+      "model_jet_gram_alpha_0p1",
+      114.9475
+    ],
+    [
+      "model_jet_gram_alpha_1",
+      140.8039
+    ],
+    [
+      "raw_coordinate_separate_observable",
+      124.144
+    ],
+    [
+      "adversarial_derivative_bisector_spd_control",
+      69.6608
+    ]
+  ]
+}
+v18.50n authenticated Q550 numerical regressions PASS
+v18.50n regenerated output manifest WRITTEN 8
+v18.50n SERVER SENDBACK PACKAGED: /root/elab1/hysteresis/q550_covariant_velocity_opposition_observer_metric_transport_v18_50n_bundle_server_sendback.zip members 22 bytes 56763053
