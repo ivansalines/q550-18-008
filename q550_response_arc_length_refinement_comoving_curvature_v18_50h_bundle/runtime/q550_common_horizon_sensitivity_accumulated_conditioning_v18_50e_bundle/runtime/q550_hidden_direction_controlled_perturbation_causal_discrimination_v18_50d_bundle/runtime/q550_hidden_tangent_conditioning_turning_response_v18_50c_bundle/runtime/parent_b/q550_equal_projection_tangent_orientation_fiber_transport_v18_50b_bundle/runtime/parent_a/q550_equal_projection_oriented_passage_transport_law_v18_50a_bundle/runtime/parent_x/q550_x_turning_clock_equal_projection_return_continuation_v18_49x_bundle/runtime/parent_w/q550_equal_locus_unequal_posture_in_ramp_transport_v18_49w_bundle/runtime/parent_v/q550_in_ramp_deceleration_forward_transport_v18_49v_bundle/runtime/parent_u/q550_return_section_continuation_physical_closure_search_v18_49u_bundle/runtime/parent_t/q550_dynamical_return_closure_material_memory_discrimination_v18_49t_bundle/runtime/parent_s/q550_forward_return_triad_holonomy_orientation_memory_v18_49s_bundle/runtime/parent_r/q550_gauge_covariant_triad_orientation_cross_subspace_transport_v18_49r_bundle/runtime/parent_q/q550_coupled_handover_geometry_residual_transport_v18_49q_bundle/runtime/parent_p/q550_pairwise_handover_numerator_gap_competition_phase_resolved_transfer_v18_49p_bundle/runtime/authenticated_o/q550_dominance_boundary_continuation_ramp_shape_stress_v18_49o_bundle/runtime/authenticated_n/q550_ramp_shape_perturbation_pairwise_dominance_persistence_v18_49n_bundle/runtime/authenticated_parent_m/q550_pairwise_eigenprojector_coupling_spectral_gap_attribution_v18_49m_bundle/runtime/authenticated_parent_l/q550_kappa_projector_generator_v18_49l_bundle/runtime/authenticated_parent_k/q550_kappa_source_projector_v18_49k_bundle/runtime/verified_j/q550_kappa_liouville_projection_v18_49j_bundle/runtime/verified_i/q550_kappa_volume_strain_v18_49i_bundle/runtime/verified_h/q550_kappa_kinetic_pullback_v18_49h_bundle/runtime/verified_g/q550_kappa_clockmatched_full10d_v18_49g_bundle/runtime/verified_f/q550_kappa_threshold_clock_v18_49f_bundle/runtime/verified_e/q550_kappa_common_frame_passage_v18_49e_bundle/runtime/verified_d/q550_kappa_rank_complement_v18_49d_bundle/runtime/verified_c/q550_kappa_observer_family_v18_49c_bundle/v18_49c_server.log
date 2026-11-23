@@ -1,0 +1,109 @@
+test_contravariant_coordinates_and_metric (test_family.FamilyTests.test_contravariant_coordinates_and_metric) ... ok
+test_direct_analytic_envelope (test_family.FamilyTests.test_direct_analytic_envelope) ... ok
+test_family_basis_change (test_family.FamilyTests.test_family_basis_change) ... ok
+test_full_material_bound (test_family.FamilyTests.test_full_material_bound) ... ok
+test_local_angle_lift (test_family.FamilyTests.test_local_angle_lift) ... ok
+test_metric_is_a_choice (test_family.FamilyTests.test_metric_is_a_choice) ... ok
+test_rank_deficient_family (test_family.FamilyTests.test_rank_deficient_family) ... ok
+test_signed_family_symmetry (test_family.FamilyTests.test_signed_family_symmetry) ... ok
+test_subset_monotonicity (test_family.FamilyTests.test_subset_monotonicity) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.113s
+
+OK
+v18.49c original ramp 0.285 material-cotangent 5 seeded vectors; steps 105
+v18.49c original ramp 0.285 material-cotangent 5 seeded vectors; steps 105
+v18.49c original ramp 0.285 material-cotangent 5 seeded vectors; steps 105
+v18.49c original ramp 0.285 material-cotangent 5 seeded vectors; steps 105
+v18.49c original ramp 0.292 material-cotangent 5 seeded vectors; steps 105
+v18.49c original ramp 0.292 material-cotangent 5 seeded vectors; steps 105
+v18.49c original ramp 0.292 material-cotangent 5 seeded vectors; steps 105
+v18.49c original ramp 0.292 material-cotangent 5 seeded vectors; steps 105
+v18.49c original ramp 0.296333 material-cotangent 5 seeded vectors; steps 106
+v18.49c original ramp 0.296333 material-cotangent 5 seeded vectors; steps 106
+v18.49c original ramp 0.296333 material-cotangent 5 seeded vectors; steps 106
+v18.49c original ramp 0.296333 material-cotangent 5 seeded vectors; steps 106
+v18.49c original ramp 0.3 material-cotangent 5 seeded vectors; steps 106
+v18.49c original ramp 0.3 material-cotangent 5 seeded vectors; steps 106
+v18.49c original ramp 0.3 material-cotangent 5 seeded vectors; steps 106
+v18.49c original ramp 0.3 material-cotangent 5 seeded vectors; steps 106
+v18.49c original ramp 0.305 material-cotangent 5 seeded vectors; steps 106
+v18.49c original ramp 0.305 material-cotangent 5 seeded vectors; steps 106
+v18.49c original ramp 0.305 material-cotangent 5 seeded vectors; steps 106
+v18.49c original ramp 0.305 material-cotangent 5 seeded vectors; steps 106
+v18.49c original ramp 0.309 material-cotangent 5 seeded vectors; steps 107
+v18.49c original ramp 0.309 material-cotangent 5 seeded vectors; steps 107
+v18.49c original ramp 0.309 material-cotangent 5 seeded vectors; steps 107
+v18.49c original ramp 0.309 material-cotangent 5 seeded vectors; steps 107
+v18.49c autonomous ramp 0.285 material-cotangent 5 seeded vectors; steps 105
+v18.49c autonomous ramp 0.285 material-cotangent 5 seeded vectors; steps 105
+v18.49c autonomous ramp 0.285 material-cotangent 5 seeded vectors; steps 105
+v18.49c autonomous ramp 0.285 material-cotangent 5 seeded vectors; steps 105
+v18.49c autonomous ramp 0.292 material-cotangent 5 seeded vectors; steps 105
+v18.49c autonomous ramp 0.292 material-cotangent 5 seeded vectors; steps 105
+v18.49c autonomous ramp 0.292 material-cotangent 5 seeded vectors; steps 105
+v18.49c autonomous ramp 0.292 material-cotangent 5 seeded vectors; steps 105
+v18.49c autonomous ramp 0.296333 material-cotangent 5 seeded vectors; steps 106
+v18.49c autonomous ramp 0.296333 material-cotangent 5 seeded vectors; steps 106
+v18.49c autonomous ramp 0.296333 material-cotangent 5 seeded vectors; steps 106
+v18.49c autonomous ramp 0.296333 material-cotangent 5 seeded vectors; steps 106
+v18.49c autonomous ramp 0.3 material-cotangent 5 seeded vectors; steps 106
+v18.49c autonomous ramp 0.3 material-cotangent 5 seeded vectors; steps 106
+v18.49c autonomous ramp 0.3 material-cotangent 5 seeded vectors; steps 106
+v18.49c autonomous ramp 0.3 material-cotangent 5 seeded vectors; steps 106
+v18.49c autonomous ramp 0.305 material-cotangent 5 seeded vectors; steps 106
+v18.49c autonomous ramp 0.305 material-cotangent 5 seeded vectors; steps 106
+v18.49c autonomous ramp 0.305 material-cotangent 5 seeded vectors; steps 106
+v18.49c autonomous ramp 0.305 material-cotangent 5 seeded vectors; steps 106
+v18.49c autonomous ramp 0.309 material-cotangent 5 seeded vectors; steps 107
+v18.49c autonomous ramp 0.309 material-cotangent 5 seeded vectors; steps 107
+v18.49c autonomous ramp 0.309 material-cotangent 5 seeded vectors; steps 107
+v18.49c autonomous ramp 0.309 material-cotangent 5 seeded vectors; steps 107
+{
+  "version": "v18.49c",
+  "status": "AUTHENTIC_11D_REPLAY_AND_TRANSPORTED_FINITE_COVECTOR_FAMILY",
+  "physical_11D_integrations": 14,
+  "new_10D_five_covector_transport_IVPs": 12,
+  "n_csv_rows": 576,
+  "unique_barrier_states": 12,
+  "metrics": [
+    "euclidean",
+    "declared_weighted"
+  ],
+  "observer_family_sizes": [
+    2,
+    5
+  ],
+  "max_11D_historical_forward_regression": 3.424991987393049e-13,
+  "max_energy_ledger_relative_residual": 1.651082222331457e-11,
+  "max_relative_chart_covariance_residual": 3.972878772865539e-11,
+  "max_relative_basis_mixing_residual": 1.0708101072509635e-13,
+  "max_observer_readout_envelope_violation": 0.0,
+  "max_parent_B_probe_regression": 3.6415315207705135e-14,
+  "max_parent_A_root_distance_regression": 7.060324547225605e-16,
+  "max_tangent_cotangent_duality_residual": 1.2212453270876722e-15,
+  "observations": {
+    "euclidean_2": {
+      "range_fraction": [
+        0.24485198712439998,
+        0.24813646375453285
+      ]
+    },
+    "euclidean_5": {
+      "range_fraction": [
+        0.5758894491757038,
+        0.5939712804727156
+      ]
+    }
+  },
+  "genealogy": {
+    "source": "original user-server B sendback",
+    "parent_B_sha256": "f5dbf396bd07594fad196fe44ccc4fc912c883e883b3db1daf4e0c1d9e1b4ac9",
+    "parent_B_files": 32,
+    "nested_original_genealogy_authenticated_to_J": true
+  },
+  "boundary": "Invariant under equivalent column basis and joint chart+metric+covector transformation, NOT invariant under observer FAMILY or METRIC choice. Phaseblind branch0 only. Cotangent is 10D with externally prescribed Theta. Finite displacement need not satisfy linearized pairing conservation."
+}
+v18.49c scientific gates PASS; 144 root/barrier events x 2 families x 2 metrics
+Generated three data-derived figures

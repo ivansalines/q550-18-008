@@ -1,0 +1,23 @@
+{
+  "parent_t_server_sha256": "ecacbdb8b7a7d16e07f4dca3c545e3c80b08c71b0262f2699fbe54b2725d6615",
+  "parent_t_manifest_count": 24,
+  "parent_t_report_sha256": "a43b4b79cebc9c5b55b4be2ad2f5c9f97c730201c57961eca00cf50e9bd169cd",
+  "original_history_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+  "parent_t_source_recursion_passed": true,
+  "parent_s_to_j_verified": {
+    "parent_server_sha256": "cf865a640363ad1e08a0ccafe63fd0586d786bb869b967c43b2f1eb18e2c40a7",
+    "parent_manifest_files": 27,
+    "parent_report_sha256": "c151c37668dddf6ba844052e91306518062bbf423c66ce08118f042f945e3398",
+    "historic_11D_states_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+    "r_q_p_o_j_genealogy_verified": true,
+    "parent_s_verifier": {
+      "parent_sha256": "b601151e9bd5e81553695b4c698cd505435143a51976320055a5e0f931ee3d33",
+      "parent_r_verified_files": 24,
+      "parent_r_report_sha256": "03629aa741a2bf17f8049efeab932eaaac98f2972dbf78733106e51baf5c8c67",
+      "historical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+      "original_11D_rhs": true,
+      "parent_chain_verified": true
+    },
+    "physical_rhs_original": true
+  }
+}

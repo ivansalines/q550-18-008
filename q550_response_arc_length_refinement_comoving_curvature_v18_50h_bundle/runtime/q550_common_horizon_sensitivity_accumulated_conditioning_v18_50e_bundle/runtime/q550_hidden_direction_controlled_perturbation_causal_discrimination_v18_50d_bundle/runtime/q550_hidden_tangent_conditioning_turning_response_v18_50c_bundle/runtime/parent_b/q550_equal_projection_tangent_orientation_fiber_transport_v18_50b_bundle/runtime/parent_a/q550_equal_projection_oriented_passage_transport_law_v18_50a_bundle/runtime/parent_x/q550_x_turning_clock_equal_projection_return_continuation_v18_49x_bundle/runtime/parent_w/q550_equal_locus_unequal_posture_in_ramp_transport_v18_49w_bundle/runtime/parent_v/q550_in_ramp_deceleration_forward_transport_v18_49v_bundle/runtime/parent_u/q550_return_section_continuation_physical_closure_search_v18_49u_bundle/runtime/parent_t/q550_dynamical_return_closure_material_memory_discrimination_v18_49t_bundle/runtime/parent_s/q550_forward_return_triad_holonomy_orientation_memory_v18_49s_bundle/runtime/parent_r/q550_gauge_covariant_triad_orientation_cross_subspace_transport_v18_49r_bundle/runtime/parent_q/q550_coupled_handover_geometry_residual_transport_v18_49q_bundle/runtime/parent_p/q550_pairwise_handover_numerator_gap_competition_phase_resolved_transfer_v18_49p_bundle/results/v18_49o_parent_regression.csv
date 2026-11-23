@@ -1,0 +1,9 @@
+kappa_kind,ramp_xi,parent_matched_cases,abs_share_error
+original,0.3,2,0.0
+original,0.32671875,2,4.5234371803815066e-12
+original,0.327375,2,1.0057288335474368e-11
+original,0.33,1,0.0
+autonomous,0.3,2,0.0
+autonomous,0.32671875,2,1.3405387910836453e-12
+autonomous,0.327375,2,1.1987077996877815e-12
+autonomous,0.33,1,0.0

@@ -1,0 +1,4 @@
+Python 3.13 recommended (>=3.11 compatible)
+numpy
+scipy
+matplotlib

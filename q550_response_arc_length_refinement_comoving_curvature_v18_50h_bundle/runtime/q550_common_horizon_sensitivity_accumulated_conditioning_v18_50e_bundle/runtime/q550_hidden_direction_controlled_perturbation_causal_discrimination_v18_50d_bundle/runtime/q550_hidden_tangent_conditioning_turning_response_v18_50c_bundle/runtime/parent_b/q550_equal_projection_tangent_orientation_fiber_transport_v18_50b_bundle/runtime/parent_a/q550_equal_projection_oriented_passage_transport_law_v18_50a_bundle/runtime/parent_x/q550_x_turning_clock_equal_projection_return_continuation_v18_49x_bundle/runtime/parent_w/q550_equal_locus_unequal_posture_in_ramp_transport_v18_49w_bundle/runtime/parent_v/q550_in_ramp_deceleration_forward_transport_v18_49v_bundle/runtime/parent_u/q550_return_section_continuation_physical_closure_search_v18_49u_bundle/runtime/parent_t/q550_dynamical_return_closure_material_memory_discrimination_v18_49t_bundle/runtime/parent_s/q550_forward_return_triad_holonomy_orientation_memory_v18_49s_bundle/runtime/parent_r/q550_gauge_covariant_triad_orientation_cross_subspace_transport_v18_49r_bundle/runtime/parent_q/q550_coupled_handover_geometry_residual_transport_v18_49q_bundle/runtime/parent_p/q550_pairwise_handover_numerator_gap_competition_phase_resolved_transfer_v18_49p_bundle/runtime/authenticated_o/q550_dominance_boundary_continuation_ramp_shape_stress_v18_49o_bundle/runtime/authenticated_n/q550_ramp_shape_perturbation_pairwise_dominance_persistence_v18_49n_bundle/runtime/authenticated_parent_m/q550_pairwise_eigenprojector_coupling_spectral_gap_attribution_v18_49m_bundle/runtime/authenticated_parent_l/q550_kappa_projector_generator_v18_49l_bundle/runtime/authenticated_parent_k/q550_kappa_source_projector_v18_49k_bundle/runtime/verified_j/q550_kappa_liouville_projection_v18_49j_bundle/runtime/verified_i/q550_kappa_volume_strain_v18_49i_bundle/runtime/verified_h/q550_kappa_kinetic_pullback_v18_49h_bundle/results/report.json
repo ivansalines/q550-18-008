@@ -1,0 +1,50 @@
+{
+  "version": "v18.49h",
+  "classification": "AUTHENTIC_11D_MATERIAL_KINETIC_METRIC_DIAGNOSTIC_ONLY",
+  "physical_integrations": 14,
+  "frame_integrations": 12,
+  "state_material_dimension": 10,
+  "clock_matched": true,
+  "history_authenticated_to_J": true,
+  "kappa_set": [
+    "original",
+    "autonomous"
+  ],
+  "ramp_set": [
+    0.285,
+    0.292,
+    0.296333,
+    0.3,
+    0.305,
+    0.309
+  ],
+  "taus_tested": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "metric": "flat kinetic base cartesian Q=(r1 cos t1,r1 sin t1,r2 cos t2,r2 sin t2,sqrt(mx)x); tangent bundle H=(Q,tau_ref V); Sasaki Euclidean pullback G=DH.T DH",
+  "Cauchy_Green": "C=F.T G_end F relative to G_initial; eigenvalues in generalized positive definite pencil",
+  "material_gap": "exact Cartesian secant for position and tau-weighted velocities; inverse tangent transport is a finite-difference diagnostic, NOT an exact nonlinear flow inverse",
+  "curvature": "geodesic curvature of the normalized inverse-transported Cartesian finite gap on S9 at fixed initial physical frame; not a unique observer-free material torsion",
+  "max_original_history_error": 3.424991987393049e-13,
+  "max_kinetic_energy_identity_error": 1.6653345369377348e-16,
+  "max_clock_mismatch_rad": 0.0,
+  "max_nonlinear_chart_generalized_eigen_error": 1.566785441594215e-15,
+  "max_curvature_arc_refinement_deg": 3.73021824984221e-05,
+  "stretches_q050_tau1_range": [
+    0.4094633081472273,
+    2.318420484129399
+  ],
+  "anisotropy_ratio_q050_tau1_range": [
+    5.638543909418749,
+    5.662095816643438
+  ],
+  "sphere_curvature_q050_tau1_range": [
+    1.389412755873293,
+    1.4019869107301801
+  ],
+  "sasaki_scale_dependence": true,
+  "nonlinear_coordinate_invariance": true,
+  "unproved": "metric-independent torsion, observer-independent material handedness, intrinsic kappa0 period, or exact nonlinear material recurrence"
+}

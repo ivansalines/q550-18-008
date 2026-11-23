@@ -1,0 +1,27 @@
+{
+  "version": "v18.48u",
+  "files": {
+    "README.md": "fcd521dc42d45ca10f17afacdcd3c472f73a6b73cede6da80a6f1359e992bc44",
+    "SCIENTIFIC_DECISION_RULES.md": "53329b993a399a49bf257535965523e1c2ec70475144be8382d3e6e4db32f31a",
+    "inputs/SOURCE_PINS.json": "4421e5889744c0a8dece091a35b6eea86636220bf476f2b00d3a5d4558f7bc29",
+    "inputs/v18_48t_original_server_sendback.zip": "ecacbdb8b7a7d16e07f4dca3c545e3c80b08c71b0262f2699fbe54b2725d6615",
+    "reference/physical_math.py": "a2e08b061c01bec726012578e006851a07dc24741001c1b6c5ae4633c881e49c",
+    "reference/transversality_math.py": "ff3a6192d97a13714c463be049919fb79d95e1f6fb8f802f35da28d1d99c99c4",
+    "requirements.txt": "4144b02ace0e3c70710d7c083b0c6ce437ebca5d455e745f490dd10759320220",
+    "results/common_phase_profiles.csv": "3ed4550679c80e4ce6d5c0c47c457d7fb65b7c0e15c02b98af18b346a677b072",
+    "results/historical_regression.csv": "a9a6462308feff16100789c4bd627a5ddaa805ed60e709d5bbe97896e443ec7e",
+    "results/phase_locked_contacts.csv": "4af5bbd61e10c5e119eb47054650d268e5a1fd066935789cd4f8c2c0a7f4f954",
+    "results/phasecov_smooth_drive_comparison.png": "2dc8438a66cd870591e98c4bef495cb244d031042b44e042f9bf82e82c7be3ad",
+    "results/ramp_contact_comparison.png": "6f377b74c6307d30ddc7b41c8529c432c2c7d4322d8390dd5e04c2fae3ef5219",
+    "results/report.json": "21dadcaccab4be4acbf246f996e0f3679f7932c9c3ee67efe9a4c233112ed735",
+    "run_on_server.sh": "286eed0ccfe4a9a92bf8fbd8a9dceec8418331dbcde7f1006511afebcab871de",
+    "scripts/check_outputs.py": "53e81fc0727ebaf4c86222df4e5aad0199efe696669ccc3dedac4f73c5499041",
+    "scripts/drive_math.py": "86a9069043bc1857b66a10292e0eea1fb22f72e8227bfd7641f7fa3bdc055eca",
+    "scripts/pack_sendback.py": "2e34ca200bc63fa8d458e96f274b48325d544e46e0c5ec8f99d68d4ea3b1bfc8",
+    "scripts/parent_protocol_math.py": "28a99a11a90b129ba07257201329f401e0987f4ac2048f5ac11076169c9507bc",
+    "scripts/plot_results.py": "fadfc027aa66963f8dc541b02fdce0e23b9572ab2c0cce1efd4d6babdc14bcb1",
+    "scripts/run_audit.py": "cec69fc5d855899651eddfc76384bda578e55f1ad14da64c02755df029bf14c9",
+    "scripts/verify_parent.py": "c98dbaa3fb3aeca52beac04cebc623a5bc7dbeac2f05fdfe2444b0f222f1b9fb",
+    "tests/test_drive_math.py": "6e19b63001eb60ccf79605d0d2a10d08e8d6e7b3020577a20ad6fd5a7ea7b082"
+  }
+}

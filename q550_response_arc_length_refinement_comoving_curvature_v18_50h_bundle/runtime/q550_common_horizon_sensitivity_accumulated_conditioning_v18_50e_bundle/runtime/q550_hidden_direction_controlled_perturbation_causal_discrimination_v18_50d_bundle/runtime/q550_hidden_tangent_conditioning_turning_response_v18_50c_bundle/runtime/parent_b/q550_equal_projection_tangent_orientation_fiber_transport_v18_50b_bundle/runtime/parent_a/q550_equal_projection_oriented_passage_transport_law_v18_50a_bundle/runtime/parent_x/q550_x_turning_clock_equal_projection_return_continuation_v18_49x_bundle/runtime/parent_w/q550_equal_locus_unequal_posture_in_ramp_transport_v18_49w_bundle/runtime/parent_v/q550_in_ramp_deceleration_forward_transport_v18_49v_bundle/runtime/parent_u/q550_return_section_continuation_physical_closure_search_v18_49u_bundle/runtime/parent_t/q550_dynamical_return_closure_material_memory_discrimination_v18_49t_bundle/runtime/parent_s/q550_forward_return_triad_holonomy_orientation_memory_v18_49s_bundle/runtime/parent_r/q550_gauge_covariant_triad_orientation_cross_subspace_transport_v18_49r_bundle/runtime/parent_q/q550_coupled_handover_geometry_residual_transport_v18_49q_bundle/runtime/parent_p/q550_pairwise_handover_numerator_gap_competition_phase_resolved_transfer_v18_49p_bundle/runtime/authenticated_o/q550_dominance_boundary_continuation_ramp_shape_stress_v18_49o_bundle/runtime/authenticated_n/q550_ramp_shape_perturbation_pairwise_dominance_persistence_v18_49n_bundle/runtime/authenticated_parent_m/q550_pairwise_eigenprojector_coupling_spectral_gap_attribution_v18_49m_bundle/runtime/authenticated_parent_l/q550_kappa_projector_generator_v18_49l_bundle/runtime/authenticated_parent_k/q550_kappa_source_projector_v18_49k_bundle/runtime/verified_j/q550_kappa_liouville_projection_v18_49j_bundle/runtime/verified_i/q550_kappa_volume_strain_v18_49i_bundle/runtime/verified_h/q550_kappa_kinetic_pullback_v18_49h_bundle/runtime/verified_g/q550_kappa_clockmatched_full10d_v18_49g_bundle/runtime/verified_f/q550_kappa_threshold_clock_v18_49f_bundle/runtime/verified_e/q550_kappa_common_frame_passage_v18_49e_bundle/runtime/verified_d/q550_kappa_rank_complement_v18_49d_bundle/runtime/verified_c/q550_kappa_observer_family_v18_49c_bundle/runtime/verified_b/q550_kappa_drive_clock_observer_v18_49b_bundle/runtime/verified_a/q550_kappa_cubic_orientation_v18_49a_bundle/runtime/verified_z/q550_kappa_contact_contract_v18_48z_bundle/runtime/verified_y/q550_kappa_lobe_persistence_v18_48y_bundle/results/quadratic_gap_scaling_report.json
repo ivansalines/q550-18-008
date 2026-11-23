@@ -1,0 +1,5 @@
+{
+  "near_threshold_pairs": 12,
+  "maximum_relative_prediction_error": 0.0003437166973229346,
+  "claim": "Second-order Taylor approximation of projected gap near local barrier maximum; not physical material recurrence or certified scaling theorem."
+}

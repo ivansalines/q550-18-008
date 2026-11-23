@@ -1,0 +1,8 @@
+{
+  "parent_version": "v18.49r",
+  "parent_file": "q550_gauge_covariant_triad_orientation_cross_subspace_transport_v18_49r_authenticated_server_sendback.zip",
+  "parent_root": "q550_gauge_covariant_triad_orientation_cross_subspace_transport_v18_49r_bundle",
+  "parent_sha256": "323cd33eea1730d15ead95c3ae356d973310642775c16af386a741deff458e3f",
+  "parent_manifest_entries": 23,
+  "parent_report_name": "results/report.json"
+}

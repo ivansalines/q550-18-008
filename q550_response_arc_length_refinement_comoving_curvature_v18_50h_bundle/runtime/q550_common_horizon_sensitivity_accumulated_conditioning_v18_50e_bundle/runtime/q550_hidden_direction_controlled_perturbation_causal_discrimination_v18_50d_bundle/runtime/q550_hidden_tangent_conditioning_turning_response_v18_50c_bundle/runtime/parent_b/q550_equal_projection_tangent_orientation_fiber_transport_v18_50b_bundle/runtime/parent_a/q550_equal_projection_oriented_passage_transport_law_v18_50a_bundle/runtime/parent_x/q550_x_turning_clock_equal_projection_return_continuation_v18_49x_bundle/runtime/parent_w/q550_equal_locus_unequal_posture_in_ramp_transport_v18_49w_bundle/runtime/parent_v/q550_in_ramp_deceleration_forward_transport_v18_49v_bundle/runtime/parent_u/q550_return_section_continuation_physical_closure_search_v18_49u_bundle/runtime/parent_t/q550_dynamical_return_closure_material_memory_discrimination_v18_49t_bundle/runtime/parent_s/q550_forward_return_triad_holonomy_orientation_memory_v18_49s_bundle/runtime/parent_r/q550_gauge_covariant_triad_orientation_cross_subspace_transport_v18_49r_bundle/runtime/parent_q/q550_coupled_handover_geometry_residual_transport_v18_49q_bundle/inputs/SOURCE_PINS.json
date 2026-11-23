@@ -1,0 +1,13 @@
+{
+  "parent_file": "q550_pairwise_handover_numerator_gap_competition_phase_resolved_transfer_v18_49p_authenticated_server_sendback.zip",
+  "parent_root": "q550_pairwise_handover_numerator_gap_competition_phase_resolved_transfer_v18_49p_bundle",
+  "parent_sha256": "9446c9772d5c5e50fbaa341478e68863414edf7361896e8ce6eb51ebce3a96ea",
+  "parent_version": "v18.49p",
+  "parent_manifest_count": 32,
+  "parent_report_name": "results/report.json",
+  "selected_ramps": [
+    0.32671875,
+    0.327375,
+    0.33
+  ]
+}

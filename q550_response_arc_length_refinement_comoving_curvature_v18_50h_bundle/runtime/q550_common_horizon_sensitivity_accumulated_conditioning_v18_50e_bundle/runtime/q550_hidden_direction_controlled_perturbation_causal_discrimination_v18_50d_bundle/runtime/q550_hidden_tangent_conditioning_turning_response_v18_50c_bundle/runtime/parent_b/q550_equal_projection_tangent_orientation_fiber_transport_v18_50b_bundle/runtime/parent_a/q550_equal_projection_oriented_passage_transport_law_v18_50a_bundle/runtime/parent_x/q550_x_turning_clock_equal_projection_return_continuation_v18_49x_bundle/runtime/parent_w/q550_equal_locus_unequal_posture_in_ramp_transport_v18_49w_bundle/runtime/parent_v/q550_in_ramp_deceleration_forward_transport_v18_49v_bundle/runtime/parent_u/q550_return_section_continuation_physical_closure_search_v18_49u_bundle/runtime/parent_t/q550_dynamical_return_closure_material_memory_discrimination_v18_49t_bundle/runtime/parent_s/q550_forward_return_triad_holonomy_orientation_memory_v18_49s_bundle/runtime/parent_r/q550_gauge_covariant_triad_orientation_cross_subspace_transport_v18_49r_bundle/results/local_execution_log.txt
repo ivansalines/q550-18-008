@@ -1,0 +1,40 @@
+test_blocks (test_triad.Tests.test_blocks) ... ok
+test_continuous_alignment (test_triad.Tests.test_continuous_alignment) ... ok
+test_cross_zero (test_triad.Tests.test_cross_zero) ... ok
+test_sign_gauge (test_triad.Tests.test_sign_gauge) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.006s
+
+OK
+v18.49r authentic 11D and 10D replay original 0.32671875
+  chi endpoint 1.0000000000000002 triad rotation [deg] 10.636674 cross-only S error 5.3e-09 handover roots []
+v18.49r authentic 11D and 10D replay original 0.327375
+  chi endpoint 1.0000000000000004 triad rotation [deg] 10.662205 cross-only S error 5.4e-09 handover roots [0.6498761838677946]
+v18.49r authentic 11D and 10D replay original 0.33
+  chi endpoint 1.0000000000000002 triad rotation [deg] 10.833133 cross-only S error 6.1e-09 handover roots [0.6467245506202914]
+v18.49r authentic 11D and 10D replay autonomous 0.327375
+  chi endpoint 1.0000000000000002 triad rotation [deg] 10.67525 cross-only S error 5.4e-09 handover roots [0.6497188831709474]
+v18.49r authentic 11D and 10D replay autonomous 0.33
+  chi endpoint 1.0000000000000002 triad rotation [deg] 10.852047 cross-only S error 6.1e-09 handover roots [0.6465678137221267]
+{
+  "status": "PHASE_RESOLVED_NUMERICAL_AUDIT",
+  "cases": 5,
+  "events": 4,
+  "controls": {
+    "max_parent_endpoint_regression": 1.755068312903063e-11,
+    "max_gauge_sign_invariance_error": 0.0,
+    "max_constant_orthogonal_chart_error": 3.552713678800501e-15,
+    "max_block_closure": 2.0690775758431489e-16,
+    "max_cross_derivative_closure": 1.0695598257594079e-13,
+    "max_subspace_fd_error": 1.4587248349565592e-08,
+    "min_relative_spectral_gap": 0.06061780386249533,
+    "min_eigenline_overlap": 0.9999990667963798,
+    "max_parallel_rotation_orthogonality": 3.971445046548422e-15,
+    "max_parallel_subspace_error": 6.145192265119925e-09,
+    "max_chi_collinearity_error": 5.551115123125783e-16,
+    "max_ledger_error": 1.3353870093046893e-11
+  }
+}
+Plots saved
+Authentic v18.49r ZIP generated and verified: /mnt/data/q550_gauge_covariant_triad_orientation_cross_subspace_transport_v18_49r_bundle_sendback.zip SHA entries 22

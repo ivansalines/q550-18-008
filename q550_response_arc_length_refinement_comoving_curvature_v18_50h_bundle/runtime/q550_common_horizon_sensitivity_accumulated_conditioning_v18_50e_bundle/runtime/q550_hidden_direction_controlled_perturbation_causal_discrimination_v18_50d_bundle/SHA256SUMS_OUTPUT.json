@@ -1,0 +1,29 @@
+{
+  "root": "q550_hidden_direction_controlled_perturbation_causal_discrimination_v18_50d_bundle",
+  "version": "v18.50d",
+  "files": {
+    "README.md": "7ac89cf2e76348381e83826c19606fcd8c288596c29cd84188d2b99ced10f571",
+    "SCIENTIFIC_DECISION_RULES.md": "3d678d8c512f3bfe0ae47c971561403af5bb16b4ed9794d5cd78191cada082ea",
+    "SCIENTIFIC_REPORT.md": "5a5dc5679829dc68471b8f89fe0f3b1afc64c3e3787a40d491a6d966151055b1",
+    "inputs/q550_hidden_tangent_conditioning_turning_response_v18_50c_authenticated_server_sendback.zip": "fee1f596db2d63de8a0278240e65c273dd0a337c00f7e8df688ce24b78d0142f",
+    "requirements.txt": "fc427f96792059ce540ca8adc5b06cdd1692436654fc3569648ef0d16fc4577b",
+    "results/amplitude_and_shape_sensitivity.png": "9a0164f3185a16c19be43eb37322b946ecc985c0d1ff4236506dd387be39cf0d",
+    "results/amplitude_linearity_checks.csv": "710fec03821b484bf60f183576d9fb094ca6213c52cfb6a50bdb1d533fca0e5d",
+    "results/case_summary.csv": "9c97907277b2df2eb057bca99de0d9073137d29b95cce4ce3c06eba842a89319",
+    "results/controlled_hidden_direction_gain.png": "4e43204cfa80da65fbbe56670f53b8b0822223f293777b79ef90d5ba0fb81b43",
+    "results/controlled_intervention_responses.csv": "8670ff4c924d8495e88ab8f23b914a05ab6dbdc32ba65f09a154c53bb70296b2",
+    "results/hidden_sensitivity_coordinate_partition.png": "9e657ba2aab6f0ee722a68040fb8bac8227bd59b6eb9f082cab5305ae81ea62f",
+    "results/report.json": "7d20207663d2d55d97b2d1311ade6dffb1c2472b61a7fdef7836c68f33403174",
+    "results/sensitivity_vector_direction_continuation.png": "bd6f35480145d3c69bef333340f57f7fed8bda8d12ead1ea5cb3f16699e70bfc",
+    "results/source_jacobian_at_turning.csv": "9d049db507be7d0646fd9bd931a76943c9e6fd0e33abc295d67e523fc43bbd70",
+    "run_on_server.sh": "7729f9e7354b6c3c4ed153413b4f38921484fac365d30757045fc841957aa9aa",
+    "scripts/generate_report.py": "b9c025c90af8368d8f021ab5dec300b910e3f67c0c344fbdc2e63b5dd0002bff",
+    "scripts/pack_sendback.py": "0c05df1129e35c3a81c62a66787190291b6c53eee6ea2a9cfcfea1dd6535ea06",
+    "scripts/perturbation_math.py": "f17c1d517dd35896e41da1f5e0caf4826500bd43a29883794e9465510338806b",
+    "scripts/plot_results.py": "ec549978a524be9a1e69e0d5eed6f523dd025e99223015a94b8173671c603655",
+    "scripts/run_audit.py": "6063a3ea984ca55f6fb412c2dc65408ca398c6826be487f119654d8b8958406b",
+    "scripts/verify_parent_c.py": "d10b225494934e68e2b133fe380e33b24f2f05d1b10ed3ff1a1bdb03e5d89803",
+    "tests/test_perturbations.py": "5c97feb4a78bbff70daded101471716d178375297d92c7778f25bb6e953b9ca5",
+    "v18_50d_server.log": "6be5e34c5f6f16eae9d7ca14d8cad3f57c1150426812a6c1d352dcfae72c0b5f"
+  }
+}

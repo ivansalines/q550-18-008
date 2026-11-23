@@ -1,0 +1,47 @@
+v18.48o phaseblind_d2_lam-1.00_mod+0.00 branch 0 autonomous source 1e-06 raw/comoving median pace 2.90623 2.90623
+v18.48o phaseblind_d2_lam-1.00_mod+0.00 branch 0 autonomous source 1e-10 raw/comoving median pace 0.00850172 0.24715
+v18.48o phaseblind_d2_lam-1.00_mod+0.00 branch 0 original source 1e-06 raw/comoving median pace 2.90799 2.90799
+v18.48o phaseblind_d2_lam-1.00_mod+0.00 branch 0 original source 1e-10 raw/comoving median pace 0.00849776 0.246994
+v18.48o phaseblind_d2_lam-1.00_mod+0.00 branch 1 autonomous source 1e-06 raw/comoving median pace 4.80383 4.80383
+v18.48o phaseblind_d2_lam-1.00_mod+0.00 branch 1 autonomous source 1e-10 raw/comoving median pace 0.0209439 0.388235
+v18.48o phaseblind_d2_lam-1.00_mod+0.00 branch 1 original source 1e-06 raw/comoving median pace 4.80539 4.80539
+v18.48o phaseblind_d2_lam-1.00_mod+0.00 branch 1 original source 1e-10 raw/comoving median pace 0.0209879 0.387612
+v18.48o phasecov_d2_lam-1.00_mod+0.00 branch 0 autonomous source 1e-06 raw/comoving median pace 2.71778 2.71778
+v18.48o phasecov_d2_lam-1.00_mod+0.00 branch 0 autonomous source 1e-10 raw/comoving median pace 0.0203015 0.252048
+v18.48o phasecov_d2_lam-1.00_mod+0.00 branch 0 original source 1e-06 raw/comoving median pace 2.72163 2.72163
+v18.48o phasecov_d2_lam-1.00_mod+0.00 branch 0 original source 1e-10 raw/comoving median pace 0.0203126 0.251813
+v18.48o phasecov_d2_lam-1.00_mod+0.00 branch 1 autonomous source 1e-06 raw/comoving median pace 2.90741 2.90741
+v18.48o phasecov_d2_lam-1.00_mod+0.00 branch 1 autonomous source 1e-10 raw/comoving median pace 0.0168273 0.248851
+v18.48o phasecov_d2_lam-1.00_mod+0.00 branch 1 original source 1e-06 raw/comoving median pace 2.90443 2.90443
+v18.48o phasecov_d2_lam-1.00_mod+0.00 branch 1 original source 1e-10 raw/comoving median pace 0.0168048 0.248457
+{
+  "version": "v18.48o",
+  "states_by_cutoffs": 656,
+  "steps_by_cutoffs": 640,
+  "lag_case_records": 1584,
+  "impulse_stability_groups": 144,
+  "coframe_quality": {
+    "max_step_line_error": 5.558049757109122e-16,
+    "max_orthogonality_error": 1.4998870340375817e-14,
+    "max_line_tracking_error": 5.6812132066240186e-15
+  },
+  "reference_phasecov_branch0_original_cutoff_1em6_comoving_abs_logR": {
+    "family": "phasecov_d2_lam-1.00_mod+0.00",
+    "branch": 0,
+    "kappa": "original",
+    "source_cutoff": 1e-06,
+    "driver": "comoving_projector",
+    "response": "abs_logR_rate",
+    "full_lag_steps": 2,
+    "full_lag_xi": 0.05,
+    "full_correlation": 0.5832983224464557,
+    "full_cyclic_shift_exceedance": 0.025,
+    "eligible_leave_one_events": 8,
+    "unchanged_lag_after_leave_one": 6,
+    "unchanged_fraction": 0.75,
+    "unchanged_correlation_sign": 8,
+    "retained_event_lags": "2;1;2;2;1;2;2;2",
+    "interior80_lag": 1,
+    "interior60_lag": 1
+  }
+}

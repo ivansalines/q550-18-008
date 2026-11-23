@@ -1,0 +1,19 @@
+{
+  "parent_file": "q550_dominance_boundary_continuation_ramp_shape_stress_v18_49o_authenticated_server_sendback.zip",
+  "parent_root": "q550_dominance_boundary_continuation_ramp_shape_stress_v18_49o_bundle",
+  "parent_sha256": "32e18e3dcb9eace605569cde098e528b4ddf5402e816423683f2d1c0d6d1d65a",
+  "manifest_count": 152,
+  "parent_version": "v18.49o",
+  "baseline_bracket": {
+    "lower": 0.32671875,
+    "upper": 0.327375
+  },
+  "inherited_helper_sha256": {
+    "frame_math.py": "5c6ca6b5e41b3fbb8cf67333e51ed3caf2c81fa495f96801f8226170bd8f1b72",
+    "generator_math.py": "4bd661f78dd5b40524ac55183abd6bd7de4c99b880d10bb76aa147214b333209",
+    "kinetic_metric.py": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+    "pairwise_math.py": "08a8ebe8314a78eeaeecf893c405a2688785b5f39539f576877eed0550c327ac",
+    "ramp_stress.py": "30494d2e208c9765fd7c530b06371038534893ecd065a5f54a83ed11296be374",
+    "run_audit.py": "8b9e4a9d600cb1010fa25776e5d7294fc7c83483d43715abc29ea0b10baac338"
+  }
+}

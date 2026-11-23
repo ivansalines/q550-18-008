@@ -1,0 +1,35 @@
+test_exact_reversal (test_section_math.TestMatching.test_exact_reversal) ... ok
+test_joint_vectorization (test_section_math.TestMatching.test_joint_vectorization) ... ok
+test_no_closure_from_geometry_alone (test_section_math.TestMatching.test_no_closure_from_geometry_alone) ... ok
+test_no_spectral_imputation (test_section_math.TestMatching.test_no_spectral_imputation) ... ok
+test_periodic_lift (test_section_math.TestMatching.test_periodic_lift) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+v18.49u verified original forward original ledger 2.3678975447083417e-16
+v18.49u verified original forward autonomous ledger 9.280770596475918e-17
+v18.49u original r= 0.12 min config= 0.08715472 min full= 0.18104277
+v18.49u original r= 0.18 min config= 0.11628486 min full= 0.24803547
+v18.49u original r= 0.24 min config= 0.14309712 min full= 0.31524165
+v18.49u original r= 0.285 min config= 0.16715107 min full= 0.36551094
+v18.49u original r= 0.327375 min config= 0.19189596 min full= 0.41384694
+v18.49u original r= 0.36 min config= 0.21195494 min full= 0.45262397
+v18.49u original r= 0.42 min config= 0.25050558 min full= 0.52928121
+v18.49u original r= 0.5 min config= 0.30424158 min full= 0.64300168
+v18.49u original r= 0.7 min config= 0.44494737 min full= 0.93325611
+v18.49u original r= 0.9 min config= 0.59725725 min full= 1.38467882
+v18.49u original r= 0.15 min config= 0.10535458 min full= 0.21436762
+v18.49u autonomous r= 0.12 min config= 0.08715812 min full= 0.18105051
+v18.49u autonomous r= 0.18 min config= 0.11628043 min full= 0.24803463
+v18.49u autonomous r= 0.24 min config= 0.14309688 min full= 0.31522127
+v18.49u autonomous r= 0.285 min config= 0.1671517 min full= 0.3654715
+v18.49u autonomous r= 0.327375 min config= 0.19189562 min full= 0.41378937
+v18.49u autonomous r= 0.36 min config= 0.21195297 min full= 0.45255291
+v18.49u autonomous r= 0.42 min config= 0.25049913 min full= 0.52918412
+v18.49u autonomous r= 0.5 min config= 0.30422738 min full= 0.64285863
+v18.49u autonomous r= 0.7 min config= 0.44491065 min full= 0.9329614
+v18.49u autonomous r= 0.9 min config= 0.59716781 min full= 1.38413038
+v18.49u autonomous r= 0.15 min config= 0.10535247 min full= 0.21437241
+v18.49u STATUS: NO_PHYSICAL_CLOSURE_IN_EXPLORED_RETURN_SECTION_DOMAIN cases 22 best joint 0.18104276822988655 strict closures 0

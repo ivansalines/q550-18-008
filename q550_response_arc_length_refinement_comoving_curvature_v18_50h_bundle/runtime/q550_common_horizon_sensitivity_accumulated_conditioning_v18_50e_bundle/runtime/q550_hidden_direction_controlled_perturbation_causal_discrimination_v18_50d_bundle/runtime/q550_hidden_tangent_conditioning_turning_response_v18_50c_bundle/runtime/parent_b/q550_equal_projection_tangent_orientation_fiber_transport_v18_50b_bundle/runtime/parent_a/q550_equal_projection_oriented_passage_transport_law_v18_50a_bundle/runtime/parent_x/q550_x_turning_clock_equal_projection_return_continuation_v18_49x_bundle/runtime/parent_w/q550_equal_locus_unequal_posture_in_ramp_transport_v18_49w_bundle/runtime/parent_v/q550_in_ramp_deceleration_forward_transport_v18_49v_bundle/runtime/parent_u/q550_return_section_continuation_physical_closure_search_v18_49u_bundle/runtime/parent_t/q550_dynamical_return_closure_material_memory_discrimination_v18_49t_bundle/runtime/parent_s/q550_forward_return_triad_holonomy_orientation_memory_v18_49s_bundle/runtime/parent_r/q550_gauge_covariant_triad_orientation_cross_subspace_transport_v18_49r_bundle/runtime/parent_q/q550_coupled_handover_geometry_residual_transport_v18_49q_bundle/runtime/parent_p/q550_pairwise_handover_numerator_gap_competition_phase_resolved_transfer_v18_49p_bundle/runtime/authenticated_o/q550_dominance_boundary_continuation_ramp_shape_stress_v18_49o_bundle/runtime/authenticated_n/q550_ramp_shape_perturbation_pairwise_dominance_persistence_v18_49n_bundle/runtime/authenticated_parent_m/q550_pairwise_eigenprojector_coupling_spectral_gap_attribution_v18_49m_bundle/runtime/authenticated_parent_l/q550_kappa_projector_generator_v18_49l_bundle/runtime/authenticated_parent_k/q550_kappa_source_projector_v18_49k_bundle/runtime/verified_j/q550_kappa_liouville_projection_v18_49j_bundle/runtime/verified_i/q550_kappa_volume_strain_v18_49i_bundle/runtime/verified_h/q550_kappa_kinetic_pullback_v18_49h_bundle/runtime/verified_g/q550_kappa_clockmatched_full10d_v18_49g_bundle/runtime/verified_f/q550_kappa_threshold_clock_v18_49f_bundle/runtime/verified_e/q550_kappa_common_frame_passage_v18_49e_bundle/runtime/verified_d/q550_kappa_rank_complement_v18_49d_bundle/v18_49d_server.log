@@ -1,0 +1,84 @@
+test_full_extension (test_subspace.Tests.test_full_extension) ... ok
+test_metric_covariance (test_subspace.Tests.test_metric_covariance) ... ok
+test_orthogonal_decomposition (test_subspace.Tests.test_orthogonal_decomposition) ... ok
+test_principal_angle_geometry (test_subspace.Tests.test_principal_angle_geometry) ... ok
+test_rank_jump (test_subspace.Tests.test_rank_jump) ... ok
+test_rank_sweep (test_subspace.Tests.test_rank_sweep) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.179s
+
+OK
+v18.49d original, ramp=0.285000: 11D + ten covectors; adjoint steps=105
+v18.49d original, ramp=0.292000: 11D + ten covectors; adjoint steps=105
+v18.49d original, ramp=0.296333: 11D + ten covectors; adjoint steps=106
+v18.49d original, ramp=0.300000: 11D + ten covectors; adjoint steps=106
+v18.49d original, ramp=0.305000: 11D + ten covectors; adjoint steps=106
+v18.49d original, ramp=0.309000: 11D + ten covectors; adjoint steps=107
+v18.49d autonomous, ramp=0.285000: 11D + ten covectors; adjoint steps=105
+v18.49d autonomous, ramp=0.292000: 11D + ten covectors; adjoint steps=105
+v18.49d autonomous, ramp=0.296333: 11D + ten covectors; adjoint steps=106
+v18.49d autonomous, ramp=0.300000: 11D + ten covectors; adjoint steps=106
+v18.49d autonomous, ramp=0.305000: 11D + ten covectors; adjoint steps=106
+v18.49d autonomous, ramp=0.309000: 11D + ten covectors; adjoint steps=107
+{
+  "version": "v18.49d",
+  "status": "AUTHENTIC_11D_10D_COTANGENT_OBSERVER_SUBSPACE_DIAGNOSTIC",
+  "physical_integrations": 14,
+  "cotangent_integrations": 12,
+  "full_ten_covector_transport": true,
+  "new_synthetic_observer_rows_per_path": 5,
+  "data_rows": 9000,
+  "within_return_comparisons": 6720,
+  "across_ramp_comparisons": 10,
+  "kappa_length_comparisons": 96,
+  "rank_tolerances": [
+    0.0001,
+    1e-06,
+    1e-08,
+    1e-10,
+    1e-12
+  ],
+  "family_sizes": [
+    2,
+    5,
+    6,
+    8,
+    10
+  ],
+  "metrics": [
+    "euclidean",
+    "declared_weighted"
+  ],
+  "max_parent_C_regression": 5.102562816716727e-11,
+  "max_forward_history_regression": 3.424991987393049e-13,
+  "max_energy_ledger_residual": 1.651082222331457e-11,
+  "max_metric_chart_covariance_error": 1.3721441830631875e-11,
+  "max_metric_pythagorean_error": 2.875705164676908e-15,
+  "max_tangent_cotangent_duality_residual": 1.8084644845625677e-14,
+  "at_common_phase_q050": {
+    "five_observer_fraction_range": [
+      0.562044356349013,
+      0.5824634822444922
+    ],
+    "five_observer_hidden_norm_range": [
+      1.498624019444389,
+      1.5105911717210425
+    ],
+    "five_observer_rank_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 12
+    }
+  },
+  "genealogy": {
+    "parent_c_sha256": "fa4dc520f80e37177b38b8c6b1d8fd861fe9afb78c5f33027f8b3500258c5655",
+    "parent_c_members": 30,
+    "nested_original_genealogy_authenticated_to_J": true
+  },
+  "limitations": "Phaseblind branch0 only. Metric-dependent complement and rank-dependent SVD. Five new directions are synthetic mathematical observers, NOT historical or discovered physical modes. Within-trajectory projector changes in a fixed material chart are not gauge-covariant holonomy. Delta xi=0.2 / kappa is a numerical scale comparison, not an established full-cycle/return marker. No 11D physical cycle or hidden-information law established."
+}
+v18.49d checks PASS: 9000 rank/family/phase records
+v18.49d: 4 CSV-backed plots created

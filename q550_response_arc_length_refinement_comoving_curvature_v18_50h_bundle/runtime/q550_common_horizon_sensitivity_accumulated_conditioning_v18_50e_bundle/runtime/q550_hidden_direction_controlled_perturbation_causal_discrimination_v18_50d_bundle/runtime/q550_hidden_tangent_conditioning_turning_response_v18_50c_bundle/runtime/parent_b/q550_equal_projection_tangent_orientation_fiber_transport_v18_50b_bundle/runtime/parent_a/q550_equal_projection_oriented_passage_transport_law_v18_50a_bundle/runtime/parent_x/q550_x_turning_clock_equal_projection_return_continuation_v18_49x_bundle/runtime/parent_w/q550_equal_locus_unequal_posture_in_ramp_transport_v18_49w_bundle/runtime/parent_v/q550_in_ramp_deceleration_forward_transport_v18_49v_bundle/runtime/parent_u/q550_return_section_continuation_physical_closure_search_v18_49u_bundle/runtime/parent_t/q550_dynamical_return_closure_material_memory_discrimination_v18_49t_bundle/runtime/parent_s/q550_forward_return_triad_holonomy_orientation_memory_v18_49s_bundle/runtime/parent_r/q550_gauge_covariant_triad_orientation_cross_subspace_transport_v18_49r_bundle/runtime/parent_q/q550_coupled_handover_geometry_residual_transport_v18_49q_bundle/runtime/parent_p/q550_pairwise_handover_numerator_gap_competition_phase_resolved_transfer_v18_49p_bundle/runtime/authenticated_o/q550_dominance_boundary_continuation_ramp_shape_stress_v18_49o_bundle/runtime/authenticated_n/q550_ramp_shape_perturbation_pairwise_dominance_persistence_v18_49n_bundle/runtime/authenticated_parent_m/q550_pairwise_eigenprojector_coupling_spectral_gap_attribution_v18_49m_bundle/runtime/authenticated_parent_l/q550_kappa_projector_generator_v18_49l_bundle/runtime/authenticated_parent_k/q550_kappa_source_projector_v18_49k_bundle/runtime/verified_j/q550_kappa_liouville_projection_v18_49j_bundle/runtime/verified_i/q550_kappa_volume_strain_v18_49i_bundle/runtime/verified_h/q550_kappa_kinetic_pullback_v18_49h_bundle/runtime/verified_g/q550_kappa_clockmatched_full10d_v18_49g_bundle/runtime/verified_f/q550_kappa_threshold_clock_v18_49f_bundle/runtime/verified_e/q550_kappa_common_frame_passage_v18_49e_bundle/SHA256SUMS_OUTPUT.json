@@ -1,0 +1,31 @@
+{
+  "version": "v18.49e",
+  "parent": "unaltered original server D sendback; nested genealogy authenticated to J",
+  "files": {
+    "README.md": "1e2edee8b03bac186d3a24d7e3d968794adae3f1b05a47e9c686e64018aa8ae7",
+    "SCIENTIFIC_DECISION_RULES.md": "3449ba45bc0ea0e9a10b44bfdbecee390f132b2680b1c1297c4ae0808cd17976",
+    "inputs/SOURCE_PINS.json": "99b485a786923d9210ecba20373f9f45fe2bc6f2c8daeea7927d72e01df6b11a",
+    "inputs/v18_49d_original_server_sendback.zip": "770a92ac9a1312e90827b122bd7e8ea2d5e594f7585913e24f1b9117331addfe",
+    "requirements.txt": "d253f6c1b360bc6570917eb2d94efc408a9366715217e6f69951269db93b7580",
+    "results/common_frame_duality_consistency.png": "5ceab8cf9af8e0d27b48244b66c57a6d173efe1a8e16a5614078ed2514869aea",
+    "results/common_frame_hidden_transport.csv": "89fc7a26c8c7933d0d5be5c3bfc010e6bdb28dfe0537eac4c946899e1a070aa7",
+    "results/common_frame_profiles.csv": "cff739abf2005bbe8e870eb63d1fcd692e0708b56fcbc435ad9991d2c1421085",
+    "results/common_frame_vs_chart_residual.png": "340c29db086b2719c3459b6651e84092970ad254eeb6f955cfbe48137aad1804",
+    "results/environment.json": "acc0761e8607afbd093f93249873d99b4ba956174bc5e2feb1e522d08eb0cd7e",
+    "results/kappa0_marker_scale_tests.csv": "600f95f914b015dc19c387791ea0c51a10d17f7a08265b266a29ccd9af7be999",
+    "results/kappa_common_frame_orientation.png": "fb106aa15c305006df2fdf233c0cf5d9e6c1c27d3dc0f3448f4e647aaa4ce813",
+    "results/oriented_contact_passages.png": "12155e80d15bbd279b83ec961857283cb97cd6e4ae4f047bf82eec7f180ed029",
+    "results/oriented_passage_events.csv": "5f7488c3513ab786dc75637d06e6eabf85f5aec75c6e7544b7e8617578c1e01f",
+    "results/report.json": "8ced11a26dd571f5dc1ef0d0d5840d86323113b07faa6ad80775bd3825fbc50f",
+    "results/subthreshold_passage_pairs.csv": "b413b947769d874839b7c39032c601d40be0094693c039a7aff2b39f112497d1",
+    "run_on_server.sh": "554937364cbd7b28812f6138aaf10fbfa0ebb94bda556f4e0b6e60f3c3e64159",
+    "scripts/check_outputs.py": "6f43c81b84727ac30b46db0953b9f904f870e82cc9a886af63f062bee21d1d5c",
+    "scripts/frame_math.py": "5c6ca6b5e41b3fbb8cf67333e51ed3caf2c81fa495f96801f8226170bd8f1b72",
+    "scripts/pack_sendback.py": "f62044b33a1376166227a943b3f1057344a55fcc6e2864578a15a8dedb9b6d2c",
+    "scripts/plot_results.py": "2f9299ba6450b16e8752089437a6d04aa0003532fae9686f9083ea3605fe54fb",
+    "scripts/run_audit.py": "d3a85e36da1a429a52d67058c5fb27d7c464d943d9d10814078eb5e019de4222",
+    "scripts/verify_parent.py": "3e3e512cb8a633ae88a953e4d960614accc038c9c69d6f67bf38db9040118434",
+    "tests/test_frame_math.py": "aaa0a7227d004eac59e3ed84617248bcd95850bd5b154151734864cdbeeb0869",
+    "v18_49e_server.log": "11c67aa0f9ff3a4a57607af35117b4f46cf9249adfdadc6e7d0d2bc843c5f76d"
+  }
+}

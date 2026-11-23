@@ -1,0 +1,29 @@
+{
+  "version": "v18.49a",
+  "status": "FULL_FRESH_11D_CHART_AUDIT",
+  "parent_z_sha256": "3bd71dae05f6385696217ea9138eb5a75963e881d658369639452d98836bd69d",
+  "direct_continuous_11D_root_pairs": 48,
+  "historical_Y_11D_contact_profiles_authenticated": 46,
+  "gauge_counterfactuals": 240,
+  "independent_chart_jet_refits": 60,
+  "drive_clock_checks": 36,
+  "new_integrations_in_current_run": 14,
+  "maximum_parent_reintegration_difference": 0.0,
+  "max_original_full_11D_replay_error": 3.424991987393049e-13,
+  "max_new_mechanical_ledger_residual": 1.651082222331457e-11,
+  "clock_speed": 0.844357915384206,
+  "all_parent_physical_midpoint_shifts_positive": true,
+  "all_physical_sextic_fitted_skews_positive": true,
+  "monotone_chart_raw_cubic_sign_reversals": 12,
+  "max_independent_chart_jet_discrepancy": 0.00872115941410101,
+  "maximum_root_chart_roundtrip_error": 0.0,
+  "maximum_clock_calibration_residual": 5.551115123125783e-17,
+  "minimum_full_11D_distance_at_barrier": 1.8876808229083155,
+  "root_midpoint_shift_range": [
+    2.951821750363237e-07,
+    2.0600115056723656e-05
+  ],
+  "historical_parent": "Q550 authentic Z / Y and nested ancestor 11D sources",
+  "conclusions": "Cubic skew and raw midpoint shifts change under chart orientation/nonlinear monotone reparameterization. Physical-clock oriented root locations are well-defined only after phase calibration. Component connectivity of strict sublevels is preserved by a monotone 1D chart. No new constitutive or coordinate-independent handedness law established.",
+  "scope": "Direct root IVP data: phaseblind branch0, both kappa0, six ramps, four threshold offsets. Other branches not directly certified."
+}

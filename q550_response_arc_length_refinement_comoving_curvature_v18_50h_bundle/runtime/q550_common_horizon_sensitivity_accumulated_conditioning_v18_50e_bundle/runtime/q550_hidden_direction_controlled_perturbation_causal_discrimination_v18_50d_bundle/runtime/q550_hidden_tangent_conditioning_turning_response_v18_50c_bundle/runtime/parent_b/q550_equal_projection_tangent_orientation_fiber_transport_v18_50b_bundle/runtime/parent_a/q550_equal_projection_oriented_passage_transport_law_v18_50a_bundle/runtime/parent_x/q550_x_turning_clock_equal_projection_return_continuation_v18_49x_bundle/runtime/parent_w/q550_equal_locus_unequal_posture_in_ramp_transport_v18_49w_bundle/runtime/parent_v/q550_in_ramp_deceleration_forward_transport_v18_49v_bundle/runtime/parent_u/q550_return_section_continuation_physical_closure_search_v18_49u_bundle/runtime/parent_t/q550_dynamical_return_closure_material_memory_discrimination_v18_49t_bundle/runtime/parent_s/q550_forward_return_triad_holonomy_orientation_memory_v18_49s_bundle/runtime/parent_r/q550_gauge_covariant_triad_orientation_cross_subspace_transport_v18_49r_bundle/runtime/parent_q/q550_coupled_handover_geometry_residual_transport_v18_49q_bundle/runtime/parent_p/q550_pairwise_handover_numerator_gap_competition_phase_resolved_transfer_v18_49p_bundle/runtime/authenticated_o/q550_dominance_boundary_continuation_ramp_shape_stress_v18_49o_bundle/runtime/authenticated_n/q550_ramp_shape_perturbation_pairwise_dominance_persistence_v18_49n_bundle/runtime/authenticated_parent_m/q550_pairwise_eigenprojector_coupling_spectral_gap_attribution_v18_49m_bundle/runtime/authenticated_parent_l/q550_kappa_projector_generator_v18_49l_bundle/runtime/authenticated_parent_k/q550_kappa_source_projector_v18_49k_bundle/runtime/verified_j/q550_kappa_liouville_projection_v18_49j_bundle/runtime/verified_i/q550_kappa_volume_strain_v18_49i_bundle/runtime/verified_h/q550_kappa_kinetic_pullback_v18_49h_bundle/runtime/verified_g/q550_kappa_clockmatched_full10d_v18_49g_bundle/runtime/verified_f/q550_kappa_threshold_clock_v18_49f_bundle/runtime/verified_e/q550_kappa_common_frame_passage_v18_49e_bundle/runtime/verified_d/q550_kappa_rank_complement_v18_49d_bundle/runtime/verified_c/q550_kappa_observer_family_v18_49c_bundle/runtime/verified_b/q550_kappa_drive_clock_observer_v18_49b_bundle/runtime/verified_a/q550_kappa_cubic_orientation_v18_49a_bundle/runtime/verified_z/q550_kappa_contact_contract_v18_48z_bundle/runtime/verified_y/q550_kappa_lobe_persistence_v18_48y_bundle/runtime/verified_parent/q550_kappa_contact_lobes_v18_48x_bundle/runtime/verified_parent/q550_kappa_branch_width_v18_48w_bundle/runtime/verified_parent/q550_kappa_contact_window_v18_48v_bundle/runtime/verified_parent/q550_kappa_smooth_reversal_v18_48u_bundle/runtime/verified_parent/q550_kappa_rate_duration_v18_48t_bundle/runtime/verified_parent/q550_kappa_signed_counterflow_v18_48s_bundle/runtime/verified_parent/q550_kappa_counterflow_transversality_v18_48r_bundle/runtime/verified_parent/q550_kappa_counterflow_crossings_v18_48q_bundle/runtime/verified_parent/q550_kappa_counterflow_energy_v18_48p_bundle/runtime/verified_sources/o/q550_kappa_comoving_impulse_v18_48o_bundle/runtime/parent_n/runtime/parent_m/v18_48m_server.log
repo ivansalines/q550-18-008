@@ -1,0 +1,145 @@
+test_basis_projector_vs_line (test_principal_geometry.Geometry.test_basis_projector_vs_line) ... ok
+test_dimension_forced_overlap (test_principal_geometry.Geometry.test_dimension_forced_overlap) ... ok
+test_false_2d_crossing (test_principal_geometry.Geometry.test_false_2d_crossing) ... ok
+test_internal_basis_change (test_principal_geometry.Geometry.test_internal_basis_change) ... ok
+test_orthogonal_gap (test_principal_geometry.Geometry.test_orthogonal_gap) ... ok
+test_source_nonzero_cancel (test_principal_geometry.Geometry.test_source_nonzero_cancel) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.025s
+
+OK
+v18.48m phaseblind b0 autonomous source=0.0001 cancel=0.001
+v18.48m phaseblind b0 autonomous source=0.0001 cancel=0.01
+v18.48m phaseblind b0 autonomous source=0.0001 cancel=0.05
+v18.48m phaseblind b0 autonomous source=1e-06 cancel=0.001
+v18.48m phaseblind b0 autonomous source=1e-06 cancel=0.01
+v18.48m phaseblind b0 autonomous source=1e-06 cancel=0.05
+v18.48m phaseblind b0 autonomous source=1e-08 cancel=0.001
+v18.48m phaseblind b0 autonomous source=1e-08 cancel=0.01
+v18.48m phaseblind b0 autonomous source=1e-08 cancel=0.05
+v18.48m phaseblind b0 autonomous source=1e-10 cancel=0.001
+v18.48m phaseblind b0 autonomous source=1e-10 cancel=0.01
+v18.48m phaseblind b0 autonomous source=1e-10 cancel=0.05
+v18.48m phaseblind b0 autonomous source=1e-12 cancel=0.001
+v18.48m phaseblind b0 autonomous source=1e-12 cancel=0.01
+v18.48m phaseblind b0 autonomous source=1e-12 cancel=0.05
+v18.48m phaseblind b0 original source=0.0001 cancel=0.001
+v18.48m phaseblind b0 original source=0.0001 cancel=0.01
+v18.48m phaseblind b0 original source=0.0001 cancel=0.05
+v18.48m phaseblind b0 original source=1e-06 cancel=0.001
+v18.48m phaseblind b0 original source=1e-06 cancel=0.01
+v18.48m phaseblind b0 original source=1e-06 cancel=0.05
+v18.48m phaseblind b0 original source=1e-08 cancel=0.001
+v18.48m phaseblind b0 original source=1e-08 cancel=0.01
+v18.48m phaseblind b0 original source=1e-08 cancel=0.05
+v18.48m phaseblind b0 original source=1e-10 cancel=0.001
+v18.48m phaseblind b0 original source=1e-10 cancel=0.01
+v18.48m phaseblind b0 original source=1e-10 cancel=0.05
+v18.48m phaseblind b0 original source=1e-12 cancel=0.001
+v18.48m phaseblind b0 original source=1e-12 cancel=0.01
+v18.48m phaseblind b0 original source=1e-12 cancel=0.05
+v18.48m phaseblind b1 autonomous source=0.0001 cancel=0.001
+v18.48m phaseblind b1 autonomous source=0.0001 cancel=0.01
+v18.48m phaseblind b1 autonomous source=0.0001 cancel=0.05
+v18.48m phaseblind b1 autonomous source=1e-06 cancel=0.001
+v18.48m phaseblind b1 autonomous source=1e-06 cancel=0.01
+v18.48m phaseblind b1 autonomous source=1e-06 cancel=0.05
+v18.48m phaseblind b1 autonomous source=1e-08 cancel=0.001
+v18.48m phaseblind b1 autonomous source=1e-08 cancel=0.01
+v18.48m phaseblind b1 autonomous source=1e-08 cancel=0.05
+v18.48m phaseblind b1 autonomous source=1e-10 cancel=0.001
+v18.48m phaseblind b1 autonomous source=1e-10 cancel=0.01
+v18.48m phaseblind b1 autonomous source=1e-10 cancel=0.05
+v18.48m phaseblind b1 autonomous source=1e-12 cancel=0.001
+v18.48m phaseblind b1 autonomous source=1e-12 cancel=0.01
+v18.48m phaseblind b1 autonomous source=1e-12 cancel=0.05
+v18.48m phaseblind b1 original source=0.0001 cancel=0.001
+v18.48m phaseblind b1 original source=0.0001 cancel=0.01
+v18.48m phaseblind b1 original source=0.0001 cancel=0.05
+v18.48m phaseblind b1 original source=1e-06 cancel=0.001
+v18.48m phaseblind b1 original source=1e-06 cancel=0.01
+v18.48m phaseblind b1 original source=1e-06 cancel=0.05
+v18.48m phaseblind b1 original source=1e-08 cancel=0.001
+v18.48m phaseblind b1 original source=1e-08 cancel=0.01
+v18.48m phaseblind b1 original source=1e-08 cancel=0.05
+v18.48m phaseblind b1 original source=1e-10 cancel=0.001
+v18.48m phaseblind b1 original source=1e-10 cancel=0.01
+v18.48m phaseblind b1 original source=1e-10 cancel=0.05
+v18.48m phaseblind b1 original source=1e-12 cancel=0.001
+v18.48m phaseblind b1 original source=1e-12 cancel=0.01
+v18.48m phaseblind b1 original source=1e-12 cancel=0.05
+v18.48m phasecov_d b0 autonomous source=0.0001 cancel=0.001
+v18.48m phasecov_d b0 autonomous source=0.0001 cancel=0.01
+v18.48m phasecov_d b0 autonomous source=0.0001 cancel=0.05
+v18.48m phasecov_d b0 autonomous source=1e-06 cancel=0.001
+v18.48m phasecov_d b0 autonomous source=1e-06 cancel=0.01
+v18.48m phasecov_d b0 autonomous source=1e-06 cancel=0.05
+v18.48m phasecov_d b0 autonomous source=1e-08 cancel=0.001
+v18.48m phasecov_d b0 autonomous source=1e-08 cancel=0.01
+v18.48m phasecov_d b0 autonomous source=1e-08 cancel=0.05
+v18.48m phasecov_d b0 autonomous source=1e-10 cancel=0.001
+v18.48m phasecov_d b0 autonomous source=1e-10 cancel=0.01
+v18.48m phasecov_d b0 autonomous source=1e-10 cancel=0.05
+v18.48m phasecov_d b0 autonomous source=1e-12 cancel=0.001
+v18.48m phasecov_d b0 autonomous source=1e-12 cancel=0.01
+v18.48m phasecov_d b0 autonomous source=1e-12 cancel=0.05
+v18.48m phasecov_d b0 original source=0.0001 cancel=0.001
+v18.48m phasecov_d b0 original source=0.0001 cancel=0.01
+v18.48m phasecov_d b0 original source=0.0001 cancel=0.05
+v18.48m phasecov_d b0 original source=1e-06 cancel=0.001
+v18.48m phasecov_d b0 original source=1e-06 cancel=0.01
+v18.48m phasecov_d b0 original source=1e-06 cancel=0.05
+v18.48m phasecov_d b0 original source=1e-08 cancel=0.001
+v18.48m phasecov_d b0 original source=1e-08 cancel=0.01
+v18.48m phasecov_d b0 original source=1e-08 cancel=0.05
+v18.48m phasecov_d b0 original source=1e-10 cancel=0.001
+v18.48m phasecov_d b0 original source=1e-10 cancel=0.01
+v18.48m phasecov_d b0 original source=1e-10 cancel=0.05
+v18.48m phasecov_d b0 original source=1e-12 cancel=0.001
+v18.48m phasecov_d b0 original source=1e-12 cancel=0.01
+v18.48m phasecov_d b0 original source=1e-12 cancel=0.05
+v18.48m phasecov_d b1 autonomous source=0.0001 cancel=0.001
+v18.48m phasecov_d b1 autonomous source=0.0001 cancel=0.01
+v18.48m phasecov_d b1 autonomous source=0.0001 cancel=0.05
+v18.48m phasecov_d b1 autonomous source=1e-06 cancel=0.001
+v18.48m phasecov_d b1 autonomous source=1e-06 cancel=0.01
+v18.48m phasecov_d b1 autonomous source=1e-06 cancel=0.05
+v18.48m phasecov_d b1 autonomous source=1e-08 cancel=0.001
+v18.48m phasecov_d b1 autonomous source=1e-08 cancel=0.01
+v18.48m phasecov_d b1 autonomous source=1e-08 cancel=0.05
+v18.48m phasecov_d b1 autonomous source=1e-10 cancel=0.001
+v18.48m phasecov_d b1 autonomous source=1e-10 cancel=0.01
+v18.48m phasecov_d b1 autonomous source=1e-10 cancel=0.05
+v18.48m phasecov_d b1 autonomous source=1e-12 cancel=0.001
+v18.48m phasecov_d b1 autonomous source=1e-12 cancel=0.01
+v18.48m phasecov_d b1 autonomous source=1e-12 cancel=0.05
+v18.48m phasecov_d b1 original source=0.0001 cancel=0.001
+v18.48m phasecov_d b1 original source=0.0001 cancel=0.01
+v18.48m phasecov_d b1 original source=0.0001 cancel=0.05
+v18.48m phasecov_d b1 original source=1e-06 cancel=0.001
+v18.48m phasecov_d b1 original source=1e-06 cancel=0.01
+v18.48m phasecov_d b1 original source=1e-06 cancel=0.05
+v18.48m phasecov_d b1 original source=1e-08 cancel=0.001
+v18.48m phasecov_d b1 original source=1e-08 cancel=0.01
+v18.48m phasecov_d b1 original source=1e-08 cancel=0.05
+v18.48m phasecov_d b1 original source=1e-10 cancel=0.001
+v18.48m phasecov_d b1 original source=1e-10 cancel=0.01
+v18.48m phasecov_d b1 original source=1e-10 cancel=0.05
+v18.48m phasecov_d b1 original source=1e-12 cancel=0.001
+v18.48m phasecov_d b1 original source=1e-12 cancel=0.01
+v18.48m phasecov_d b1 original source=1e-12 cancel=0.05
+{
+  "version": "v18.48m",
+  "original_states": 328,
+  "rows_atlas": 4920,
+  "rows_steps": 4800,
+  "rank_changes_total": 118,
+  "projection_artifact_candidates": 1490,
+  "reference_fixed_source_1e_6_cancel_1e_2": {
+    "comparisons": 320,
+    "rank_changes": 0,
+    "active_intersection_candidates": 0,
+    "median_projector_gap": 0.05799282869694078
+  }
+}

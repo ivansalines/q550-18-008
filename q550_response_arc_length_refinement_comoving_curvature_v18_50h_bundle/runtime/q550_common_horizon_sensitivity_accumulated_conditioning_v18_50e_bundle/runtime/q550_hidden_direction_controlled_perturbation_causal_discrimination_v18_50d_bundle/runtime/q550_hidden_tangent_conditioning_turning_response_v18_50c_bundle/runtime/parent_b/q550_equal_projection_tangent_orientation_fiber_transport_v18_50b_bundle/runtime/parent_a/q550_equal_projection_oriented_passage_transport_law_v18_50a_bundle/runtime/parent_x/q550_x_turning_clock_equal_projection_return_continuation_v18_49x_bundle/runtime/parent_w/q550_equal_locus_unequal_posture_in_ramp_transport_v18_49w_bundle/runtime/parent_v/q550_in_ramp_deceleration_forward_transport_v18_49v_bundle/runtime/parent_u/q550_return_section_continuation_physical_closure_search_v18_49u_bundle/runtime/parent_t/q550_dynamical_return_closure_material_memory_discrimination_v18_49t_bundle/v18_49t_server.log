@@ -1,0 +1,17 @@
+test_involution (test_return_math.TestReturnMath.test_involution) ... ok
+test_phase_modulo (test_return_math.TestReturnMath.test_phase_modulo) ... ok
+test_projector_covariance (test_return_math.TestReturnMath.test_projector_covariance) ... ok
+test_reversed_state (test_return_math.TestReturnMath.test_reversed_state) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.029s
+
+OK
+t forward verified autonomous turnaround mismatch 0.0 energy jump 0.0
+t forward verified original turnaround mismatch 0.0 energy jump 0.0
+t dynamic return original r 0.32671875 global config gap 0.7125446758431918 reversal velocity gap 0.9870483313266099
+t dynamic return original r 0.327375 global config gap 0.7140774700181977 reversal velocity gap 0.9888136134600464
+t dynamic return original r 0.33 global config gap 0.7202140144385849 reversal velocity gap 0.9958338885605706
+t dynamic return autonomous r 0.327375 global config gap 0.7138375425969684 reversal velocity gap 0.9885277953385545
+t dynamic return autonomous r 0.33 global config gap 0.7199720365480925 reversal velocity gap 0.9955478229228999
+v18.49t DYNAMIC_RETURN_NOT_CLOSED_AT_TESTED_SECTIONS cases 5 sections 15 matched 0

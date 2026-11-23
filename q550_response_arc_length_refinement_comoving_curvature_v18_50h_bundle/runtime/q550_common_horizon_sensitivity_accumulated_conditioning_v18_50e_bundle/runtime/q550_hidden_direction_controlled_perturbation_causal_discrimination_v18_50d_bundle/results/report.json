@@ -1,0 +1,68 @@
+{
+  "version": "v18.50d",
+  "title": "Hidden-Direction Controlled Perturbation & Causal Discrimination Audit",
+  "classification": "CONTROLLED_IN_MODEL_SENSITIVITY_NOT_ESTABLISHED_PHYSICAL_CAUSALITY_OR_MATERIAL_MEMORY_CERTIFICATE",
+  "ancestry": {
+    "v18_50c_sha256": "fee1f596db2d63de8a0278240e65c273dd0a337c00f7e8df688ce24b78d0142f",
+    "v18_50c_files": 25,
+    "ancestry_verified": {
+      "whole_zip_sha256": "7a02c25ab637b2a0d2b9715b4ed43cf91306927f5e1ad4453276a979718e8204",
+      "parent_manifest_verified": 23,
+      "recursive_parent_verified": {
+        "parent_a_sha256": "9a6eb39811a27ad37989c9fb503eb98bedc93ab9c0d6652c6a8fd41c2357f345",
+        "parent_manifest_verified": 25,
+        "all_x_and_older_ancestry_verified": true
+      }
+    }
+  },
+  "common_metric_scale_4d": [
+    0.4097637633145177,
+    0.7568576061702721,
+    0.001465554758842691,
+    0.5425124004276005
+  ],
+  "method": {
+    "source_event": "natural x turning from authenticated v18.50c",
+    "interventions": [
+      "small symmetric kicks to logit-x coordinate at same baseline state",
+      "small symmetric kicks to theta1 at same baseline state",
+      "finite zero-net-integral clock-rate perturbation with matched start/end phase"
+    ],
+    "amplitudes": [
+      1e-05,
+      0.0001,
+      0.001
+    ],
+    "continuation": "authentic physical 11D RHS with same \u03ba\u2080 and analytic clock",
+    "response": "centered derivative of normalized 4D structural hidden jet direction at common probe time",
+    "metric": "one pooled fixed diagonal chart from v18.50c",
+    "limitations": [
+      "State kicks are mathematical counterfactuals; their energy is not constrained to be equal.",
+      "Independent x and theta1 kicks need not be physically realizable operations.",
+      "No randomized, physical or autonomous perturbation experiment is certified.",
+      "Causal arrows cannot be uniquely identified from correlated observational ramps.",
+      "The structural hidden jet follows v18.50c and is not a coordinate-free physical angular acceleration.",
+      "Smooth dependence at the tested amplitudes does not exclude distant thresholds.",
+      "No 8-octant, cubic lift, material memory, chiral physical rotation or spatial volume is inferred."
+    ]
+  },
+  "counts": {
+    "cases": 10,
+    "amplitudes": 3,
+    "response_rows": 90,
+    "controlled_ivps": 180,
+    "failed_cases": 0
+  },
+  "results": {
+    "maximum_direct_jacobian_vs_physical_rhs_error": 3.7783393192837526e-11,
+    "maximum_linear_response_drift": 0.00018598868656363233,
+    "minimum_x_jacobian_norm": 1.1389478080300315,
+    "maximum_x_jacobian_norm": 1.1392420516477508,
+    "all_drive_pulse_theta_endpoints_match": true
+  },
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1"
+  }
+}

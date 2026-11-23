@@ -1,0 +1,336 @@
+{
+  "audit": "v18.50b \u2014 Equal-Projection Tangent Orientation & Fiber-Transport Audit",
+  "classification": "NUMERICAL_EQUAL_PROJECTION_TANGENT_AND_FIBER_DIAGNOSTIC_NOT_PHYSICAL_FIBER_BUNDLE_OR_MATERIAL_MEMORY_CERTIFICATE",
+  "counts": {
+    "successful_cases": 10,
+    "failed_cases": 0,
+    "authenticated_equal_x_passages_replayed": 34,
+    "parent_passages": 34
+  },
+  "genealogy": {
+    "parent_a_sha256": "9a6eb39811a27ad37989c9fb503eb98bedc93ab9c0d6652c6a8fd41c2357f345",
+    "parent_manifest_verified": 25,
+    "all_x_and_older_ancestry_verified": true
+  },
+  "statistics": {
+    "mean_angle_5d_span_deg": 72.12892463549622,
+    "range_angle_5d_span_deg": [
+      25.857570790847856,
+      113.46009404829664
+    ],
+    "range_fiber_share_span_in": [
+      0.5855562890433563,
+      0.9898896663373731
+    ],
+    "range_fiber_share_span_out": [
+      0.5483478087387064,
+      0.9839598612823581
+    ],
+    "range_native_5d_angle_deg": [
+      4.6240354425237395,
+      14.851001343579366
+    ],
+    "max_parent_x_projection_error": 2.220446049250313e-16,
+    "all_opposite_x": true,
+    "range_instantaneous_theta2_theta1_ratio_in": [
+      1.4406552077203667,
+      1.5986909593501
+    ],
+    "range_instantaneous_theta2_theta1_ratio_out": [
+      1.7424789629815123,
+      1.8932871989758087
+    ]
+  },
+  "cases": [
+    {
+      "kind": "autonomous",
+      "ramp_xi": 0.18,
+      "shape": "beta:2:2",
+      "matched_passages": 3,
+      "mechanical_ledger_error": 6.309518879588083e-13,
+      "minimum_angle_5d_span_deg": 97.41140780656667,
+      "maximum_angle_5d_span_deg": 113.46009404829664,
+      "scale5": [
+        0.00011395419258564132,
+        0.14756506470689867,
+        0.2456927866874415,
+        0.0007065657600870967,
+        0.41317949725919
+      ],
+      "scale10": [
+        0.000734292631767608,
+        0.0021029869550352855,
+        0.14756506470689867,
+        0.00045746659321371785,
+        0.17928451245789367,
+        0.04209370276924729,
+        0.2456927866874415,
+        0.24686166617886662,
+        0.00011395419258564132,
+        0.01101393159019316
+      ]
+    },
+    {
+      "kind": "autonomous",
+      "ramp_xi": 0.24,
+      "shape": "beta:2:2",
+      "matched_passages": 4,
+      "mechanical_ledger_error": 1.1802364641155805e-13,
+      "minimum_angle_5d_span_deg": 59.81492382594092,
+      "maximum_angle_5d_span_deg": 94.80457304820243,
+      "scale5": [
+        0.00023037411752857562,
+        0.1967648302149727,
+        0.34171590358466947,
+        0.0006679641315274765,
+        0.5013957689975741
+      ],
+      "scale10": [
+        0.0008489601457000173,
+        0.002665056529778109,
+        0.1967648302149727,
+        0.00044174500537358385,
+        0.2335825471365338,
+        0.0958131793244561,
+        0.34171590358466947,
+        0.299289983804336,
+        0.00023037411752857562,
+        0.013119166459900137
+      ]
+    },
+    {
+      "kind": "autonomous",
+      "ramp_xi": 0.24,
+      "shape": "beta:3:3",
+      "matched_passages": 4,
+      "mechanical_ledger_error": 1.0579332548887876e-12,
+      "minimum_angle_5d_span_deg": 60.77055703392939,
+      "maximum_angle_5d_span_deg": 95.41127157260819,
+      "scale5": [
+        0.00022797197420665327,
+        0.1967630657119539,
+        0.3414619886075286,
+        0.0006527507225552176,
+        0.49927299800597424
+      ],
+      "scale10": [
+        0.0008494209297200683,
+        0.0026620351553733497,
+        0.1967630657119539,
+        0.00043659265760126464,
+        0.23368746381073513,
+        0.09502061174955534,
+        0.3414619886075286,
+        0.29802717266403345,
+        0.00022797197420665327,
+        0.013073328253704816
+      ]
+    },
+    {
+      "kind": "autonomous",
+      "ramp_xi": 0.327375,
+      "shape": "beta:2:2",
+      "matched_passages": 4,
+      "mechanical_ledger_error": 2.4476323745581396e-12,
+      "minimum_angle_5d_span_deg": 25.857570790847856,
+      "maximum_angle_5d_span_deg": 74.5997167074825,
+      "scale5": [
+        0.0004998936447636604,
+        0.26839328732358414,
+        0.48696745131150254,
+        0.0006106037067872272,
+        0.5424627145694452
+      ],
+      "scale10": [
+        0.0009302803075856847,
+        0.0032856639888657444,
+        0.26839328732358414,
+        0.0005920560871199299,
+        0.301919396645679,
+        0.19799670691820104,
+        0.48696745131150254,
+        0.32327604264060184,
+        0.0004998936447636604,
+        0.014934034330242964
+      ]
+    },
+    {
+      "kind": "autonomous",
+      "ramp_xi": 0.5,
+      "shape": "beta:2:2",
+      "matched_passages": 2,
+      "mechanical_ledger_error": 2.229955803345618e-12,
+      "minimum_angle_5d_span_deg": 29.79133594261469,
+      "maximum_angle_5d_span_deg": 48.61972370332871,
+      "scale5": [
+        0.0010991232800490192,
+        0.4097637467905395,
+        0.7568576061702721,
+        0.0014650764264235727,
+        0.5100171070120423
+      ],
+      "scale10": [
+        0.0009563671386010331,
+        0.003711192685222881,
+        0.4097637467905395,
+        0.0019084979017339743,
+        0.39895835936803725,
+        0.3679860234386719,
+        0.7568576061702721,
+        0.3040267562329795,
+        0.0010991232800490192,
+        0.015211709749420356
+      ]
+    },
+    {
+      "kind": "original",
+      "ramp_xi": 0.18,
+      "shape": "beta:2:2",
+      "matched_passages": 3,
+      "mechanical_ledger_error": 6.1571754639278e-13,
+      "minimum_angle_5d_span_deg": 97.40689350812005,
+      "maximum_angle_5d_span_deg": 113.45054900754204,
+      "scale5": [
+        0.00011401847013881028,
+        0.1475650235419783,
+        0.24564457242911247,
+        0.0007079211880807179,
+        0.41315034929505834
+      ],
+      "scale10": [
+        0.0007351937554884724,
+        0.0021041779120306863,
+        0.1475650235419783,
+        0.0004582844257211005,
+        0.17929137904496217,
+        0.04201939767545104,
+        0.24564457242911247,
+        0.2468443718483051,
+        0.00011401847013881028,
+        0.011014789140153022
+      ]
+    },
+    {
+      "kind": "original",
+      "ramp_xi": 0.24,
+      "shape": "beta:2:2",
+      "matched_passages": 4,
+      "mechanical_ledger_error": 4.1828172869795566e-13,
+      "minimum_angle_5d_span_deg": 59.8566175052069,
+      "maximum_angle_5d_span_deg": 94.8365553163136,
+      "scale5": [
+        0.0002302967602848538,
+        0.19676481185345596,
+        0.34165144612127163,
+        0.0006694142857393004,
+        0.501384107947412
+      ],
+      "scale10": [
+        0.0008500816013190526,
+        0.0026666357745025533,
+        0.19676481185345596,
+        0.000442515454423531,
+        0.23360003629745751,
+        0.09568723416522873,
+        0.34165144612127163,
+        0.299283230837747,
+        0.0002302967602848538,
+        0.013120073005667615
+      ]
+    },
+    {
+      "kind": "original",
+      "ramp_xi": 0.24,
+      "shape": "beta:3:3",
+      "matched_passages": 4,
+      "mechanical_ledger_error": 1.0992439597456993e-12,
+      "minimum_angle_5d_span_deg": 60.811353674291325,
+      "maximum_angle_5d_span_deg": 95.44242406106247,
+      "scale5": [
+        0.00022789390449939884,
+        0.19676304622045615,
+        0.3413974774956688,
+        0.000654191426852746,
+        0.49926074254658204
+      ],
+      "scale10": [
+        0.000850542530067333,
+        0.0026636131409958456,
+        0.19676304622045615,
+        0.00043735949625234305,
+        0.23370493275876658,
+        0.09489472002956656,
+        0.3413974774956688,
+        0.2980200654632589,
+        0.00022789390449939884,
+        0.01307422114408517
+      ]
+    },
+    {
+      "kind": "original",
+      "ramp_xi": 0.327375,
+      "shape": "beta:2:2",
+      "matched_passages": 4,
+      "mechanical_ledger_error": 2.405116036885424e-12,
+      "minimum_angle_5d_span_deg": 25.87834802080843,
+      "maximum_angle_5d_span_deg": 74.60038288849007,
+      "scale5": [
+        0.0004997704097188249,
+        0.26839330462821254,
+        0.48688237566846526,
+        0.0006119131360365904,
+        0.5425124004276005
+      ],
+      "scale10": [
+        0.0009316580000189312,
+        0.003287745674823039,
+        0.26839330462821254,
+        0.0005917510083283672,
+        0.3019622289589101,
+        0.19778854415978497,
+        0.48688237566846526,
+        0.3233060822178777,
+        0.0004997704097188249,
+        0.01493485192634332
+      ]
+    },
+    {
+      "kind": "original",
+      "ramp_xi": 0.5,
+      "shape": "beta:2:2",
+      "matched_passages": 2,
+      "mechanical_ledger_error": 4.388624880169445e-12,
+      "minimum_angle_5d_span_deg": 29.817139847064826,
+      "maximum_angle_5d_span_deg": 48.65100269165519,
+      "scale5": [
+        0.0010988804629011861,
+        0.4097637633145177,
+        0.7567512300509909,
+        0.001465554758842691,
+        0.510044700728125
+      ],
+      "scale10": [
+        0.0009579138738855519,
+        0.003713936448732778,
+        0.4097637633145177,
+        0.0019084872763625027,
+        0.39908218591649414,
+        0.36766625117779705,
+        0.7567512300509909,
+        0.3040435963545527,
+        0.0010988804629011861,
+        0.015212133094785724
+      ]
+    }
+  ],
+  "metric": "native Euclidean or per-trajectory range-scaled Euclidean in x,theta1,theta2,theta1_rate,theta2_rate and native 10D coordinates; both are declared chart diagnostics, not intrinsic mechanics",
+  "limitations": [
+    "An equal x projection is not an equal 3D locus or same 10D physical state.",
+    "The five-state tangent uses first and second derivatives from the authenticated 11D structural RHS and Jacobian.",
+    "Angles are dependent on coordinate choice and metric; comparison of native and span-normalized metrics is mandatory.",
+    "The word fiber denotes the hidden coordinates of a chosen projection, not a proved physical bundle or material transport structure.",
+    "Triad projector metrics are inherited authenticated measurements from v18.50a; they are not new independent spectral integrations.",
+    "Two endpoint samples on one return orbit are correlated; events are not independent experimental replicates.",
+    "No physical chirality, material memory, eight-state rule, spatial volume, or closed full-state return is certified."
+  ]
+}

@@ -1,0 +1,23 @@
+test_connection (test_gauge.GaugeTests.test_connection) ... ok
+test_full_tensor_covariance (test_gauge.GaugeTests.test_full_tensor_covariance) ... ok
+test_minimal_rotation (test_gauge.GaugeTests.test_minimal_rotation) ... ok
+test_moving_rotation (test_gauge.GaugeTests.test_moving_rotation) ... ok
+test_sheared_cometric (test_gauge.GaugeTests.test_sheared_cometric) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.164s
+
+OK
+{
+  "status": "ORIGINAL_Q550_AFFINE_GAUGE_COVARIANT_HESSIAN_PROJECTION_AUDIT",
+  "genuine_physical_states": 328,
+  "covariance_rows": 3936,
+  "full_tensor_checks": 120,
+  "max_covariant_ratio_relative_error": 3.1171091122188613e-12,
+  "max_dense_tensor_first_float64_relative_error": 0.10108709851356648,
+  "max_naive_euclidean_ratio_relative_change": 0.6725794381576442,
+  "max_instantaneous_adjoint_connection_algebraic_residual": 1.4858705899580193e-11,
+  "max_factorial_common_gauge_error": 7.549516567451064e-15
+}
+phaseblind crest 326.52809536268296 physical observer perturbation 1.8878184911457268
+phasecov crest 59.96769091659661 physical observer perturbation 5.54264599782284

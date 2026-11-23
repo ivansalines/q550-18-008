@@ -1,0 +1,37 @@
+{
+  "version": "v18.49j",
+  "classification": "AUTHENTIC_Q550_LIOUVILLE_AND_STRAIN_PROJECTION_DIAGNOSTIC",
+  "parent_i_authenticated_to_J": true,
+  "physical_integrations": 14,
+  "frame_integrations": 12,
+  "ramp_set": [
+    0.285,
+    0.292,
+    0.296333,
+    0.3,
+    0.305,
+    0.309
+  ],
+  "kappas": {
+    "original": 0.16666666666666666,
+    "autonomous": 0.16659961041764054
+  },
+  "phase_grid_samples": 61,
+  "source_max_errors": {
+    "parent_history": 3.424991987393049e-13,
+    "parent_logvolume": 0.0,
+    "parent_occupation": 1.3322676295501878e-15,
+    "liouville": 5.062616992290714e-14,
+    "metric_source_quadrature": 5.995204332975845e-14,
+    "density_formula": 3.552713678800501e-15,
+    "occupation_balance": 0.0004898482116622027,
+    "occupations_sum": 1.7763568394002505e-15,
+    "explicit_kappa_trace": 0.0
+  },
+  "explicit_kappa_trace_is_zero": "exact in analytic coupling_jet: kappa acts on velocities, no material diagonal term",
+  "integrated_cancellation_ratio_range": [
+    0.9996943238913267,
+    0.9997040551173327
+  ],
+  "interpretation": "Liouville identity is geometric under declared metric form. Near cancellation across kappa is empirical, not an additional identity. Occupation derivative separates moving vector and moving eigenprojectors; neither alone is energy transfer. Finite-gap pullback is a diagnostic."
+}

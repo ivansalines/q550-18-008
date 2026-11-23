@@ -1,0 +1,33 @@
+{
+  "version": "v18.49a",
+  "ancestor_source": "byte-exact original Z server sendback, recursively SHA checked",
+  "files": {
+    "README.md": "d01b6ed13a601cc872c4c354769c865d45fff4ae0ab46730e62f5383fe227863",
+    "SCIENTIFIC_DECISION_RULES.md": "9a0b369c286f7e02595438f7488fab3c46c284ab22a3ffc155ae6cdd03ecd48c",
+    "inputs/SOURCE_PINS.json": "e8b4dbeb10d98161b71a84202ee197d51ff1e543a94ee49f2c12af492e93369c",
+    "inputs/v18_48z_original_server_sendback.zip": "3bd71dae05f6385696217ea9138eb5a75963e881d658369639452d98836bd69d",
+    "reference/parent_normal_form_math.py": "273cc8df701d6432e8b83e0dd0c5522563a078ffcaccc4760725c45c1c182f9b",
+    "reference/parent_ramp_math.py": "a3233b397efae4c0648db780468f5afd731368a14ec21174045fd31c9855e6c9",
+    "requirements.txt": "aa9b66fb6830230f20f0bfe3e126b3c002c463e6466f4d0bf17cca1ccccbc55c",
+    "results/chart_chainrule_independent_fit.png": "4d7b9210154406af6017db87e6411e1e6c2a5f7ae6857da8241fd0bc0504d7a5",
+    "results/chart_counterfactuals.csv": "5080d90a6fdb455ce94259ea63015d621eb27e53305afcc11f914382f4353f81",
+    "results/continuous_11D_root_validation.csv": "3338fdc53d48c4a2f6551b35e92b396590c4628e9acaae06645ab5507091e214",
+    "results/cubic_skew_coordinate_counterfactual.png": "027c7403fe6b8c9749e863ed57ca3e206449e5d62c6e4ba355467a4425a696a1",
+    "results/independent_chart_jet_refits.csv": "4d3f9528564f390e7f288c47f6d63d52c54515dcfa1b7e42afe47e6df0424ae5",
+    "results/physical_cubic_vs_ramp.png": "98904ae68cdc9db1ecb0817c9d9b748c4cbdaab62093b6cbc9a8382f574ad561",
+    "results/physical_drive_phase_clock.csv": "6dbc18b385bdee206fe3aff72eef2cf59741cdf5c8dbe7ee6e5ee365b9f60b75",
+    "results/physical_phase_skew.csv": "b96856d453424a576c6152de60e7b690ee367507193aaa6dc5edad85a99108b7",
+    "results/report.json": "1f1109760effca1cf52970518cd8003a5b0fc8eaac1917ab98fb49111c3923c0",
+    "results/root_midpoint_gauge_dependence.png": "d300cd31c3f87b2ef3e0013537367851fa98d72f7c93bfc2c71a5a7db235226c",
+    "results/runtime_environment.json": "acc0761e8607afbd093f93249873d99b4ba956174bc5e2feb1e522d08eb0cd7e",
+    "results/topological_contact_control.csv": "baadb0c9e6dc9508885fbdcb847e4591b11de07eab0765e81efb62e0c27a2804",
+    "run_on_server.sh": "dc37c1d4159acb33a1603c326339078410035f481b77fec941a1bc62733d4f7d",
+    "scripts/chart_math.py": "bd1ad71313810afbd63534549ef0bba3ad29702db42eec23539333f46dd5557d",
+    "scripts/check_outputs.py": "636e5c593f1dcb92a500eb6efd6cf50b6ff93eaa0fc85131755988e1a16f44b7",
+    "scripts/pack_sendback.py": "89df3ebf86b932e8582a16ea0284bbab589c7c955b4a494f0980f52b931694ed",
+    "scripts/plot_results.py": "3369cc56c2bea3b65bf5957e506d7b43ebf75b8fca71485514c1e324bfbafde9",
+    "scripts/run_audit.py": "2ec8308c554af730666dd64d2011c1cfc0c8893ac8afd99ccb4bd9dda1d4f85f",
+    "scripts/verify_parent.py": "6a687e1ffa149446517e99ab9fffa9a40846af6650dca7adc2d6e847a18d4507",
+    "tests/test_chart_math.py": "f1149265661b7945e096692f52950e8b2903427287960a754f2c1b0c46e03f7e"
+  }
+}

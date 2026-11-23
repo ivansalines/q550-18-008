@@ -1,0 +1,73 @@
+{
+  "version": "v18.48r",
+  "title": "Counterflow Crossing Transversality & Phase-Conditioned Recurrence Audit",
+  "genuine_11D_integrations": 88,
+  "forward_11D_integrations": 8,
+  "counterflow_11D_integrations": 80,
+  "historical_11D_states": 328,
+  "q_free_minima_reassessed": 80,
+  "q_free_interior_minima": 6,
+  "phase_locked_continuous_minima": 80,
+  "sampled_projection_intersection_candidates": 58,
+  "refined_projection_roots": 58,
+  "resolved_2d_projection_crossings": 58,
+  "regular_resolved_2d_projection_crossings": 58,
+  "smallest_2d_root_full3D_shape_distance": 0.00011193930949510156,
+  "smallest_phase_conditioned_shape_distance": 0.0009631210408293364,
+  "max_parent_q_gap_regression": 0.0,
+  "max_historical_regression": 8.89826605616997e-12,
+  "max_energy_balance_relative_residual": 2.048708425128609e-15,
+  "phase_lock_definition": "Theta_R(u) = Theta_F(s) unwrapped; s=1-rate*duration*u, within q search bounds. Phase-closed protocol reduces to s=1-u; fixed duration changes admissible pairs.",
+  "async_interior_tangent_line_angle": {
+    "count": 6,
+    "median": 1.0828399604987873,
+    "min": 0.6261443331869667,
+    "max": 8.608864809881391
+  },
+  "async_interior_shape_distance": {
+    "count": 6,
+    "median": 0.00045371157390773376,
+    "min": 0.00010622205235215152,
+    "max": 0.000517328209283039
+  },
+  "async_interior_full11D_distance": {
+    "count": 6,
+    "median": 1.6121019322471697,
+    "min": 1.4141666775600596,
+    "max": 3.6532534940640358
+  },
+  "phase_conditioned_shape_distance": {
+    "count": 80,
+    "median": 0.007632121484842592,
+    "min": 0.0009631210408293364,
+    "max": 0.8174421329434309
+  },
+  "resolved_2d_root_full3D_shape_distance": {
+    "count": 58,
+    "median": 0.0018789021079921322,
+    "min": 0.00011193930949510156,
+    "max": 0.9474198803583964
+  },
+  "thresholds": {
+    "2d_root_residual": 1e-08,
+    "projection_regular_det": 1e-07,
+    "full3d_proximity_descriptive": 0.0001,
+    "not_a_proof_of_intersection": true
+  },
+  "numerical": {
+    "solver": "DOP853",
+    "rtol": 3e-12,
+    "atol": 3e-13,
+    "max_step": 0.0125,
+    "projection_nodes": 141,
+    "q_pair_optimizer": "inherits authenticated q near-pair minima; independently evaluates 11D dense IVPs"
+  },
+  "provenance": {
+    "version": "v18.48r",
+    "parent_sha256": "80bd6896b3d512c13cb580c75f34c6098a3afceca795f7710d07fff096abb961",
+    "parent_q_verified_members": 24,
+    "original_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+    "historical_q_pairs_sha256": "d375f53e8a087891675f6a3028c363b46e22653af4abb6d451f64a13c87ad069"
+  },
+  "scientific_boundary": "In 3D two 1D curves generally do not intersect; 2D projection root does not establish a 3D or 11D root. The line-angle is an unoriented chart tangent angle, not material torsion. An optimized short distance is not a certified global minimum. Phase-matched state differences do not prove intrinsic dissipation or a unique memory lag."
+}

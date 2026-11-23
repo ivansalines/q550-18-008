@@ -1,0 +1,8 @@
+{
+  "parent_file": "q550_coupled_handover_geometry_residual_transport_v18_49q_authenticated_server_sendback.zip",
+  "parent_root": "q550_coupled_handover_geometry_residual_transport_v18_49q_bundle",
+  "parent_sha256": "b728f00924d688dc8a070e0745e7d9880e79af0783002916f1625e45e752710f",
+  "parent_version": "v18.49q",
+  "parent_manifest_count": 22,
+  "parent_report_name": "results/report.json"
+}

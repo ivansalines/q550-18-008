@@ -1,0 +1,31 @@
+{
+  "version": "v18.49d",
+  "parent": "unaltered original server C sendback recursively authenticated to v18.48j",
+  "files": {
+    "README.md": "8146efdba4505d778c9d666f50a5d4e54802f8e1bd7016fd1b10bde998aeaa55",
+    "SCIENTIFIC_DECISION_RULES.md": "0fb50e4fdac0675e241ac4f183a74028052ccdfa29ce09638e41dd0802ce0054",
+    "inputs/SOURCE_PINS.json": "ba7b07e0c89d6fdd1319d9f5324415bd4f21cfee10bcf2b018590e1f38c4a3d3",
+    "inputs/v18_49c_original_server_sendback.zip": "fa4dc520f80e37177b38b8c6b1d8fd861fe9afb78c5f33027f8b3500258c5655",
+    "requirements.txt": "e13491531df6eeb59d6420ef04d4b5651adec77439da3bccd7409e90f0988035",
+    "results/across_ramps_fixed_phase.csv": "580e2b5294cfe2569623bf64b562cb0b49bbf770d0c591f74eaeedde8333157d",
+    "results/environment.json": "3ed0b9d7513c862f154d72d71c931fe73ca59bffc9172940eff9e957b0c534ce",
+    "results/family_extension_fraction.png": "eee5b515a82db4e8cc98c07c047d10b98ede0dff912f4702f63d12977d3047b4",
+    "results/kappa_scale_recurrence_probe.png": "1f8f18d165e8a3015113266dd4f084a7eb6f9dd32a4ca1032367254c3390f464",
+    "results/kappa_scale_return_tests.csv": "b095f5ab1e6cf9ae4859cf632943d8a59ef240dd3ad055ae38f6de66c43c17cd",
+    "results/projector_transport_rank_threshold.png": "25cbcd2e3a01b89f7c9ba2f3f97496a2fd6d629be1d2d9a8db62ea303c4ef983",
+    "results/rank_and_hidden_complement.csv": "469e4e1ee4d40415a05b4917230689657ff1baf4eede143f6a12a0c8cf9f0e1b",
+    "results/report.json": "49b8ec25a8e238456ab3c95de078859a0fdc2a2d400fee44e32d0c810026ddbc",
+    "results/tangent_cotangent_pairing.csv": "2ff5198b36dd4b019cf894229e81676bebb02a964836b9d47ff0c2e8694ec786",
+    "results/threshold_hidden_complement.png": "3c7c8712d60ee23ef7be1e53b7d39ef11c0ee766bf64f2516ad4212ac5222d97",
+    "results/within_return_projector_transport.csv": "13ed00b54d085e4c820079c07985b5cc6c43bab82017c11e61bf4210adce6a40",
+    "run_on_server.sh": "554937364cbd7b28812f6138aaf10fbfa0ebb94bda556f4e0b6e60f3c3e64159",
+    "scripts/check_outputs.py": "8e88ca1c16093774d6b74400e4dec82259419b6cd0ecaa741df87ba587bd03a4",
+    "scripts/pack_sendback.py": "eaa7679f1867b86f081603cf29e9325187f13665dd3bdc239c4330043e74aea5",
+    "scripts/plot_results.py": "5bb902be15cb95c8bd1dc562d213c7042f44fbfdbb5c620c9392c86c46407e29",
+    "scripts/run_audit.py": "a2dd97f06f8b229c480af46f60b7a99b232476f54640cfa0a4e232bdf0b575d8",
+    "scripts/subspace_math.py": "84d9fb57f01336b673f08c4efa9d0d5af64580c5740bebf71f27f393a7025383",
+    "scripts/verify_parent.py": "ff454f0d532d0077a4aad6f2c4b75cbb7edf38484c551393f01db83e487ca637",
+    "tests/test_subspace.py": "9d24cac5e2df60e34030b4618eacfd9b847a1993526cacfe69780fe6de06a639",
+    "v18_49d_server.log": "c38f215983ba0c38228481a174b55407663be268f297bbc4adcc8da904cfba07"
+  }
+}

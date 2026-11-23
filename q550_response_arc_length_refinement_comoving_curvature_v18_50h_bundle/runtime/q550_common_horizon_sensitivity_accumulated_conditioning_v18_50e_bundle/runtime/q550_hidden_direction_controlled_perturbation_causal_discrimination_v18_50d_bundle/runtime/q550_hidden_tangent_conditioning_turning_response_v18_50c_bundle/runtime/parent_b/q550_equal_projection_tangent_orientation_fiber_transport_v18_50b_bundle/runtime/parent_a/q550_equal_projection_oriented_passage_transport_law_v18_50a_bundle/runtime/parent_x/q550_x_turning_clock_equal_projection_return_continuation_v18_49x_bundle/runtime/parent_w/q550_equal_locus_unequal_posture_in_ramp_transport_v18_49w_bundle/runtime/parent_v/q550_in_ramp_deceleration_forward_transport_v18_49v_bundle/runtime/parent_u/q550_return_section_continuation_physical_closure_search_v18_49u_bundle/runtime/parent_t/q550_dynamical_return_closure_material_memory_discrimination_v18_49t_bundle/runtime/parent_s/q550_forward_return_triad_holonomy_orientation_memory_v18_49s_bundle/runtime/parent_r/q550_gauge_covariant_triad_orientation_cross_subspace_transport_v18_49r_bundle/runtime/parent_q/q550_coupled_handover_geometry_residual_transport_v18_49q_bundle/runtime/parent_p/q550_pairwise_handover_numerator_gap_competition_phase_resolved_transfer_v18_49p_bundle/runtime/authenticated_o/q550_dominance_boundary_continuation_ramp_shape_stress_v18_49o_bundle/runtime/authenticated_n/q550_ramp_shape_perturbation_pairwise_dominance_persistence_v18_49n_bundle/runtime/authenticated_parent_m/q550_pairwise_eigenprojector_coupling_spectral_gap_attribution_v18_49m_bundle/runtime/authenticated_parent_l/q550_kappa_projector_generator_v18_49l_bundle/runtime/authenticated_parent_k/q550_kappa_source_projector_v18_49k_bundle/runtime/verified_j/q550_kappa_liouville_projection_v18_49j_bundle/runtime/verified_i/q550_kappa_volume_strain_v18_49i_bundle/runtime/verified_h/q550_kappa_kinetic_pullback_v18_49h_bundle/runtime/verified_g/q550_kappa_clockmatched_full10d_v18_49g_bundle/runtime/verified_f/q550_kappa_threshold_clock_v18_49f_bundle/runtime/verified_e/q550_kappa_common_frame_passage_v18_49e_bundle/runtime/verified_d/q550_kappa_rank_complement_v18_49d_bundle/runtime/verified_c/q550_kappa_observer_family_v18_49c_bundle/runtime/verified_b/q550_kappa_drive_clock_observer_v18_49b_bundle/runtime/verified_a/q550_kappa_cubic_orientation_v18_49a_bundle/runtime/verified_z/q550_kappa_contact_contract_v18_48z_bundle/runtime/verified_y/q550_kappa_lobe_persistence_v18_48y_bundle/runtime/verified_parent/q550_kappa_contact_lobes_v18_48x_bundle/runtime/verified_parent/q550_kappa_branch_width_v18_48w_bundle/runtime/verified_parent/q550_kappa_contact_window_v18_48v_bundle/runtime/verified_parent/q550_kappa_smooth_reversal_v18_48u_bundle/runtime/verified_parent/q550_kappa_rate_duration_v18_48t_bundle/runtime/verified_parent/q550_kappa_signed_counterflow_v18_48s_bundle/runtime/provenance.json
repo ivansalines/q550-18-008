@@ -1,0 +1,8 @@
+{
+  "parent_sha256": "b601151e9bd5e81553695b4c698cd505435143a51976320055a5e0f931ee3d33",
+  "parent_r_verified_files": 24,
+  "parent_r_report_sha256": "03629aa741a2bf17f8049efeab932eaaac98f2972dbf78733106e51baf5c8c67",
+  "historical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+  "original_11D_rhs": true,
+  "parent_chain_verified": true
+}

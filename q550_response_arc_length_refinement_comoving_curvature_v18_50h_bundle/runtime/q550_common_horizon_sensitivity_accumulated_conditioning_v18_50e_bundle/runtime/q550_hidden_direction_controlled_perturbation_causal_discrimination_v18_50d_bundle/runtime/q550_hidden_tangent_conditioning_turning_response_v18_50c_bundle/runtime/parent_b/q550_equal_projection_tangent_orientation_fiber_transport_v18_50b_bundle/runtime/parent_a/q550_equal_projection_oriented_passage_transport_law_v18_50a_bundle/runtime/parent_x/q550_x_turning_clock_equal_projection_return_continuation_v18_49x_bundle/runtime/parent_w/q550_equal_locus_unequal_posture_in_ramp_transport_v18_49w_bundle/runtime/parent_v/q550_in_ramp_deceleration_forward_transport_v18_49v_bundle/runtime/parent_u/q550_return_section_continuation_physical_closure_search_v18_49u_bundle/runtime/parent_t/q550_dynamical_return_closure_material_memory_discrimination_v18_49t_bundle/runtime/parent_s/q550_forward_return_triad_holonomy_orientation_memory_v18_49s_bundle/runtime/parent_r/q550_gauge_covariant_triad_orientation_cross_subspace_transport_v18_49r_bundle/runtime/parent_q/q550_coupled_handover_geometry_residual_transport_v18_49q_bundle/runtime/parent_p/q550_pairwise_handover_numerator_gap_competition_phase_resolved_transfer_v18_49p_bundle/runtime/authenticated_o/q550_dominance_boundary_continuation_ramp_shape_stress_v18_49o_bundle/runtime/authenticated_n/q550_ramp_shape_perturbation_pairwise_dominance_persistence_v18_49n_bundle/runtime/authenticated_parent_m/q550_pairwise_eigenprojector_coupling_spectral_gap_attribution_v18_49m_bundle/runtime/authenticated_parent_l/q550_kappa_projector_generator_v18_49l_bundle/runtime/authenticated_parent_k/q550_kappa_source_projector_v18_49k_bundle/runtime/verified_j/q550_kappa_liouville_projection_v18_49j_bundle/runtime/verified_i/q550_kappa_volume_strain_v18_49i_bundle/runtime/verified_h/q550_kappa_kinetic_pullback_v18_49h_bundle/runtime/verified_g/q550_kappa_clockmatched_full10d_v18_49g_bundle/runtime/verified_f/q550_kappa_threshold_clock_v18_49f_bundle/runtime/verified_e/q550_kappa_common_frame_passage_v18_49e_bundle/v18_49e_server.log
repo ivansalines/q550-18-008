@@ -1,0 +1,67 @@
+test_full_family (test_frame_math.Tests.test_full_family) ... ok
+test_gauge_covariance (test_frame_math.Tests.test_gauge_covariance) ... ok
+test_linear_duality (test_frame_math.Tests.test_linear_duality) ... ok
+test_oriented_events (test_frame_math.Tests.test_oriented_events) ... ok
+test_rank_truncation (test_frame_math.Tests.test_rank_truncation) ... ok
+test_shape_pairing (test_frame_math.Tests.test_shape_pairing) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.046s
+
+OK
+v18.49e original, ramp=0.285000: 4 oriented roots, 2 intervals, frame_cond_max=14.26, duality_max=2.17e-13
+v18.49e original, ramp=0.292000: 4 oriented roots, 2 intervals, frame_cond_max=14.56, duality_max=2.17e-13
+v18.49e original, ramp=0.296333: 2 oriented roots, 1 intervals, frame_cond_max=14.74, duality_max=2.17e-13
+v18.49e original, ramp=0.300000: 2 oriented roots, 1 intervals, frame_cond_max=14.9, duality_max=1.16e-12
+v18.49e original, ramp=0.305000: 2 oriented roots, 1 intervals, frame_cond_max=15.11, duality_max=1.16e-12
+v18.49e original, ramp=0.309000: 2 oriented roots, 1 intervals, frame_cond_max=15.28, duality_max=1.16e-12
+v18.49e autonomous, ramp=0.285000: 4 oriented roots, 2 intervals, frame_cond_max=15.28, duality_max=1.16e-12
+v18.49e autonomous, ramp=0.292000: 4 oriented roots, 2 intervals, frame_cond_max=15.28, duality_max=1.16e-12
+v18.49e autonomous, ramp=0.296333: 4 oriented roots, 2 intervals, frame_cond_max=15.28, duality_max=1.16e-12
+v18.49e autonomous, ramp=0.300000: 2 oriented roots, 1 intervals, frame_cond_max=15.28, duality_max=1.16e-12
+v18.49e autonomous, ramp=0.305000: 2 oriented roots, 1 intervals, frame_cond_max=15.28, duality_max=1.16e-12
+v18.49e autonomous, ramp=0.309000: 2 oriented roots, 1 intervals, frame_cond_max=15.28, duality_max=1.16e-12
+{
+  "version": "v18.49e",
+  "status": "AUTHENTIC_11D_COMMON_FRAME_DIAGNOSTIC_ONLY",
+  "physical_integrations": 14,
+  "adjoint_integrations": 12,
+  "frame_integrations": 12,
+  "kappas_tested": [
+    "original",
+    "autonomous"
+  ],
+  "ramp_values": [
+    0.285,
+    0.292,
+    0.296333,
+    0.3,
+    0.305,
+    0.309
+  ],
+  "count_finite_material_profiles": 322,
+  "count_oriented_threshold_markers": 34,
+  "count_completed_subthreshold_intervals": 17,
+  "count_kappa0_interval_probes": 48,
+  "max_forward_history_error": 3.424991987393049e-13,
+  "max_parent_d_regression": 1.9737766976390958e-11,
+  "max_energy_ledger_residual": 1.651082222331457e-11,
+  "max_clock_mismatch_rad": 0.0,
+  "max_cotangent_frame_identity_residual": 2.7469170751926916e-12,
+  "max_finite_pairing_pullback_error": 1.1646042797855686e-12,
+  "max_metric_decomposition_error": 1.5391134062105702e-15,
+  "max_chart_covariance_error": 2.62334598683533e-12,
+  "max_frame_condition_number": 15.275907927055792,
+  "historical_source_authenticated_to_J": true,
+  "passage_threshold_3d": 0.01,
+  "phase_interval": [
+    0.2,
+    0.8
+  ],
+  "kappa_interpretation": "kappa0 used only as a numerical comparison span; NOT an established material period",
+  "frame_definition": "material 10x10 fundamental matrix on each NEW counterflow 11D return, based at turning posture",
+  "material_metric": "Euclidean in pulled-back turning-point material frame; time-dependent in current coordinates",
+  "limitation": "phaseblind branch0 only, both kappas. Threshold events represent sublevel geometry, not physical trajectory return; linear pullback of finite inter-trajectory differences is a diagnostic, not a nonlinear invariant. Norms are metric- and frame-dependent. No unique kappa0 passage is certified."
+}
+v18.49e scientific checks PASS: 322 common-frame profiles, 34 oriented markers, 48 kappa/0.2 probes
+v18.49e: four genuine CSV-derived PNG files generated

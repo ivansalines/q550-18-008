@@ -1,0 +1,3 @@
+Python: 3.13 default (3.11+ is compatible with script syntax)
+numpy, scipy, mpmath, matplotlib
+Original mathematical sources are SHA-pinned.

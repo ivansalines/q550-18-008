@@ -1,0 +1,219 @@
+{
+  "version": "v18.48q",
+  "title": "Counterflow Near-Crossings & Phase\u2013Energy Separation Audit",
+  "original_11D_states": 328,
+  "genuine_new_11D_integrations": 88,
+  "reference_11D_integrations": 8,
+  "counterflow_11D_integrations": 80,
+  "total_counterflow_samples": 6480,
+  "comparison_pairs": 160,
+  "phase_closed_count": 48,
+  "fixed_duration_count": 32,
+  "clock_speed_original_rad_per_xi": 0.844357915384206,
+  "phase_closed_definition": "start Theta at original turnaround, integrate dTheta/dxi=-rate*omega, duration=1/rate",
+  "fixed_duration_definition": "same drive speeds at fixed return duration 1 xi; external Theta generally does not close",
+  "geometric_comparison": "(logrho1,logrho2,x) only; full11D compares theta1/theta2/Theta modulo 2pi and tau velocities",
+  "near_crossing_search": "continuous DOP853 dense-output multi-start numeric refinement; boundaries exclude common turnaround; global optimality is not certified",
+  "comparison_modes": [
+    "progress_matched",
+    "asynchronous_free_pair"
+  ],
+  "source_regression_max": 8.89826605616997e-12,
+  "energy_identity_max_relative_residual": 2.048708425128609e-15,
+  "protocol_summary": {
+    "phase_closed_0.5": {
+      "count": 16,
+      "endpoint_shape": {
+        "min": 0.2587733641394165,
+        "median": 0.6101818323835951,
+        "max": 1.0192930065964088
+      },
+      "matched_min_shape": {
+        "min": 0.0009631210408275295,
+        "median": 0.007458370060849091,
+        "max": 0.24183428109733207
+      },
+      "free_min_shape": {
+        "min": 0.0004533136538208085,
+        "median": 0.006144383954082342,
+        "max": 0.47704396611158056
+      },
+      "endpoint_energy_difference": {
+        "min": -0.011949224043802609,
+        "median": -0.00722089356074973,
+        "max": 0.005371153475149715
+      },
+      "delta_E": {
+        "min": -0.014864183508991546,
+        "median": 0.0002808875498102603,
+        "max": 0.013318559643376027
+      },
+      "command_work": {
+        "min": -0.009892219737033067,
+        "median": 0.008267374971878511,
+        "max": 0.017847321107149275
+      }
+    },
+    "phase_closed_1": {
+      "count": 16,
+      "endpoint_shape": {
+        "min": 0.017078781373470103,
+        "median": 0.2085158492341724,
+        "max": 0.5458851589739014
+      },
+      "matched_min_shape": {
+        "min": 0.0010465410156022604,
+        "median": 0.006125579374846762,
+        "max": 0.17366896191498515
+      },
+      "free_min_shape": {
+        "min": 7.724176848450847e-05,
+        "median": 0.0053907184063493535,
+        "max": 0.5685071079716317
+      },
+      "endpoint_energy_difference": {
+        "min": -0.0072060031924738865,
+        "median": -0.001808756590524263,
+        "max": 0.018266168273686434
+      },
+      "delta_E": {
+        "min": -0.011198790710607254,
+        "median": 0.009095281193691296,
+        "max": 0.019621018973200233
+      },
+      "command_work": {
+        "min": -0.009241850219189713,
+        "median": 0.01223783197947518,
+        "max": 0.020723262231931747
+      }
+    },
+    "phase_closed_2": {
+      "count": 16,
+      "endpoint_shape": {
+        "min": 0.03260277512013634,
+        "median": 0.4346063849389483,
+        "max": 0.7314259109872855
+      },
+      "matched_min_shape": {
+        "min": 0.002646600435008292,
+        "median": 0.047875879344364373,
+        "max": 0.13506024358189203
+      },
+      "free_min_shape": {
+        "min": 6.177006336457978e-05,
+        "median": 0.15653552461959042,
+        "max": 0.5126565300825477
+      },
+      "endpoint_energy_difference": {
+        "min": -0.007730673912030861,
+        "median": 0.002539070926149023,
+        "max": 0.02180613966022804
+      },
+      "delta_E": {
+        "min": -0.005578361154125799,
+        "median": 0.01022240850189382,
+        "max": 0.01891204384763867
+      },
+      "command_work": {
+        "min": -0.0037867205734128592,
+        "median": 0.012619376354216026,
+        "max": 0.019880230299142876
+      }
+    },
+    "fixed_duration_0.5": {
+      "count": 16,
+      "endpoint_shape": {
+        "min": 0.053219750623927115,
+        "median": 0.17062897834689328,
+        "max": 0.5516598662411205
+      },
+      "matched_min_shape": {
+        "min": 0.0009922451087462916,
+        "median": 0.006268047733124175,
+        "max": 0.17367657328501415
+      },
+      "free_min_shape": {
+        "min": 8.95094080002209e-05,
+        "median": 0.005571109596648109,
+        "max": 0.5712673711545865
+      },
+      "endpoint_energy_difference": {
+        "min": -0.012062678816119776,
+        "median": -0.0020685568606437776,
+        "max": 0.010958507996842837
+      },
+      "delta_E": {
+        "min": -0.006688107189255055,
+        "median": 0.002258820696287245,
+        "max": 0.00874774999146588
+      },
+      "command_work": {
+        "min": -0.004661064949640869,
+        "median": 0.005213578219520777,
+        "max": 0.009858358029299819
+      }
+    },
+    "fixed_duration_2": {
+      "count": 16,
+      "endpoint_shape": {
+        "min": 0.17327271826899662,
+        "median": 0.3386827722792243,
+        "max": 0.5895755275302651
+      },
+      "matched_min_shape": {
+        "min": 0.0014272046787960782,
+        "median": 0.0062358157550793354,
+        "max": 0.17365249418962853
+      },
+      "free_min_shape": {
+        "min": 6.177006335366223e-05,
+        "median": 0.004901552941361263,
+        "max": 0.5317337027812963
+      },
+      "endpoint_energy_difference": {
+        "min": -0.010391104203740564,
+        "median": 0.011734296386381904,
+        "max": 0.03194570046344247
+      },
+      "delta_E": {
+        "min": -0.016592445570973613,
+        "median": 0.018416309415425047,
+        "max": 0.038083854226314884
+      },
+      "command_work": {
+        "min": -0.014347414207041618,
+        "median": 0.022947078349821178,
+        "max": 0.04047248897511126
+      }
+    }
+  },
+  "numerical": {
+    "method": "DOP853",
+    "rtol": 3e-12,
+    "atol": 3e-13,
+    "max_step": 0.0125,
+    "rate_multipliers": [
+      0.5,
+      1,
+      2
+    ],
+    "phase_closed_durations_xi": [
+      2,
+      1,
+      0.5
+    ],
+    "fixed_durations_xi": [
+      1,
+      1
+    ],
+    "pair_multistart_grid": 61
+  },
+  "provenance": {
+    "version": "v18.48q",
+    "parent_sha256": "d3460aec39f2001297af430713a3249fc53f94795f08353e26033d05515ad698",
+    "parent_verified_members": 27,
+    "physical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+    "p_trajectory_sha256": "38394ae0348159575e6bf4da7a6530cbfac9305f5b84a947cad26d3fcdb8f4d8"
+  },
+  "scientific_boundary": "Nonzero position/phase/energy mismatches in driven counterflow do not alone establish thermodynamic irreversibility. Closest 3D projections do not imply intersections of 11D states. Rate and duration are coupled in phase-closed scans; fixed-duration controls decouple duration but do not close the phase. No global minimization certificate."
+}

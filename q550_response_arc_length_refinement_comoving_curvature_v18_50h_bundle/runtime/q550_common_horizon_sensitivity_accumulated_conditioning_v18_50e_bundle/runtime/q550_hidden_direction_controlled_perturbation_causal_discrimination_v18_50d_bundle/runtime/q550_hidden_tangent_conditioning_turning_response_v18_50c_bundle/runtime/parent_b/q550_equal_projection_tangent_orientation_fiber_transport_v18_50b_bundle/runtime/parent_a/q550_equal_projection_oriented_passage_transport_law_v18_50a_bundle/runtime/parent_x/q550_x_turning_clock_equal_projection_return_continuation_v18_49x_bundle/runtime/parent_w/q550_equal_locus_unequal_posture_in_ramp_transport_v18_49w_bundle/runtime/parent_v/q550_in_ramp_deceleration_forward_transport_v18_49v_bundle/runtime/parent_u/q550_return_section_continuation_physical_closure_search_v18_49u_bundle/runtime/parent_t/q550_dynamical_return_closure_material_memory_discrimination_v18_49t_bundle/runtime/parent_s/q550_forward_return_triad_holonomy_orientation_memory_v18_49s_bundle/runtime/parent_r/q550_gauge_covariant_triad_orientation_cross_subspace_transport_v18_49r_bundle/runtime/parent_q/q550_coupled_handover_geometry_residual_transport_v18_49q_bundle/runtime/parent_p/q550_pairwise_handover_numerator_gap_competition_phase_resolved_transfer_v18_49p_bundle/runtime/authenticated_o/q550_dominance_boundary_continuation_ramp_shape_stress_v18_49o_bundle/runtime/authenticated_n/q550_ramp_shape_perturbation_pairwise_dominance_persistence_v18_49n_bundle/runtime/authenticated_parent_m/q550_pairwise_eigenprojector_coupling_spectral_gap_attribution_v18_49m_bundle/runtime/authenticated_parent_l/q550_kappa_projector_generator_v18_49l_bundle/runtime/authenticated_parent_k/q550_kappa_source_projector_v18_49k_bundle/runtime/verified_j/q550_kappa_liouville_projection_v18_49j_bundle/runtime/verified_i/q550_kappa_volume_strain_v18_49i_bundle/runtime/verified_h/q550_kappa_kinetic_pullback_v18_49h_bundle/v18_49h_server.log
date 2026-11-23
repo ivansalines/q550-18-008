@@ -1,0 +1,31 @@
+test_eigenvalue_covariance_nonlinear_chart (test_kinetic_metric.TestMetric.test_eigenvalue_covariance_nonlinear_chart) ... ok
+test_embedded_cartesian_kinetic (test_kinetic_metric.TestMetric.test_embedded_cartesian_kinetic) ... ok
+test_jacobian_independent_difference (test_kinetic_metric.TestMetric.test_jacobian_independent_difference) ... ok
+test_metric_positive (test_kinetic_metric.TestMetric.test_metric_positive) ... ok
+test_metric_scale_is_a_choice (test_kinetic_metric.TestMetric.test_metric_scale_is_a_choice) ... ok
+test_non_geodesic_and_direction_reversal (test_kinetic_metric.TestMetric.test_non_geodesic_and_direction_reversal) ... ok
+test_spherical_geodesic_curvature (test_kinetic_metric.TestMetric.test_spherical_geodesic_curvature) ... ok
+test_theta_periodicity (test_kinetic_metric.TestMetric.test_theta_periodicity) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.071s
+
+OK
+v18.49h original ramp=0.285000: kinetic stretch q=.50 2.313; kinetic S9 excess=0.034503deg
+v18.49h original ramp=0.292000: kinetic stretch q=.50 2.3148; kinetic S9 excess=0.023632deg
+v18.49h original ramp=0.296333: kinetic stretch q=.50 2.3158; kinetic S9 excess=0.016744deg
+v18.49h original ramp=0.300000: kinetic stretch q=.50 2.3166; kinetic S9 excess=0.013962deg
+v18.49h original ramp=0.305000: kinetic stretch q=.50 2.3176; kinetic S9 excess=0.0082686deg
+v18.49h original ramp=0.309000: kinetic stretch q=.50 2.3184; kinetic S9 excess=0.0044702deg
+v18.49h autonomous ramp=0.285000: kinetic stretch q=.50 2.313; kinetic S9 excess=0.034865deg
+v18.49h autonomous ramp=0.292000: kinetic stretch q=.50 2.3148; kinetic S9 excess=0.023878deg
+v18.49h autonomous ramp=0.296333: kinetic stretch q=.50 2.3158; kinetic S9 excess=0.018933deg
+v18.49h autonomous ramp=0.300000: kinetic stretch q=.50 2.3166; kinetic S9 excess=0.012524deg
+v18.49h autonomous ramp=0.305000: kinetic stretch q=.50 2.3176; kinetic S9 excess=0.0078838deg
+v18.49h autonomous ramp=0.309000: kinetic stretch q=.50 2.3184; kinetic S9 excess=0.0046462deg
+SCIENTIFIC_CHECKS_PASS {
+  "max_original_history_error": 3.424991987393049e-13,
+  "max_kinetic_energy_identity_error": 1.6653345369377348e-16,
+  "max_nonlinear_chart_generalized_eigen_error": 1.566785441594215e-15,
+  "max_curvature_arc_refinement_deg": 3.73021824984221e-05
+}

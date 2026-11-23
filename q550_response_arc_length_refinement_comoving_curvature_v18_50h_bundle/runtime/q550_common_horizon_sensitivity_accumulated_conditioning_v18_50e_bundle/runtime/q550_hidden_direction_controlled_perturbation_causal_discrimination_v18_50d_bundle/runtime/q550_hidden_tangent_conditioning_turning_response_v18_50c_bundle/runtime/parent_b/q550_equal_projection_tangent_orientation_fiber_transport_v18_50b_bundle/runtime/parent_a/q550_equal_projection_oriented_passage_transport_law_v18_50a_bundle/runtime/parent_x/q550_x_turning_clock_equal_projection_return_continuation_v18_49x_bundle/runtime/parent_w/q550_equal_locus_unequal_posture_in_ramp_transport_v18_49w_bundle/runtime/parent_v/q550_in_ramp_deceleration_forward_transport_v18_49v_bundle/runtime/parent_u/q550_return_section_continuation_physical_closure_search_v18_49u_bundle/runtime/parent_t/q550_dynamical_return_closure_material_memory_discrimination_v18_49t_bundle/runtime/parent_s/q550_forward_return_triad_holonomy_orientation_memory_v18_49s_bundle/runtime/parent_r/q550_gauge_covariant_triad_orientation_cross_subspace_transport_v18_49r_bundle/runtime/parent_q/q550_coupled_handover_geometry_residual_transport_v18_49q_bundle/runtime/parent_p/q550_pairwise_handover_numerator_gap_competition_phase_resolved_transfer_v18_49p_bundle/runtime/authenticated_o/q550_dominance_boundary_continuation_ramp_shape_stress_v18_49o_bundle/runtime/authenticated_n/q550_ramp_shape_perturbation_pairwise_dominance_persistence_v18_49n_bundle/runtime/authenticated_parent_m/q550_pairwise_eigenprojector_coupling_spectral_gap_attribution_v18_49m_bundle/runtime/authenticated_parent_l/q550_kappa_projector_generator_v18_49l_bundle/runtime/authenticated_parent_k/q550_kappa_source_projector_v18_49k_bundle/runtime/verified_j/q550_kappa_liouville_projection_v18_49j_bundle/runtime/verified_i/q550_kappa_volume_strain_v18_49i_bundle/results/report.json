@@ -1,0 +1,47 @@
+{
+  "version": "v18.49i",
+  "classification": "AUTHENTIC_Q550_KINETIC_VOLUME_AND_STRAIN_DIAGNOSTIC",
+  "history_authenticated_to_J": true,
+  "physical_integrations": 14,
+  "frame_integrations": 12,
+  "branch": "phaseblind, 0",
+  "kappas": [
+    "original",
+    "autonomous"
+  ],
+  "ramp_set": [
+    0.285,
+    0.292,
+    0.296333,
+    0.3,
+    0.305,
+    0.309
+  ],
+  "phase_q": [
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65
+  ],
+  "metric": "flat kinetic Cartesian H(y)=(Q,tau_ref V); tau_ref convention is declared, not unique",
+  "volume_form": "sqrt(det G(y))dy; log volume = log|det F|+log|det DH_end/DH_initial|",
+  "volume_factor_q050_range": [
+    0.2962877666477052,
+    0.30722336269728573
+  ],
+  "max_liouville_log_volume_residual": 3.503863865716994e-13,
+  "max_tau_volume_log_spread": 1.5543122344752192e-15,
+  "max_chart_metric_volume_residual": 5.551115123125783e-15,
+  "max_nonlinear_chart_strain_error": 1.4764280695940003e-15,
+  "max_H_strain_regression": 5.10702591327572e-15,
+  "max_history_error": 3.424991987393049e-13,
+  "min_top_eigen_gap": 0.22622617577261128,
+  "top_axis_total_turn_deg_range": [
+    21.738928773672793,
+    22.017210989174824
+  ],
+  "limits": "finite 11D history differences are not Jacobi fields; metric choice and phase window declared; no metric-free physical torsion; volume is not universal for any arbitrary density"
+}

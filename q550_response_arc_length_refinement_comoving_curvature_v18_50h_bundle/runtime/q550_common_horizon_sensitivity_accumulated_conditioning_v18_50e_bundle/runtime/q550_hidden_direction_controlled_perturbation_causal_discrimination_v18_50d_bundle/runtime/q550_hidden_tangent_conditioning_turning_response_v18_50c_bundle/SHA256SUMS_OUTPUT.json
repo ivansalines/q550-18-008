@@ -1,0 +1,31 @@
+{
+  "version": "v18.50c",
+  "root": "q550_hidden_tangent_conditioning_turning_response_v18_50c_bundle",
+  "files": {
+    "README.md": "2ec09d70df55c95a82fdf2e8537b50aa82db1eed08c60a40ddd0a29a45538c32",
+    "SCIENTIFIC_DECISION_RULES.md": "e11f005141054d97b27b687ad579389a66dd14c8920603f28c0418dd4aaa61d6",
+    "SCIENTIFIC_REPORT.md": "5e506bfba9a9c3ec69ff8b079028ab84d9d78266f4ba80d920308d27897782aa",
+    "inputs/q550_equal_projection_tangent_orientation_fiber_transport_v18_50b_authenticated_server_sendback.zip": "7a02c25ab637b2a0d2b9715b4ed43cf91306927f5e1ad4453276a979718e8204",
+    "requirements.txt": "53cbd38b88a0c1eb7e2749870f5b937b260aea25b6151b888cddf047357219fc",
+    "results/direction_metric_sensitivity.png": "1ad3a25fbbf2c8862538f50a1338099f43959962c6521b5fd909410a90ae6c59",
+    "results/environment.json": "acc0761e8607afbd093f93249873d99b4ba956174bc5e2feb1e522d08eb0cd7e",
+    "results/equal_x_hidden_orientation_common_metric.png": "07b449aec7b7315f62ba0cdb15c16da75216c91acde02d0acaad46930eba7db8",
+    "results/equal_x_pair_hidden_orientation.csv": "6dc1f89af43f261df60924c983125e80f029145e784987fe37fca2d4346c9c3b",
+    "results/hidden_direction_turning_rate.png": "e10763a0f303ecdd250abcded8ee3e0843237f558f5ee0e5c90aa0055e218a9e",
+    "results/hidden_tangent_phase_trace.csv": "9fd988973bfcd1174b145be6b189c179436bfd2c5e0a5ae7534dd79d8dc3ffb5",
+    "results/peak_lag_window_boundary.png": "4cf9bcf2591450e639b08f64193a83b11622644a062a2d70067c3f88c2f29ea0",
+    "results/refinement.csv": "3241e2d2ebd49e1a579a75e508fce29f52d88be4ecfc60226765973f29c4bddc",
+    "results/report.json": "766197ed904a7619b3f1f7cf9d03e2d3d6f838167c5248b9766b5a5a5b7657da",
+    "results/turning_clock_hidden_response.csv": "ad8f4a1bcaade223d462367b693ebd09e35761da7d92edd681c1ed70501a5d5d",
+    "results/turning_deflection_by_ramp.png": "9c55adbd69d3bdbe9d1a2ac4c4373cbda26a54c8687b3f5c43a2b078a1825cf2",
+    "run_on_server.sh": "a20b2eb1361ea21b16f19df7dabcc43e53eb8712ba1d0d4448e3a5165d8cfff8",
+    "scripts/generate_report.py": "5d8f48366c49829b244a93c607b7dae342525871c915f02be2fed6f2fb6f4b5e",
+    "scripts/geometry.py": "108806cb75c05ba2e2f31494c49a988c5cfaeb39a224ea9a0394fb32c6ba63aa",
+    "scripts/pack_sendback.py": "32ede28475ce2750b1f2ace4ef72c9ca8631f26b6bda641a11150c6f4843eea0",
+    "scripts/plot_results.py": "2dadfdcc27f93fe532ad485a3b56c9d1a00446420b80b97f03cc2a82fdf7460f",
+    "scripts/run_audit.py": "7958b49364adb1b2df1691b490c00338a73e3a656f2d2a7b58864af91c2aefb8",
+    "scripts/verify_parent_b.py": "199ac7cae9dec06deaf1ce79d0bad167601768f151fe4394d4315f51b6436b58",
+    "tests/test_geometry.py": "54dd10ac16fb80be3d64affee4f8f57572b4c654800e3542ebbbcf6c3d554132",
+    "v18_50c_server.log": "266edbf54d699cdd72785b2447b0a1b6cab2909b658175cd6d8c04a574ae9863"
+  }
+}

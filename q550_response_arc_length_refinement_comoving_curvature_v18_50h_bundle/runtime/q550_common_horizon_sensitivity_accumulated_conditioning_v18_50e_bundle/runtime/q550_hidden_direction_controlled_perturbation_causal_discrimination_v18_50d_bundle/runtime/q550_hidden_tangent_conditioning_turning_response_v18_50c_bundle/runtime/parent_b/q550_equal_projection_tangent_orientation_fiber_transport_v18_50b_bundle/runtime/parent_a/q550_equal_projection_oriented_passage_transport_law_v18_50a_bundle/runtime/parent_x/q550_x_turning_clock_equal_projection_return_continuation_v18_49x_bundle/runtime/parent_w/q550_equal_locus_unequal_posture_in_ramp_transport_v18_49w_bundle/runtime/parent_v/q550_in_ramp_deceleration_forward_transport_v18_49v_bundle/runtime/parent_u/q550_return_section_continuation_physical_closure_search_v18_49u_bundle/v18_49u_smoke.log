@@ -1,0 +1,14 @@
+test_exact_reversal (test_section_math.TestMatching.test_exact_reversal) ... ok
+test_joint_vectorization (test_section_math.TestMatching.test_joint_vectorization) ... ok
+test_no_closure_from_geometry_alone (test_section_math.TestMatching.test_no_closure_from_geometry_alone) ... ok
+test_no_spectral_imputation (test_section_math.TestMatching.test_no_spectral_imputation) ... ok
+test_periodic_lift (test_section_math.TestMatching.test_periodic_lift) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+v18.49u verified original forward original ledger 6.7914424084492e-16
+v18.49u original r= 0.327375 min config= 0.19189596 min full= 0.41384694
+v18.49u STATUS: NO_PHYSICAL_CLOSURE_IN_EXPLORED_RETURN_SECTION_DOMAIN cases 1 best joint 0.4138469365408771 strict closures 0
+Packaged /mnt/data/q550_return_section_continuation_physical_closure_search_v18_49u_bundle/sendback.zip entries 21
