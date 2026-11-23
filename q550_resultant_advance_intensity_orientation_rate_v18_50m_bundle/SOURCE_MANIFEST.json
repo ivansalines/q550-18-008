@@ -1,0 +1,18 @@
+{
+  "root": "q550_resultant_advance_intensity_orientation_rate_v18_50m_bundle",
+  "version": "v18.50m",
+  "scope": "immutable files; results and transient runtime excluded",
+  "files": {
+    "README.md": "60c4f243344dc21f0d2b803f2e1471f8743a2ed662eb9c73388addad24eddeb9",
+    "SCIENTIFIC_DECISION_RULES.md": "ec296b0db956620d63bc1142a4a69a3b8d2107e0a34d1f6f40a60e266b2d77ab",
+    "SCIENTIFIC_REPORT.md": "85161ecd95c05f34046c031bdc0850b12ac9f2c5261894edaa3bd11ece7b3358",
+    "inputs/q550_dense_gate_replay_model_gram_metric_v18_50l_bundle_server_sendback.zip": "b665ba8fe6f2f662f967a81961690334557f0496f4c6527802b4a468476ece5c",
+    "requirements.txt": "80a99a0c63fa6519d6eea6737550e563e0520a66120e976256264ba1ec7bc143",
+    "run_on_server.sh": "53ff3f5270f2ffc88f7ca3da72557673bbccc675f3c82bfb5afbb0f6748b3613",
+    "scripts/pack_sendback.py": "96f78e8b1705b3b86578a8a0ba313259be640ddb2632d49b64195abd7793ab5e",
+    "scripts/run_audit.py": "3f0902ca490a0e5c63d84996f9cb53668ddd1d3a96e771df163e4c1a96c04192",
+    "scripts/verify_sources.py": "a8cc017411179591ce13f8b61652f73fd841926d1349572887bfbac52bcb1c10",
+    "scripts/write_output_manifest.py": "4585aa922d5ddc5e77b5aad3902684e85183ef357e44bb433f2c76c380525eac",
+    "tests/test_intensity.py": "44f83e8d1cefc7f18f9822b19cc736e30ea9146399864a9055dfda67a3347937"
+  }
+}

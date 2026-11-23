@@ -1,0 +1,13 @@
+{
+  "version": "v18.50m",
+  "mode": "execution outputs",
+  "file_sha256": {
+    "results/gate_orientation_intensity.png": "30fbde369eab3c69dc464106902895052de0bd1cc9b7bfefe5dec382314a19db",
+    "results/intensity_gate_summary.csv": "1ee1a6d410d490e38959180775c94a29bb9942832a1da95e4624d9415b5f959d",
+    "results/intensity_phase_ledger.csv": "f0a72f2543ae1be4992acd19c72d19467d9ccd253eda5e43500026cb1b334ac8",
+    "results/metric_dependency_of_intensity.png": "d8664bce7dace6788344e566be047765c7ed42725541bc851306181bce157b83",
+    "results/metric_same_anchor_rates.csv": "782202201bbe7f98812d152344e7eabf5f5d1bf5fe4f8676efe3034da510db79",
+    "results/report.json": "f93dcda1e05ebfc45960bf21772a1fa8ab00b2fb494f385e654f5d000822536b",
+    "results/resultant_intensity_decomposition.png": "7838fc8edc97158748db42d541b1a3e5f663d2dd05d7a5476ffa05a1eef701b2"
+  }
+}

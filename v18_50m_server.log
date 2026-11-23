@@ -1,0 +1,18 @@
+SOURCE IDENTITY VERIFIED 11
+v18.50m projection and intensity tests PASS
+v18.50m COMPLETED {
+  "parent_src_checks": 11,
+  "parent_output_checks": 7,
+  "rows": 2052,
+  "new_IVPs": 0,
+  "original_speed": 303.99580637971104,
+  "original_transverse": 273.95269045020683,
+  "original_radial": 131.770154783031,
+  "original_turn_deg": 0.5564374187640059,
+  "autonomous_speed": 304.1552435869399,
+  "max_rate_check_diff": 5.593840342044132e-07
+}
+v18.50m projection and intensity tests PASS
+SOURCE IDENTITY VERIFIED 11
+OUTPUT MANIFEST WRITTEN 7
+SENDBACK READY /root/elab1/hysteresis/q550_resultant_advance_intensity_orientation_rate_v18_50m_bundle_server_sendback.zip 56462096 bytes; members 20
