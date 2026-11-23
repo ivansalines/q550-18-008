@@ -1,0 +1,11 @@
+# Scientific decision rules — Q550 v18.50q
+
+1. **Parent is mandatory.** Verify all parent immutable-source and regenerated-output digests before using its figures or code. The exact parent SHA-256 appears in `results/report.json`.
+2. **Structural rank bound is analytic.** Define raw four-component jet `h=(F2,F6,(JF)2,(JF)6)` from the 11D structural jet, normalize after coordinate scale, and apply the exact normalization derivative. For nonzero `h`, `dᵀB=0` holds identically, hence `rank(B) <= 3`.
+3. **Full rank three is local evidence.** Report `s3`, `s4`, gap, and rank tolerance; do not infer an interval lower bound along a continuous trajectory from 34 sampled sections. Do not call the numerical fourth right singular vector a physical hidden mode.
+4. **Projector, not a sign-chosen SVD direction.** With sampled `rank(B)=3`, let `P_null=I-V3 V3ᵀ`, which is a 10×10 rank-7 orthogonal projector in a declared Euclidean chart. Compare subspaces by principal angles and projector norms.
+5. **Physical dynamics enters independently.** Advance the initial seven-dimensional null basis with the 10D variational equation computed from the physical model RHS. Do not refit the connection to L,T,R. A finite-difference tangent Jacobian is a numerical operator, not an analytic identity or interval certificate.
+6. **Kernel invariance must be tested.** Measure both instantaneous `||B_t K_t||/||B_t||` and transported `||B_t Q_t||/||B_t||`, plus principal angles. Tiny positive discrepancy on a tiny time window does not prove an observable physical memory law.
+7. **Metric/chart caution.** The normalized state chart and Euclidean projector are declared. General non-orthogonal chart transformations change orthogonal projectors unless the metric is transformed consistently. No kinetic metric is inferred here.
+8. **Binary vs scientific reproducibility.** Source bytes are authenticated. Regenerated PNG/CSV/JSON have a separate manifest. Differences of environmental metadata are not themselves scientific disagreement.
+9. **Negative classification.** This audit does not certify continuous uniform rank, uniqueness of a hidden vector, material memory, torsional flip, physical energy fraction, or equivalence to polymer/metallic-glass constitutive laws.

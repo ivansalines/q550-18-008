@@ -1,0 +1,28 @@
+v18.50q SOURCE IDENTITY VERIFIED 11
+v18.50q analytic observer chain rule, rank-3 constraint and 7D projector tests PASS
+AUTHENTICATED v18.50p SEND-BACK {'parent_sha256': '87a9a8349ca1ccfe39e23ecdc340dc25cb84e443dc522fe45d7e235e97225f91', 'source_count': 11, 'output_count': 7, 'parent_classification': 'NUMERICAL_WEAK_OBSERVER_MODE_UNDER_STENCIL_AUDIT_NOT_MATERIAL_DIRECTION_CERTIFICATE'}
+AUTHENTICATED MODEL: staging 10D physical solver
+ANALYTIC JACOBIAN + 10D KERNEL PROJECTOR original
+COMPLETE original rank {3} max angle 0.0021514895994426703
+ANALYTIC JACOBIAN + 10D KERNEL PROJECTOR autonomous
+COMPLETE autonomous rank {3} max angle 0.0021505670126070265
+v18.50q COMPLETED {
+  "rank_counts": {
+    "original": [
+      3
+    ],
+    "autonomous": [
+      3
+    ]
+  },
+  "analytic_s4_max": 5.1431689104029644e-14,
+  "analytic_s3_min": 0.48950272630996183,
+  "left_null_defect_max": 1.8394851239104537e-16,
+  "analytic_vs_Richardson_rel_max": 2.30482763224369e-12,
+  "kernel_projector_idempotence_max": 1.0145361680689937e-15,
+  "max_principal_angle_deg": 0.0021514895994426703,
+  "max_dynamic_kernel_leakage": 1.536359638724483e-05,
+  "max_inst_kernel_leakage": 4.387818143085551e-16
+}
+v18.50q OUTPUT MANIFEST WRITTEN 6
+v18.50q SENDBACK CREATED /root/elab1/hysteresis/q550_analytic_observer_jacobian_nullspace_projector_transport_v18_50q_bundle_server_sendback.zip files 19 bytes 57560725

@@ -1,0 +1,16 @@
+{
+  "root": "q550_analytic_observer_jacobian_nullspace_projector_transport_v18_50q_bundle",
+  "files": {
+    "README.md": "ab9070c6de9195d1fe7c439dc9dba6dffb117427cecf3817cc4ca5ceb58da0a5",
+    "SCIENTIFIC_DECISION_RULES.md": "f3f4765a136d613824409adbad37e8a79e4ad4e91f2987e4567efd8ad41fde06",
+    "SCIENTIFIC_REPORT.md": "acf74b24d52d6dca92ad9413c6ce9382281ba5c8f48da96d8b5cd39a46fc95b8",
+    "inputs/q550_near_null_tangent_direction_stencil_order_transport_v18_50p_bundle_server_sendback.zip": "87a9a8349ca1ccfe39e23ecdc340dc25cb84e443dc522fe45d7e235e97225f91",
+    "requirements.txt": "9c2faeeb60a1d9a84f7abd23e721d04051ff8c54dae8863aaa9e423a819a2f07",
+    "run_on_server.sh": "956f783e302266fe9acc9475eb1167147590bee9c1e0ddd04f0e497b4b45fe9c",
+    "scripts/pack_sendback.py": "0e6f057eb769772b8e54052427abd04f9b0aa41561314465fc8251433fc9cad0",
+    "scripts/run_audit.py": "ab52c84d995858cb1de0aa3fb92e74fd1d2962692af18ac06f8808e6b8005cfc",
+    "scripts/verify_source_manifest.py": "62ffea27d5473576c9bdeb292c3c8c21b203ae97fc249b7c9e1160c9f403c05a",
+    "scripts/write_output_manifest.py": "5683c23c03d53354f8e694af0434323c0b34d064a8fb8ccfa9572d7beb6ea2a2",
+    "tests/test_analytic_observer.py": "634de8cf5f440a181273a82fc64dc42512dce13d2cdf083cda17f2ebe769eeb3"
+  }
+}

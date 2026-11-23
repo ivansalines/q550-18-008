@@ -1,0 +1,11 @@
+{
+  "root": "q550_analytic_observer_jacobian_nullspace_projector_transport_v18_50q_bundle",
+  "file_sha256": {
+    "results/analytic_observer_rank_ledger.csv": "8ea2a45f530862a05dda4a1fbec4f0bf06bcd8eb49872836d4bf1f75078308ce",
+    "results/analytic_rank_vs_stencil.png": "3b18633006f08ff923dce3af0177381301fddee880864b417f715cdaeccaac6a",
+    "results/kernel_projector_transport.png": "697d03adf266c7daf48c644abd3a567932ac704b7e73e72d9c94f8cffae3c75f",
+    "results/nullspace_projector_transport_ledger.csv": "bba86bd60050ad14ccb4c8ef1b8fc4c0765ba3e87e70ed6f4ea7cf8b76ebadf0",
+    "results/report.json": "a3954ac7bb16dfa9ba9bdbc432397fecb33ade8490a4fc9c299c880f056c669d",
+    "results/transported_kernel_leakage.png": "f6b676e5fdad8279e59730e520c4b2aad18bac3b91461601365ea748eb194c0e"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "root": "q550_analytic_observer_jacobian_nullspace_projector_transport_v18_50q_bundle_v2",
+  "file_sha256": {
+    "results/analytic_observer_rank_ledger.csv": "8ea2a45f530862a05dda4a1fbec4f0bf06bcd8eb49872836d4bf1f75078308ce",
+    "results/analytic_rank_vs_stencil.png": "3b18633006f08ff923dce3af0177381301fddee880864b417f715cdaeccaac6a",
+    "results/kernel_projector_transport.png": "697d03adf266c7daf48c644abd3a567932ac704b7e73e72d9c94f8cffae3c75f",
+    "results/nullspace_projector_transport_ledger.csv": "0233bc2cf6208a6d935e6c4454b8ad2d778a3a3c25cf2bc7be60c4c124d2b04d",
+    "results/report.json": "a3954ac7bb16dfa9ba9bdbc432397fecb33ade8490a4fc9c299c880f056c669d",
+    "results/tolerance_scaling_plateau_autonomous.csv": "e72ea2f4680610683e6c13b13b1c3160d9c3e00523d00ba1d2fbc14f0afd7379",
+    "results/tolerance_scaling_plateau_original.csv": "807ef4f112c6784e777f040092e81aca43e95b1945178e5485384a1bd6116634",
+    "results/transported_kernel_leakage.png": "f6b676e5fdad8279e59730e520c4b2aad18bac3b91461601365ea748eb194c0e"
+  }
+}

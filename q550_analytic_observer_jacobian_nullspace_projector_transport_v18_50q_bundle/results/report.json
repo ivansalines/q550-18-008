@@ -1,0 +1,72 @@
+{
+  "version": "v18.50q",
+  "title": "Analytic Observer Jacobian & Nullspace Projector Transport Audit",
+  "classification": "ANALYTIC_NORMALIZATION_RANK_BOUND_AND_NUMERICAL_10D_PROJECTOR_TRANSPORT_NOT_MATERIAL_CERTIFICATE",
+  "parent": {
+    "parent_sha256": "87a9a8349ca1ccfe39e23ecdc340dc25cb84e443dc522fe45d7e235e97225f91",
+    "source_count": 11,
+    "output_count": 7,
+    "parent_classification": "NUMERICAL_WEAK_OBSERVER_MODE_UNDER_STENCIL_AUDIT_NOT_MATERIAL_DIRECTION_CERTIFICATE"
+  },
+  "analytic_rank_identity": "For d=u/||u||, Bd=(I-dd^T)Du/||u||, hence d^T Bd=0 and rank(Bd)<=3; this is exact in real arithmetic wherever u!=0.",
+  "chart": "z_i=seed_scale_i * (state_i-state_ref_i); observer derivatives are /seed_scale_i; Euclidean chart only.",
+  "counts": {
+    "sample_rows": 34,
+    "transport_rows": 34
+  },
+  "replays": [
+    {
+      "kind": "original",
+      "kappa0": 0.16666666666666666,
+      "xi_start": 0.0010591159204452,
+      "xi_end": 0.0010688314983893,
+      "natural_ivp_nfev": 167,
+      "tangent_fundamental_nfev": 137,
+      "natural_integrations": 1,
+      "tangent_fundamental_integrations": 1,
+      "natural_seed_replays": 1
+    },
+    {
+      "kind": "autonomous",
+      "kappa0": 0.16659961041764054,
+      "xi_start": 0.0010587068207812,
+      "xi_end": 0.0010684172645951,
+      "natural_ivp_nfev": 167,
+      "tangent_fundamental_nfev": 122,
+      "natural_integrations": 1,
+      "tangent_fundamental_integrations": 1,
+      "natural_seed_replays": 1
+    }
+  ],
+  "numeric": {
+    "rank_counts": {
+      "original": [
+        3
+      ],
+      "autonomous": [
+        3
+      ]
+    },
+    "analytic_s4_max": 5.1431689104029644e-14,
+    "analytic_s3_min": 0.48950272630996183,
+    "left_null_defect_max": 1.8394851239104537e-16,
+    "analytic_vs_Richardson_rel_max": 2.30482763224369e-12,
+    "kernel_projector_idempotence_max": 1.0145361680689937e-15,
+    "max_principal_angle_deg": 0.0021514895994426703,
+    "max_dynamic_kernel_leakage": 1.536359638724483e-05,
+    "max_inst_kernel_leakage": 4.387818143085551e-16
+  },
+  "limitations": [
+    "The exact rank upper bound is a structural consequence of four-vector normalization, not a physical null mode.",
+    "Rank exactly three is supported by sampled analytic-jet evaluations, not certified everywhere on a continuous trajectory.",
+    "The 7D tangent kernel is a pointwise observer kernel and need not be invariant under the 10D variational flow.",
+    "The model tangent generator is evaluated by 2nd-order finite differences of the physical 10D RHS; it is not a certified interval Jacobian.",
+    "The observer chart metric is fixed/normalized; there is no derived material kinetic metric.",
+    "No material memory, physical flip, torsional holonomy, polymer constitutive identity or global rank proof is claimed."
+  ],
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1"
+  }
+}
