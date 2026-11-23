@@ -1,0 +1,279 @@
+{
+  "audit": "Q550 v18.49q \u2014 Coupled Handover Geometry & Residual Transport Audit",
+  "status": "PHASE_RESOLVED_NUMERICAL_AUDIT",
+  "cases": [
+    {
+      "kappa_kind": "original",
+      "ramp_xi": 0.32671875,
+      "root_phases": [],
+      "relative_gap_min": 0.06478689895972549,
+      "share_67_at_end": 0.30912761034227426,
+      "share_78_at_end": 0.2800101426110732,
+      "share_other_at_end": 0.410862247046651,
+      "comm_norm_at_end": 59.87899930349525,
+      "bracket_68_at_end": -42.34084645816605,
+      "observed_K68_at_end": 4.905774423830677,
+      "measured_S678_change": 0.09552132841133167,
+      "full_projector_transport_max_error": 1.381971410957852e-07,
+      "pair_only_projector_transport_max_error": 0.11460510940143961,
+      "pair_plus_68_projector_transport_max_error": 0.07038026175686364,
+      "other_43_projector_transport_max_error": 0.24516417863745465,
+      "full_vs_pair_then_rest_noncommutativity": 0.011118773866586131,
+      "full_transport_step_refinement": 4.221766387910511e-07,
+      "orthogonal_full_error": 7.719525028912968e-15,
+      "subspace_motion_predicted_by_pair_only": 0.007195372789646798,
+      "subspace_motion_predicted_by_full": 0.09552133156018663,
+      "subspace_final_mismatch_pair_only": 0.09538532645835386,
+      "subspace_final_mismatch_full": 9.625576814983479e-09,
+      "phase_window": [
+        0.6,
+        0.65
+      ],
+      "transport_window": [
+        0.63,
+        0.65
+      ],
+      "verified_parent_max_abs_share_difference": 2.220446049250313e-16,
+      "physical_ledger_error": 1.0916840348373924e-12
+    },
+    {
+      "kappa_kind": "original",
+      "ramp_xi": 0.327375,
+      "root_phases": [
+        0.6498761838674542
+      ],
+      "relative_gap_min": 0.06398267860231407,
+      "share_67_at_end": 0.29381101075116445,
+      "share_78_at_end": 0.2992920341712305,
+      "share_other_at_end": 0.4068969550776049,
+      "comm_norm_at_end": 61.633571354992114,
+      "bracket_68_at_end": -43.58151625385987,
+      "observed_K68_at_end": 4.940756119181304,
+      "measured_S678_change": 0.09574094473458893,
+      "full_projector_transport_max_error": 1.4343834388128997e-07,
+      "pair_only_projector_transport_max_error": 0.11518650108250313,
+      "pair_plus_68_projector_transport_max_error": 0.07046271937328202,
+      "other_43_projector_transport_max_error": 0.2455805044894367,
+      "full_vs_pair_then_rest_noncommutativity": 0.011150609734365857,
+      "full_transport_step_refinement": 4.381406471697122e-07,
+      "orthogonal_full_error": 5.490265231201936e-15,
+      "subspace_motion_predicted_by_pair_only": 0.007197084982621375,
+      "subspace_motion_predicted_by_full": 0.09574094785623459,
+      "subspace_final_mismatch_pair_only": 0.09560442507355071,
+      "subspace_final_mismatch_full": 9.812680109376991e-09,
+      "phase_window": [
+        0.6,
+        0.65
+      ],
+      "transport_window": [
+        0.63,
+        0.65
+      ],
+      "verified_parent_max_abs_share_difference": 2.220446049250313e-16,
+      "physical_ledger_error": 2.405116036885424e-12
+    },
+    {
+      "kappa_kind": "original",
+      "ramp_xi": 0.33,
+      "root_phases": [
+        0.6467245506201782
+      ],
+      "relative_gap_min": 0.06077586087443848,
+      "share_67_at_end": 0.23332356697107215,
+      "share_78_at_end": 0.3824808297259112,
+      "share_other_at_end": 0.38419560330301644,
+      "comm_norm_at_end": 68.76436455464186,
+      "bracket_68_at_end": -48.623748480571116,
+      "observed_K68_at_end": 5.082952596450065,
+      "measured_S678_change": 0.09666573203165221,
+      "full_projector_transport_max_error": 1.6740283876247725e-07,
+      "pair_only_projector_transport_max_error": 0.11754815919850264,
+      "pair_plus_68_projector_transport_max_error": 0.07080250746626855,
+      "other_43_projector_transport_max_error": 0.24901329315616183,
+      "full_vs_pair_then_rest_noncommutativity": 0.011308968232354593,
+      "full_transport_step_refinement": 5.097768207305952e-07,
+      "orthogonal_full_error": 7.036713889407423e-15,
+      "subspace_motion_predicted_by_pair_only": 0.007249064530078264,
+      "subspace_motion_predicted_by_full": 0.09666573506770829,
+      "subspace_final_mismatch_pair_only": 0.09652643487070121,
+      "subspace_final_mismatch_full": 1.0670748233816226e-08,
+      "phase_window": [
+        0.6,
+        0.65
+      ],
+      "transport_window": [
+        0.63,
+        0.65
+      ],
+      "verified_parent_max_abs_share_difference": 2.220446049250313e-16,
+      "physical_ledger_error": 1.3207759538835795e-11
+    },
+    {
+      "kappa_kind": "autonomous",
+      "ramp_xi": 0.327375,
+      "root_phases": [
+        0.6497188831709796
+      ],
+      "relative_gap_min": 0.06382346327295828,
+      "share_67_at_end": 0.291001933048157,
+      "share_78_at_end": 0.3034833960078962,
+      "share_other_at_end": 0.40551467094394766,
+      "comm_norm_at_end": 62.05821315630652,
+      "bracket_68_at_end": -43.88178335114457,
+      "observed_K68_at_end": 4.950182876969193,
+      "measured_S678_change": 0.09575407275809296,
+      "full_projector_transport_max_error": 1.4462743524552878e-07,
+      "pair_only_projector_transport_max_error": 0.11531393279440955,
+      "pair_plus_68_projector_transport_max_error": 0.07044673635295604,
+      "other_43_projector_transport_max_error": 0.24585516819649994,
+      "full_vs_pair_then_rest_noncommutativity": 0.011166855498578022,
+      "full_transport_step_refinement": 4.4176434746848323e-07,
+      "orthogonal_full_error": 1.0893959836182095e-14,
+      "subspace_motion_predicted_by_pair_only": 0.007201285672670215,
+      "subspace_motion_predicted_by_full": 0.09575407588566826,
+      "subspace_final_mismatch_pair_only": 0.09561750822118002,
+      "subspace_final_mismatch_full": 9.828409440799837e-09,
+      "phase_window": [
+        0.6,
+        0.65
+      ],
+      "transport_window": [
+        0.63,
+        0.65
+      ],
+      "verified_parent_max_abs_share_difference": 2.7755575615628914e-16,
+      "physical_ledger_error": 2.4476323745581396e-12
+    },
+    {
+      "kappa_kind": "autonomous",
+      "ramp_xi": 0.33,
+      "root_phases": [
+        0.6465678137221236
+      ],
+      "relative_gap_min": 0.06061780386249581,
+      "share_67_at_end": 0.23055972801549982,
+      "share_78_at_end": 0.38715621114106064,
+      "share_other_at_end": 0.38228406084343997,
+      "comm_norm_at_end": 69.1986348064208,
+      "bracket_68_at_end": -48.9308239204716,
+      "observed_K68_at_end": 5.09267076227231,
+      "measured_S678_change": 0.09667957871212525,
+      "full_projector_transport_max_error": 1.68880622699699e-07,
+      "pair_only_projector_transport_max_error": 0.11767985762968898,
+      "pair_plus_68_projector_transport_max_error": 0.07078553274669425,
+      "other_43_projector_transport_max_error": 0.2494381860143601,
+      "full_vs_pair_then_rest_noncommutativity": 0.011328320835545802,
+      "full_transport_step_refinement": 5.139874787689797e-07,
+      "orthogonal_full_error": 6.684581247016749e-15,
+      "subspace_motion_predicted_by_pair_only": 0.0072572972889302515,
+      "subspace_motion_predicted_by_full": 0.09667958175797538,
+      "subspace_final_mismatch_pair_only": 0.09654018345062239,
+      "subspace_final_mismatch_full": 1.0691965479269087e-08,
+      "phase_window": [
+        0.6,
+        0.65
+      ],
+      "transport_window": [
+        0.63,
+        0.65
+      ],
+      "verified_parent_max_abs_share_difference": 3.3306690738754696e-16,
+      "physical_ledger_error": 1.3353661926229776e-11
+    }
+  ],
+  "handover_events": [
+    {
+      "kappa_kind": "original",
+      "ramp_xi": 0.327375,
+      "q_root": 0.6498761838674542,
+      "share_at_root": 0.2961870804883668,
+      "share_68_at_root": 0.0831364015474236,
+      "comm_norm": 61.37727352931115,
+      "bracket_68_coefficient": -43.4002863233175,
+      "K68_norm": 4.9359852251917316,
+      "other_share": 0.4076258390244548,
+      "subspace_leakage": 4.932041989621059,
+      "relative_gap": 0.06411845278279285,
+      "residual_crossing": -1.1878831251976862e-12
+    },
+    {
+      "kappa_kind": "original",
+      "ramp_xi": 0.33,
+      "q_root": 0.6467245506201782,
+      "share_at_root": 0.29540644220252077,
+      "share_68_at_root": 0.0828508524238353,
+      "comm_norm": 61.89659674113425,
+      "bracket_68_coefficient": -43.76750328802519,
+      "K68_norm": 4.954837248913264,
+      "other_share": 0.4091871155941456,
+      "subspace_leakage": 4.936242551287184,
+      "relative_gap": 0.06435853234635219,
+      "residual_crossing": 8.126277428743833e-13
+    },
+    {
+      "kappa_kind": "autonomous",
+      "ramp_xi": 0.327375,
+      "q_root": 0.6497188831709796,
+      "share_at_root": 0.2964032627724796,
+      "share_68_at_root": 0.08317681898702951,
+      "comm_norm": 61.47544270456124,
+      "bracket_68_coefficient": -43.469702412840334,
+      "K68_norm": 4.93932945786128,
+      "other_share": 0.40719347445237625,
+      "subspace_leakage": 4.93016197680516,
+      "relative_gap": 0.06413177795682558,
+      "residual_crossing": 2.664202192192988e-12
+    },
+    {
+      "kappa_kind": "autonomous",
+      "ramp_xi": 0.33,
+      "q_root": 0.6465678137221236,
+      "share_at_root": 0.2956250198157761,
+      "share_68_at_root": 0.08289083482743363,
+      "comm_norm": 61.99574040167457,
+      "bracket_68_coefficient": -43.837608442704905,
+      "K68_norm": 4.9581662825094055,
+      "other_share": 0.40874996036547745,
+      "subspace_leakage": 4.934362518230703,
+      "relative_gap": 0.06437152336610699,
+      "residual_crossing": 2.970290680082144e-12
+    }
+  ],
+  "parent_verification": {
+    "parent_zip_sha256": "9446c9772d5c5e50fbaa341478e68863414edf7361896e8ce6eb51ebce3a96ea",
+    "parent_manifest_entries": 32,
+    "original_v18_49p_cases": 10,
+    "original_v18_49p_roots": 4,
+    "upstream_genealogy_authenticated": true
+  },
+  "integrations": {
+    "physical_forward_11D": 2,
+    "physical_return_11D": 5,
+    "tangent_10D": 5
+  },
+  "controls": {
+    "max_instantaneous_generator_closure_relative": 6.85130608930466e-16,
+    "max_projector_identity_error": 2.343179942508317e-15,
+    "max_finite_difference_projector_derivative_relative_error": 2.0186778984908843e-07,
+    "max_parent_p_share_endpoint_regression": 3.3306690738754696e-16,
+    "min_relative_spectral_gap": 0.06061780386249581,
+    "max_mechanical_ledger_error": 1.3353661926229776e-11,
+    "max_U_step_refinement": 5.139874787689797e-07
+  },
+  "method": {
+    "phase_samples": 151,
+    "transport_steps_fine": 200,
+    "observer": "inherited fixed initial kinetic frame",
+    "spectral_ordering": "descending eigenspace rank",
+    "phase_register": "q=t-r, same for all cases",
+    "relative_crossing": "D78-D67"
+  },
+  "limitations": [
+    "Pair 6-7 and 7-8 are rank-ordered eigenspace couplings, not distinct material objects.",
+    "Commutator opening the 6-8 plane is an algebraic Lie-bracket identity; it is not by itself an independent observed 6-8 transport.",
+    "The remaining 43-pair generator is measured, not a closure failure. Instantaneous decomposition is exact by definition.",
+    "The difference between full and ordered-factor finite transports depends on the chosen splitting and interval; not a uniquely defined material memory.",
+    "Results are in the inherited kinetic metric and fixed observer gauge. Only constant orthogonal chart covariance is automatic.",
+    "Root event is numerical, not a verified interval enclosure. No universal torsional flip has been demonstrated."
+  ]
+}

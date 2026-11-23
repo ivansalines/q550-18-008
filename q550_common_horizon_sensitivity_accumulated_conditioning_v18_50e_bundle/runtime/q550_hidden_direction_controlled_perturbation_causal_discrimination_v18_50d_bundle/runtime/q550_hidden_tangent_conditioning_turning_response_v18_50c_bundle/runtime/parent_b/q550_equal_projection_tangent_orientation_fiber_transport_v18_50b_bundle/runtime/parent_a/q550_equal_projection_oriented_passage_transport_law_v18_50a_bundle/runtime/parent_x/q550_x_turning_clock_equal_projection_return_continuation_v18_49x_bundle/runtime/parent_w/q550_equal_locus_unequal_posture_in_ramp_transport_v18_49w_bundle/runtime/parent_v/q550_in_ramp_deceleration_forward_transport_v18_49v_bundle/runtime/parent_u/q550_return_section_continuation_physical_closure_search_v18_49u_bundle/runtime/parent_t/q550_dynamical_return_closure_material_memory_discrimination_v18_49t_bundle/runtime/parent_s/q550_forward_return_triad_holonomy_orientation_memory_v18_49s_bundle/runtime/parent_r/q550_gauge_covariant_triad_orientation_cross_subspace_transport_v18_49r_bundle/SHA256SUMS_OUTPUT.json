@@ -1,0 +1,31 @@
+{
+  "root": "q550_gauge_covariant_triad_orientation_cross_subspace_transport_v18_49r_bundle",
+  "version": "v18.49r",
+  "parent": "v18.49q",
+  "status": "PHASE_RESOLVED_NUMERICAL_AUDIT",
+  "files": {
+    "README.md": "be8c5b03acb7514d68d7b6a159655c0ca1ed1359dac85939cc7bd98da5a657a1",
+    "SCIENTIFIC_DECISION_RULES.md": "c9323fb9634c4166e2d940a37d123a53377f107ebd09bee553d28f15112e7948",
+    "SCIENTIFIC_REPORT.md": "15fcbeb4c0233507c0be35d922b9ff96fa4454343219febf603bdf27714ac817",
+    "inputs/SOURCE_PINS.json": "8f0b4259c1ee8d064766ea03e57a56bc10fc54b1002d70bee1d9670544aca871",
+    "inputs/q550_coupled_handover_geometry_residual_transport_v18_49q_authenticated_server_sendback.zip": "b728f00924d688dc8a070e0745e7d9880e79af0783002916f1625e45e752710f",
+    "requirements.txt": "48061e7fa7686b876b0221aaf663c6576c4aacc7227c1bb192d6250c5d037494",
+    "results/cross_block_volume.png": "a2eaeaf35df37b1e0b49aa2387531957f3944d22ab9a43daf74a46025e9abadd",
+    "results/cross_subspace_share.png": "437199508fd16ebd4f26c77b8e3fb782c20fde28373c1bb299ce02151fd56be3",
+    "results/environment.json": "acc0761e8607afbd093f93249873d99b4ba956174bc5e2feb1e522d08eb0cd7e",
+    "results/gauge_invariant_commutator_alignment.png": "8fc14d36de93df552c136c941669932723a31206e3aee02c1bf3f3d1f933be54",
+    "results/handover_orientation_events.csv": "e9da16ddcd56d024f2fea2c3d01370c9b2f520ba2ba613e5b9893638b2c23888",
+    "results/local_execution_log.txt": "fbd2277f70477bcff6b3b19d9f2129a02e1784cb3505e061e65054c2ca531e05",
+    "results/phase_resolved_gauge_covariant_triad.csv": "3007185dbf07a033eb7c2e1f2981a59c4bb91278db89b3e9bb24ff90346a0e69",
+    "results/phase_resolved_triad_orientation.png": "1c8619d5c734f51968df29545be6a12d7a9c59c9477ad74869b21ab8ccaac8b3",
+    "results/report.json": "7026f79e375d14bbd673f9c4622b6981f7a75c322e30c9a88242504170b1229a",
+    "run_on_server.sh": "552244477fb8043a7235055632571fd9cd5d8ae51502f83c2debbd4335653639",
+    "scripts/generate_report.py": "4c43ba541459294e6920cab93dae1c3dbe64bd9b0696340198e5bfaa4cc1fdb8",
+    "scripts/pack_sendback.py": "bcc37cec6c2138bfaa02354d22958b8443772269911d5e3110f448e9ec02e15a",
+    "scripts/plot_results.py": "4db26326508b9699fc4e92e9e1764c0cffde5a36d1af13e87ce03bf692fe7a47",
+    "scripts/run_audit.py": "c826aa5a131463e0ddb0b1d14ba659608f2e04875248f8160e0fbb31fe49fdff",
+    "scripts/triad_math.py": "a5efa39fb8d364716425d9fe3ceac1fc7be77827437215eb55c727078851bf10",
+    "scripts/verify_r_parent.py": "7a045f412b6fe6c1e72faf084e52f1b89b9e31a2c1bcf95625f89da9fa2bf52b",
+    "tests/test_triad.py": "0a4ae7a23b6e416a3eceea04106c52397a98ca42f25b72855c9f7965630e7c3c"
+  }
+}

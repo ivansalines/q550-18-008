@@ -1,0 +1,30 @@
+{
+  "root": "q550_coupled_handover_geometry_residual_transport_v18_49q_bundle",
+  "version": "v18.49q",
+  "parent": "v18.49p",
+  "files": {
+    "README.md": "b9b2be429a5140bec04c872449ceb9e6163b09965857ea8fec8b43df9df8af96",
+    "SCIENTIFIC_DECISION_RULES.md": "3da8bb97445084464af851ff3d0205a9e039e96810c0898aa44b3ef4b55f6658",
+    "SCIENTIFIC_REPORT.md": "59489230e536db464e9f498ab7f5ebd16238759a38a87f3229c698351b4afb3b",
+    "inputs/SOURCE_PINS.json": "93b28baf6592445e7a16c164cbaae736f835f161a65a05919d4cd0a5dde78dcf",
+    "inputs/q550_pairwise_handover_numerator_gap_competition_phase_resolved_transfer_v18_49p_authenticated_server_sendback.zip": "9446c9772d5c5e50fbaa341478e68863414edf7361896e8ce6eb51ebce3a96ea",
+    "requirements.txt": "48061e7fa7686b876b0221aaf663c6576c4aacc7227c1bb192d6250c5d037494",
+    "results/coupled_bracket_68.png": "985b2f69e26881cfa27ec0303e449e4b5136370a0aad67926a40ad1cc5c99790",
+    "results/environment.json": "acc0761e8607afbd093f93249873d99b4ba956174bc5e2feb1e522d08eb0cd7e",
+    "results/full_vs_truncated_transport.png": "fc072ed88dd4048ca64646340ba97c7e316249fa6a008cbcd45a178eab8230f6",
+    "results/measured_68_and_subspace_leakage.png": "c46d3876a72250a7227e2e04593bd121f9f56c60907efb13e34bd84671fdc59b",
+    "results/numerical_handover_geometry_events.csv": "cf8797c11bd04c8ffa8c0e2be2fa787bf2e0fa542d1dfac729a82d2aad57ea95",
+    "results/phase_pairwise_residual_shares.png": "75c503e3c6b56a7f4d9326bbe8fdcbfb71dc7b36c44d36fffe7b9b565d8309ee",
+    "results/phase_resolved_geometric_ledger.csv": "ec9e1c7f9fa645071470a3f8fa335d24b27866328bcac4ae8d57dfffe0a9ff3d",
+    "results/report.json": "92da0ff62ce8a4e14f02123ec2d7fd3e04b3cc4f5f45437352a4c8df3bb8c535",
+    "run_on_server.sh": "552244477fb8043a7235055632571fd9cd5d8ae51502f83c2debbd4335653639",
+    "scripts/generate_report.py": "f8e7ef7a2b17d95825617d6ac8f2ae73c234261b1d07f22e91bdb7d2d3a71bac",
+    "scripts/geometry_math.py": "8862212858b43469476eca6f83c6ca0c77d5c7ca30c7c3c328d855279587b1e9",
+    "scripts/pack_sendback.py": "a82720d5b7d914749923da2fbb32edf7e55d94c79cbf6f9faee482f6197519a5",
+    "scripts/plot_results.py": "f2056c5ca8a8e54162d4d4e33b15a1cd42accc1b421fa8d4e6b3aa3971027afb",
+    "scripts/run_audit.py": "48ca18848bc3eb179afbc57cb6a1318b7473641979371ab75f28de6b857e80cd",
+    "scripts/verify_q_parent.py": "e5188a3ae41b882c50583c62cb3886fb8733169a0348a68ca085ca290ebff833",
+    "tests/test_geometry.py": "fbf1bdd80e080f2a2f50a75024a32b61d1ae724da7dabb4a7e77f85492afb5a9"
+  },
+  "status": "PHASE_RESOLVED_NUMERICAL_AUDIT"
+}

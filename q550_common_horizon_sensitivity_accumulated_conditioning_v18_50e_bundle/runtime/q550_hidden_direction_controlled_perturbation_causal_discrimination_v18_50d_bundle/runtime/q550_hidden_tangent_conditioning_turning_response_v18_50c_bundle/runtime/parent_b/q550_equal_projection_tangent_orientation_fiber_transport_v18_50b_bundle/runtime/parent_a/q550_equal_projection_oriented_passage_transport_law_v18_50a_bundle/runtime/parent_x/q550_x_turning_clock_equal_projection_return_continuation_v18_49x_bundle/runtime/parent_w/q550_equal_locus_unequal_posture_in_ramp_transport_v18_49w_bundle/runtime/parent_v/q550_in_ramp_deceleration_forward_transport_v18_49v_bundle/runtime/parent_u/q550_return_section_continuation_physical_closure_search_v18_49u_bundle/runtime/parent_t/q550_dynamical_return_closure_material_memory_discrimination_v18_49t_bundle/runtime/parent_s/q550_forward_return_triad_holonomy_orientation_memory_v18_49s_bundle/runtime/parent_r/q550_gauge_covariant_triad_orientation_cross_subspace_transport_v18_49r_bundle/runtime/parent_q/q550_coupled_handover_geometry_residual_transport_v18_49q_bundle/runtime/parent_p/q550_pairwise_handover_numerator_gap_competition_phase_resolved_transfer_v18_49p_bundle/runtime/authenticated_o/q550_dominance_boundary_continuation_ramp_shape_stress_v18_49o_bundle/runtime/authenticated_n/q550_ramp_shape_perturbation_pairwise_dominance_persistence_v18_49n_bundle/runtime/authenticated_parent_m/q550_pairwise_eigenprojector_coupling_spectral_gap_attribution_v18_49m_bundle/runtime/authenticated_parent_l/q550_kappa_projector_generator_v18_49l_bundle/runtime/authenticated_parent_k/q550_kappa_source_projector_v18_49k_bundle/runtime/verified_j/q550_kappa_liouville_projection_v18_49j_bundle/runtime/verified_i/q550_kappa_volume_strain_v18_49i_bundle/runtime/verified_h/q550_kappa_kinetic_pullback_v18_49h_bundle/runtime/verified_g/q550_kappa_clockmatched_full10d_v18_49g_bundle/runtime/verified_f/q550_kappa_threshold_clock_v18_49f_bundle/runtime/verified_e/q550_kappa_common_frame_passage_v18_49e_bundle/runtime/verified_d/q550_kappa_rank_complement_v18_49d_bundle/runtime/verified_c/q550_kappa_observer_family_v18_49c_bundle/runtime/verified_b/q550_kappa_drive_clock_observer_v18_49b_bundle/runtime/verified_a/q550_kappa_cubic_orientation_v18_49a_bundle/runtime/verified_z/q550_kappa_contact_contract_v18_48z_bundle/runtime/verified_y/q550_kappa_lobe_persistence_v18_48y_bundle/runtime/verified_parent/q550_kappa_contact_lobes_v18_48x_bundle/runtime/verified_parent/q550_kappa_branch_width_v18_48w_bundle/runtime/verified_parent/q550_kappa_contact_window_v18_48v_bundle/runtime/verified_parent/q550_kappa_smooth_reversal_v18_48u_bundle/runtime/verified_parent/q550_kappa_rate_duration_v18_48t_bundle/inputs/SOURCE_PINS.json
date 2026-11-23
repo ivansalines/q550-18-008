@@ -1,0 +1,8 @@
+{
+  "version": "v18.48t",
+  "files": {
+    "inputs/v18_48s_original_server_sendback.zip": "cf865a640363ad1e08a0ccafe63fd0586d786bb869b967c43b2f1eb18e2c40a7",
+    "reference/physical_math.py": "a2e08b061c01bec726012578e006851a07dc24741001c1b6c5ae4633c881e49c",
+    "reference/transversality_math.py": "ff3a6192d97a13714c463be049919fb79d95e1f6fb8f802f35da28d1d99c99c4"
+  }
+}

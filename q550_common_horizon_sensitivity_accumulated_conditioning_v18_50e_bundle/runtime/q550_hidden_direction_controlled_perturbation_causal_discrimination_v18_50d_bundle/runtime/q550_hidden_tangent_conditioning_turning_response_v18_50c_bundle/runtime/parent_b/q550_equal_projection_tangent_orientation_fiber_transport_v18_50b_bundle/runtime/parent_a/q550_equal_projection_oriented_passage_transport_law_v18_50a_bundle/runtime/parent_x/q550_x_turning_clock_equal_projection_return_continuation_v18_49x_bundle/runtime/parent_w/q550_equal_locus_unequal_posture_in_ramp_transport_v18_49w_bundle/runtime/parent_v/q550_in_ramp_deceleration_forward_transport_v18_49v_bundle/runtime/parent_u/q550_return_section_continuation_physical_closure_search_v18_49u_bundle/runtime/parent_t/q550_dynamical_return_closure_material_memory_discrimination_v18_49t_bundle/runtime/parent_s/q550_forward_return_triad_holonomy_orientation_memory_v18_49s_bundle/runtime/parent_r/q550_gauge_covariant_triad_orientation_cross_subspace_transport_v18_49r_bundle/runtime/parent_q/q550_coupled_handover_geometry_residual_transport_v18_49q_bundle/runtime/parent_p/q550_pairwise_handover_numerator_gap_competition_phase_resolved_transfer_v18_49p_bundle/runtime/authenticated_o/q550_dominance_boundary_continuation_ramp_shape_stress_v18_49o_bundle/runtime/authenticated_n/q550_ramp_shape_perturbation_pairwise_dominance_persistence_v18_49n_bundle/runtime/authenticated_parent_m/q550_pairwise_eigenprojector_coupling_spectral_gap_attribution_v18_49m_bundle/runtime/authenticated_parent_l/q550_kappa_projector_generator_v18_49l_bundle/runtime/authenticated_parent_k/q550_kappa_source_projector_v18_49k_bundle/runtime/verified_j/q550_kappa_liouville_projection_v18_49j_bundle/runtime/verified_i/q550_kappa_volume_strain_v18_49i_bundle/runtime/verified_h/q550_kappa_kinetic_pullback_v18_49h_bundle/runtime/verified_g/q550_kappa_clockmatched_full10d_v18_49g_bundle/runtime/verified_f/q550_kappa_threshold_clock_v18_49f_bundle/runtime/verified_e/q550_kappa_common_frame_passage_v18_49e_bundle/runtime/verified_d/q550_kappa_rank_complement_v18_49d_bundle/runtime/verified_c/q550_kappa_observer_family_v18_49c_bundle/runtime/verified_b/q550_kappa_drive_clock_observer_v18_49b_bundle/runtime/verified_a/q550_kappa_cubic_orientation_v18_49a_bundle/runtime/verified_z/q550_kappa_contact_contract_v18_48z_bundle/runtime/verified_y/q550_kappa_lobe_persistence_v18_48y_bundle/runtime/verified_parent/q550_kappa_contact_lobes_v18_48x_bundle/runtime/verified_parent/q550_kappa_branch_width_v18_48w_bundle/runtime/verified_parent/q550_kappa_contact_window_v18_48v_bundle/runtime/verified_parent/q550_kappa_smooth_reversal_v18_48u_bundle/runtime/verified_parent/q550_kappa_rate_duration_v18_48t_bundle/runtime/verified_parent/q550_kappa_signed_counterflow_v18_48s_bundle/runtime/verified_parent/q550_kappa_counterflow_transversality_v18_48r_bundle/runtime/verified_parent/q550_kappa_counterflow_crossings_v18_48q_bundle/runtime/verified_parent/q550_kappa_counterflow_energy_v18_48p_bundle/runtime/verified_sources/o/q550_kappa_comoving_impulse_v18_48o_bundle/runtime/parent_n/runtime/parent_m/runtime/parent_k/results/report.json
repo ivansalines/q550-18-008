@@ -1,0 +1,91 @@
+{
+  "version": "v18.48k",
+  "status": "ORIGINAL_Q550_OBSERVER_SPACE_CANCEL_GEOMETRY_DIAGNOSTIC",
+  "parent": "SHA-pinned authentic v18.48j server sendback, nested v18.48i and v18.48h verified",
+  "parent_provenance": {
+    "v18_48j_server_sha256": "76db46b8972723511b60c4d910966b2edc3794c2b2a2764c37846eaacc1d1fa5",
+    "v18_48j_manifest_members": 25,
+    "nested": {
+      "archive_i_sha256": "e351f04ea354d28a027a0af398fa2c56aaa1ab804d5a735d153ec5da67736321",
+      "archive_i_verified_members": 29,
+      "archive_h_sha256": "7b5d66f94626eff99afab32df826eb3b2adeffe54a3957f278c368cf40060533",
+      "archive_h_verified_members": 40,
+      "physical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+      "report_h_sha256": "431f0a24ebb2ceaaf253726393fefa9ca0a8c48b6d7a4c1d0ba7c139b0997fb1",
+      "historical_source_sha256": {
+        "structural_jet.py": "8221474a1213301af3c7395a624d10d3f0c7730893ecf5165b05039ba2cabb01",
+        "test_support_mobius_monodromy_audit.py": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864",
+        "generated_base_jet.py": "43e0c0b075876d55d4c08caabfde28b38b943d689ece024451806e81067611f3",
+        "factorial_math.py": "4c5de14753546fa21ab106b6ed9b37f4f766a93668bafae90bef708731949206"
+      }
+    },
+    "physical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a"
+  },
+  "physical_ivps": 8,
+  "physical_states": 328,
+  "new_integrations": 0,
+  "parameter_values": {
+    "original": 0.16666666666666666,
+    "autonomous": 0.16659961041764054
+  },
+  "focal_crests": 4,
+  "observer_perturbations": "Frozen chart covectors, not physical adjoint solution or independent observer",
+  "chart_metric": "Original frozen 10D Euclidean chart; coherent anisotropic covector metric control",
+  "widths": [
+    {
+      "crest": "phaseblind_xi3.575_original",
+      "ratio": 326.5280953628515,
+      "steep_half_width_total_deg": 4.687870828092788e-06,
+      "median_random_half_width_deg": 2.3995318638627138e-05,
+      "min_random_half_width_deg": 6.659990388884378e-06,
+      "max_random_half_width_deg": 0.0004914602634567152,
+      "observer_tangent_samples": 64,
+      "angular_space": "10D historical Euclidean covector chart; not arbitrary-gauge Euclidean angle"
+    },
+    {
+      "crest": "phaseblind_xi3.575_autonomous",
+      "ratio": 349.79877733833246,
+      "steep_half_width_total_deg": 4.375360496039749e-06,
+      "median_random_half_width_deg": 2.2242843214437857e-05,
+      "min_random_half_width_deg": 5.506677408302676e-06,
+      "max_random_half_width_deg": 0.0006780305945870422,
+      "observer_tangent_samples": 64,
+      "angular_space": "10D historical Euclidean covector chart; not arbitrary-gauge Euclidean angle"
+    },
+    {
+      "crest": "phasecov_xi4.25_original",
+      "ratio": 59.96769091659693,
+      "steep_half_width_total_deg": 3.273334443787855e-07,
+      "median_random_half_width_deg": 9.835451737559981e-07,
+      "min_random_half_width_deg": 3.9884155676405153e-07,
+      "max_random_half_width_deg": 5.297520084791245e-05,
+      "observer_tangent_samples": 64,
+      "angular_space": "10D historical Euclidean covector chart; not arbitrary-gauge Euclidean angle"
+    },
+    {
+      "crest": "phasecov_xi4.25_autonomous",
+      "ratio": 59.995692486362856,
+      "steep_half_width_total_deg": 3.273419395564527e-07,
+      "median_random_half_width_deg": 1.6392097786731075e-06,
+      "min_random_half_width_deg": 3.991407259033551e-07,
+      "max_random_half_width_deg": 6.307627255156475e-05,
+      "observer_tangent_samples": 64,
+      "angular_space": "10D historical Euclidean covector chart; not arbitrary-gauge Euclidean angle"
+    }
+  ],
+  "observables": {
+    "observer_width_ledger": 260,
+    "random_angle_records": 32,
+    "max_analytic_map_relative_error": 1.6435262130810548e-14,
+    "max_covariance_ratio_relative_error": 6.822296967165182e-13,
+    "max_independent_crossing_ratio_error": 9.191651678594908e-14,
+    "max_crossing_threshold_relative_error": 1.7225338650677323e-14
+  },
+  "caveats": [
+    "Crest width is direction-dependent; angular volumes and total sphere measure are not certified.",
+    "Observer rotations are frozen-state geometric counterfactuals, not integrated adjoint trajectories.",
+    "Large ratios can be ill-conditioned near a tiny resultant; all numerator/resultant norms reported.",
+    "The quotient observer space and effective numerical rank are scale- and cutoff-sensitive; raw singular spectra are provided.",
+    "Gauge invariance requires transforming input and output covector cometrics; unchanged naive Euclidean angles are not invariant under shear."
+  ]
+}

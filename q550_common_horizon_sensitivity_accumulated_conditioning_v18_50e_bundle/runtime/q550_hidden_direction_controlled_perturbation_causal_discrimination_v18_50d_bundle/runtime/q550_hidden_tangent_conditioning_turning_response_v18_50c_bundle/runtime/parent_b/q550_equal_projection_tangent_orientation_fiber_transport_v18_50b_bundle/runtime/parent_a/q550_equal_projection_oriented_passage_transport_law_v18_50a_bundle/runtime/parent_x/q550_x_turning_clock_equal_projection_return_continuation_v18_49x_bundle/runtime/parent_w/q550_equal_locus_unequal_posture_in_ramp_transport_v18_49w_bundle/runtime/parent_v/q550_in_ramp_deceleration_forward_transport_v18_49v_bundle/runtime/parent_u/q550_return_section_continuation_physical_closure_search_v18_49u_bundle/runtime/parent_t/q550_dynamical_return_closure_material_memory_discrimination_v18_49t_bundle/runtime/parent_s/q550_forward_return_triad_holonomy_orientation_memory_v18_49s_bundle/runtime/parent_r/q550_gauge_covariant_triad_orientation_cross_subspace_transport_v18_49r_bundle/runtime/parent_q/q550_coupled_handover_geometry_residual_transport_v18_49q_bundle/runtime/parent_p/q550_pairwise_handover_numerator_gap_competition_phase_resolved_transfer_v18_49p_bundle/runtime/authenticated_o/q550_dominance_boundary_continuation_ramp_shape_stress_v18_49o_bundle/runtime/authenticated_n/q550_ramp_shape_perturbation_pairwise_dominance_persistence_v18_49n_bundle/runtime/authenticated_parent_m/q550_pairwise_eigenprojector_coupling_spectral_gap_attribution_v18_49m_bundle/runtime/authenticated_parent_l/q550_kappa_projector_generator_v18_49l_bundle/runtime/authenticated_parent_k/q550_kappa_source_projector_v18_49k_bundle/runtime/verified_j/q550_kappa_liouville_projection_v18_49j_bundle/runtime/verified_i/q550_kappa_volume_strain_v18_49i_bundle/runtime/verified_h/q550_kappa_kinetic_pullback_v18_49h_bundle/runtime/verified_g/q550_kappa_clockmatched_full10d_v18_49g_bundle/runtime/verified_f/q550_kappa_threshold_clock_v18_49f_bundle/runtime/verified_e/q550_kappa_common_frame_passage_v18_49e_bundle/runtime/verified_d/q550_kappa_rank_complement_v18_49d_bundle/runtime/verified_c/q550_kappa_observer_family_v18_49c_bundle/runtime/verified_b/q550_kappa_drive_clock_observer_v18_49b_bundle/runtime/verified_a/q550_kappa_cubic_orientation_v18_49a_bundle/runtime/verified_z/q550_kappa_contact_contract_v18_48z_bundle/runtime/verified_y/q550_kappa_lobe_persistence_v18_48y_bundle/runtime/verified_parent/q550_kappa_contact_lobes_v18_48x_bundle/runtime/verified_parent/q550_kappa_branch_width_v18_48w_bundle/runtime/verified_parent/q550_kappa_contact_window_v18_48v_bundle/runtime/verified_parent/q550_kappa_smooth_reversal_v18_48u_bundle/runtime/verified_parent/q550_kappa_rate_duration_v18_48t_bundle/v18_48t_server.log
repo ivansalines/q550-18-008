@@ -1,0 +1,37 @@
+test_alpha_invalid (test_protocol_math.ProtocolMathTests.test_alpha_invalid) ... ok
+test_contiguous_support (test_protocol_math.ProtocolMathTests.test_contiguous_support) ... ok
+test_flip_symmetric_energy_preparation (test_protocol_math.ProtocolMathTests.test_flip_symmetric_energy_preparation) ... ok
+test_half_flip_zeros_only_material_velocities (test_protocol_math.ProtocolMathTests.test_half_flip_zeros_only_material_velocities) ... ok
+test_no_common_phase_rejected (test_protocol_math.ProtocolMathTests.test_no_common_phase_rejected) ... ok
+test_nontrivial_common_phase (test_protocol_math.ProtocolMathTests.test_nontrivial_common_phase) ... ok
+test_phase_closed_exact (test_protocol_math.ProtocolMathTests.test_phase_closed_exact) ... ok
+test_rate_and_duration_separable (test_protocol_math.ProtocolMathTests.test_rate_and_duration_separable) ... ok
+test_seven_independent_designs (test_protocol_math.ProtocolMathTests.test_seven_independent_designs) ... ok
+test_signed_power (test_protocol_math.ProtocolMathTests.test_signed_power) ... ok
+test_threshold_persistence (test_protocol_math.ProtocolMathTests.test_threshold_persistence) ... ok
+test_velocity_scaling_endpoints (test_protocol_math.ProtocolMathTests.test_velocity_scaling_endpoints) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.008s
+
+OK
+v18.48t group phaseblind_d2_lam-1.00_mod+0.00 0 autonomous finished; historical regression 3.363e-13
+v18.48t group phaseblind_d2_lam-1.00_mod+0.00 0 original finished; historical regression 3.370e-13
+v18.48t group phaseblind_d2_lam-1.00_mod+0.00 1 autonomous finished; historical regression 5.395e-12
+v18.48t group phaseblind_d2_lam-1.00_mod+0.00 1 original finished; historical regression 4.873e-12
+v18.48t group phasecov_d2_lam-1.00_mod+0.00 0 autonomous finished; historical regression 1.467e-11
+v18.48t group phasecov_d2_lam-1.00_mod+0.00 0 original finished; historical regression 1.468e-11
+v18.48t group phasecov_d2_lam-1.00_mod+0.00 1 autonomous finished; historical regression 4.755e-12
+v18.48t group phasecov_d2_lam-1.00_mod+0.00 1 original finished; historical regression 4.741e-12
+AUDIT REPORT {
+  "status": "complete",
+  "genuine_11D_integrations": 288,
+  "same_external_phase_minima": 280,
+  "common_phase_profile_points": 22680,
+  "minima_drive_power_opposite_signs": 196,
+  "min_3D_gap": 0.0004389088178981768,
+  "max_reverse_ledger_relative_residual": 6.1096960823903146e-15,
+  "max_phase_locked_ledger_absolute_residual": 1.8455896533264848e-13
+}
+PASS v18.48t output gates: 280 controls; 22680 matched-phase profile points; complete
+PLOTS: four v18.48t original-data figures

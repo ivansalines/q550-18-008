@@ -1,0 +1,10 @@
+{
+  "version": "v18.48w",
+  "files": {
+    "inputs/v18_48v_original_server_sendback.zip": "f34803bb28b840bd5930e46f42a7b93a39508f0b829b449302bff10b2e9a63a6",
+    "reference/physical_math.py": "a2e08b061c01bec726012578e006851a07dc24741001c1b6c5ae4633c881e49c",
+    "reference/transversality_math.py": "ff3a6192d97a13714c463be049919fb79d95e1f6fb8f802f35da28d1d99c99c4",
+    "reference/original_drive_math.py": "86a9069043bc1857b66a10292e0eea1fb22f72e8227bfd7641f7fa3bdc055eca",
+    "reference/parent_ramp_math.py": "a3233b397efae4c0648db780468f5afd731368a14ec21174045fd31c9855e6c9"
+  }
+}

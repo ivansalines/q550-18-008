@@ -1,0 +1,64 @@
+{
+  "version": "v18.48m",
+  "classification": "AUTHENTICATED_NUMERICAL_SUBSPACE_INTERSECTION_DIAGNOSTIC",
+  "original_states": 328,
+  "original_physical_trajectories": 8,
+  "new_integrations": 0,
+  "source_cutoffs": [
+    0.0001,
+    1e-06,
+    1e-08,
+    1e-10,
+    1e-12
+  ],
+  "cancellation_cutoffs": [
+    0.001,
+    0.01,
+    0.05
+  ],
+  "input_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+  "provenance": {
+    "parent_zip_sha256": "8bcd3fadcd66d62f8b571acb613d0dc09e658437cf4236d35727adef174b4a85",
+    "parent_verified_members": 27,
+    "nested_v18_48j": {
+      "v18_48j_server_sha256": "76db46b8972723511b60c4d910966b2edc3794c2b2a2764c37846eaacc1d1fa5",
+      "v18_48j_manifest_members": 25,
+      "nested": {
+        "archive_i_sha256": "e351f04ea354d28a027a0af398fa2c56aaa1ab804d5a735d153ec5da67736321",
+        "archive_i_verified_members": 29,
+        "archive_h_sha256": "7b5d66f94626eff99afab32df826eb3b2adeffe54a3957f278c368cf40060533",
+        "archive_h_verified_members": 40,
+        "physical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+        "report_h_sha256": "431f0a24ebb2ceaaf253726393fefa9ca0a8c48b6d7a4c1d0ba7c139b0997fb1",
+        "historical_source_sha256": {
+          "structural_jet.py": "8221474a1213301af3c7395a624d10d3f0c7730893ecf5165b05039ba2cabb01",
+          "test_support_mobius_monodromy_audit.py": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864",
+          "generated_base_jet.py": "43e0c0b075876d55d4c08caabfde28b38b943d689ece024451806e81067611f3",
+          "factorial_math.py": "4c5de14753546fa21ab106b6ed9b37f4f766a93668bafae90bef708731949206"
+        }
+      },
+      "physical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a"
+    },
+    "physical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a"
+  },
+  "rows_atlas": 4920,
+  "rows_steps": 4800,
+  "rows_projection": 26064,
+  "adjacent_max_projector_gap": 1.0000000000000007,
+  "rank_changes_total": 118,
+  "projection_artifact_candidates": 1490,
+  "reference_fixed_source_1e_6_cancel_1e_2": {
+    "comparisons": 320,
+    "rank_changes": 0,
+    "active_intersection_candidates": 0,
+    "median_projector_gap": 0.05799282869694078
+  },
+  "warnings": [
+    "All subspaces defined by numerical relative cutoffs, not exact ranks.",
+    "A principal angle near zero is a numerical proximity signal, not a proof of exact shared vectors.",
+    "Projected 2D overlaps can be false intersections in 10D.",
+    "Dimension-forced intersection is distinguished from near cancellation and requires source activity.",
+    "Frozen normalized ten-dimensional covector chart: no physical observer adjoint transport performed.",
+    "Input physical paths come from v18.48h and are float64 Q550 states; no new Q550 integrations."
+  ]
+}

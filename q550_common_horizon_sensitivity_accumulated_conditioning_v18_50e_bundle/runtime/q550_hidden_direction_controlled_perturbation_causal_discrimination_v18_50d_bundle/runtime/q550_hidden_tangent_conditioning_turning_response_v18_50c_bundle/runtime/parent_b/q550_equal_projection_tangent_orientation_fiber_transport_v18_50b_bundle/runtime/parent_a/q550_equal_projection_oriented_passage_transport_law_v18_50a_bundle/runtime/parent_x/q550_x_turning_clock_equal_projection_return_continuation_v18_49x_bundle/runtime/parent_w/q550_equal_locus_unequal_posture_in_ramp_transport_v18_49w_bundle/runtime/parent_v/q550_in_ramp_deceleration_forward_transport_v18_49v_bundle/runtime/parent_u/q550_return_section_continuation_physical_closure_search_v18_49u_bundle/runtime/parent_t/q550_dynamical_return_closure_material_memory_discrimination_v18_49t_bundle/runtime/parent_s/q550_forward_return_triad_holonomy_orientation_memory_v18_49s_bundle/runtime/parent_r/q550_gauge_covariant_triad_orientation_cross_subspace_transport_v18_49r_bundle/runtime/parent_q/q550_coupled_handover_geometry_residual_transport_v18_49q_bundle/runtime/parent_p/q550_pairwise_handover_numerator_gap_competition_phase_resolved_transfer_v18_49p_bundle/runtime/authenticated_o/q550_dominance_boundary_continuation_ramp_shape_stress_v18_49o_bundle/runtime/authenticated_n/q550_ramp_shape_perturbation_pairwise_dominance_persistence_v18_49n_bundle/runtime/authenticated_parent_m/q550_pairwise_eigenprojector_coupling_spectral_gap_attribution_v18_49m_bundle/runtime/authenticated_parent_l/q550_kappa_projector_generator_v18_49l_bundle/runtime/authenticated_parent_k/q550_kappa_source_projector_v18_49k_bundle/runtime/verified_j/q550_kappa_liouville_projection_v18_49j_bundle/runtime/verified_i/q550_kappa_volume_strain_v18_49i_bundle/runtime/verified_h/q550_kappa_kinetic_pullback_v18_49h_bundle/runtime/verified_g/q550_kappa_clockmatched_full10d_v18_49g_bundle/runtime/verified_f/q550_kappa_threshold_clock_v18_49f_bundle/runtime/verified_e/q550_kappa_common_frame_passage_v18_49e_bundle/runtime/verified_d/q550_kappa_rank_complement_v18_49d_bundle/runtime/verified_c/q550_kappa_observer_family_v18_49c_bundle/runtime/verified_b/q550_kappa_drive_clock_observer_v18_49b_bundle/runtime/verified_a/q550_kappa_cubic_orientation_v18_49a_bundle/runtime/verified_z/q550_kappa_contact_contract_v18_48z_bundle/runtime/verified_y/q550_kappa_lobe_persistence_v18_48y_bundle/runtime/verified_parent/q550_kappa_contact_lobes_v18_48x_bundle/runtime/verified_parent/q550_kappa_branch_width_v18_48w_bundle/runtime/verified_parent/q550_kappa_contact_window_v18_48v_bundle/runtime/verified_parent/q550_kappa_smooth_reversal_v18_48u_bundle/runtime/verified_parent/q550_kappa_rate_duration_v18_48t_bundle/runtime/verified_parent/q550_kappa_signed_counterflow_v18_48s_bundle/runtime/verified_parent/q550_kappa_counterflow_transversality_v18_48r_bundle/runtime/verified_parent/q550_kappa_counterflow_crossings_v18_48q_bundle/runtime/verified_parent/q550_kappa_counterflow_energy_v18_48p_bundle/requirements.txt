@@ -1,0 +1,4 @@
+# Runtime requirements: Python 3.13 (Python >=3.11 should work)
+numpy
+scipy
+matplotlib

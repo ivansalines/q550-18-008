@@ -1,0 +1,29 @@
+{
+  "version": "v18.50b",
+  "root": "q550_equal_projection_tangent_orientation_fiber_transport_v18_50b_bundle",
+  "files": {
+    "README.md": "a1e7ab247f7fa0cd8e2d7bf329f8d7c24a38f6edbb12fac050b618755ec27a8b",
+    "SCIENTIFIC_DECISION_RULES.md": "011d9b987c0b5262328252b910c0bfb54fbab1406a1d10d053bf66ee9c25e847",
+    "SCIENTIFIC_REPORT.md": "1a5ad29fd633abac4ddf239d4aaacfb09dfda9faa6480f8f2a82fa2886a2228e",
+    "inputs/SOURCE_PINS.json": "daa07ad0c5f9f1c9f49a6be7e546e0593e4be0a3a0ceca39387edf98ab153444",
+    "inputs/q550_equal_projection_oriented_passage_transport_law_v18_50a_authenticated_server_sendback.zip": "9a6eb39811a27ad37989c9fb503eb98bedc93ab9c0d6652c6a8fd41c2357f345",
+    "requirements.txt": "fc427f96792059ce540ca8adc5b06cdd1692436654fc3569648ef0d16fc4577b",
+    "results/case_summary.csv": "5c28907b456c8df27653c1db2edafdf2e8b7594ac090a5f8a68e5e05151ea4e0",
+    "results/environment.json": "acc0761e8607afbd093f93249873d99b4ba956174bc5e2feb1e522d08eb0cd7e",
+    "results/equal_projection_tangent_pairs.csv": "1d0b6d0c3d4e43534132d33b2380621b8bbd91f056eb5af95fe595135d056438",
+    "results/equal_x_tangent_orientation.png": "d387937368c1c234b33a54f0f4408ba14a732d99bab06ee80f9d7f8eefc1056c",
+    "results/hidden_tangent_during_passage.png": "c8dd83748cee4782f6a6ae899c88faa00a35f354cf5edee2bc0f60ebf0f45813",
+    "results/report.json": "d23c3f6ad0efd6450a6f5e689595d62f479ef17de83c97abd64db379cbba625e",
+    "results/selected_equal_projection_crossing.png": "5a85343298d4d84cf4290eaa169d5ac9e308c8e1d1bcb0e7396d6953380a5d5d",
+    "results/tangent_metric_sensitivity.png": "8534af118173e20630322a66ab4c8a74ec12cdce207adc45c01acd72ade2dcbe",
+    "results/tangent_trace_selected.csv": "f51fb04bc5b8a26de8e421d7be1d397cfd8ea3dc2f47ba33676e6cf6e7067ffc",
+    "run_on_server.sh": "c366d9448e2190dd9d472257c5dffd519571fa1ae63922b1fdfbdba4ebba7996",
+    "scripts/generate_report.py": "90be759726337d6cbd09445bbda14881014cca9d95c45141d5f957804a4624d8",
+    "scripts/pack_sendback.py": "c21b65bd6598b837186e38b02719fe0f68781408465c8b757757fb4e40bee795",
+    "scripts/plot_results.py": "a1902f1652f951b3e19495e0451e1f6e3ae0461b0bb2657b5dbdf76a246e59d8",
+    "scripts/run_audit.py": "a644671e51909880fa67e05480bb697bd8e1359bd1ab0db2cc8460e518cd918a",
+    "scripts/tangent_math.py": "abb03be09ac2912b4cacc2ce2f44dae268dd597834b0f58282381e626794e84d",
+    "scripts/verify_parent_a.py": "73652cdfdbad133c756942b0520b46a09a6724666555cb78d05987a5138777f4",
+    "tests/test_tangent_math.py": "f52916e684559ae648ae707d6816f973d5b2a5bd391b589721e7e7c6296d90e9"
+  }
+}

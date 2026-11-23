@@ -1,0 +1,113 @@
+{
+  "version": "v18.48o",
+  "title": "Co-Moving Phase Delay & Impulse-Robust Transport Audit",
+  "classification": "AUTHENTICATED_DISCRETE_CO_MOVING_GAUGE_AND_IMPULSE_SENSITIVITY_DIAGNOSTIC",
+  "original_11D_states": 328,
+  "original_forward_11D_paths": 8,
+  "new_11D_integrations": 0,
+  "states_by_cutoffs": 656,
+  "steps_by_cutoffs": 640,
+  "lag_case_records": 1584,
+  "lag_full_records": 1872,
+  "impulse_stability_groups": 144,
+  "source_cutoffs": [
+    1e-06,
+    1e-10
+  ],
+  "cancellation_cutoff": 0.01,
+  "max_lag_steps": 6,
+  "pulse_radius_intervals": 1,
+  "events_per_signal": 4,
+  "xi_step": 0.025,
+  "phase_clock_rad_per_xi": 0.844357915384206,
+  "source_physical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+  "provenance": {
+    "v18_48n_sha256": "59b27532ebc698da7d37416f5e4ead6da71def116ec6af215febf185d286ebb8",
+    "parent_manifest_members": 26,
+    "ancestry": {
+      "v18_48m_server_sha256": "6bdf62e62bf63c1fcd94abe1130828d68ea829ce8cbd0c08ab24c83ca0ddaa1f",
+      "parent_manifest_members": 29,
+      "v18_48m_original_report": "AUTHENTICATED_NUMERICAL_SUBSPACE_INTERSECTION_DIAGNOSTIC",
+      "ancestry": {
+        "parent_zip_sha256": "8bcd3fadcd66d62f8b571acb613d0dc09e658437cf4236d35727adef174b4a85",
+        "parent_verified_members": 27,
+        "nested_v18_48j": {
+          "v18_48j_server_sha256": "76db46b8972723511b60c4d910966b2edc3794c2b2a2764c37846eaacc1d1fa5",
+          "v18_48j_manifest_members": 25,
+          "nested": {
+            "archive_i_sha256": "e351f04ea354d28a027a0af398fa2c56aaa1ab804d5a735d153ec5da67736321",
+            "archive_i_verified_members": 29,
+            "archive_h_sha256": "7b5d66f94626eff99afab32df826eb3b2adeffe54a3957f278c368cf40060533",
+            "archive_h_verified_members": 40,
+            "physical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+            "report_h_sha256": "431f0a24ebb2ceaaf253726393fefa9ca0a8c48b6d7a4c1d0ba7c139b0997fb1",
+            "historical_source_sha256": {
+              "structural_jet.py": "8221474a1213301af3c7395a624d10d3f0c7730893ecf5165b05039ba2cabb01",
+              "test_support_mobius_monodromy_audit.py": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864",
+              "generated_base_jet.py": "43e0c0b075876d55d4c08caabfde28b38b943d689ece024451806e81067611f3",
+              "factorial_math.py": "4c5de14753546fa21ab106b6ed9b37f4f766a93668bafae90bef708731949206"
+            }
+          },
+          "physical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a"
+        },
+        "physical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a"
+      },
+      "physical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a"
+    },
+    "physical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a"
+  },
+  "regression_max_relative_original_v18_48n_historical_R": 0.0,
+  "regression_max_relative_original_v18_48n_steps": 0.0,
+  "coframe_quality": {
+    "max_step_line_error": 7.304730855764489e-16,
+    "max_orthogonality_error": 1.5621142160811025e-14,
+    "max_line_tracking_error": 5.124874760929403e-15
+  },
+  "reference_phasecov_branch0_original_cutoff_1em6_comoving_abs_logR": {
+    "family": "phasecov_d2_lam-1.00_mod+0.00",
+    "branch": 0,
+    "kappa": "original",
+    "source_cutoff": 1e-06,
+    "driver": "comoving_projector",
+    "response": "abs_logR_rate",
+    "full_lag_steps": 2,
+    "full_lag_xi": 0.05,
+    "full_correlation": 0.5832983224464907,
+    "full_cyclic_shift_exceedance": 0.025,
+    "eligible_leave_one_events": 8,
+    "unchanged_lag_after_leave_one": 6,
+    "unchanged_fraction": 0.75,
+    "unchanged_correlation_sign": 8,
+    "retained_event_lags": "2;1;2;2;1;2;2;2",
+    "interior80_lag": 1,
+    "interior60_lag": 1
+  },
+  "reference_phasecov_branch0_original_cutoff_1em6_raw_abs_logR": {
+    "family": "phasecov_d2_lam-1.00_mod+0.00",
+    "branch": 0,
+    "kappa": "original",
+    "source_cutoff": 1e-06,
+    "driver": "raw_projector",
+    "response": "abs_logR_rate",
+    "full_lag_steps": 2,
+    "full_lag_xi": 0.05,
+    "full_correlation": 0.5832982035757919,
+    "full_cyclic_shift_exceedance": 0.025,
+    "eligible_leave_one_events": 8,
+    "unchanged_lag_after_leave_one": 6,
+    "unchanged_fraction": 0.75,
+    "unchanged_correlation_sign": 8,
+    "retained_event_lags": "2;1;2;2;1;2;2;2",
+    "interior80_lag": 1,
+    "interior60_lag": 1
+  },
+  "scientific_limits": [
+    "The discrete minimal-turn observer frame is a chosen Euclidean chart gauge, NOT the full physical 11D variational or adjoint propagator.",
+    "Historical observed covectors were authentically integrated forward in v18.48h; they are projected to the frozen 10D chart.",
+    "Phase-lag statistics are conditional correlations of a short deterministic signal; they are not a causal response delay.",
+    "The signed logR derivative records increase/decrease of a mathematical cancellation ratio, not physical energy direction.",
+    "Driver and response are evaluated on the same 40 fixed intervals; impulse masks preserve timeline indices.",
+    "Cancellation subspaces depend on source and cancellation thresholds; coframe is nonunique beyond its observer-line parallelism.",
+    "No reverse physical trajectory, energetic balance, dissipation theorem, or invariant material phase-lag is established."
+  ]
+}

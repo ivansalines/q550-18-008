@@ -1,0 +1,33 @@
+{
+  "version": "v18.49i",
+  "status": "AUTHENTIC_MATERIAL_VOLUME_AND_PRINCIPAL_STRAIN_DIAGNOSTIC",
+  "files": {
+    "README.md": "0134b8717cd021b3125562ed21350fb1cd31b94b2982d959301b064a74a6e824",
+    "SCIENTIFIC_DECISION_RULES.md": "31c092cbe3c26cabbd501a09b37bf1d5b265e17fd079ea9146a5c4201eafb87f",
+    "inputs/SOURCE_PINS.json": "cdb6d847f59f692e43c7fbaacf53f43344354266bbd4263c104300b605016ad9",
+    "inputs/v18_49h_original_server_sendback.zip": "e07b9123340f6aefa6d51a27001fdf10697ea5b132a4d43505f097b93bb57f85",
+    "requirements.txt": "9f601156e61998401dd0dd6257b96fc64382127f38995cb3f99922d5d3f89279",
+    "results/all_ten_principal_stretches.csv": "d751ad29cbcb6561f20f5558bd4dcad8531064b9a90f7fb44cbaa36b219d3241",
+    "results/environment.json": "acc0761e8607afbd093f93249873d99b4ba956174bc5e2feb1e522d08eb0cd7e",
+    "results/liouville_volume_identity.csv": "964aa6f55429881557e80e0dc677c4d0635c6f85284cff55b4e015edc470ab29",
+    "results/principal_axes_common_frame.npz": "e567bde8143532b406d36cea01fdaf4aafd1e9ce3d849ade38ca4bd2bc6c373c",
+    "results/principal_axis_rotation.png": "6ea00f190643332a0e64c9cabccb197d082b66d5a500af7ad6cb733ac632b1f9",
+    "results/principal_strain_and_gap.png": "ab30aea39f933b64355bcf3cce10a4ac95603c28fcc79193ccae6e5008561fb9",
+    "results/report.json": "e8adc0e581b977559dedf6b2ccba5d454d2405c09dc75d1ebe03e9fcb1018ae5",
+    "results/strain_axes_phase_profiles.csv": "07091067ef3458ff5ed88b653830c3367f86815991e3395cc684fd81381701b5",
+    "results/strain_axis_vs_direction_tangent.png": "0f3c3c0fe1dff1b32da98bd7571b50c904fb7ffd056d0ad49179a2de6d7f9736",
+    "results/strain_axis_vs_material_curvature.csv": "83884cf2e2400c60d3f84da272605e9f63cc1e1a82e496c438785928a4ebec6e",
+    "results/volume_and_liouville.png": "48faf40794bbeb941b92762e379abcbc9c12d024172fab61abde6df2e2dfeab4",
+    "run_on_server.sh": "554937364cbd7b28812f6138aaf10fbfa0ebb94bda556f4e0b6e60f3c3e64159",
+    "scripts/check_outputs.py": "982f106b9f48ce9df3de494ed7469b23da3e1526bd08b14ed70d1d55db269bea",
+    "scripts/curvature_math.py": "12b5a559e29f1479acdd93ba4f98081a5f651977ca1bfc6b67be9d7ae5e7f212",
+    "scripts/frame_math.py": "5c6ca6b5e41b3fbb8cf67333e51ed3caf2c81fa495f96801f8226170bd8f1b72",
+    "scripts/kinetic_metric.py": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+    "scripts/pack_sendback.py": "cbc89414084df77633f5c7bf37e6aba06730ad7a8528ad9af2711c89089dfd9a",
+    "scripts/plot_results.py": "d6d1cefcbfaf690c9196f2f4304cc5771c4952a7d9921e87381e51583fc01307",
+    "scripts/run_audit.py": "e10813d4aad8337d01bb3ef5400e5f5a695a472e33543d4dda947a98c1fe3559",
+    "scripts/strain_math.py": "b017c4e5876fd795880072d11562351da9a8506b052623feffba5ee02b1442e4",
+    "scripts/verify_parent.py": "49673480cbafa819333cf03aa47ead577feb0193bea8e49485514eccb162c38b",
+    "tests/test_strain_math.py": "72fcda993a317c04a28856db1ef40184ef1507c877930a72f78fa98981f21cd4"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "version": "v18.49l",
+  "classification": "AUTHENTIC_Q550_COVARIANT_TENSOR_DIAGNOSTIC_NOT_METRIC_UNIVERSAL_CERTIFICATE",
+  "upstream": {
+    "parent_version": "v18.49k",
+    "parent_sha256": "db657e1143d61ce8b0a9e0beaeae48b97ae98e101bdfb55ca0ba7dc423174d77",
+    "parent_members": 32,
+    "ancestry_to_v18_48j": true,
+    "historical_parent_record": {
+      "source_j_sha256": "06cde264651bb9b1fec875b2344e6b71af1fd270ee75c163c43f245ad921a148",
+      "source_j_members": 29,
+      "ancestry_to_v18_48j": true
+    }
+  },
+  "kinetic_tau": 1.0,
+  "phase_interval": [
+    0.35,
+    0.65
+  ],
+  "phase_grid_points": 121,
+  "kappas": {
+    "original": 0.16666666666666666,
+    "autonomous": 0.16659961041764054
+  },
+  "ramp_set": [
+    0.285,
+    0.292,
+    0.296333,
+    0.3,
+    0.305,
+    0.309
+  ],
+  "physical_integrations": 14,
+  "tangent_frame_integrations": 12,
+  "minimum_relative_eigen_gap": 0.08460498003944739,
+  "test_max_errors": {
+    "forward_regression": 3.424991987393049e-13,
+    "log_volume_vs_parent": 0.0,
+    "generator_vs_fd_projector": 0.007112232177793665,
+    "generator_vs_parent_speed": 0.006576633471948146,
+    "occupation_vs_parent": 8.881784197001252e-16,
+    "projector_closure": 1.7763568394002505e-15,
+    "strain_logvolume_identity": 1.554312234475219e-14,
+    "c_rate_vs_finite_difference": 3.634319171174978e-05,
+    "sigma_rate_vs_finite_difference": 0.00014623363304233639,
+    "source_vs_material_volume_rate": 2.2068147309539654e-10,
+    "projector_rate_vs_fd": 0.009583572126175,
+    "fixed_orthogonal_gauge": 9.810450829128937e-14
+  },
+  "case_summary": [
+    {
+      "kappa_kind": "original",
+      "ramp_xi": 0.285,
+      "generator_norm_at_q050": 5.494870401079243,
+      "strain_lograte_norm_at_q050": 0.9684975956908877,
+      "generator_norm_mean_q035_to_065": 6.4717413244402335,
+      "strain_lograte_norm_mean_q035_to_065": 1.0503256468966573,
+      "offdiag_strain_fraction_mean": 0.9673126940797347,
+      "log_volume_rate_at_q050": -1.5077968148689158,
+      "min_relative_eigengap": 0.10181677484248212
+    },
+    {
+      "kappa_kind": "original",
+      "ramp_xi": 0.292,
+      "generator_norm_at_q050": 5.551065946832114,
+      "strain_lograte_norm_at_q050": 0.9857139919256326,
+      "generator_norm_mean_q035_to_065": 6.727763477836118,
+      "strain_lograte_norm_mean_q035_to_065": 1.058583326826906,
+      "offdiag_strain_fraction_mean": 0.9686156703733274,
+      "log_volume_rate_at_q050": -1.5079709448461194,
+      "min_relative_eigengap": 0.09803195110307016
+    },
+    {
+      "kappa_kind": "original",
+      "ramp_xi": 0.296333,
+      "generator_norm_at_q050": 5.590208225223688,
+      "strain_lograte_norm_at_q050": 0.9972230456129375,
+      "generator_norm_mean_q035_to_065": 6.8974890905363955,
+      "strain_lograte_norm_mean_q035_to_065": 1.0642686174083171,
+      "offdiag_strain_fraction_mean": 0.9693318523312844,
+      "log_volume_rate_at_q050": -1.50807725611181,
+      "min_relative_eigengap": 0.09522615629133166
+    },
+    {
+      "kappa_kind": "original",
+      "ramp_xi": 0.3,
+      "generator_norm_at_q050": 5.626432736763278,
+      "strain_lograte_norm_at_q050": 1.007450955075961,
+      "generator_norm_mean_q035_to_065": 7.046515794763598,
+      "strain_lograte_norm_mean_q035_to_065": 1.0694468404271547,
+      "offdiag_strain_fraction_mean": 0.9698861439646911,
+      "log_volume_rate_at_q050": -1.5081663316269234,
+      "min_relative_eigengap": 0.09254783477131304
+    },
+    {
+      "kappa_kind": "original",
+      "ramp_xi": 0.305,
+      "generator_norm_at_q050": 5.681121588819321,
+      "strain_lograte_norm_at_q050": 1.0220881254687795,
+      "generator_norm_mean_q035_to_065": 7.255778937860732,
+      "strain_lograte_norm_mean_q035_to_065": 1.0770891978160235,
+      "offdiag_strain_fraction_mean": 0.9705682791028993,
+      "log_volume_rate_at_q050": -1.5082864470148118,
+      "min_relative_eigengap": 0.08842442435468896
+    },
+    {
+      "kappa_kind": "original",
+      "ramp_xi": 0.309,
+      "generator_norm_at_q050": 5.729921456392177,
+      "strain_lograte_norm_at_q050": 1.0343467483066087,
+      "generator_norm_mean_q035_to_065": 7.426918766222826,
+      "strain_lograte_norm_mean_q035_to_065": 1.0837200613677225,
+      "offdiag_strain_fraction_mean": 0.9710552490755715,
+      "log_volume_rate_at_q050": -1.5083814126714854,
+      "min_relative_eigengap": 0.08472820406604305
+    },
+    {
+      "kappa_kind": "autonomous",
+      "ramp_xi": 0.285,
+      "generator_norm_at_q050": 5.496445216504194,
+      "strain_lograte_norm_at_q050": 0.969207476726914,
+      "generator_norm_mean_q035_to_065": 6.4772923762335175,
+      "strain_lograte_norm_mean_q035_to_065": 1.050805357052477,
+      "offdiag_strain_fraction_mean": 0.9673026293772294,
+      "log_volume_rate_at_q050": -1.5077971543755386,
+      "min_relative_eigengap": 0.10175719043502487
+    },
+    {
+      "kappa_kind": "autonomous",
+      "ramp_xi": 0.292,
+      "generator_norm_at_q050": 5.552612977028153,
+      "strain_lograte_norm_at_q050": 0.9864525035066934,
+      "generator_norm_mean_q035_to_065": 6.73388400293076,
+      "strain_lograte_norm_mean_q035_to_065": 1.059079281549397,
+      "offdiag_strain_fraction_mean": 0.9686039396227589,
+      "log_volume_rate_at_q050": -1.5079713181814502,
+      "min_relative_eigengap": 0.09795646204787775
+    },
+    {
+      "kappa_kind": "autonomous",
+      "ramp_xi": 0.296333,
+      "generator_norm_at_q050": 5.5917566644579155,
+      "strain_lograte_norm_at_q050": 0.9979777386168861,
+      "generator_norm_mean_q035_to_065": 6.903924996555838,
+      "strain_lograte_norm_mean_q035_to_065": 1.064775236296726,
+      "offdiag_strain_fraction_mean": 0.9693191474836271,
+      "log_volume_rate_at_q050": -1.5080776511106198,
+      "min_relative_eigengap": 0.0951394148549276
+    },
+    {
+      "kappa_kind": "autonomous",
+      "ramp_xi": 0.3,
+      "generator_norm_at_q050": 5.627995402278024,
+      "strain_lograte_norm_at_q050": 1.0082183796076112,
+      "generator_norm_mean_q035_to_065": 7.053184753479836,
+      "strain_lograte_norm_mean_q035_to_065": 1.0699630973063596,
+      "offdiag_strain_fraction_mean": 0.9698726490138481,
+      "log_volume_rate_at_q050": -1.5081667451762777,
+      "min_relative_eigengap": 0.09245088849698822
+    },
+    {
+      "kappa_kind": "autonomous",
+      "ramp_xi": 0.305,
+      "generator_norm_at_q050": 5.682725618272523,
+      "strain_lograte_norm_at_q050": 1.0228714369423164,
+      "generator_norm_mean_q035_to_065": 7.262709961316764,
+      "strain_lograte_norm_mean_q035_to_065": 1.0776196930610011,
+      "offdiag_strain_fraction_mean": 0.9705537583825278,
+      "log_volume_rate_at_q050": -1.508286886653015,
+      "min_relative_eigengap": 0.08831292950152948
+    },
+    {
+      "kappa_kind": "autonomous",
+      "ramp_xi": 0.309,
+      "generator_norm_at_q050": 5.731579261565692,
+      "strain_lograte_norm_at_q050": 1.0351415061377547,
+      "generator_norm_mean_q035_to_065": 7.4340200583414955,
+      "strain_lograte_norm_mean_q035_to_065": 1.0842628560319894,
+      "offdiag_strain_fraction_mean": 0.971039952291753,
+      "log_volume_rate_at_q050": -1.5083818736710235,
+      "min_relative_eigengap": 0.08460498003944739
+    }
+  ],
+  "scientific_limits": [
+    "Generator is covariant under constant orthogonal gauge in the declared kinetic embedding.",
+    "Time-dependent gauge rotations require a connection term; naive derivatives do not transform tensorially.",
+    "Changing the kinetic scale or metric changes strain and generator values.",
+    "Finite-difference direction between paths is not a nonlinear covariant separation vector.",
+    "No causality, conservation, physical energy transfer, holonomy, or coordinate-free absolute rotation is claimed."
+  ]
+}

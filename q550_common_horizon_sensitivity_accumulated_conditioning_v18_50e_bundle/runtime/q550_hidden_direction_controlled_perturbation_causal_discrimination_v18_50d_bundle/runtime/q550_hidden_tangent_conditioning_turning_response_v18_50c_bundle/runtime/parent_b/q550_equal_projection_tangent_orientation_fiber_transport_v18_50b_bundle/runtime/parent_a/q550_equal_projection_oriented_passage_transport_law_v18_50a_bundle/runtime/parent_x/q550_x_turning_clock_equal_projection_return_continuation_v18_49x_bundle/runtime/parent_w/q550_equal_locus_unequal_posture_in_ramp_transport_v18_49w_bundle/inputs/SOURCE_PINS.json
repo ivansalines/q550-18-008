@@ -1,0 +1,8 @@
+{
+  "parent_file": "q550_in_ramp_deceleration_forward_transport_v18_49v_authenticated_server_sendback.zip",
+  "parent_sha256": "b84377c3734de22e71a470a64b4feb0a34148edea9ae5f9c2010ea6ffe5565af",
+  "parent_version": "v18.49v",
+  "parent_root": "q550_in_ramp_deceleration_forward_transport_v18_49v_bundle",
+  "parent_manifest_entries": 27,
+  "parent_status": "IN_RAMP_PHYSICAL_TRANSPORT_MEASURED_NOT_MATERIAL_MEMORY_CERTIFICATE"
+}

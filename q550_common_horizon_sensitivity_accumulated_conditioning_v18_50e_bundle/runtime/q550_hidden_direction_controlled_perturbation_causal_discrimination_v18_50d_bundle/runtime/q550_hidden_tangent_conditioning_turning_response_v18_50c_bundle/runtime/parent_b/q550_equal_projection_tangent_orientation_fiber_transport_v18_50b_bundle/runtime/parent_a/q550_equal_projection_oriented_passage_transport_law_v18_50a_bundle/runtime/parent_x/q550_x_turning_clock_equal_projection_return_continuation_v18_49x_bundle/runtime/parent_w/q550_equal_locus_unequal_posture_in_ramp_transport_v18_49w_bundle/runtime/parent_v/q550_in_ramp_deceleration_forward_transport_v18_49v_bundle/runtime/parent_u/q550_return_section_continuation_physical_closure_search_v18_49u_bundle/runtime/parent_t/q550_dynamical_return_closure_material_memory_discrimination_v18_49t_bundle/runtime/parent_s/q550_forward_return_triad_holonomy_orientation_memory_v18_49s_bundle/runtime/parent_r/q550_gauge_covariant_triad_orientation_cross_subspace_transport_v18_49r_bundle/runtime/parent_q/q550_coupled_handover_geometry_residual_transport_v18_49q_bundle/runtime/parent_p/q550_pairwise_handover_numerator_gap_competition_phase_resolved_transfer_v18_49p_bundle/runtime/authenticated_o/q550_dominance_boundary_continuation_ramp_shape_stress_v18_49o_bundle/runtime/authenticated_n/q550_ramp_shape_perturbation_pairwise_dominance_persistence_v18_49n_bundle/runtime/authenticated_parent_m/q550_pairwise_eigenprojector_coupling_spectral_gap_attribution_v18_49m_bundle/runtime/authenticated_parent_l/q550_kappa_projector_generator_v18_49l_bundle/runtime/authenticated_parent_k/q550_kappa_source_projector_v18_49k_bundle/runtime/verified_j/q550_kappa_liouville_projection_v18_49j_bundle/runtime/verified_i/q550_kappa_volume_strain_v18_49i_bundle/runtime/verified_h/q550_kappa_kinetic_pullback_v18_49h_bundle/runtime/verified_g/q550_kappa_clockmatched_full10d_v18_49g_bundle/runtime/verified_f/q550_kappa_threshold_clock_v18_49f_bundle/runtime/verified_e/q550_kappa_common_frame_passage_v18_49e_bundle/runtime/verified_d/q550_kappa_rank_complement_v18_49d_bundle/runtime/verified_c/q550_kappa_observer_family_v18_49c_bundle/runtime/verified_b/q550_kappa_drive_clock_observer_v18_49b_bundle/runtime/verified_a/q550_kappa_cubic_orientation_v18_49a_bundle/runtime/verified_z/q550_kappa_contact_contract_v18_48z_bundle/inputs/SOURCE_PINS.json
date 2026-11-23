@@ -1,0 +1,19 @@
+{
+  "origin": "exact user server upload: sendback(20261027-110331).zip",
+  "files": {
+    "inputs/v18_48y_barrier_height_curvature.csv": "05a91f48d726a1cce39d770842326b92ae13568579416b5291a63ccbef68fab7",
+    "inputs/v18_48y_critical_threshold_curve.csv": "54cee6330305703059522b6b06837511de43b079d5479c625f9a4a24be3b9833",
+    "inputs/v18_48y_dense_contact_profiles.csv": "bac7bade913228235898e509f21ed7527385ea77d699ee078973f6139c79402f",
+    "inputs/v18_48y_original_server_sendback.zip": "7134cbc160e07f3383151e02fecccb53fcdb3549a61cf4b5f11ea38b102846ec",
+    "inputs/v18_48y_quadratic_gap_scaling_check.csv": "84f0a4815d01816cc5876c54faeb81ab41a43e944cedb90b98b6404687fe426e",
+    "inputs/v18_48y_report.json": "6c6f1c7a09a265bc6c9c3ba2f5d326ac88d13c36fb25b07e74acadd30858a03e",
+    "inputs/v18_48y_threshold_persistence_components.csv": "de3e9f565ee32c862f76ba12542065d1027d45e7f0f64cfa0b14cb949358218d",
+    "reference/check_quadratic_gap.py": "a7f8aac62351feeca028308c02e8426f3e4b3c2a537e9d7f510c99181f1057a9",
+    "reference/parent_lobe_math.py": "0d07dc7df1d2799ac22cd6eed140b276a9fc7162732492937383534700950fe2",
+    "reference/parent_ramp_math.py": "a3233b397efae4c0648db780468f5afd731368a14ec21174045fd31c9855e6c9",
+    "reference/persistence_math.py": "8f780107343e87edad50812ec86ac59a52f5f566ba4421450a6652551691e286",
+    "reference/physical_math.py": "a2e08b061c01bec726012578e006851a07dc24741001c1b6c5ae4633c881e49c",
+    "reference/transversality_math.py": "ff3a6192d97a13714c463be049919fb79d95e1f6fb8f802f35da28d1d99c99c4",
+    "reference/y_original_run_audit.py": "03cbcfbe5ea6bf64338b4e6648b15db2b827b69b932fa3384df7e5be57f57af4"
+  }
+}

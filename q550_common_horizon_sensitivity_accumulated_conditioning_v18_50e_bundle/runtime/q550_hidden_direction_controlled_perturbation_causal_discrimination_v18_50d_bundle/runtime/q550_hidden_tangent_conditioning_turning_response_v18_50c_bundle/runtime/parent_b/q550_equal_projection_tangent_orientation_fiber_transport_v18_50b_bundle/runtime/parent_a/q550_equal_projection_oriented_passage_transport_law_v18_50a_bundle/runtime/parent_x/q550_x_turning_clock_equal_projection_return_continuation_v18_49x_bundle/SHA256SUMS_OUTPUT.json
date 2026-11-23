@@ -1,0 +1,33 @@
+{
+  "version": "v18.49x",
+  "root": "q550_x_turning_clock_equal_projection_return_continuation_v18_49x_bundle",
+  "files": {
+    "README.md": "cbf8e243fabef7a56506a893d91d1207992416a902115f8fc5070bd8db9f2e08",
+    "SCIENTIFIC_DECISION_RULES.md": "2414853d309c70e36f219d2f299263f7485d158f3d4c76301817593d74690e05",
+    "SCIENTIFIC_REPORT.md": "7b268d6d702188b96855011dadbab687b32cde8e28a67d74d18c92c9b7857320",
+    "inputs/SOURCE_PINS.json": "0d9e66f98b28d13098d15b5865e96382d904041b3f0fe49ddc25331bbf5e5aae",
+    "inputs/q550_equal_locus_unequal_posture_in_ramp_transport_v18_49w_authenticated_server_sendback.zip": "2a60508315204df809bd8ac280e57882e13bf67e5de0339087d950079965edd0",
+    "requirements.txt": "fc427f96792059ce540ca8adc5b06cdd1692436654fc3569648ef0d16fc4577b",
+    "results/environment.json": "acc0761e8607afbd093f93249873d99b4ba956174bc5e2feb1e522d08eb0cd7e",
+    "results/equal_projection_return_pairs.csv": "4c2a5b2fd95eff41ada18c9c0ff294d063614707e076a90d1d1b0b18fb805d3f",
+    "results/equal_x_posture_and_projector_gap.png": "c579f76f41e634278245addc3d863ed1df0f3f6b80a876781c3860e033f7b482",
+    "results/exact_equal_x_return_event_map.png": "14e8f7abdcabaf0db9c4f41c763fe9dc1dc9e58eb4ff6a3caf83b6fbc992ecf9",
+    "results/in_ramp_state_rate_curves.csv": "1939441220808931ced86d13eac0743f5a6b2376fd6c1162467d7735577623a7",
+    "results/phase_resolved_events.csv": "c8b3aa8123c8955bd681f1b6624a36ff9e9912c550a9bab1852029967e7a8148",
+    "results/report.json": "c647808c6dcb3a048de07eb182115c423a34cedf9026d02ab2b46f16a475c3d4",
+    "results/turning_event_continuation.csv": "de6d70ee9eccca35771df7b515a99521e76840bea7da80e2ccc036050363c716",
+    "results/turning_event_two_clocks.png": "174a223b2ccb5efd2a196f6773ce94a86bbc358ede4eda30e9e83d206d01955a",
+    "results/turning_x_curves_unfixed_clock.png": "6f3e6b01501e4ac9aa28affcde642d56f486054c5e338b6de03ef24b45f90b9a",
+    "run_on_server.sh": "b0fc33761e738d7071a7f22abe3293218ef4a3786371cd1b62f7a8c5cbce064a",
+    "scripts/__pycache__/event_math.cpython-313.pyc": "6bf84081ef4abd83bd79b527c972f60e1a0f243b4f7f11be5a01fef26dfcb554",
+    "scripts/__pycache__/verify_parent_w.cpython-313.pyc": "600522bab62bffddb50c674620d79e73d50e9e2566d4132ac572055de1e0841f",
+    "scripts/event_math.py": "576a266690e703090f1dbf8cebd925f6d485567ec984fc6ba0d80ca519d97f0e",
+    "scripts/generate_report.py": "dbde4f5b8679eab30e89802bc13e3ba2d18406c23384fc35674885136b7af7d9",
+    "scripts/pack_sendback.py": "3d1079e5a175ec64d679dfefc5ad8b430feaee3a853a2c553ad89ec392352592",
+    "scripts/plot_results.py": "f78810e4893c5ff1b0689ef92a0b1f07862711b7f1eae510c5277dbb3c761a33",
+    "scripts/run_audit.py": "d357a8b9cd9b22bc2f34560e79177c96d9f0c3445bd4178d593521a02d1f1e46",
+    "scripts/verify_parent_w.py": "a805a8177c2f2be36a11b773a8bced3c77ade9888642edcca89d4eeb4e253c84",
+    "tests/__pycache__/test_event_math.cpython-313.pyc": "d1d3e4e33ef499d83a8e7f0cedb30337bb3c4b90ea44f3e0d04443ed11f22f0c",
+    "tests/test_event_math.py": "460e1595fc365b80ca2f0f6f14f61b907f38b56e95a11e2685efa2da316016a6"
+  }
+}

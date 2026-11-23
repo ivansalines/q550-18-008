@@ -1,0 +1,29 @@
+{
+  "version": "v18.48q",
+  "files": {
+    "README.md": "6ab71689ebdac2771c9f7776b88aeaecfe1c8ecb1086049a66a52d08aea68a8f",
+    "SCIENTIFIC_DECISION_RULES.md": "1e15f42926389873bedc4d132745720175242153a46d2e9fe87d0adb8c587b00",
+    "inputs/SOURCE_PINS.json": "3ab3ce5d195c1224ec861b52f982b7e7511ddc30399262374d1b484d79d87d2f",
+    "inputs/v18_48p_original_server_sendback.zip": "d3460aec39f2001297af430713a3249fc53f94795f08353e26033d05515ad698",
+    "reference/physical_math.py": "a2e08b061c01bec726012578e006851a07dc24741001c1b6c5ae4633c881e49c",
+    "requirements.txt": "857cd09ec8b3de647b45d1e7f7292ba1d259ef6dd47816e30f80a591157dc1f3",
+    "results/energy_balance.csv": "901bdf61425f90c3d9d14eecb5a304d581d7e736ab4b0d64b291ab6f77a73861",
+    "results/matched_progress_samples.csv": "3d547e2c15a190af2723a6612ae8088827356b2b73a8a823f95c9b67544c163f",
+    "results/near_crossing_pairs.csv": "d375f53e8a087891675f6a3028c363b46e22653af4abb6d451f64a13c87ad069",
+    "results/phaseclosed_rate_duration_sweep.png": "b7f6566256e5c93f531247c468b0ca396445ad2d2d35e55f8d533215790c74f7",
+    "results/phaseclosed_vs_fixedtime.png": "f6c5d6c35895f0302786403dc2c80e3e3ac31b4149c66247d936749408620f1d",
+    "results/phasecov_counterflow_nearcrossings_3d.png": "22918256bdb0b45a8eeaf54df956f3c30cbed71fbcbe2f92f47562db56bc2032",
+    "results/phasecov_phase_energy_separation.png": "532f077716b0b168c9cd022a16264d0776cbcdadb8ea837f1c4bd13d7e081101",
+    "results/report.json": "262dddc31485a3371113ed8fdfa394425c9c16c29e369277b13f67b259a5dddb",
+    "results/selected_case_dense_samples.npz": "786918490a114b0b925c50aab4791d53da5fad5822275a934fc80fc9dd34a203",
+    "results/source_regression.csv": "482ad227f77fdbc2dea733218fd1ab1c0392d53738b968f5d435978e9b02eacb",
+    "results/sweep_summary.csv": "649902953d7f9e82d439b220a12825e5ea5a0bb2a07341099bf090cd02cfac53",
+    "run_on_server.sh": "d2ec25e39ad160eb4c1fa1c15444c187cdad040c15a701dc5d9aad44bc666487",
+    "scripts/crossing_math.py": "f03d13dfa5f7284bf40f4ad5dd4556801b2cb931a3e4c7ce217ccf6603945f80",
+    "scripts/pack_sendback.py": "b9ac43e2b234b8f22410051d5b80d0631407e3bdc06db4f791514dae9da2ccc1",
+    "scripts/plot_results.py": "92a090941c8c5072db9fa1eabcd7940f5a5b1c082bac43c84ccb473e398d468c",
+    "scripts/run_audit.py": "e7173d0b737ecea7ab019c4fe2574199dfb22d83da5ad58c70adf2a58407f264",
+    "scripts/verify_parent.py": "90d4dfbca74511d34633f05b6a60fd6297338b67a16e99400310b93915d4b9f1",
+    "tests/test_crossing_math.py": "57ac24905d22c404d9dc9081dd67c6c6ba9531f7575b1e0ffea58e7213d9c57b"
+  }
+}

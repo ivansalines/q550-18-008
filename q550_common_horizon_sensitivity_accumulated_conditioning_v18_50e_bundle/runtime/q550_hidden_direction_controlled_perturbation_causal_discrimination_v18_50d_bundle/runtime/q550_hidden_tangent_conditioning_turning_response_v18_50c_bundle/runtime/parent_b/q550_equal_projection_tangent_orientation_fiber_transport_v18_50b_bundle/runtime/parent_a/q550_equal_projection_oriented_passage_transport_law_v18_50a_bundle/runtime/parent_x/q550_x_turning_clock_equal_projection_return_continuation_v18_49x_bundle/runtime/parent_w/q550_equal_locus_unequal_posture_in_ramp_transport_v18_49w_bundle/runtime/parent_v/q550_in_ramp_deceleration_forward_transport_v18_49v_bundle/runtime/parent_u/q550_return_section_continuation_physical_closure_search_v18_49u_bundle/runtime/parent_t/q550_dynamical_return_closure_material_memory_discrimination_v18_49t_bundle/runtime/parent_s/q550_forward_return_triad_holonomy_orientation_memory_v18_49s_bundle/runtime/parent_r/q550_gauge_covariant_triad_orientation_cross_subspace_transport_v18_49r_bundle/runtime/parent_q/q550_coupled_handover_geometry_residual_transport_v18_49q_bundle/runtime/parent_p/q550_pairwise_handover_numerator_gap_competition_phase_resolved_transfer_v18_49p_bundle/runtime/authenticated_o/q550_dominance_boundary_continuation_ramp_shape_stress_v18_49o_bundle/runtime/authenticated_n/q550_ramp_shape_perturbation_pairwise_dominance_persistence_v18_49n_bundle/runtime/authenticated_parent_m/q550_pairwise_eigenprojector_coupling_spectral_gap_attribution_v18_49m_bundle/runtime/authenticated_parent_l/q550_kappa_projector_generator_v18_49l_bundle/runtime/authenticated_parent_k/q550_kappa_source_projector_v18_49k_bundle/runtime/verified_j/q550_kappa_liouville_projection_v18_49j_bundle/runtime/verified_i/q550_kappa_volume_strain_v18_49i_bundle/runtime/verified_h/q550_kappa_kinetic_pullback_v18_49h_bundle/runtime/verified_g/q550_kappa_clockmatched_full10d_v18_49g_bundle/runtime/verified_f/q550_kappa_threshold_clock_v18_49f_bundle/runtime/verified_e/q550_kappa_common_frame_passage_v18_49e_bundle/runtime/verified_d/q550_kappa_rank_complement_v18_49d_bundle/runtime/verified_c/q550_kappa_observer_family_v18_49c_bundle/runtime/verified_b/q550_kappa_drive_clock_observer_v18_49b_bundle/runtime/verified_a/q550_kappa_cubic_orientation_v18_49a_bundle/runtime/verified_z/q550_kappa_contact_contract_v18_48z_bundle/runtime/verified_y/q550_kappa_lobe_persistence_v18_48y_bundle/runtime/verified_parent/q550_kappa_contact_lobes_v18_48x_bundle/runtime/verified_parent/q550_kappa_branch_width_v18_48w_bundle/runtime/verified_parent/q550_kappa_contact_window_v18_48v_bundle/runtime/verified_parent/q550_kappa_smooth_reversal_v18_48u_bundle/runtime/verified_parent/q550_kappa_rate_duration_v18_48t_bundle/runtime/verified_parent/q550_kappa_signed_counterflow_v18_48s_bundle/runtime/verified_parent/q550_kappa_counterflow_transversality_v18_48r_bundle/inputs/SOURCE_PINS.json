@@ -1,0 +1,7 @@
+{
+  "files": {
+    "inputs/v18_48q_original_server_sendback.zip": "80bd6896b3d512c13cb580c75f34c6098a3afceca795f7710d07fff096abb961",
+    "reference/physical_math.py": "a2e08b061c01bec726012578e006851a07dc24741001c1b6c5ae4633c881e49c",
+    "reference/crossing_math_q.py": "f03d13dfa5f7284bf40f4ad5dd4556801b2cb931a3e4c7ce217ccf6603945f80"
+  }
+}

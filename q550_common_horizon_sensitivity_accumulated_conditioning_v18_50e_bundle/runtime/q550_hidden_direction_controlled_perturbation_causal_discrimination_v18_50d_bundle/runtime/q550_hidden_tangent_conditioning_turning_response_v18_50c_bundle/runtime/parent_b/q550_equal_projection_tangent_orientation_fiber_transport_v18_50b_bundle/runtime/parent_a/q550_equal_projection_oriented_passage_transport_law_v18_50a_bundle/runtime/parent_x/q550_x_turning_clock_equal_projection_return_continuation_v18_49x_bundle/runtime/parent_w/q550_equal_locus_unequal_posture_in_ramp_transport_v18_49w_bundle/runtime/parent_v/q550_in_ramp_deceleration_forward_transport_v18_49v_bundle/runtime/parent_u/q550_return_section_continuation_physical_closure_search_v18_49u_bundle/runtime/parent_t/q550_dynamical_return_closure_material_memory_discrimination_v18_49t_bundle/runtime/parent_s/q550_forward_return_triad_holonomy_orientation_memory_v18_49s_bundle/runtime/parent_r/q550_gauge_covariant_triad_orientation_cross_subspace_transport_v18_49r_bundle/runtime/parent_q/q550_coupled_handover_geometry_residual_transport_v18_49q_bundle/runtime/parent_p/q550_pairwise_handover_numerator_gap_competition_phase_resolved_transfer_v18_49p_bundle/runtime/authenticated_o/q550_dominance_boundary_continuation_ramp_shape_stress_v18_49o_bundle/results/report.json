@@ -1,0 +1,142 @@
+{
+  "audit": "v18.49o \u2014 Dominance-Boundary Continuation & Ramp-Shape Stress Audit",
+  "status": "FOCUSED_BOUNDARY_BRACKETED_NUMERICALLY",
+  "scope": "Q550; fixed initial kinetic metric tau=1; 11D original physical 10D original tangent",
+  "parent": {
+    "source_version": "v18.49n",
+    "n_parent_sha256": "35329685d48728db40eaf6d4b1eb8e8a0fe56725e02e4cae1a9687313bbd7579",
+    "n_manifest_files": 34,
+    "m_parent_sha256": "baf800ffe678a13d0210b5ebe4ac40fc8dc65b599d792ce31d52c69b3d370f22",
+    "upstream_ancestry_to_v18_48j": true
+  },
+  "baseline_parent_max_abs_share_error": 6.439515587430833e-12,
+  "endpoint_phase_q": 0.65,
+  "phase_probe_points": [
+    0.35,
+    0.5,
+    0.55,
+    0.6,
+    0.65
+  ],
+  "duration_scan": [
+    0.309,
+    0.33
+  ],
+  "shape_set": [
+    "beta:2:2",
+    "beta:64:64",
+    "beta:2:100",
+    "recoil:4:1"
+  ],
+  "shape_ramp_values": [
+    0.3
+  ],
+  "number_of_unique_cases": 12,
+  "number_of_evaluations": 28,
+  "failed_evaluations": 0,
+  "duration_brackets_initial": [
+    {
+      "kind": "original",
+      "r_low": 0.309,
+      "r_high": 0.33,
+      "margin_low": 0.4798720927294095,
+      "margin_high": -0.14915726275483904
+    },
+    {
+      "kind": "autonomous",
+      "r_low": 0.309,
+      "r_high": 0.33,
+      "margin_low": 0.4788581621987893,
+      "margin_high": -0.15659648312556107
+    }
+  ],
+  "duration_brackets_refined": [
+    {
+      "kind": "original",
+      "r_lower": 0.32671874999999995,
+      "r_upper": 0.32737499999999997,
+      "margin_lower": 0.029117467733147218,
+      "margin_upper": -0.005481023430295273,
+      "boundary_estimate": 0.32704687499999996,
+      "samples": [
+        [
+          0.3195,
+          0.29880735764290967
+        ],
+        [
+          0.32475,
+          0.12800022743293452
+        ],
+        [
+          0.32737499999999997,
+          -0.005481023430295273
+        ],
+        [
+          0.3260625,
+          0.06295668380452846
+        ],
+        [
+          0.32671874999999995,
+          0.029117467733147218
+        ]
+      ],
+      "sign_change_confirmed": true
+    },
+    {
+      "kind": "autonomous",
+      "r_lower": 0.32671874999999995,
+      "r_upper": 0.32737499999999997,
+      "margin_lower": 0.022289526997106457,
+      "margin_upper": -0.012481462961011047,
+      "boundary_estimate": 0.32704687499999996,
+      "samples": [
+        [
+          0.3195,
+          0.2966747948499944
+        ],
+        [
+          0.32475,
+          0.12179524559794752
+        ],
+        [
+          0.32737499999999997,
+          -0.012481462961011047
+        ],
+        [
+          0.3260625,
+          0.05632081181927262
+        ],
+        [
+          0.32671874999999995,
+          0.022289526997106457
+        ]
+      ],
+      "sign_change_confirmed": true
+    }
+  ],
+  "shape_stress_endpoint_negative_cases": [],
+  "tested_duration_min_max": [
+    0.309,
+    0.33
+  ],
+  "integration_counts": {
+    "physical_forward_11D": 2,
+    "physical_return_11D": 28,
+    "tangent_10D": 28
+  },
+  "numeric_controls": {
+    "forward_regression": 3.424991987393049e-13,
+    "max_mechanical_ledger_error": 3.166698674117452e-11,
+    "min_relative_eigen_gap": 0.06061780386249581,
+    "max_parent_cubic_difference": 6.439515587430833e-12
+  },
+  "failed_case_details": [],
+  "limitations": [
+    "Sampled numerical brackets, not interval-certified topology or continuous-time roots.",
+    "Changing ramp duration is distinct from changing shape at fixed duration.",
+    "No universal domination beyond admissible shapes, sampled ramp ranges, or fixed kinetic metric.",
+    "A sign change is a rank-pair contribution cross-over, not proof of physical torsion flip.",
+    "Nonmonotonic recoil shapes may involve temporary re-acceleration without leaving clock rate [-1,1].",
+    "If no opposing-signed endpoints found, no boundary is established."
+  ]
+}

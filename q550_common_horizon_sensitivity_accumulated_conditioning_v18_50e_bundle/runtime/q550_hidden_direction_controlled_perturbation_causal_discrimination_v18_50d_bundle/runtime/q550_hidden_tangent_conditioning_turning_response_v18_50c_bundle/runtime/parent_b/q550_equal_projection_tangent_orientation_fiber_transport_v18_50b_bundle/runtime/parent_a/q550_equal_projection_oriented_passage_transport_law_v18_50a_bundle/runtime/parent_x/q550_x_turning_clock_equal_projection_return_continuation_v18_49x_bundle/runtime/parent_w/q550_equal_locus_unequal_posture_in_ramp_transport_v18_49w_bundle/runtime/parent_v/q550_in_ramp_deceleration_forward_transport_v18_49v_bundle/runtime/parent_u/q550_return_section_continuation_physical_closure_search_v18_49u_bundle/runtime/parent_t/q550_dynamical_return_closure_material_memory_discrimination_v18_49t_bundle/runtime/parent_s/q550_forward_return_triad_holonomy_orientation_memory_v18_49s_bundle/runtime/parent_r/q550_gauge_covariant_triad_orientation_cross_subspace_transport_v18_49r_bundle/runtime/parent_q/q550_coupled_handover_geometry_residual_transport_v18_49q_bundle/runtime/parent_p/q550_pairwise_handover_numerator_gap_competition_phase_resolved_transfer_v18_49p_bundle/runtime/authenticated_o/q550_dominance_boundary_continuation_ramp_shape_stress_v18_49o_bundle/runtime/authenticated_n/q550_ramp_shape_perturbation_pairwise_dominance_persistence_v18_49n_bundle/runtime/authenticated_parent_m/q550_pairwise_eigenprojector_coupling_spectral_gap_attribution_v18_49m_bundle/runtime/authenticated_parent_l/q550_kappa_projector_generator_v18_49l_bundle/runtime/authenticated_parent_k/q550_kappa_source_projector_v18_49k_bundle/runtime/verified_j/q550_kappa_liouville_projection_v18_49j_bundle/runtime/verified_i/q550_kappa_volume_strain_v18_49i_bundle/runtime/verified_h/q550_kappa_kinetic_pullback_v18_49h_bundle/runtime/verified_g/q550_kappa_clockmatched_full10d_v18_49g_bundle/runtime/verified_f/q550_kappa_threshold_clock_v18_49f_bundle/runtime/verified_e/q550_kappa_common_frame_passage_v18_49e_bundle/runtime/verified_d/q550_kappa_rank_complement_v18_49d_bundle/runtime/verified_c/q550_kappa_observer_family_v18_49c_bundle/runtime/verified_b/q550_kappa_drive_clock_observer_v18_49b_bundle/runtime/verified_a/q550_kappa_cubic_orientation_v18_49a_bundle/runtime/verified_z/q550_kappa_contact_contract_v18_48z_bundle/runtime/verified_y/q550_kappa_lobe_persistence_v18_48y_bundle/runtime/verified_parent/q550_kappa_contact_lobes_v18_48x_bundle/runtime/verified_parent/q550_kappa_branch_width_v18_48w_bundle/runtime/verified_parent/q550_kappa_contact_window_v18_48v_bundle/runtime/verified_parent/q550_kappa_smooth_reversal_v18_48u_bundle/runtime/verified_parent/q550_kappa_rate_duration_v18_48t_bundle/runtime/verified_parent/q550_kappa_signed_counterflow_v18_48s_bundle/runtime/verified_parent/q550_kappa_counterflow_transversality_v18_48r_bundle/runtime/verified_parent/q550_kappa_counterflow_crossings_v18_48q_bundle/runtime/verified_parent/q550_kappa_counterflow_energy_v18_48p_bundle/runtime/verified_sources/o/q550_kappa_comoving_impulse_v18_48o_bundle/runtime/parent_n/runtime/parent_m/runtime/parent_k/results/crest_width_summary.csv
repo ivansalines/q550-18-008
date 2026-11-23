@@ -1,0 +1,5 @@
+crest,ratio,steep_half_width_total_deg,median_random_half_width_deg,min_random_half_width_deg,max_random_half_width_deg,observer_tangent_samples,angular_space
+phaseblind_xi3.575_original,326.5280953628515,4.687870828092788e-06,2.3995318638627138e-05,6.659990388884378e-06,0.0004914602634567152,64,10D historical Euclidean covector chart; not arbitrary-gauge Euclidean angle
+phaseblind_xi3.575_autonomous,349.79877733833246,4.375360496039749e-06,2.2242843214437857e-05,5.506677408302676e-06,0.0006780305945870422,64,10D historical Euclidean covector chart; not arbitrary-gauge Euclidean angle
+phasecov_xi4.25_original,59.96769091659693,3.273334443787855e-07,9.835451737559981e-07,3.9884155676405153e-07,5.297520084791245e-05,64,10D historical Euclidean covector chart; not arbitrary-gauge Euclidean angle
+phasecov_xi4.25_autonomous,59.995692486362856,3.273419395564527e-07,1.6392097786731075e-06,3.991407259033551e-07,6.307627255156475e-05,64,10D historical Euclidean covector chart; not arbitrary-gauge Euclidean angle

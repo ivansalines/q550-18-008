@@ -1,0 +1,323 @@
+{
+  "version": "v18.48v",
+  "status": "FULL_EIGHT_PATH_NUMERICAL_AUDIT",
+  "title": "Smooth-Reversal Contact Window & Phase\u2013Energy History Audit",
+  "historical_paths": 8,
+  "genuine_material_11D_integrations": 208,
+  "optimized_phase_contacts": 200,
+  "fixed_phase_energy_comparisons": 600,
+  "ramp_scan_alpha1": [
+    0.0,
+    0.04,
+    0.07,
+    0.09,
+    0.11,
+    0.125,
+    0.14,
+    0.15,
+    0.16,
+    0.175,
+    0.19,
+    0.21,
+    0.24,
+    0.28,
+    0.35,
+    0.5,
+    0.65
+  ],
+  "other_alpha_controls": [
+    0.0,
+    0.75
+  ],
+  "common_phase_window": [
+    0.312500001,
+    0.719999999
+  ],
+  "best_observed_3D_gap": 0.0002168282329748861,
+  "smallest_observed_full11D_gap": 1.1532180463033994,
+  "maximum_historical_11D_regression": 1.6487418689859246e-11,
+  "maximum_parent_u_profile_regression": 2.6645352591003757e-15,
+  "maximum_relative_mechanical_ledger_residual": 4.877727128455023e-10,
+  "maximum_phase_matched_energy_ledger_abs_residual": 4.877740425110466e-10,
+  "maximum_preparation_energy_jump_error": 2.220446049250313e-16,
+  "maximum_command_phase_difference_rad": 0.0,
+  "best_per_path": [
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "branch": 0,
+      "kappa_kind": "autonomous",
+      "scanned_best_ramp_duration_xi": 0.28,
+      "best_3D_gap": 0.00035626285633514953,
+      "best_at_common_phase_q": 0.569382904922874,
+      "best_11D_gap": 1.6163108257566325,
+      "best_energy_gap": -0.0060057519040395135
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "branch": 0,
+      "kappa_kind": "original",
+      "scanned_best_ramp_duration_xi": 0.28,
+      "best_3D_gap": 0.0003570501326939621,
+      "best_at_common_phase_q": 0.5692367652729926,
+      "best_11D_gap": 1.6170327238422977,
+      "best_energy_gap": -0.006009577602004379
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "branch": 1,
+      "kappa_kind": "autonomous",
+      "scanned_best_ramp_duration_xi": 0.07,
+      "best_3D_gap": 0.0002168282329748861,
+      "best_at_common_phase_q": 0.3204504598326135,
+      "best_11D_gap": 3.9008757026455085,
+      "best_energy_gap": -0.00551834737002288
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "branch": 1,
+      "kappa_kind": "original",
+      "scanned_best_ramp_duration_xi": 0.07,
+      "best_3D_gap": 0.0002169183836881845,
+      "best_at_common_phase_q": 0.32046877158671405,
+      "best_11D_gap": 3.901914084295885,
+      "best_energy_gap": -0.005522345845273335
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "branch": 0,
+      "kappa_kind": "autonomous",
+      "scanned_best_ramp_duration_xi": 0.04,
+      "best_3D_gap": 0.001463776738873127,
+      "best_at_common_phase_q": 0.7131045135435129,
+      "best_11D_gap": 1.9200647512939542,
+      "best_energy_gap": -0.006494901152087618
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "branch": 0,
+      "kappa_kind": "original",
+      "scanned_best_ramp_duration_xi": 0.04,
+      "best_3D_gap": 0.0014637644723225535,
+      "best_at_common_phase_q": 0.713168082170021,
+      "best_11D_gap": 1.9200070184079958,
+      "best_energy_gap": -0.00649917329928873
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "branch": 1,
+      "kappa_kind": "autonomous",
+      "scanned_best_ramp_duration_xi": 0.35,
+      "best_3D_gap": 0.0003302764913904179,
+      "best_at_common_phase_q": 0.5781002098921678,
+      "best_11D_gap": 1.8150436556596963,
+      "best_energy_gap": -0.007940802057379237
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "branch": 1,
+      "kappa_kind": "original",
+      "scanned_best_ramp_duration_xi": 0.35,
+      "best_3D_gap": 0.0003315170270801114,
+      "best_at_common_phase_q": 0.5779685362205492,
+      "best_11D_gap": 1.8159851199620882,
+      "best_energy_gap": -0.007946462555729061
+    }
+  ],
+  "alpha1_ramp_summary": [
+    {
+      "ramp_duration_xi": 0.0,
+      "number_paths": 8,
+      "median_3D_gap": 0.014078075659644482,
+      "median_11D_gap": 2.501031325664152,
+      "median_energy_gap_at_contact": -0.005188402596843722,
+      "opposite_drive_power_count": 8,
+      "number_contacts_below_0p0025": 4,
+      "number_contacts_below_0p01": 4,
+      "median_total_phase_contact_width_below_0p01": 0.005458308880696983
+    },
+    {
+      "ramp_duration_xi": 0.04,
+      "number_paths": 8,
+      "median_3D_gap": 0.009485687436260506,
+      "median_11D_gap": 2.2926080053644937,
+      "median_energy_gap_at_contact": -0.005710567966820901,
+      "opposite_drive_power_count": 8,
+      "number_contacts_below_0p0025": 4,
+      "number_contacts_below_0p01": 4,
+      "median_total_phase_contact_width_below_0p01": 0.007139101011567062
+    },
+    {
+      "ramp_duration_xi": 0.07,
+      "number_paths": 8,
+      "median_3D_gap": 0.011794829912132945,
+      "median_11D_gap": 2.2196348828127492,
+      "median_energy_gap_at_contact": -0.005751192555319751,
+      "opposite_drive_power_count": 8,
+      "number_contacts_below_0p0025": 2,
+      "number_contacts_below_0p01": 4,
+      "median_total_phase_contact_width_below_0p01": 0.0009150113913948821
+    },
+    {
+      "ramp_duration_xi": 0.09,
+      "number_paths": 8,
+      "median_3D_gap": 0.003025624918251635,
+      "median_11D_gap": 3.4981078711524916,
+      "median_energy_gap_at_contact": -0.0055424810451131235,
+      "opposite_drive_power_count": 8,
+      "number_contacts_below_0p0025": 4,
+      "number_contacts_below_0p01": 6,
+      "median_total_phase_contact_width_below_0p01": 0.01806354838621438
+    },
+    {
+      "ramp_duration_xi": 0.11,
+      "number_paths": 8,
+      "median_3D_gap": 0.0005008634144509935,
+      "median_11D_gap": 3.427140065818953,
+      "median_energy_gap_at_contact": -0.0057110876941656175,
+      "opposite_drive_power_count": 8,
+      "number_contacts_below_0p0025": 6,
+      "number_contacts_below_0p01": 8,
+      "median_total_phase_contact_width_below_0p01": 0.02484263157804964
+    },
+    {
+      "ramp_duration_xi": 0.125,
+      "number_paths": 8,
+      "median_3D_gap": 0.000589756805094966,
+      "median_11D_gap": 3.348349665126796,
+      "median_energy_gap_at_contact": -0.005799394709276817,
+      "opposite_drive_power_count": 8,
+      "number_contacts_below_0p0025": 8,
+      "number_contacts_below_0p01": 8,
+      "median_total_phase_contact_width_below_0p01": 0.02858172726588698
+    },
+    {
+      "ramp_duration_xi": 0.14,
+      "number_paths": 8,
+      "median_3D_gap": 0.0006815314577653272,
+      "median_11D_gap": 3.2707312600199123,
+      "median_energy_gap_at_contact": -0.0058761095290267296,
+      "opposite_drive_power_count": 8,
+      "number_contacts_below_0p0025": 8,
+      "number_contacts_below_0p01": 8,
+      "median_total_phase_contact_width_below_0p01": 0.0347017288072419
+    },
+    {
+      "ramp_duration_xi": 0.15,
+      "number_paths": 8,
+      "median_3D_gap": 0.0007433851902810313,
+      "median_11D_gap": 3.2203970246180518,
+      "median_energy_gap_at_contact": -0.005922323524431672,
+      "opposite_drive_power_count": 8,
+      "number_contacts_below_0p0025": 6,
+      "number_contacts_below_0p01": 8,
+      "median_total_phase_contact_width_below_0p01": 0.03392551311861114
+    },
+    {
+      "ramp_duration_xi": 0.16,
+      "number_paths": 8,
+      "median_3D_gap": 0.0007940620182905968,
+      "median_11D_gap": 2.8452962972465903,
+      "median_energy_gap_at_contact": -0.0060853553949993255,
+      "opposite_drive_power_count": 8,
+      "number_contacts_below_0p0025": 6,
+      "number_contacts_below_0p01": 8,
+      "median_total_phase_contact_width_below_0p01": 0.03324374490069207
+    },
+    {
+      "ramp_duration_xi": 0.175,
+      "number_paths": 8,
+      "median_3D_gap": 0.0008382817469378618,
+      "median_11D_gap": 2.7776672923488075,
+      "median_energy_gap_at_contact": -0.006103785259998329,
+      "opposite_drive_power_count": 8,
+      "number_contacts_below_0p0025": 8,
+      "number_contacts_below_0p01": 8,
+      "median_total_phase_contact_width_below_0p01": 0.03237890321294215
+    },
+    {
+      "ramp_duration_xi": 0.19,
+      "number_paths": 8,
+      "median_3D_gap": 0.0008829509751786074,
+      "median_11D_gap": 2.3446452116732734,
+      "median_energy_gap_at_contact": -0.00611683624686965,
+      "opposite_drive_power_count": 8,
+      "number_contacts_below_0p0025": 6,
+      "number_contacts_below_0p01": 8,
+      "median_total_phase_contact_width_below_0p01": 0.03168352397151061
+    },
+    {
+      "ramp_duration_xi": 0.21,
+      "number_paths": 8,
+      "median_3D_gap": 0.0009427390842540041,
+      "median_11D_gap": 2.290709562047055,
+      "median_energy_gap_at_contact": -0.00612709314745441,
+      "opposite_drive_power_count": 8,
+      "number_contacts_below_0p0025": 6,
+      "number_contacts_below_0p01": 6,
+      "median_total_phase_contact_width_below_0p01": 0.0279118805280055
+    },
+    {
+      "ramp_duration_xi": 0.24,
+      "number_paths": 8,
+      "median_3D_gap": 0.001032420415028318,
+      "median_11D_gap": 2.2191175029448025,
+      "median_energy_gap_at_contact": -0.006231944554982993,
+      "opposite_drive_power_count": 8,
+      "number_contacts_below_0p0025": 6,
+      "number_contacts_below_0p01": 6,
+      "median_total_phase_contact_width_below_0p01": 0.023005892479692175
+    },
+    {
+      "ramp_duration_xi": 0.28,
+      "number_paths": 8,
+      "median_3D_gap": 0.001154011055582295,
+      "median_11D_gap": 2.139600991957178,
+      "median_energy_gap_at_contact": -0.0064479666827506055,
+      "opposite_drive_power_count": 8,
+      "number_contacts_below_0p0025": 6,
+      "number_contacts_below_0p01": 6,
+      "median_total_phase_contact_width_below_0p01": 0.023200406554509945
+    },
+    {
+      "ramp_duration_xi": 0.35,
+      "number_paths": 8,
+      "median_3D_gap": 0.011764595733097485,
+      "median_11D_gap": 2.0610733857878225,
+      "median_energy_gap_at_contact": -0.006671047854101553,
+      "opposite_drive_power_count": 8,
+      "number_contacts_below_0p0025": 2,
+      "number_contacts_below_0p01": 4,
+      "median_total_phase_contact_width_below_0p01": 0.000541544392906268
+    },
+    {
+      "ramp_duration_xi": 0.5,
+      "number_paths": 8,
+      "median_3D_gap": 0.1360806533291271,
+      "median_11D_gap": 1.8623533600452746,
+      "median_energy_gap_at_contact": -0.006753531340424668,
+      "opposite_drive_power_count": 8,
+      "number_contacts_below_0p0025": 0,
+      "number_contacts_below_0p01": 0,
+      "median_total_phase_contact_width_below_0p01": 0.0
+    },
+    {
+      "ramp_duration_xi": 0.65,
+      "number_paths": 8,
+      "median_3D_gap": 0.14217417287932424,
+      "median_11D_gap": 1.7576635833921266,
+      "median_energy_gap_at_contact": -0.006545828682078314,
+      "opposite_drive_power_count": 8,
+      "number_contacts_below_0p0025": 0,
+      "number_contacts_below_0p01": 0,
+      "median_total_phase_contact_width_below_0p01": 0.0
+    }
+  ],
+  "provenance": {
+    "parent_u_server_sha256": "f3df472aea5eb8e7067ee92974239984400cd9eea398e03ad0ea2c716fa9d525",
+    "parent_u_manifest_files": 22,
+    "parent_u_report_sha256": "21dadcaccab4be4acbf246f996e0f3679f7932c9c3ee67efe9a4c233112ed735",
+    "physical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+    "recursive_ancestry_sha_verified": true
+  },
+  "limits": "Only a prescribed drive history, not an inferred constitutive law. Numerical matched phase q differs from matched elapsed time. The minimized phase location changes with ramp and should not be mistaken for a fixed-event history. Chart distances are not geometric invariants; signed model work does not establish entropy or thermal irreversibility. This finite ramp grid cannot certify a unique optimum or exclude sub-grid minima."
+}

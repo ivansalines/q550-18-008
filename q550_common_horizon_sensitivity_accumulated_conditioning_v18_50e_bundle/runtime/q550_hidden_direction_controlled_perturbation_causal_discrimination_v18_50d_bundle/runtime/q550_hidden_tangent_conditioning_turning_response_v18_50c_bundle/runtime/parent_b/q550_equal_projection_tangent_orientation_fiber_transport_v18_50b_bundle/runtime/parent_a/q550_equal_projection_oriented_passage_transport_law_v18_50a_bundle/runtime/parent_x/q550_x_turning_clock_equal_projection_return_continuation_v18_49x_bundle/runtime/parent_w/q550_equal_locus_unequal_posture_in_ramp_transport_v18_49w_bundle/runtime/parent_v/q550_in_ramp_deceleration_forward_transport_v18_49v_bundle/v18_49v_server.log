@@ -1,0 +1,19 @@
+test_ends (test_ramp_math.TestRampMath.test_ends) ... ok
+test_locus (test_ramp_math.TestRampMath.test_locus) ... ok
+test_logistic (test_ramp_math.TestRampMath.test_logistic) ... ok
+test_path (test_ramp_math.TestRampMath.test_path) ... ok
+test_reversed (test_ramp_math.TestRampMath.test_reversed) ... ok
+test_zero (test_ramp_math.TestRampMath.test_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.008s
+
+OK
+v18.49v original r= 0.12 speed@clock0= 2.341553113 path= 0.282144528 triad= 60
+v18.49v original r= 0.24 speed@clock0= 2.347719502 path= 0.56684601 triad= 60
+v18.49v original r= 0.327375 speed@clock0= 2.338309475 path= 0.770685819 triad= 60
+v18.49v original r= 0.5 speed@clock0= 2.294290411 path= 1.158871038 triad= 60
+v18.49v autonomous r= 0.12 speed@clock0= 2.34178576 path= 0.282172623 triad= 60
+v18.49v autonomous r= 0.24 speed@clock0= 2.347995069 path= 0.566915336 triad= 60
+v18.49v autonomous r= 0.327375 speed@clock0= 2.338629598 path= 0.770797589 triad= 60
+v18.49v autonomous r= 0.5 speed@clock0= 2.29472449 path= 1.159069586 triad= 60

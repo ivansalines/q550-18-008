@@ -1,0 +1,119 @@
+{
+  "version": "v18.48i",
+  "status": "ANALYTIC_HESSIAN_GENUINE_IVP_FROZEN_CHART_FACTORIAL_DIAGNOSTIC",
+  "parent": {
+    "v18_48h_original_server_zip_sha256": "7b5d66f94626eff99afab32df826eb3b2adeffe54a3957f278c368cf40060533",
+    "v18_48h_verified_archive_members": 41,
+    "actual_parent_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+    "actual_parent_report_sha256": "431f0a24ebb2ceaaf253726393fefa9ca0a8c48b6d7a4c1d0ba7c139b0997fb1",
+    "new_refined_ivp": true,
+    "parent_classification": "GENUINE_Q550_INITIAL_VALUE_SECTION_CONTINUATION_NOT_BRANCH_BVP_CERTIFICATE"
+  },
+  "physical_parent_ivp_count": 8,
+  "sections": 41,
+  "families": [
+    "phaseblind_d2_lam-1.00_mod+0.00",
+    "phasecov_d2_lam-1.00_mod+0.00"
+  ],
+  "time_factorial_rows": 4800,
+  "kappa_factorial_rows": 984,
+  "tested_kappas": {
+    "original": 0.16666666666666666,
+    "autonomous": 0.16659961041764054
+  },
+  "crest_phasecov_branch0_original": {
+    "historical_transport": {
+      "cancellation_ratio_start": 1.0000478306388456,
+      "cancellation_ratio_state_only": 1.137350120318197,
+      "cancellation_ratio_observer_only": 2.478181168484291,
+      "cancellation_ratio_end": 59.96769091659618,
+      "log_cancel_change": 4.0937581029687395,
+      "log_cancel_state_shapley": 1.6574671562348446,
+      "log_cancel_observer_shapley": 2.436290946733895,
+      "state_observer_interaction_log": 3.0576277698518486,
+      "normalized_covector_cosine": 0.9999166949432904,
+      "resultant_norm_end": 0.23891795950460365,
+      "near_singular_resultant_end": false
+    },
+    "activity_sin_lie_transport": {
+      "cancellation_ratio_start": 1.0133097315641695,
+      "cancellation_ratio_state_only": 1.0597252544817912,
+      "cancellation_ratio_observer_only": 1.0063090238146266,
+      "cancellation_ratio_end": 1.000086119906531,
+      "log_cancel_change": -0.013135819060781682,
+      "log_cancel_state_shapley": 0.019292328172049622,
+      "log_cancel_observer_shapley": -0.03242814723283131,
+      "state_observer_interaction_log": -0.05099083442215328,
+      "normalized_covector_cosine": 0.999999885098643,
+      "resultant_norm_end": 3.4141710471787694,
+      "near_singular_resultant_end": false
+    },
+    "activity_cos_lie_transport": {
+      "cancellation_ratio_start": 1.000027403317044,
+      "cancellation_ratio_state_only": 1.0001703818124323,
+      "cancellation_ratio_observer_only": 1.000108992939683,
+      "cancellation_ratio_end": 1.0001224248168499,
+      "log_cancel_change": 9.501438196360618e-05,
+      "log_cancel_state_shapley": 7.819734033971728e-05,
+      "log_cancel_observer_shapley": 1.6817041623888918e-05,
+      "state_observer_interaction_log": -0.00012953403436036912,
+      "normalized_covector_cosine": 0.9999981760122993,
+      "resultant_norm_end": 12.311240002758636,
+      "near_singular_resultant_end": false
+    },
+    "activity_sin_lie_recomputed": {
+      "cancellation_ratio_start": 1.0133190039529165,
+      "cancellation_ratio_state_only": 1.0033365905192932,
+      "cancellation_ratio_observer_only": 1.0011194749445649,
+      "cancellation_ratio_end": 1.0029895412497212,
+      "log_cancel_change": -0.010246004356543574,
+      "log_cancel_state_shapley": -0.00401690835207104,
+      "log_cancel_observer_shapley": -0.006229096004472533,
+      "state_observer_interaction_log": 0.0117662820197601,
+      "normalized_covector_cosine": 0.9999999983414875,
+      "resultant_norm_end": 2.7077187703297128,
+      "near_singular_resultant_end": false
+    },
+    "activity_cos_lie_recomputed": {
+      "cancellation_ratio_start": 1.0001888909481933,
+      "cancellation_ratio_state_only": 1.0140395735530114,
+      "cancellation_ratio_observer_only": 1.0018349995400357,
+      "cancellation_ratio_end": 1.003657409256347,
+      "log_cancel_change": 0.0034618640879173356,
+      "log_cancel_state_shapley": 0.007785238841398227,
+      "log_cancel_observer_shapley": -0.004323374753480892,
+      "state_observer_interaction_log": -0.011935639256207324,
+      "normalized_covector_cosine": 0.9999995533610787,
+      "resultant_norm_end": 16.948276986106144,
+      "near_singular_resultant_end": false
+    },
+    "activity_sin_instant_null": {
+      "cancellation_ratio_start": 1.0,
+      "cancellation_ratio_state_only": 1.0,
+      "cancellation_ratio_observer_only": 1.0,
+      "cancellation_ratio_end": 1.0,
+      "log_cancel_change": 0.0,
+      "log_cancel_state_shapley": 0.0,
+      "log_cancel_observer_shapley": 0.0,
+      "state_observer_interaction_log": 0.0,
+      "normalized_covector_cosine": 0.999993558320759,
+      "resultant_norm_end": 2.0156888239147416e-06,
+      "near_singular_resultant_end": false
+    }
+  },
+  "crest_phasecov_branch0_kappa_3factor": {
+    "original_ratio": 59.96769091659618,
+    "autonomous_ratio": 59.99569248636321,
+    "delta_log_ratio": 0.0004668352872556625,
+    "state_shapley": -0.02758213482499065,
+    "observer_shapley": 0.016160472965378,
+    "kappa_shapley": 0.011888497146868312
+  },
+  "clock_speed": 0.844357915384206,
+  "max_optimized_kernel_vs_independent_analytic_relative": 3.450719777655722e-14,
+  "max_direct_kappa_coupling_z_hessian_abs": 0.0,
+  "zero_control": "Instantaneous activity gradients have zero projected coupling Hessian by algebra; their cancellation ratio=1 is NOT evidence of material cancellation.",
+  "attribution_boundary": "Two-/three-cube Shapley attribution is exact arithmetic on deliberately cross-evaluated frozen-chart kernels. Cross-evaluations are NOT physical IVP states or canonical dual transports between distinct tangent spaces. Shapley contributions are not causal mechanism strengths or coordinate invariants. Source branches remain independent seeds; no BVP or interval certificate.",
+  "history_boundary": "The evaluated xi3.5..4.5 paths are genuine numerical Q550 IVPs from v18.48h (optionally resampled by its unchanged model); phase clock and historical seed offset caveats remain.",
+  "numeric_boundary": "Analytic formula evaluated in binary64; no interval enclosure. Near-zero resultant is flagged separately from strong antiparallelism."
+}

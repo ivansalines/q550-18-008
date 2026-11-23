@@ -1,0 +1,4 @@
+Python >=3.11 (Python 3.13 on original Linux server)
+numpy
+scipy
+matplotlib

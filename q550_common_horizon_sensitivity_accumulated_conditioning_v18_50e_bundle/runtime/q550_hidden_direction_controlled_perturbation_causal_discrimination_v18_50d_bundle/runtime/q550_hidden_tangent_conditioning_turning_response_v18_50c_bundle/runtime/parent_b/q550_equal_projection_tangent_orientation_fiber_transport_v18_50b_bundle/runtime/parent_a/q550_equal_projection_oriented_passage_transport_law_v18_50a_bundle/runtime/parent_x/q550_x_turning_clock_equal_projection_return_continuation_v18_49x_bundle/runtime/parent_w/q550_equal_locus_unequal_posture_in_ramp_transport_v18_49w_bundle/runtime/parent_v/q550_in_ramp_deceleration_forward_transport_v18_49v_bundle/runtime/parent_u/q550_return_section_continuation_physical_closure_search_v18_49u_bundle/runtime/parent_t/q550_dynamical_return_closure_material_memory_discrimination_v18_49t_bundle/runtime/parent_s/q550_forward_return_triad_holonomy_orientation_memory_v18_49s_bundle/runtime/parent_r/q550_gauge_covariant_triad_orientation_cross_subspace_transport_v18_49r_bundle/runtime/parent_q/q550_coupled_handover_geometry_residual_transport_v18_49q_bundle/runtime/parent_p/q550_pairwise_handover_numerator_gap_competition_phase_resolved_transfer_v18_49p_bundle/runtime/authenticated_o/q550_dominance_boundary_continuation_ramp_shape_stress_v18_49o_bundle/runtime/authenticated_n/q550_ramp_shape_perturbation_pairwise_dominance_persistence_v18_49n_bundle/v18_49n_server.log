@@ -1,0 +1,78 @@
+test_diagonal_stretch_no_rotation (test_parent_generator_math.TestGenerator.test_diagonal_stretch_no_rotation) ... ok
+test_exact_rotating_singular_directions (test_parent_generator_math.TestGenerator.test_exact_rotating_singular_directions) ... ok
+test_fd_independent_rotating_projector (test_parent_generator_math.TestGenerator.test_fd_independent_rotating_projector) ... ok
+test_kinetic_embedding_directional_derivative (test_parent_generator_math.TestGenerator.test_kinetic_embedding_directional_derivative) ... ok
+test_near_degenerate_axes_rejected (test_parent_generator_math.TestGenerator.test_near_degenerate_axes_rejected) ... ok
+test_orthogonal_basis_gauge (test_parent_generator_math.TestGenerator.test_orthogonal_basis_gauge) ... ok
+test_strain_and_rotation_decouple (test_parent_generator_math.TestGenerator.test_strain_and_rotation_decouple) ... ok
+test_time_dependent_gauge_connection_required (test_parent_generator_math.TestGenerator.test_time_dependent_gauge_connection_required) ... ok
+test_45_pairs (test_parent_pairwise_math.TestPairwise.test_45_pairs) ... ok
+test_counterfactual_endpoints (test_parent_pairwise_math.TestPairwise.test_counterfactual_endpoints) ... ok
+test_gap_only (test_parent_pairwise_math.TestPairwise.test_gap_only) ... ok
+test_numerator_only (test_parent_pairwise_math.TestPairwise.test_numerator_only) ... ok
+test_orthogonal_frame (test_parent_pairwise_math.TestPairwise.test_orthogonal_frame) ... ok
+test_shapley_exact (test_parent_pairwise_math.TestPairwise.test_shapley_exact) ... ok
+test_all_shapes_are_admissible (test_ramp_shapes.TestRampShapes.test_all_shapes_are_admissible) ... ok
+test_antiderivative (test_ramp_shapes.TestRampShapes.test_antiderivative) ... ok
+test_clock_compatibility_original (test_ramp_shapes.TestRampShapes.test_clock_compatibility_original) ... ok
+test_equal_areas_and_endpoints (test_ramp_shapes.TestRampShapes.test_equal_areas_and_endpoints) ... ok
+test_onset_bracket (test_ramp_shapes.TestRampShapes.test_onset_bracket) ... ok
+test_pair_index (test_ramp_shapes.TestRampShapes.test_pair_index) ... ok
+test_width (test_ramp_shapes.TestRampShapes.test_width) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.069s
+
+OK
+v18.49n original   r=0.285000 cubic      : 6-7 share@.65=67.764410%, onset=0.5384544463976236, persistent@.55=True
+v18.49n original   r=0.285000 quintic    : 6-7 share@.65=67.714986%, onset=0.5386392250150865, persistent@.55=True
+v18.49n original   r=0.285000 cosine     : 6-7 share@.65=67.755083%, onset=0.5384884000721631, persistent@.55=True
+v18.49n original   r=0.285000 skew_minus : 6-7 share@.65=67.763890%, onset=0.5384646383696051, persistent@.55=True
+v18.49n original   r=0.285000 skew_plus  : 6-7 share@.65=67.764992%, onset=0.5384442255509707, persistent@.55=True
+v18.49n original   r=0.300000 cubic      : 6-7 share@.65=67.057736%, onset=0.5227804751365236, persistent@.55=True
+v18.49n original   r=0.300000 quintic    : 6-7 share@.65=66.933834%, onset=0.5229777332523261, persistent@.55=True
+v18.49n original   r=0.300000 cosine     : 6-7 share@.65=67.034724%, onset=0.5228166876729062, persistent@.55=True
+v18.49n original   r=0.300000 skew_minus : 6-7 share@.65=67.061511%, onset=0.5227928557104121, persistent@.55=True
+v18.49n original   r=0.300000 skew_plus  : 6-7 share@.65=67.053964%, onset=0.5227680660196952, persistent@.55=True
+v18.49n original   r=0.309000 cubic      : 6-7 share@.65=61.322345%, onset=0.513349455266471, persistent@.55=True
+v18.49n original   r=0.309000 quintic    : 6-7 share@.65=61.101938%, onset=0.5135576465350586, persistent@.55=True
+v18.49n original   r=0.309000 cosine     : 6-7 share@.65=61.281657%, onset=0.5133876481158574, persistent@.55=True
+v18.49n original   r=0.309000 skew_minus : 6-7 share@.65=61.331990%, onset=0.5133635989135211, persistent@.55=True
+v18.49n original   r=0.309000 skew_plus  : 6-7 share@.65=61.312622%, onset=0.5133352832883266, persistent@.55=True
+v18.49n autonomous r=0.285000 cubic      : 6-7 share@.65=67.823869%, onset=0.5384042027470746, persistent@.55=True
+v18.49n autonomous r=0.285000 quintic    : 6-7 share@.65=67.774092%, onset=0.5385890474615398, persistent@.55=True
+v18.49n autonomous r=0.285000 cosine     : 6-7 share@.65=67.814477%, onset=0.5384381692927478, persistent@.55=True
+v18.49n autonomous r=0.285000 skew_minus : 6-7 share@.65=67.823361%, onset=0.5384143711945881, persistent@.55=True
+v18.49n autonomous r=0.285000 skew_plus  : 6-7 share@.65=67.824437%, onset=0.5383940053040218, persistent@.55=True
+v18.49n autonomous r=0.300000 cubic      : 6-7 share@.65=67.050423%, onset=0.5227345244218996, persistent@.55=True
+v18.49n autonomous r=0.300000 quintic    : 6-7 share@.65=66.925728%, onset=0.5229318832231231, persistent@.55=True
+v18.49n autonomous r=0.300000 cosine     : 6-7 share@.65=67.027266%, onset=0.522770756380944, persistent@.55=True
+v18.49n autonomous r=0.300000 skew_minus : 6-7 share@.65=67.054240%, onset=0.5227468772732677, persistent@.55=True
+v18.49n autonomous r=0.300000 skew_plus  : 6-7 share@.65=67.046609%, onset=0.522722142865845, persistent@.55=True
+v18.49n autonomous r=0.309000 cubic      : 6-7 share@.65=61.243152%, onset=0.5133051906711138, persistent@.55=True
+v18.49n autonomous r=0.309000 quintic    : 6-7 share@.65=61.021410%, onset=0.5135135047370799, persistent@.55=True
+v18.49n autonomous r=0.309000 cosine     : 6-7 share@.65=61.202222%, onset=0.5133434071720282, persistent@.55=True
+v18.49n autonomous r=0.309000 skew_minus : 6-7 share@.65=61.252880%, onset=0.5133193033518427, persistent@.55=True
+v18.49n autonomous r=0.309000 skew_plus  : 6-7 share@.65=61.233346%, onset=0.5132910494630158, persistent@.55=True
+{
+  "status": "NUMERICAL_AUDIT_COMPLETED",
+  "total_case_count": 30,
+  "integration_counts": {
+    "physical_forward_11D": 2,
+    "physical_return_11D": 30,
+    "tangent_10D": 30
+  },
+  "all_cases_final_leader_6_7": true,
+  "all_cases_6_7_leader_at_all_samples_q055_to_065": true,
+  "worst_final_share_6_7": 0.6102140999565089,
+  "numeric_controls": {
+    "forward_regression": 3.424991987393049e-13,
+    "mechanical_ledger": 2.2102669694490373e-10,
+    "pair_frobenius_identity": 4.831690603168681e-13,
+    "upstream_cubic_max_abs_share_difference": 1.7277845820729e-11,
+    "identity_at_q050_q065": 5.684341886080802e-14
+  }
+}
+PASS v18.49n output cardinality, ancestry regression, algebraic closure
+Wrote four authentic data-driven Q550 figures
+Wrote SCIENTIFIC_REPORT.md

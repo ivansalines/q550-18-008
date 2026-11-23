@@ -1,0 +1,4 @@
+# Interpreter: Python 3.13 recommended; compatible 3.11+ generally works.
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7

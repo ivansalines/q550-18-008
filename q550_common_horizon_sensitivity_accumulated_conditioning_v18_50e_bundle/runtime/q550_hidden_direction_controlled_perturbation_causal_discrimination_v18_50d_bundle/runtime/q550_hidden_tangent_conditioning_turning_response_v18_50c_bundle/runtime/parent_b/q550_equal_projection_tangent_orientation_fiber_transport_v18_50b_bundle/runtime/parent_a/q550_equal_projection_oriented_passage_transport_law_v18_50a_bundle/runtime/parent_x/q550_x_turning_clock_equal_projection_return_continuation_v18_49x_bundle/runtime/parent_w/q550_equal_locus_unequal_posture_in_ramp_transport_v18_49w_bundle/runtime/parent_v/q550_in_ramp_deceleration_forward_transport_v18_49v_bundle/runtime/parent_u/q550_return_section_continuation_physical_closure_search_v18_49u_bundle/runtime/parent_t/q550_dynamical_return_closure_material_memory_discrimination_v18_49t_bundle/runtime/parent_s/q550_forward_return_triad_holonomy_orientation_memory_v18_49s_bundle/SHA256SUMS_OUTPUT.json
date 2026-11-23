@@ -1,0 +1,29 @@
+{
+  "version": "v18.49s",
+  "root": "q550_forward_return_triad_holonomy_orientation_memory_v18_49s_bundle",
+  "files": {
+    "README.md": "faaa65e85d4298af2abb032a1d1cba0a2da9633f5eb431be5e6790166bd611b5",
+    "SCIENTIFIC_DECISION_RULES.md": "9d1993f31a6f0a85f3adf3b93cdfa9b6daed56854623e06d8e6b28d535bc753c",
+    "SCIENTIFIC_REPORT.md": "8595e4429d5cf54925b50946f2f85b4733601b65362c610a6084cec71566d9a8",
+    "inputs/SOURCE_PINS.json": "5773b4126373d614aa12950ca97eaae0ddf3b726d311c57ebe350a5c757d0591",
+    "inputs/q550_gauge_covariant_triad_orientation_cross_subspace_transport_v18_49r_authenticated_server_sendback.zip": "323cd33eea1730d15ead95c3ae356d973310642775c16af386a741deff458e3f",
+    "requirements.txt": "25412683eb8f0b0049e66b26009838e23bc6cb4d4979f9da0f289599b0dab630",
+    "results/environment.json": "acc0761e8607afbd093f93249873d99b4ba956174bc5e2feb1e522d08eb0cd7e",
+    "results/forward_reverse_null_controls.csv": "b5df5afeb177e175591e158a50bc813c6b194523c398ef02643a7d4da203bbb3",
+    "results/phase_resolved_two_path_triads.csv": "6b2bd02dca8419e50870a1a957f7c764864b65cd2138d934c2ee9d3d6729805e",
+    "results/phase_window_holonomy.png": "ba2ac848f8083972b59dd74ec01d9ee111a2e49d253a32d7aabb63a038eb867c",
+    "results/report.json": "05d90052ca319630c3393dd40b94db00b8a5da1f7b34139aedf95e2cddf4b9ac",
+    "results/same_path_reverse_null_control.png": "527b2a1a248cfd01dc7db333873bfae832e0a824c43b61ae5d3d7ddaed0ddc34",
+    "results/two_path_canonical_connector_holonomy.csv": "3f044d9915e3dd576dfb6a35f2a36d22bc375fc31d345881183b349d61195499",
+    "results/two_path_holonomy_angles.png": "cd9735576abcde7d686ebe986517334f6a17d6519ee74366f0fda428b3980946",
+    "run_on_server.sh": "552244477fb8043a7235055632571fd9cd5d8ae51502f83c2debbd4335653639",
+    "scripts/generate_report.py": "6f048abe69557c8d361bad2d655cc20645b63b45762b50988f21f818d92dab9c",
+    "scripts/holonomy_math.py": "fd44a5e7555d57f69dad526c91f610ded5a61294e94de9edf9a60fa081d95419",
+    "scripts/pack_sendback.py": "313d2292cb448b887c79e74e9121f8a9641882ecdd496131522e40ba2f6bb0f8",
+    "scripts/plot_results.py": "1e5b4840a9fa3b76d471616bbc8e3cde89a7e544a9c0c2a22ab7da1e5ccbfaba",
+    "scripts/run_audit.py": "2a1c49be69cc1e8b4dcbc7d86522a66eb359d83333f36bfe13bcb8a3b44cfa23",
+    "scripts/verify_s_parent.py": "fa681b47ac7a7d36b7a7d5384077bcd8044b32f41b5729cbe62e7ec414b4118a",
+    "tests/test_holonomy.py": "a4ebbfb095859ce1ce6a63db9479c4239d418850ca9b9fc88a12abbea5be692b",
+    "v18_49s_server.log": "7df384149e09c29aac8b6a2253c282bfc3e3f73b38fafdfab367b12cf8ed51a7"
+  }
+}

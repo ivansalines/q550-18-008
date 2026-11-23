@@ -1,0 +1,33 @@
+test_chain (test_response_math.TestMath.test_chain) ... ok
+test_linearization (test_response_math.TestMath.test_linearization) ... ok
+test_unit (test_response_math.TestMath.test_unit) ... ok
+test_zero (test_response_math.TestMath.test_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.115s
+
+OK
+natural autonomous 0.18 beta:2:2
+natural autonomous 0.24 beta:2:2
+natural autonomous 0.24 beta:3:3
+natural autonomous 0.327375 beta:2:2
+natural autonomous 0.5 beta:2:2
+natural original 0.18 beta:2:2
+natural original 0.24 beta:2:2
+natural original 0.24 beta:3:3
+natural original 0.327375 beta:2:2
+natural original 0.5 beta:2:2
+same seed autonomous 0.18 beta:2:2
+same seed autonomous 0.24 beta:2:2
+same seed autonomous 0.24 beta:3:3
+same seed autonomous 0.327375 beta:2:2
+same seed autonomous 0.5 beta:2:2
+same seed original 0.18 beta:2:2
+same seed original 0.24 beta:2:2
+same seed original 0.24 beta:3:3
+same seed original 0.327375 beta:2:2
+same seed original 0.5 beta:2:2
+RESULT {"natural_cases": 10, "same_seed_cases": 10, "rows": 100, "11D_IVPs_short": 60, "failures": 0} {"max_linearized_response_relative_residual": 1.8663626223391698e-06, "max_split_residual": 1.8110808203047832e-09, "natural_endpoint_gain_range": [16.494036903148395, 19.251407882695624], "same_seed_endpoint_gain_range": [16.9877682176863, 18.733384303156885]}
+plots generated
+Scientific report generated
+Sendback: /root/elab1/hysteresis/q550_common_horizon_sensitivity_accumulated_conditioning_v18_50e_bundle_sendback.zip members 21 bytes 50220896

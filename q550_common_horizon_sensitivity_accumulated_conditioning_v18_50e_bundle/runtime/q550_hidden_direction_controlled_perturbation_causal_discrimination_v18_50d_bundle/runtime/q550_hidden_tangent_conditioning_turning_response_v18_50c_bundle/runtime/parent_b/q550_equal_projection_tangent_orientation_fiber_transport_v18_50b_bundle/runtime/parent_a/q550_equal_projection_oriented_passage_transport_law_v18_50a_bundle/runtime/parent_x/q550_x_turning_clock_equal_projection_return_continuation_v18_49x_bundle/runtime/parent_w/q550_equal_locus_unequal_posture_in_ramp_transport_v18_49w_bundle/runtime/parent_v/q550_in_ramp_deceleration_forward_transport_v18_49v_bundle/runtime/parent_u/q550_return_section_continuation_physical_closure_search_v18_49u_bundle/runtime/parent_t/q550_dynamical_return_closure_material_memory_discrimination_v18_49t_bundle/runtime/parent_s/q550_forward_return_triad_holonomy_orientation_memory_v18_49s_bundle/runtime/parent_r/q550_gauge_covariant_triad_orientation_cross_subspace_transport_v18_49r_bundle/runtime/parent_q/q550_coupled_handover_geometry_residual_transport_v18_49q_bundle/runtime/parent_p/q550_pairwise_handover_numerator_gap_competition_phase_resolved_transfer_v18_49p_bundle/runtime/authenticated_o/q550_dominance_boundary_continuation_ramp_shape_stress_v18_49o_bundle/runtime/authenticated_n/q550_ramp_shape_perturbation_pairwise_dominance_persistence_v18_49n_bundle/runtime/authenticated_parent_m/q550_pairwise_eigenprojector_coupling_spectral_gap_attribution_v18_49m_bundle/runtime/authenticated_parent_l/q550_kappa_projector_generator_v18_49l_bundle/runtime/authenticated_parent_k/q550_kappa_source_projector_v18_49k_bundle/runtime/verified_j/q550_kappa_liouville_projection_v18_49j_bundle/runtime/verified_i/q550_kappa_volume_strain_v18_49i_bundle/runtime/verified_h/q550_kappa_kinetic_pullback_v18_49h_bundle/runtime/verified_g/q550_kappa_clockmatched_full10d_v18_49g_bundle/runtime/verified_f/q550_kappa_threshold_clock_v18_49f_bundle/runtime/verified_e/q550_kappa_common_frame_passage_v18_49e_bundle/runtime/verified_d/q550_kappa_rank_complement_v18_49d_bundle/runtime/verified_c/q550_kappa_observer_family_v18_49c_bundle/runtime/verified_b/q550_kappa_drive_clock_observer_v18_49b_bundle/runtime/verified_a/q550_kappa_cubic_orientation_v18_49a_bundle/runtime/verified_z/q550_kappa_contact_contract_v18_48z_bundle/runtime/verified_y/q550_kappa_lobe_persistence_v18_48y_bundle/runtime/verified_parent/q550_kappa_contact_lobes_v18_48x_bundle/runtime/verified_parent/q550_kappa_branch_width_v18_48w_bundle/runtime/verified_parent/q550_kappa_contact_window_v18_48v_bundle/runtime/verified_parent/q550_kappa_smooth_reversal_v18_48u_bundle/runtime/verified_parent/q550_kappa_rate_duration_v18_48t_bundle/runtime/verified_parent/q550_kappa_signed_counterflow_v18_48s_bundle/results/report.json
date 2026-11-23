@@ -1,0 +1,78 @@
+{
+  "version": "v18.48s",
+  "title": "Signed Counterflow Tangent & Phase-Locked Near-Contact Audit",
+  "genuine_11D_integrations": 88,
+  "historical_states": 328,
+  "asynchronous_contact_pairs": 80,
+  "phase_locked_contact_pairs": 80,
+  "projected_2D_crossings_reexamined": 58,
+  "phase_locked_one_coordinate_roots": 104,
+  "phase_locked_one_coordinate_min_full3D_gap": 0.0009631449822693354,
+  "projected_crossings_clock_matched": 0,
+  "projected_crossings_chronological_opposite_over_170deg": 28,
+  "projected_crossings_chronological_similar_under_10deg": 28,
+  "phase_locked_min_chronological_opposite_over_170deg": 20,
+  "phase_locked_min_phase_corresponding_opposite_over_170deg": 56,
+  "phase_locked_min_drive_power_opposite_signs": 60,
+  "phase_locked_min_energy_difference_positive": 28,
+  "phase_locked_min_energy_difference_negative": 52,
+  "asynchronous_chronological_angle": {
+    "count": 80,
+    "min": 0.5678068595108651,
+    "median": 178.9238569865397,
+    "max": 179.9834806339124
+  },
+  "phase_locked_chronological_angle": {
+    "count": 80,
+    "min": 0.2622802211150259,
+    "median": 4.194975570257546,
+    "max": 179.68043874380197
+  },
+  "phase_locked_shape_distance": {
+    "count": 80,
+    "min": 0.0009631210408284512,
+    "median": 0.007632121484842842,
+    "max": 0.817442132942963
+  },
+  "phase_locked_energy_difference": {
+    "count": 80,
+    "min": -0.0067409266593803085,
+    "median": -0.0016483464912719903,
+    "max": 0.020378064601382473
+  },
+  "phase_locked_signed_drive_power_return": {
+    "count": 80,
+    "min": -0.013014855576499207,
+    "median": 0.007711128320776504,
+    "max": 0.052553316295451354
+  },
+  "phase_locked_signed_drive_power_forward": {
+    "count": 80,
+    "min": -0.012622129078997684,
+    "median": -0.0001312736601159518,
+    "max": 0.01415619451698577
+  },
+  "max_source_r_distance_recheck": 1.9697576902899527e-12,
+  "max_source_r_chronological_angle_deg_recheck": 7.10072356469027e-09,
+  "max_historical_11D_replay_error": 1.4682871154316755e-11,
+  "max_integrated_energy_balance_relative_error": 1.317002062961592e-14,
+  "max_meeting_energy_ledger_absolute_residual": 4.751060656005279e-14,
+  "max_phase_locked_clock_mismatch_rad": 4.440892098500626e-16,
+  "integration": {
+    "solver": "DOP853",
+    "rtol": 3e-12,
+    "atol": 3e-13,
+    "max_step": 0.025,
+    "phase_root_nodes": 151
+  },
+  "declared_reference": "Chronological tangent R du versus F ds; equal-drive-phase corresponds to s(u)=1-rate*duration*u, so compare R du with -rate*duration*F ds.",
+  "provenance": {
+    "parent_sha256": "b601151e9bd5e81553695b4c698cd505435143a51976320055a5e0f931ee3d33",
+    "parent_r_verified_files": 24,
+    "parent_r_report_sha256": "03629aa741a2bf17f8049efeab932eaaac98f2972dbf78733106e51baf5c8c67",
+    "historical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+    "original_11D_rhs": true,
+    "parent_chain_verified": true
+  },
+  "limitations": "Orientation and chirality depend on the declared geometric chart/projection and temporal convention. Signed drive power is a term in the chosen mechanical ledger, not an independently measured energy flux. One-coordinate matched roots do not imply a full geometric or material crossing. No unperturbed continuum of inversion-rate/initial-condition variation or universal hysteresis claim."
+}

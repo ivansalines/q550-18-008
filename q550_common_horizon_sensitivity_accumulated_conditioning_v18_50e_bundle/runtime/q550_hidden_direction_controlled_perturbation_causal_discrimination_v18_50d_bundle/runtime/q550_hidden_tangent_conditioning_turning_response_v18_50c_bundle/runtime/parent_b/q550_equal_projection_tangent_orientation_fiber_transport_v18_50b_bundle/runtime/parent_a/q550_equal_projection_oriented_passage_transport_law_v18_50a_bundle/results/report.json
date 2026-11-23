@@ -1,0 +1,182 @@
+{
+  "audit": "v18.50a \u2014 Equal-Projection Oriented Passage & Transport-Law Audit",
+  "classification": "NUMERICAL_ORIENTED_EQUAL_PROJECTION_PASSAGE_NOT_PHYSICAL_CHIRALITY_OR_MATERIAL_MEMORY_CERTIFICATE",
+  "genealogy": {
+    "parent_x_sha256": "6344878b0e62dc70956bb74c8a00aa189c273b6474c48511869f21bc2974ccba",
+    "parent_x_manifest_members": 27,
+    "upstream_authenticated": true
+  },
+  "counts": {
+    "successful_cases": 10,
+    "failed_cases": 0,
+    "matched_passages_replayed": 34,
+    "parent_matched_passages": 34
+  },
+  "statistics": {
+    "opposed_x_branch_fraction": 1.0,
+    "theta1_area_positive_fraction": 0.0,
+    "theta2_area_positive_fraction": 0.0,
+    "maximum_area_quadrature_refinement_error": 2.347746630893162e-15,
+    "maximum_parent_x_projector_difference": 0.0,
+    "maximum_angular_rate_ledger_error": 1.262323578998803e-13
+  },
+  "cases": [
+    {
+      "kind": "autonomous",
+      "ramp_xi": 0.18,
+      "shape": "beta:2:2",
+      "pairs": 3,
+      "mechanical_ledger_error": 6.309518879588083e-13,
+      "max_area_quad_refinement": 1.158095632738075e-15,
+      "max_projector_regression": 0.0,
+      "theta1_area_signs": [
+        -1.0
+      ],
+      "theta2_area_signs": [
+        -1.0
+      ]
+    },
+    {
+      "kind": "autonomous",
+      "ramp_xi": 0.24,
+      "shape": "beta:2:2",
+      "pairs": 4,
+      "mechanical_ledger_error": 1.1802364641155805e-13,
+      "max_area_quad_refinement": 2.346157597084113e-15,
+      "max_projector_regression": 0.0,
+      "theta1_area_signs": [
+        -1.0
+      ],
+      "theta2_area_signs": [
+        -1.0
+      ]
+    },
+    {
+      "kind": "autonomous",
+      "ramp_xi": 0.24,
+      "shape": "beta:3:3",
+      "pairs": 4,
+      "mechanical_ledger_error": 1.0579332548887876e-12,
+      "max_area_quad_refinement": 2.3062962265863254e-15,
+      "max_projector_regression": 0.0,
+      "theta1_area_signs": [
+        -1.0
+      ],
+      "theta2_area_signs": [
+        -1.0
+      ]
+    },
+    {
+      "kind": "autonomous",
+      "ramp_xi": 0.327375,
+      "shape": "beta:2:2",
+      "pairs": 4,
+      "mechanical_ledger_error": 2.4476323745581396e-12,
+      "max_area_quad_refinement": 2.1979268313146103e-15,
+      "max_projector_regression": 0.0,
+      "theta1_area_signs": [
+        -1.0
+      ],
+      "theta2_area_signs": [
+        -1.0
+      ]
+    },
+    {
+      "kind": "autonomous",
+      "ramp_xi": 0.5,
+      "shape": "beta:2:2",
+      "pairs": 2,
+      "mechanical_ledger_error": 2.229955803345618e-12,
+      "max_area_quad_refinement": 1.401469374307917e-15,
+      "max_projector_regression": 0.0,
+      "theta1_area_signs": [
+        -1.0
+      ],
+      "theta2_area_signs": [
+        -1.0
+      ]
+    },
+    {
+      "kind": "original",
+      "ramp_xi": 0.18,
+      "shape": "beta:2:2",
+      "pairs": 3,
+      "mechanical_ledger_error": 6.1571754639278e-13,
+      "max_area_quad_refinement": 1.160853572014335e-15,
+      "max_projector_regression": 0.0,
+      "theta1_area_signs": [
+        -1.0
+      ],
+      "theta2_area_signs": [
+        -1.0
+      ]
+    },
+    {
+      "kind": "original",
+      "ramp_xi": 0.24,
+      "shape": "beta:2:2",
+      "pairs": 4,
+      "mechanical_ledger_error": 4.1828172869795566e-13,
+      "max_area_quad_refinement": 2.347746630893162e-15,
+      "max_projector_regression": 0.0,
+      "theta1_area_signs": [
+        -1.0
+      ],
+      "theta2_area_signs": [
+        -1.0
+      ]
+    },
+    {
+      "kind": "original",
+      "ramp_xi": 0.24,
+      "shape": "beta:3:3",
+      "pairs": 4,
+      "mechanical_ledger_error": 1.0992439597456993e-12,
+      "max_area_quad_refinement": 2.3088441016916664e-15,
+      "max_projector_regression": 0.0,
+      "theta1_area_signs": [
+        -1.0
+      ],
+      "theta2_area_signs": [
+        -1.0
+      ]
+    },
+    {
+      "kind": "original",
+      "ramp_xi": 0.327375,
+      "shape": "beta:2:2",
+      "pairs": 4,
+      "mechanical_ledger_error": 2.405116036885424e-12,
+      "max_area_quad_refinement": 2.1984807908621146e-15,
+      "max_projector_regression": 0.0,
+      "theta1_area_signs": [
+        -1.0
+      ],
+      "theta2_area_signs": [
+        -1.0
+      ]
+    },
+    {
+      "kind": "original",
+      "ramp_xi": 0.5,
+      "shape": "beta:2:2",
+      "pairs": 2,
+      "mechanical_ledger_error": 4.388624880169445e-12,
+      "max_area_quad_refinement": 1.4023452063753779e-15,
+      "max_projector_regression": 0.0,
+      "theta1_area_signs": [
+        -1.0
+      ],
+      "theta2_area_signs": [
+        -1.0
+      ]
+    }
+  ],
+  "limitations": [
+    "Signed (x, theta) area is a 2D chosen-coordinate projected diagnostic. It is not spatial volume, material torsion, or observer-independent chirality.",
+    "The exact x returns are obtained from the authenticated x parent. No eight-state or quadrant label is assigned to Q550.",
+    "Triad projector Frobenius gap is invariant under global orthogonal changes of the common kinetic frame but does not determine an oriented material body frame.",
+    "Reintegration and quadrature are numerical not rigorous interval certificates.",
+    "Selected return events share a solver trajectory; 34 source pairs are not 34 independent experiments."
+  ]
+}

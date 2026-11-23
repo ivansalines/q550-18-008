@@ -1,0 +1,238 @@
+{
+  "audit": "Q550 v18.49r \u2014 Gauge-Covariant Triad Orientation & Cross-Subspace Transport Audit",
+  "status": "PHASE_RESOLVED_NUMERICAL_AUDIT",
+  "cases": [
+    {
+      "kappa_kind": "original",
+      "ramp_xi": 0.32671875,
+      "handover_roots": [],
+      "chi_at_end": 1.0000000000000002,
+      "chi_defined_fraction": 1.0,
+      "cross_fraction_at_start": 0.08514952898462165,
+      "cross_fraction_at_end": 0.08410070623086013,
+      "cross_singular_values_at_end": [
+        2.7883369571767433,
+        1.8257329008306937,
+        0.9975797041753093
+      ],
+      "parallel_triads_relative_rotation_rad": 0.18564497780621014,
+      "parallel_triads_relative_rotation_deg": 10.636673716095677,
+      "parallel_block_determinant": 1.000000000000001,
+      "parallel_block_singular_values": [
+        1.0000000000000013,
+        1.0000000000000007,
+        0.9999999999999989
+      ],
+      "parallel_subspace_endpoint_error": 5.253758644719481e-09,
+      "parallel_transport_refinement": 1.5893075410904414e-08,
+      "parallel_gauge_random_sign_stream_endpoint_error": 0.0,
+      "subspace_endpoint_displacement": 0.09552132841133167,
+      "phase_resolved_rotation_end_deg": 10.636673722421136,
+      "phase_resolved_rotation_max_step_deg": 0.07206618503453299,
+      "phase_resolved_max_subspace_parallel_error": 9.33995693683735e-09,
+      "spectral_gap_min": 0.06478689895972549
+    },
+    {
+      "kappa_kind": "original",
+      "ramp_xi": 0.327375,
+      "handover_roots": [
+        0.6498761838674533
+      ],
+      "chi_at_end": 1.0,
+      "chi_defined_fraction": 1.0,
+      "cross_fraction_at_start": 0.08522229127002445,
+      "cross_fraction_at_end": 0.08282612613670827,
+      "cross_singular_values_at_end": [
+        2.8001587368024423,
+        1.826627541996922,
+        0.997634808551042
+      ],
+      "parallel_triads_relative_rotation_rad": 0.18609057602212062,
+      "parallel_triads_relative_rotation_deg": 10.662204613225907,
+      "parallel_block_determinant": 0.9999999999999999,
+      "parallel_block_singular_values": [
+        1.0000000000000009,
+        0.9999999999999999,
+        0.9999999999999992
+      ],
+      "parallel_subspace_endpoint_error": 5.4169180217631005e-09,
+      "parallel_transport_refinement": 1.6383386863261813e-08,
+      "parallel_gauge_random_sign_stream_endpoint_error": 0.0,
+      "subspace_endpoint_displacement": 0.09574094473458893,
+      "phase_resolved_rotation_end_deg": 10.66220461973044,
+      "phase_resolved_rotation_max_step_deg": 0.07285917925929297,
+      "phase_resolved_max_subspace_parallel_error": 9.630049345598824e-09,
+      "spectral_gap_min": 0.06398267860231407
+    },
+    {
+      "kappa_kind": "original",
+      "ramp_xi": 0.33,
+      "handover_roots": [
+        0.6467245506201232
+      ],
+      "chi_at_end": 0.9999999999999999,
+      "chi_defined_fraction": 1.0,
+      "cross_fraction_at_start": 0.08557550583262634,
+      "cross_fraction_at_end": 0.07661731296843227,
+      "cross_singular_values_at_end": [
+        2.850762956085103,
+        1.8298104256059675,
+        0.9978252972382925
+      ],
+      "parallel_triads_relative_rotation_rad": 0.18907383308446074,
+      "parallel_triads_relative_rotation_deg": 10.833132652100591,
+      "parallel_block_determinant": 1.0000000000000024,
+      "parallel_block_singular_values": [
+        1.0000000000000016,
+        1.0000000000000007,
+        1.0000000000000002
+      ],
+      "parallel_subspace_endpoint_error": 6.13621602928205e-09,
+      "parallel_transport_refinement": 1.854453238252073e-08,
+      "parallel_gauge_random_sign_stream_endpoint_error": 0.0,
+      "subspace_endpoint_displacement": 0.09666573203165221,
+      "phase_resolved_rotation_end_deg": 10.833132659326594,
+      "phase_resolved_rotation_max_step_deg": 0.07720613533452614,
+      "phase_resolved_max_subspace_parallel_error": 1.0908757388332014e-08,
+      "spectral_gap_min": 0.06077586087443848
+    },
+    {
+      "kappa_kind": "autonomous",
+      "ramp_xi": 0.327375,
+      "handover_roots": [
+        0.6497188831708804
+      ],
+      "chi_at_end": 1.0000000000000004,
+      "chi_defined_fraction": 1.0,
+      "cross_fraction_at_start": 0.08512559645403263,
+      "cross_fraction_at_end": 0.08246127800944951,
+      "cross_singular_values_at_end": [
+        2.8006914404917658,
+        1.826881220473303,
+        0.9975134098266331
+      ],
+      "parallel_triads_relative_rotation_rad": 0.18631825645003042,
+      "parallel_triads_relative_rotation_deg": 10.67524974082287,
+      "parallel_block_determinant": 1.000000000000001,
+      "parallel_block_singular_values": [
+        1.0000000000000022,
+        0.9999999999999996,
+        0.9999999999999993
+      ],
+      "parallel_subspace_endpoint_error": 5.423891485989644e-09,
+      "parallel_transport_refinement": 1.6404189926825863e-08,
+      "parallel_gauge_random_sign_stream_endpoint_error": 0.0,
+      "subspace_endpoint_displacement": 0.09575407275809296,
+      "phase_resolved_rotation_end_deg": 10.675249747325042,
+      "phase_resolved_rotation_max_step_deg": 0.07307099183841181,
+      "phase_resolved_max_subspace_parallel_error": 9.642397652401566e-09,
+      "spectral_gap_min": 0.06382346327295828
+    },
+    {
+      "kappa_kind": "autonomous",
+      "ramp_xi": 0.33,
+      "handover_roots": [
+        0.6465678137221196
+      ],
+      "chi_at_end": 1.0,
+      "chi_defined_fraction": 1.0,
+      "cross_fraction_at_start": 0.0854844252259876,
+      "cross_fraction_at_end": 0.07616992416345328,
+      "cross_singular_values_at_end": [
+        2.8513504738625497,
+        1.8300598382815871,
+        0.9977039022129576
+      ],
+      "parallel_triads_relative_rotation_rad": 0.18940395803223822,
+      "parallel_triads_relative_rotation_deg": 10.85204741832022,
+      "parallel_block_determinant": 0.9999999999999994,
+      "parallel_block_singular_values": [
+        1.0000000000000002,
+        1.0,
+        0.9999999999999996
+      ],
+      "parallel_subspace_endpoint_error": 6.145183321904567e-09,
+      "parallel_transport_refinement": 1.8571342886327747e-08,
+      "parallel_gauge_random_sign_stream_endpoint_error": 0.0,
+      "subspace_endpoint_displacement": 0.09667957871212525,
+      "phase_resolved_rotation_end_deg": 10.852047425540942,
+      "phase_resolved_rotation_max_step_deg": 0.07751830312558461,
+      "phase_resolved_max_subspace_parallel_error": 1.0924690292763431e-08,
+      "spectral_gap_min": 0.06061780386249581
+    }
+  ],
+  "handover_events": [
+    {
+      "kappa_kind": "original",
+      "ramp_xi": 0.327375,
+      "q_root": 0.6498761838674533,
+      "chi_at_root": 1.0,
+      "cross_fraction_at_root": 0.08300362340809143
+    },
+    {
+      "kappa_kind": "original",
+      "ramp_xi": 0.33,
+      "q_root": 0.6467245506201232,
+      "chi_at_root": 1.0000000000000002,
+      "cross_fraction_at_root": 0.08223016775419036
+    },
+    {
+      "kappa_kind": "autonomous",
+      "ramp_xi": 0.327375,
+      "q_root": 0.6497188831708804,
+      "chi_at_root": 1.0000000000000002,
+      "cross_fraction_at_root": 0.08286835028040467
+    },
+    {
+      "kappa_kind": "autonomous",
+      "ramp_xi": 0.33,
+      "q_root": 0.6465678137221196,
+      "chi_at_root": 1.0,
+      "cross_fraction_at_root": 0.08209684067755373
+    }
+  ],
+  "controls": {
+    "max_parent_endpoint_regression": 0.0,
+    "max_gauge_sign_invariance_error": 0.0,
+    "max_constant_orthogonal_chart_error": 2.6645352591003757e-15,
+    "max_block_closure": 1.9087599968841302e-16,
+    "max_cross_derivative_closure": 1.047424265162753e-13,
+    "max_subspace_fd_error": 1.456284986629284e-08,
+    "min_relative_spectral_gap": 0.06061780386249581,
+    "min_eigenline_overlap": 0.9999990667963795,
+    "max_parallel_rotation_orthogonality": 9.132417715101585e-15,
+    "max_parallel_subspace_error": 6.145183321904567e-09,
+    "max_chi_collinearity_error": 5.551115123125783e-16,
+    "max_ledger_error": 1.3353661926229776e-11
+  },
+  "parent_verification": {
+    "parent_sha256": "b728f00924d688dc8a070e0745e7d9880e79af0783002916f1625e45e752710f",
+    "parent_manifest_entries": 22,
+    "v18_49q_cases": 5,
+    "v18_49q_handover_events": 4,
+    "upstream_verified": true
+  },
+  "integrations": {
+    "physical_forward_11D": 2,
+    "physical_return_11D": 5,
+    "tangent_10D": 5
+  },
+  "method": {
+    "phase_window": [
+      0.63,
+      0.65
+    ],
+    "phase_samples": 151,
+    "cross_parallel_steps": 200,
+    "metric": "authenticated fixed initial kinetic metric",
+    "definition": "K=SKS+(SKT+TKS)+TKT; Kato-style transport of S via Kcross",
+    "orientation": "relative SO(3) holonomy with continuously aligned eigenlines and explicit initial sign reference"
+  },
+  "limitations": [
+    "An unordered or unoriented set of eigenlines does not have a gauge-independent intrinsic orientation.",
+    "The scalar commutator alignment chi has |chi|=1 by a three-index Lie algebra identity wherever defined; it is not by itself independent evidence of physical torsion.",
+    "The relative SO(3) rotation depends on the initial oriented eigenframe and chosen path; only conjugacy-invariant summaries such as angle are sign-gauge robust.",
+    "Results are in the authenticated kinetic metric with a fixed external observer reference; no arbitrary time-dependent observer covariance or material flip theorem.",
+    "These are high-precision floating-point replay diagnostics; no rigorous interval certificate."
+  ]
+}

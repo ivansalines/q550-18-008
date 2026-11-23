@@ -1,0 +1,54 @@
+test_direction_angle (test_perturbations.MathematicalTests.test_direction_angle) ... ok
+test_orientation_normalized (test_perturbations.MathematicalTests.test_orientation_normalized) ... ok
+test_pulse_endpoints (test_perturbations.MathematicalTests.test_pulse_endpoints) ... ok
+test_pulse_signs (test_perturbations.MathematicalTests.test_pulse_signs) ... ok
+test_pulse_zero_rate_midpoint (test_perturbations.MathematicalTests.test_pulse_zero_rate_midpoint) ... ok
+test_symmetric_response (test_perturbations.MathematicalTests.test_symmetric_response) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.005s
+
+OK
+v18.50d controlled case autonomous 0.18 beta:2:2
+   x_logit_kick first order gain 16.500371 amp sensitivity 0.00014309
+   theta1_kick first order gain 2.275849 amp sensitivity 3.56e-06
+   compensated_drive_pulse first order gain 0.000846 amp sensitivity 8.5e-07
+v18.50d controlled case autonomous 0.24 beta:2:2
+   x_logit_kick first order gain 17.716747 amp sensitivity 0.00016025
+   theta1_kick first order gain 2.49662 amp sensitivity 3.8e-06
+   compensated_drive_pulse first order gain 0.000909 amp sensitivity 1.88e-06
+v18.50d controlled case autonomous 0.24 beta:3:3
+   x_logit_kick first order gain 17.965959 amp sensitivity 0.00016411
+   theta1_kick first order gain 2.542089 amp sensitivity 3.86e-06
+   compensated_drive_pulse first order gain 0.00092 amp sensitivity 6e-08
+v18.50d controlled case autonomous 0.327375 beta:2:2
+   x_logit_kick first order gain 18.601732 amp sensitivity 0.00017453
+   theta1_kick first order gain 2.663082 amp sensitivity 4.05e-06
+   compensated_drive_pulse first order gain 0.000955 amp sensitivity 4e-07
+v18.50d controlled case autonomous 0.5 beta:2:2
+   x_logit_kick first order gain 19.25144 amp sensitivity 0.00018599
+   theta1_kick first order gain 2.789696 amp sensitivity 4.28e-06
+   compensated_drive_pulse first order gain 0.000989 amp sensitivity 9e-08
+v18.50d controlled case original 0.18 beta:2:2
+   x_logit_kick first order gain 16.494052 amp sensitivity 0.00014303
+   theta1_kick first order gain 2.27586 amp sensitivity 3.57e-06
+   compensated_drive_pulse first order gain 0.000846 amp sensitivity 5.5e-07
+v18.50d controlled case original 0.24 beta:2:2
+   x_logit_kick first order gain 17.712372 amp sensitivity 0.0001602
+   theta1_kick first order gain 2.497021 amp sensitivity 3.8e-06
+   compensated_drive_pulse first order gain 0.000909 amp sensitivity 5.4e-07
+v18.50d controlled case original 0.24 beta:3:3
+   x_logit_kick first order gain 17.961927 amp sensitivity 0.00016406
+   theta1_kick first order gain 2.542559 amp sensitivity 3.86e-06
+   compensated_drive_pulse first order gain 0.00092 amp sensitivity 4.2e-07
+v18.50d controlled case original 0.327375 beta:2:2
+   x_logit_kick first order gain 18.599143 amp sensitivity 0.0001745
+   theta1_kick first order gain 2.66384 amp sensitivity 4.05e-06
+   compensated_drive_pulse first order gain 0.000955 amp sensitivity 5.3e-07
+v18.50d controlled case original 0.5 beta:2:2
+   x_logit_kick first order gain 19.250373 amp sensitivity 0.00018598
+   theta1_kick first order gain 2.790761 amp sensitivity 4.29e-06
+   compensated_drive_pulse first order gain 0.000989 amp sensitivity 1.38e-06
+RESULT {"cases": 10, "amplitudes": 3, "response_rows": 90, "controlled_ivps": 180, "failed_cases": 0} {"maximum_direct_jacobian_vs_physical_rhs_error": 3.7783393192837526e-11, "maximum_linear_response_drift": 0.00018598868656363233, "minimum_x_jacobian_norm": 1.1389478080300315, "maximum_x_jacobian_norm": 1.1392420516477508, "all_drive_pulse_theta_endpoints_match": true}
+Generated 4 v18.50d figures
+Generated scientific report

@@ -1,0 +1,13 @@
+{
+  "audited_parent": "v18.49t authentic sendback",
+  "parent_archive_sha256": "a7e7f3cdf2707b2c35bbf06e2a36b03e35640ae3899ca4e5579e564b50999c14",
+  "result_status": "NO_PHYSICAL_CLOSURE_IN_EXPLORED_RETURN_SECTION_DOMAIN",
+  "cases": 22,
+  "optimized_section_candidates": 66,
+  "candidates_touching_declared_search_boundary": 46,
+  "strict_closed": 0,
+  "best_joint_ramp": 0.12,
+  "best_joint_return_phase": 0.1,
+  "best_joint_at_boundary": true,
+  "note": "Min joint candidate at earliest allowed return phase (r + 0.10): not an interior dynamical root; untested earlier windows may be dominated by imposed turnaround."
+}

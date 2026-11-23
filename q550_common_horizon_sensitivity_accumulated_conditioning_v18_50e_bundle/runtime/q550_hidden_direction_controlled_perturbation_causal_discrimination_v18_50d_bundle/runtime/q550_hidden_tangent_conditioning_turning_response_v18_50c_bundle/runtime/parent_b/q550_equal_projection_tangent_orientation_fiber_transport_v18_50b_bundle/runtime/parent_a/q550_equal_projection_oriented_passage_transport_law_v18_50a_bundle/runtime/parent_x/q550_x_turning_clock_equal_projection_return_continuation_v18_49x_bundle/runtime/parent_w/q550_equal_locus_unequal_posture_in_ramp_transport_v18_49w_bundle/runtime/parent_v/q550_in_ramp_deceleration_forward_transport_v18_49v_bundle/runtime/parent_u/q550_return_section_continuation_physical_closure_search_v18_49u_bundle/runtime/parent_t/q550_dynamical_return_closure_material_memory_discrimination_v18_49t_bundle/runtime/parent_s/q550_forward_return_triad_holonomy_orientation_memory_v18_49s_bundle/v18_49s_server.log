@@ -1,0 +1,50 @@
+test_direct_rotated_subspace (test_holonomy.Tests.test_direct_rotated_subspace) ... ok
+test_identity_connector (test_holonomy.Tests.test_identity_connector) ... ok
+test_numerical_reverse (test_holonomy.Tests.test_numerical_reverse) ... ok
+test_reversal_zero (test_holonomy.Tests.test_reversal_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.212s
+
+OK
+v18.49s re-integrate physical 11D/tangent 10D original 0.327375
+  r relative triad rotation: 10.66220464 deg; roundtrip null: 5.188716654327255e-15 Kato projector error: 2.3510724545553165e-08
+v18.49s re-integrate physical 11D/tangent 10D original 0.32671875
+  r relative triad rotation: 10.63667374 deg; roundtrip null: 4.8730501361098134e-15 Kato projector error: 2.2802482034024218e-08
+v18.49s re-integrate physical 11D/tangent 10D original 0.33
+  r relative triad rotation: 10.83313268 deg; roundtrip null: 3.858992389923637e-15 Kato projector error: 2.6632504579434406e-08
+v18.49s re-integrate physical 11D/tangent 10D autonomous 0.327375
+  r relative triad rotation: 10.67524977 deg; roundtrip null: 4.8778987168501495e-15 Kato projector error: 2.3540930961543172e-08
+v18.49s re-integrate physical 11D/tangent 10D autonomous 0.33
+  r relative triad rotation: 10.85204745 deg; roundtrip null: 4.883943557642206e-15 Kato projector error: 2.6671420792211694e-08
+  loop original:0.327375000 vs original:0.326718750 full SO3 angle 0.0009951119 deg; endpoints mismatch 0.00373
+  loop original:0.327375000 vs original:0.326718750 late SO3 angle 0.0007753299 deg; endpoints mismatch 0.00373
+  loop original:0.327375000 vs original:0.326718750 early SO3 angle 0.0007158371 deg; endpoints mismatch 0.0036344
+  loop original:0.327375000 vs original:0.330000000 full SO3 angle 0.0040852426 deg; endpoints mismatch 0.0150893
+  loop original:0.327375000 vs original:0.330000000 late SO3 angle 0.0031827589 deg; endpoints mismatch 0.0150893
+  loop original:0.327375000 vs original:0.330000000 early SO3 angle 0.0029389052 deg; endpoints mismatch 0.0146859
+  loop original:0.327375000 vs autonomous:0.327375000 full SO3 angle 0.0001179692 deg; endpoints mismatch 0.0005891
+  loop original:0.327375000 vs autonomous:0.327375000 late SO3 angle 9.10701e-05 deg; endpoints mismatch 0.0005891
+  loop original:0.327375000 vs autonomous:0.327375000 early SO3 angle 8.70095e-05 deg; endpoints mismatch 0.000583
+  loop original:0.327375000 vs autonomous:0.330000000 full SO3 angle 0.0041144878 deg; endpoints mismatch 0.0153575
+  loop original:0.327375000 vs autonomous:0.330000000 late SO3 angle 0.0031958437 deg; endpoints mismatch 0.0153575
+  loop original:0.327375000 vs autonomous:0.330000000 early SO3 angle 0.0029702332 deg; endpoints mismatch 0.0149617
+{
+  "status": "NUMERICAL_TWO_PATH_DIAGNOSTIC_NOT_MATERIAL_MEMORY_CERTIFICATE",
+  "cases": 5,
+  "comparisons": 12,
+  "controls": {
+    "max_parent_share_regression": 0.0,
+    "max_parent_angle_regression_deg": 3.103312096186528e-08,
+    "max_roundtrip_same_path_error": 5.188716654327255e-15,
+    "max_projector_transport_error": 2.6671420792211694e-08,
+    "max_conn_endpoint_error": 8.395167272408489e-15,
+    "min_conn_singular": 0.9999557268592841,
+    "min_relative_spectral_gap": 0.06061780386249581,
+    "max_gauge_orthogonal_angle_difference_deg": 0.0,
+    "max_orthogonal_chart_angle_difference_deg": 8.377176771658026e-09,
+    "max_reverse_loop_reciprocity_deg": 8.377176771658026e-09,
+    "max_parent_11D_ledger_error": 1.3353661926229776e-11,
+    "max_holonomy_refinement_delta_deg": 1.6298903788257435e-08
+  }
+}

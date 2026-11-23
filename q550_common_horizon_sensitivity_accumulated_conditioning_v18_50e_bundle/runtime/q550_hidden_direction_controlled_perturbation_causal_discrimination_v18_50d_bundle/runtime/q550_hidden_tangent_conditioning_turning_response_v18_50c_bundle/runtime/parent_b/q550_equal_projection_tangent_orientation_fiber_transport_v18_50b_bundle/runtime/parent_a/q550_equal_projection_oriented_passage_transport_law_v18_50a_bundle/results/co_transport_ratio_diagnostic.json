@@ -1,0 +1,24 @@
+{
+  "count": 34,
+  "area_ratio_theta2_over_theta1": {
+    "minimum": 1.6713567646602532,
+    "maximum": 1.6750765694461045,
+    "mean": 1.6732712141881063,
+    "standard_deviation": 0.0010386151581680881
+  },
+  "angular_transport_ratio_theta2_over_theta1": {
+    "minimum": 1.6716201812413107,
+    "maximum": 1.6775567622759295,
+    "mean": 1.6747117309114106
+  },
+  "area_signs": {
+    "theta1": [
+      -1.0
+    ],
+    "theta2": [
+      -1.0
+    ]
+  },
+  "status": "DESCRIPTIVE_COTRANSPORT_RATIO_NOT_AN_INDEPENDENT_DYNAMICAL_LAW",
+  "limitations": "Pairs on the same trajectory are correlated; ratio may be inherited from underlying angular RHS or kinematic convention."
+}

@@ -1,0 +1,9 @@
+family,branch,kappa_kind,maximum_11D_historical_replay_error
+phaseblind_d2_lam-1.00_mod+0.00,0,autonomous,3.3632655703451454e-13
+phaseblind_d2_lam-1.00_mod+0.00,0,original,3.3701321262290714e-13
+phaseblind_d2_lam-1.00_mod+0.00,1,autonomous,5.3946917990169024e-12
+phaseblind_d2_lam-1.00_mod+0.00,1,original,4.873103493611491e-12
+phasecov_d2_lam-1.00_mod+0.00,0,autonomous,1.467323594284409e-11
+phasecov_d2_lam-1.00_mod+0.00,0,original,1.4682871154316755e-11
+phasecov_d2_lam-1.00_mod+0.00,1,autonomous,4.7547015025051524e-12
+phasecov_d2_lam-1.00_mod+0.00,1,original,4.740598908340808e-12

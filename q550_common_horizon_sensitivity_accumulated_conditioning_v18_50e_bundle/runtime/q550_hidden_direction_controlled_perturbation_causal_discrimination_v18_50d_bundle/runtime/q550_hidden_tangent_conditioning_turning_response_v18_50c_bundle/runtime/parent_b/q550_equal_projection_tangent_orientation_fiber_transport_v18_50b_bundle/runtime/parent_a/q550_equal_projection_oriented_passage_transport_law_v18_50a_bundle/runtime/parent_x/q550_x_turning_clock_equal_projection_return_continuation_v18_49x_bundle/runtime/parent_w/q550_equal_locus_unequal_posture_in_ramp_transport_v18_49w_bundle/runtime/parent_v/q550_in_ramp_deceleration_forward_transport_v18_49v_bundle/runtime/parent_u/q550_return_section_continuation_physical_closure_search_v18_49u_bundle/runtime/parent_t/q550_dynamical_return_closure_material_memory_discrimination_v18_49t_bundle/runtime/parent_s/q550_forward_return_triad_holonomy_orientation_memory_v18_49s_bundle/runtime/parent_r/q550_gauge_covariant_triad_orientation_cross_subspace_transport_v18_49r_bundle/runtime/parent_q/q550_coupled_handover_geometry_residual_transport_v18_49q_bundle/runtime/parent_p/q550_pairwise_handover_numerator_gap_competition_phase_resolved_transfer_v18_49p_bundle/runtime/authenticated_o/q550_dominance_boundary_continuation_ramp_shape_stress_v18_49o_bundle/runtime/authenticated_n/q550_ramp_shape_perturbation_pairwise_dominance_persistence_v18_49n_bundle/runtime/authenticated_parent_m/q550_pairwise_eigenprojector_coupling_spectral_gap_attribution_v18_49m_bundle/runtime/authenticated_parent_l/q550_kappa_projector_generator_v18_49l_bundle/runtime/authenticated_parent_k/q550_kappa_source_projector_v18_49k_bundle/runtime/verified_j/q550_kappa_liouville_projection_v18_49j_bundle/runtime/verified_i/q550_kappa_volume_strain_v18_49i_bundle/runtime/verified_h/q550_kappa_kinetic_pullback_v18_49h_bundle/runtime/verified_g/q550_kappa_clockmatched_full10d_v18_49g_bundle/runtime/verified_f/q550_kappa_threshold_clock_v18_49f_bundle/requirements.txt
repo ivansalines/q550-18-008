@@ -1,0 +1,4 @@
+# Historical server uses Python 3.13; initial verification in Python 3.11.
+numpy
+scipy
+matplotlib

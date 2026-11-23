@@ -1,0 +1,33 @@
+{
+  "version": "v18.49h",
+  "status": "AUTHENTIC_11D_KINETIC_METRIC_DIAGNOSTIC",
+  "files": {
+    "README.md": "ce95398e79b2c3894dc004774e60459e398593fb1cdc147eec510519d4f6912d",
+    "SCIENTIFIC_DECISION_RULES.md": "198de2f90f357addf3286f2dbf32dd65582c989630ae2462e0eb243893f55739",
+    "inputs/SOURCE_PINS.json": "5be03e693df4e9a75929d231f95a92bd53dd0c75da5bdfd48ecb7d7e440a67ce",
+    "inputs/v18_49g_original_server_sendback.zip": "da8188566292b97ca96e9eda01ca0ffa01e9e53ea59154bec3f990a909c981bc",
+    "requirements.txt": "0493c4127c8e888b58f4f17cb1b77b88cdd75374b5f570421aa5a1d0cfcf6d65",
+    "results/covariant_direction_curvature_profile.png": "1a945db8ce3fa1eb33b76bf664df3b35b410707350b4a769bc025351ea0373c6",
+    "results/curvature_scale_sensitivity.png": "5fcfc37db79b0634b3c54970904b93a690599809512954df906158076c239fbf",
+    "results/environment.json": "acc0761e8607afbd093f93249873d99b4ba956174bc5e2feb1e522d08eb0cd7e",
+    "results/kinetic_cauchy_green_stretches.png": "99f992fdae8a444913ae82e7bae61a4f358c7add3d60ab270f8a1a4d4e68e7d9",
+    "results/kinetic_deformation_eigenvalues.csv": "7d60ba40c8e3edabea38872518db453cd0fbee15f026a36ef0224394d01d7274",
+    "results/kinetic_orientation_profiles.csv": "a6d57ff40f67346fed6466b976b8c27ffb60f57ddb1ab15649a16d3b31164d1a",
+    "results/kinetic_sphere_curvature.csv": "e3e348be88482a5e5d534972066ccf4994b1ce9387fcf1cb7b221986d531848c",
+    "results/metric_comparison_with_G.csv": "ecef62d655cf30a553f150a2fd3913cfc0799ebaf9ed5e6f0589ff6e6986ca62",
+    "results/metric_vs_previous_G_excess.png": "27ef629a5ff220f40b2527a9f99aa550a75cd6cc4175609765d451d5b0e99a4a",
+    "results/report.json": "4cf1cc2b01de3bea161ca07ae3e002195593e45dd8a598251cfff014b496fe48",
+    "run_on_server.sh": "554937364cbd7b28812f6138aaf10fbfa0ebb94bda556f4e0b6e60f3c3e64159",
+    "scripts/check_outputs.py": "6d7523db42c28649d1e39d54e0566444b3875adfd711dacd7df6d9aed4fcee92",
+    "scripts/curvature_math.py": "12b5a559e29f1479acdd93ba4f98081a5f651977ca1bfc6b67be9d7ae5e7f212",
+    "scripts/frame_math.py": "5c6ca6b5e41b3fbb8cf67333e51ed3caf2c81fa495f96801f8226170bd8f1b72",
+    "scripts/full10d_math.py": "c05373e26fe6fca1fd170f8e0275b57434f6ea8fd0412f36f626626e793d9dc9",
+    "scripts/kinetic_metric.py": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+    "scripts/pack_sendback.py": "a5e078e805dc00137454a9ff04bf1df78429bd83d8b5ba1f88213590a1fe8053",
+    "scripts/plot_results.py": "448e2acd42508c8658133156ec87a8e53307e22bfd028db82237ce8f70a663b4",
+    "scripts/run_audit.py": "31f15bc79972863c905568a2551a27b7a2682752c15fcb21091c7e022184cc8e",
+    "scripts/verify_parent.py": "1eda80b95a2aa7dd9ae1ce5230ccb5f317960fc5e18fce84b4b66be17b1f8ea7",
+    "tests/test_kinetic_metric.py": "ba48adb91cb1077942579e325b65a8fea5ad3fde62d00608527f2b53ee2e5113",
+    "v18_49h_server.log": "5dc44a29013e4014c0e853afb87e5b3abe98c9cfbeb5277b9ab5f309cae65a39"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "v18.48r",
+  "files": {
+    "README.md": "b65808d11fc1fa3c23b731183da9fa47a22b65f37ba9967124f3cd4dc19133f8",
+    "SCIENTIFIC_DECISION_RULES.md": "27df084847cc195cbd3d31e40ef16db0111c0307e0faf0ca8dba91d86c450613",
+    "inputs/SOURCE_PINS.json": "a138431c0fd1a230709f0ff6cca0fdc4dcce0c4ce285c81ead9afcb4fbcf476f",
+    "inputs/v18_48q_original_server_sendback.zip": "80bd6896b3d512c13cb580c75f34c6098a3afceca795f7710d07fff096abb961",
+    "reference/crossing_math_q.py": "f03d13dfa5f7284bf40f4ad5dd4556801b2cb931a3e4c7ce217ccf6603945f80",
+    "reference/physical_math.py": "a2e08b061c01bec726012578e006851a07dc24741001c1b6c5ae4633c881e49c",
+    "requirements.txt": "e13491531df6eeb59d6420ef04d4b5651adec77439da3bccd7409e90f0988035",
+    "results/crossing_transversality.csv": "923598f397aad6718739585eca09d7d7693242b7d07d7b09238903bad662f678",
+    "results/phase_conditioned_protocols.csv": "5332b73961a7441d8197bdc40d0bd7d94295e17a3088e012daa3d0ad3c8d15fe",
+    "results/phasecov_reduced_nearpass.png": "7e31f8953c814af87344e6a65703aa9d20058ca1b012d28b47e412a2f8cdb189",
+    "results/phasecov_selected_trajectories.npz": "f1f4a74d06268d8c6732d1f7cee7193dc6c971c6d7db4e24bff19f9004585249",
+    "results/projection_crossings_2d.csv": "e07bcd1f5afe016197f8a3d3c866eb259d9f5ca1f0e7707c6266f68543b4b5b0",
+    "results/projection_crossings_phase_mismatch.png": "7ce38e1ac7aced570544a0badb6b4392789bb0af367985543fd28061fe8df26e",
+    "results/report.json": "03629aa741a2bf17f8049efeab932eaaac98f2972dbf78733106e51baf5c8c67",
+    "results/shape_vs_full11d_separation.png": "554cba8ef87fe7ae405b091cd48ee42b34d56e8d7b68963c03c9994c7cc1faa4",
+    "results/source_regression.csv": "54d3ea802d64bce9511ec2f4233b9671d2b2fa6bda81fa363e6f97d347aa257e",
+    "run_on_server.sh": "d2ec25e39ad160eb4c1fa1c15444c187cdad040c15a701dc5d9aad44bc666487",
+    "scripts/pack_sendback.py": "13ab20bca06367bcfa2dc513841c7ef9bf373c6b30c0c7b12bb6d018691ef28f",
+    "scripts/plot_results.py": "6c120d1ed161ef59d2106c56843974cc9849a1a19536a1194fb79fb748539be6",
+    "scripts/run_audit.py": "ed4a51873b45873631d9ee7d141cf386e15b4fdb0e20549cfa5306fdb40cda7e",
+    "scripts/transversality_math.py": "ff3a6192d97a13714c463be049919fb79d95e1f6fb8f802f35da28d1d99c99c4",
+    "scripts/verify_parent.py": "f597e44b73a86d4f8f3b81c8013072688ae4ea9baedf9bfce2285ded6af24d2a",
+    "tests/test_transversality_math.py": "0cf74aaf10e031207ced7dec136e80b0377cbf2282b5a59a44a6724119c9371b",
+    "v18_48r_server.log": "1c364f3e52e39a7c841e3477cfbb8053d72ea1cc2399dfc4f23314c392b75e82"
+  }
+}

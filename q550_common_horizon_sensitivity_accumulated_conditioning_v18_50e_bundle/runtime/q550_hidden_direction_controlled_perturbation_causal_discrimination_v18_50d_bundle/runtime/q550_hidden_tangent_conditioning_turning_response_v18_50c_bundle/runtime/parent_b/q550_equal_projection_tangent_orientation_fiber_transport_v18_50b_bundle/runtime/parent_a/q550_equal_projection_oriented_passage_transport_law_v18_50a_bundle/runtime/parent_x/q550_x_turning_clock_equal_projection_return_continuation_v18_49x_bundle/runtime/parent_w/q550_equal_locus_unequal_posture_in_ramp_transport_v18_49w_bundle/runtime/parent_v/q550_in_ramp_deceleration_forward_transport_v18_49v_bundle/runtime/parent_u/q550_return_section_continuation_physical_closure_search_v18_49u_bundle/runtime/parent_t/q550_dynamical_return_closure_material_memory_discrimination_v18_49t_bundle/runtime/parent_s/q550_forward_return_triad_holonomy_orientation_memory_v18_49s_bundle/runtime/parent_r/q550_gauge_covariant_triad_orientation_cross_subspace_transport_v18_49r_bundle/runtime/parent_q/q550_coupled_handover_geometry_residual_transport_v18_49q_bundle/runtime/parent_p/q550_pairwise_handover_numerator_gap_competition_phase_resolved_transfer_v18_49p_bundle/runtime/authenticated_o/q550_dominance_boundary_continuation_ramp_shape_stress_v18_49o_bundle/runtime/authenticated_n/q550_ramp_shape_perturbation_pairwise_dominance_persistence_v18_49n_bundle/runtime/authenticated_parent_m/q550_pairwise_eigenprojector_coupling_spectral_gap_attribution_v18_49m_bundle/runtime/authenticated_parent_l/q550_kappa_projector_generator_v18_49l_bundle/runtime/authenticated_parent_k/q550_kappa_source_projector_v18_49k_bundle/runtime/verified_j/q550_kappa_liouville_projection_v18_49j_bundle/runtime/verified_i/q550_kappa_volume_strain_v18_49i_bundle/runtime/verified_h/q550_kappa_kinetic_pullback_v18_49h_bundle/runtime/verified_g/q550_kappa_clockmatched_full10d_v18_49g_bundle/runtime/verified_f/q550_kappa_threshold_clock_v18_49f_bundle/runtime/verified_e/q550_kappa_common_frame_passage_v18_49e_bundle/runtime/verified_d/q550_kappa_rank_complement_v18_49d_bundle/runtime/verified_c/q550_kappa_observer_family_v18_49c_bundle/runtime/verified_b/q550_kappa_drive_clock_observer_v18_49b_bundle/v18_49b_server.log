@@ -1,0 +1,48 @@
+test_angles (test_transport.CheckDual.test_angles) ... ok
+test_covariance (test_transport.CheckDual.test_covariance) ... ok
+test_dual_identity (test_transport.CheckDual.test_dual_identity) ... ok
+test_multichannel (test_transport.CheckDual.test_multichannel) ... ok
+test_shape_gradient (test_transport.CheckDual.test_shape_gradient) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+OK
+v18.49b original ramp 0.285 adjoint steps 105 roots 4 levels
+v18.49b original ramp 0.292 adjoint steps 105 roots 4 levels
+v18.49b original ramp 0.296333 adjoint steps 106 roots 4 levels
+v18.49b original ramp 0.3 adjoint steps 106 roots 4 levels
+v18.49b original ramp 0.305 adjoint steps 106 roots 4 levels
+v18.49b original ramp 0.309 adjoint steps 107 roots 4 levels
+v18.49b autonomous ramp 0.285 adjoint steps 105 roots 4 levels
+v18.49b autonomous ramp 0.292 adjoint steps 105 roots 4 levels
+v18.49b autonomous ramp 0.296333 adjoint steps 106 roots 4 levels
+v18.49b autonomous ramp 0.3 adjoint steps 106 roots 4 levels
+v18.49b autonomous ramp 0.305 adjoint steps 106 roots 4 levels
+v18.49b autonomous ramp 0.309 adjoint steps 107 roots 4 levels
+{
+  "version": "v18.49b",
+  "status": "AUTHENTIC_11D_DRIVEN_IVP_WITH_NEW_MATERIAL_COTANGENT_TRANSPORT",
+  "parent_A_sha256": "c31935c84b79111e09693983f5cd6164b9266cf02019d7692b161409736a904d",
+  "ancestry_verified_to_J": true,
+  "physical_11D_integrations": 14,
+  "genuine_new_10D_cotangent_IVPs": 12,
+  "historical_covectors_used_as_turning_point_seeds": 2,
+  "independent_model_control": "Theta(t) prescribed; only 10D material Jacobian and adjoint integrated",
+  "physical_root_and_observer_rows": 288,
+  "sampled_duality_checks": 1128,
+  "maximum_duality_relative_residual": 5.107025913275693e-15,
+  "maximum_11D_parent_replay_error": 3.424991987393049e-13,
+  "maximum_energy_ledger_relative_error": 1.651082222331457e-11,
+  "maximum_directional_Jacobian_FD_residual": 1.235287976787721e-10,
+  "maximum_original_root_distance_regression": 7.060324547225605e-16,
+  "maximum_diagonal_chart_pairing_residual": 2.220446049250313e-16,
+  "rechecked_historical_phase_chart_counterfactuals": 240,
+  "max_physical_clock_root_midpoint_recovery_error": 0.0,
+  "max_physical_clock_cubic_recovery_error": 1.7763568394002505e-15,
+  "physical_root_clocks_unchanged": true,
+  "scope": "Phaseblind branch0, two \u03ba kinds, six ramps, four continuous-IVP root levels; material cotangent along each counterflow, not 11D full control adjoint.",
+  "scientific_boundary": "Observer transport changes readout, not the physical geometric root locations. Dual pairing is linearized and must not be equated to finite-separation/energy conservation."
+}
+PASS: 12 physical return observer histories / 48 continuous root pairs / 2 observer channels / pairings & gauges
+Saved 3 authentic plots

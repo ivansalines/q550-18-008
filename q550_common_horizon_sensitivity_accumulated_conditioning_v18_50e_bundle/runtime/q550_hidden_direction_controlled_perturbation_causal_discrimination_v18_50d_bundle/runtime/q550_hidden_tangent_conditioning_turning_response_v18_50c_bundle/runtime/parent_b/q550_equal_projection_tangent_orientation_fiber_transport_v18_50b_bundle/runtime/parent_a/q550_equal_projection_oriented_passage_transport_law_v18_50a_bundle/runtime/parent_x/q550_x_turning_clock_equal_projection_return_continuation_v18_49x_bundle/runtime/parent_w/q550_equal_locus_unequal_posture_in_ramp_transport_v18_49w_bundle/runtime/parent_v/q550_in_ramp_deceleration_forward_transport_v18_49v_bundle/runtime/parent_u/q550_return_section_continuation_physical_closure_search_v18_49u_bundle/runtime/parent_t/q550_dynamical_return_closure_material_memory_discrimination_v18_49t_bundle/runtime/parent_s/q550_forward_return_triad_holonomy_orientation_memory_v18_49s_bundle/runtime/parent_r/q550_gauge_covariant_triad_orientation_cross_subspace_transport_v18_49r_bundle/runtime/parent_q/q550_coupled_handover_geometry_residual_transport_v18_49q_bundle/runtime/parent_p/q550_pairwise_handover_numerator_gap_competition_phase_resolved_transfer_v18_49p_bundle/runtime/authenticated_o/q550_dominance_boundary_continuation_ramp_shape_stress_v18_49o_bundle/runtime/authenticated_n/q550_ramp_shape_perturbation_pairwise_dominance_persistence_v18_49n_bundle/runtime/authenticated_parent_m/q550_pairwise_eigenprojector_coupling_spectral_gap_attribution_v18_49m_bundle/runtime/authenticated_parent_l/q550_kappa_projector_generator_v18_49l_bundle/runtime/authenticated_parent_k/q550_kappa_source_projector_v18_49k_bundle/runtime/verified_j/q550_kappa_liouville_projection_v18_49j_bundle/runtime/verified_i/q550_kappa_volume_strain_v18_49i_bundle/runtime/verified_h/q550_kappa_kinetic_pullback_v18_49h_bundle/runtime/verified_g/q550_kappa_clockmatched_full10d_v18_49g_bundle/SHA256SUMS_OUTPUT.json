@@ -1,0 +1,31 @@
+{
+  "version": "v18.49g",
+  "parent": "Unchanged SHA256-authenticated v18.49f original server sendback, F->E->D->C->B->A->Z->...->J",
+  "files": {
+    "README.md": "daa164a31317123239428e08014eab97e65fb66372dc5d421dc5206c25b055d7",
+    "SCIENTIFIC_DECISION_RULES.md": "237229b40e4cb1f46eec5085f1150202e858dc471f2d61fbadcda18cd518366a",
+    "inputs/SOURCE_PINS.json": "475a7ee350118274322f0ffad2e0d5b0ea4783f2e27bbbec55034d2564d03b23",
+    "inputs/v18_49f_original_server_sendback.zip": "12a0ffb898bd9b9afe8b4a4a83f1d0b62c242499d49a32ffca1189499320ead4",
+    "requirements.txt": "b1878997103e183dcbcc753c2cfba5b17d370371ccfd205bd8e3639f238e06fb",
+    "results/clock_matched_threshold_passages.csv": "d24cbe91049536f9fd623d66e283619627df81397a001753acd19e06298f0af4",
+    "results/clock_registered_2d_vs_10d.png": "0982a3ffa002e6408b0624a9bc6ea72a8057c691da266b2a71691b9a241b1672",
+    "results/environment.json": "acc0761e8607afbd093f93249873d99b4ba956174bc5e2feb1e522d08eb0cd7e",
+    "results/extrema_span_not_six_fifths.png": "d1976211530c21030c2b2efb88f42d3ff9e2839053b92ec31f6cb6458b3cbd91",
+    "results/full10d_clock_orientation_profile.png": "b90703536f529b6ad31da3caf06be82dc3740dbb885f0c2ab8e78bc97567f5fa",
+    "results/full10d_clock_profiles.csv": "40b5821f3bef9b06f2abc0005d7e3c1ca723069e92a4a8ee86ce21ddfe0791e3",
+    "results/full10d_path_vs_endpoint.png": "382493c8a43d64bd4968238a54e2203f0f12cd05002fe620d0efb0e7d5d72f35",
+    "results/report.json": "773eeb34edfba299644700145f230d87c7ac88f06e4ee34e909237c3a1c6ff37",
+    "results/threshold_free_extrema_orientation.csv": "4af31d2c7607da8f4156f7300db2652395de9a58cdf4ea4ba63d66b7865ff0ae",
+    "results/threshold_scaling_vs_six_fifths.png": "b50dde531cebb3d445c8c17cba6df978aabcf5f1ed3c445a10e22d6340d56196",
+    "run_on_server.sh": "5b9d23fa792d878735fd2b1b0e77fdfaa6c037b33bda73bfd32d778c48e07c94",
+    "scripts/check_outputs.py": "e64137888081b11e4385beac3865425b66f3a8bd4c16d3d56e172c9c051c5ee0",
+    "scripts/frame_math.py": "5c6ca6b5e41b3fbb8cf67333e51ed3caf2c81fa495f96801f8226170bd8f1b72",
+    "scripts/full10d_math.py": "c05373e26fe6fca1fd170f8e0275b57434f6ea8fd0412f36f626626e793d9dc9",
+    "scripts/pack_sendback.py": "7bf9c46707580fe7cae26327a9ae777844f628f4227e67539b5aeddaa6bd0512",
+    "scripts/plot_results.py": "8e5c85af699270f90d11c7578b8e26eb6b0137bc7003ce9de48917c22a03e990",
+    "scripts/run_audit.py": "1dd1d4781618621e15d3dfdd01f4ae2405b95eca6a06ab141cdfb8414a8031b8",
+    "scripts/verify_parent.py": "b91d6f0425ad27ddf400bd85dd010c3e59bed8f960d057ece8716702b67ea559",
+    "tests/test_full10d_math.py": "fa03b5b97a6a908adcc86fe4b8055b9c8df7917fea8684ad4d6d5e7f0ec8a317",
+    "v18_49g_server.log": "8dc863530e055b4deac9631fbed6b9f8bf80e665997d62a52568b3df3c099019"
+  }
+}

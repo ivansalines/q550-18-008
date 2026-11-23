@@ -1,0 +1,34 @@
+test_invalid_rate (test_signed_math.SignedMath.test_invalid_rate) ... ok
+test_near_parallel_not_zero (test_signed_math.SignedMath.test_near_parallel_not_zero) ... ok
+test_no_onecoord_root (test_signed_math.SignedMath.test_no_onecoord_root) ... ok
+test_one_coordinate_root (test_signed_math.SignedMath.test_one_coordinate_root) ... ok
+test_opposite_chronological (test_signed_math.SignedMath.test_opposite_chronological) ... ok
+test_phase_energy_gap_derivative (test_signed_math.SignedMath.test_phase_energy_gap_derivative) ... ok
+test_phase_locked_derivative (test_signed_math.SignedMath.test_phase_locked_derivative) ... ok
+test_phase_synced_scale (test_signed_math.SignedMath.test_phase_synced_scale) ... ok
+test_same_chronological (test_signed_math.SignedMath.test_same_chronological) ... ok
+test_sign_change_axis_order (test_signed_math.SignedMath.test_sign_change_axis_order) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.007s
+
+OK
+v18.48s phaseblind_d2_lam-1.00_mod+0.00 0 autonomous historical_error 3.363e-13
+v18.48s phaseblind_d2_lam-1.00_mod+0.00 0 original historical_error 3.370e-13
+v18.48s phaseblind_d2_lam-1.00_mod+0.00 1 autonomous historical_error 5.395e-12
+v18.48s phaseblind_d2_lam-1.00_mod+0.00 1 original historical_error 4.873e-12
+v18.48s phasecov_d2_lam-1.00_mod+0.00 0 autonomous historical_error 1.467e-11
+v18.48s phasecov_d2_lam-1.00_mod+0.00 0 original historical_error 1.468e-11
+v18.48s phasecov_d2_lam-1.00_mod+0.00 1 autonomous historical_error 4.755e-12
+v18.48s phasecov_d2_lam-1.00_mod+0.00 1 original historical_error 4.741e-12
+{
+  "genuine_11D_integrations": 88,
+  "asynchronous_contact_pairs": 80,
+  "phase_locked_contact_pairs": 80,
+  "projected_2D_crossings_reexamined": 58,
+  "phase_locked_one_coordinate_roots": 104,
+  "phase_locked_min_drive_power_opposite_signs": 60,
+  "max_integrated_energy_balance_relative_error": 1.317002062961592e-14,
+  "max_meeting_energy_ledger_absolute_residual": 4.751060656005279e-14
+}
+PASS: v18.48s CSV scientific gates on 88 integrations, 160 contacts, 58 projected roots, 104 component roots

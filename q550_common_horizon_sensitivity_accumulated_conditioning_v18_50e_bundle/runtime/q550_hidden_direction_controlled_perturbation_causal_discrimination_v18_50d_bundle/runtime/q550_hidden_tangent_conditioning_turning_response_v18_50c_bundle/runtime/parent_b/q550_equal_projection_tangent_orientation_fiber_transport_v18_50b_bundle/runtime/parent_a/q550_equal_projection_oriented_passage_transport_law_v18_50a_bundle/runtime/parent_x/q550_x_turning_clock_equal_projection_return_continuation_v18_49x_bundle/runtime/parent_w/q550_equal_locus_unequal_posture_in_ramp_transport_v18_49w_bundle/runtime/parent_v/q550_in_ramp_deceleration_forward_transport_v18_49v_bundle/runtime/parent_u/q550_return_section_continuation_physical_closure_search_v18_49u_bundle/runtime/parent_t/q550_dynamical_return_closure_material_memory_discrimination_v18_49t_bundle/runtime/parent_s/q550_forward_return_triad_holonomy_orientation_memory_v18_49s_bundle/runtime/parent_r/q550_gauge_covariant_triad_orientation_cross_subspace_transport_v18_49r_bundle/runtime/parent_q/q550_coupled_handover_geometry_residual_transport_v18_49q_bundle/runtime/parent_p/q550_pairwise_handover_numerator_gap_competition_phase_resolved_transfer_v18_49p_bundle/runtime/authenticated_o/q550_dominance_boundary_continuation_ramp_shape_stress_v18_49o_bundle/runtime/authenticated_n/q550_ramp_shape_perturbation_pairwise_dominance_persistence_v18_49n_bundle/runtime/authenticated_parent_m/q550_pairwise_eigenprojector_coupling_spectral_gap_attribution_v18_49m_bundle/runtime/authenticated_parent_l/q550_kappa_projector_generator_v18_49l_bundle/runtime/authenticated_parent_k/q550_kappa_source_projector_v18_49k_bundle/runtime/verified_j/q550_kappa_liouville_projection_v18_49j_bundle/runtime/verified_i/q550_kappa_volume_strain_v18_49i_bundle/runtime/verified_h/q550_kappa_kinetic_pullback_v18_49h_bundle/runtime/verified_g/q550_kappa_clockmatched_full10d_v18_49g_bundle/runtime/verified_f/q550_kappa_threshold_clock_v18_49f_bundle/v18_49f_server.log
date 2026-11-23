@@ -1,0 +1,74 @@
+test_3d_leakage (test_passage_math.TestPassageMath.test_3d_leakage) ... ok
+test_clock_reversal (test_passage_math.TestPassageMath.test_clock_reversal) ... ok
+test_near_merging_barrier (test_passage_math.TestPassageMath.test_near_merging_barrier) ... ok
+test_nested_thresholds (test_passage_math.TestPassageMath.test_nested_thresholds) ... ok
+test_orientation_sign_and_norm (test_passage_math.TestPassageMath.test_orientation_sign_and_norm) ... ok
+test_rotating_normalized_vector (test_passage_math.TestPassageMath.test_rotating_normalized_vector) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.015s
+
+OK
+v18.49f original, ramp=0.285000: threshold components=[2, 2, 2, 2, 2, 2, 2], extrema=3, parent_err=0.00e+00
+v18.49f original, ramp=0.292000: threshold components=[2, 2, 2, 2, 2, 2, 1], extrema=3, parent_err=0.00e+00
+v18.49f original, ramp=0.296333: threshold components=[2, 2, 2, 1, 1, 1, 1], extrema=3, parent_err=0.00e+00
+v18.49f original, ramp=0.300000: threshold components=[2, 2, 1, 1, 1, 1, 1], extrema=3, parent_err=0.00e+00
+v18.49f original, ramp=0.305000: threshold components=[1, 1, 1, 1, 1, 1, 1], extrema=3, parent_err=0.00e+00
+v18.49f original, ramp=0.309000: threshold components=[1, 1, 1, 1, 1, 1, 1], extrema=3, parent_err=0.00e+00
+v18.49f autonomous, ramp=0.285000: threshold components=[2, 2, 2, 2, 2, 2, 2], extrema=3, parent_err=0.00e+00
+v18.49f autonomous, ramp=0.292000: threshold components=[2, 2, 2, 2, 2, 2, 1], extrema=3, parent_err=0.00e+00
+v18.49f autonomous, ramp=0.296333: threshold components=[2, 2, 2, 2, 1, 1, 1], extrema=3, parent_err=0.00e+00
+v18.49f autonomous, ramp=0.300000: threshold components=[2, 2, 1, 1, 1, 1, 1], extrema=3, parent_err=0.00e+00
+v18.49f autonomous, ramp=0.305000: threshold components=[1, 1, 1, 1, 1, 1, 1], extrema=3, parent_err=0.00e+00
+v18.49f autonomous, ramp=0.309000: threshold components=[1, 1, 1, 1, 1, 1, 1], extrema=3, parent_err=0.00e+00
+{
+  "version": "v18.49f",
+  "status": "AUTHENTIC_11D_THRESHOLD_CLOCK_DIAGNOSTIC_ONLY",
+  "physical_integrations": 14,
+  "frame_integrations": 12,
+  "kappas": [
+    "original",
+    "autonomous"
+  ],
+  "ramps": [
+    0.285,
+    0.292,
+    0.296333,
+    0.3,
+    0.305,
+    0.309
+  ],
+  "thresholds": [
+    0.006,
+    0.008,
+    0.009,
+    0.01,
+    0.011,
+    0.012,
+    0.014
+  ],
+  "phase_window": [
+    0.2,
+    0.8
+  ],
+  "count_oriented_crossings": 242,
+  "count_complete_passages": 121,
+  "count_extrema": 36,
+  "count_orientation_trace_samples": 3025,
+  "count_clock_registered_samples": 1212,
+  "max_original_e_regression_error": 0.0,
+  "max_original_11d_history_error": 3.424991987393049e-13,
+  "max_energy_ledger_residual": 1.651082222331457e-11,
+  "max_clock_phase_mismatch_rad": 0.0,
+  "max_threshold_crossing_residual": 1.1637739383285606e-13,
+  "max_frame_condition_number": 7.991136010456282,
+  "max_coarse_fine_marker_difference_q": 2.2143398226148747e-13,
+  "max_orientation_quadrature_difference_deg": 0.002601441349115774,
+  "original_e_an_ancestry_verified_to_j": true,
+  "clock_registration": "q increases against physical drive theta; dtheta/dq=-omega",
+  "material_metric": "Euclidean at initial turning-point common frame. NOT an observer-free material metric.",
+  "interpretation": "Markers: crossings of chosen d3 threshold. Oriented traces use fixed q=0.35 vector and forward-q derivative as one common oriented plane per return; off-plane leakage is reported. Threshold-independent extrema are metric-dependent.",
+  "limitation": "phaseblind branch0, two kappa0 only. Span approximately kappa0 does not prove a physical cycle. No global intrinsic winding or universal irreversibility proven."
+}
+v18.49f PASS: 121 threshold passages; 242 oriented markers; 1212 clock samples
+v18.49f plots written: 5

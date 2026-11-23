@@ -1,0 +1,14 @@
+{
+  "refinement": "N=61 compared to N=121",
+  "kappa_kind": "original",
+  "ramp": 0.327375,
+  "fixed_orientation_sigma": 0.1,
+  "triad_angle_deg_61": 5.653515146917124,
+  "triad_angle_deg_121": 5.653565652942729,
+  "triad_angle_difference_deg": 5.0506025604413196e-05,
+  "coordinate_path_61": 0.7706858192602534,
+  "coordinate_path_121": 0.7706935709436057,
+  "coordinate_path_abs_difference": 7.75168335231946e-06,
+  "speed_at_drive_zero_difference": 0.0,
+  "interpretation": "Sampling refinement only, NOT a rigorous interval error bound"
+}

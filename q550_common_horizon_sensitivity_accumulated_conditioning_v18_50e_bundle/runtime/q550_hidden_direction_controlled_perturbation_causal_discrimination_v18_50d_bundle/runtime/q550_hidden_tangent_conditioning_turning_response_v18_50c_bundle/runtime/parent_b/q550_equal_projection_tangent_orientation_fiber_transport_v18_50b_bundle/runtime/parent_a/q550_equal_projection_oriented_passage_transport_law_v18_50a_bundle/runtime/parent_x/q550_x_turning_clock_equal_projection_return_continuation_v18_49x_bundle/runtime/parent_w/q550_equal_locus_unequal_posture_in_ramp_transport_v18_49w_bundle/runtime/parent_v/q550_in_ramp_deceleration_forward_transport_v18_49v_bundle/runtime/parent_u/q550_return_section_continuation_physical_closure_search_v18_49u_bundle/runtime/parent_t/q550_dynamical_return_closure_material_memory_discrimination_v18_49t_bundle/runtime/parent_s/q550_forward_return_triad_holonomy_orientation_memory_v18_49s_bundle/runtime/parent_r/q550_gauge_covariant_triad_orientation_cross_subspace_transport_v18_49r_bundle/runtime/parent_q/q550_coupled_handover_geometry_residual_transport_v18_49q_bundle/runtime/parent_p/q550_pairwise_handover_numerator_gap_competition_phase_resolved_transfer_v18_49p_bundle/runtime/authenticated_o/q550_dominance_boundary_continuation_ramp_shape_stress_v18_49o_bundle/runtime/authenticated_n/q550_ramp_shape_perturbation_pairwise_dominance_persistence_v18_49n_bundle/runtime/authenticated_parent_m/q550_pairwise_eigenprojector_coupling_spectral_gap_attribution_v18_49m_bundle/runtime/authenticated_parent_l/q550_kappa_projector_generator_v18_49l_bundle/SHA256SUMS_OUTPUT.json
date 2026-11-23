@@ -1,0 +1,33 @@
+{
+  "version": "v18.49l",
+  "root": "q550_kappa_projector_generator_v18_49l_bundle",
+  "files": {
+    "README.md": "78e4a0afb1ef349eb77eefdc273d5e2f67c6ecf081236e3bfd4940319167dc5f",
+    "SCIENTIFIC_DECISION_RULES.md": "1232f44843866814446cba783b22ee036c3615bc3380df22ce16cb82da9af194",
+    "SCIENTIFIC_REPORT.md": "803a5fea174094d291447b8c93aca15106f162b5db1f626fe0bbc36023500875",
+    "inputs/SOURCE_PINS.json": "373ea1005e988b86977cf3dc2da2c9760ab56b53519dc942072657c58228a4d3",
+    "inputs/v18_49k_original_server_sendback.zip": "db657e1143d61ce8b0a9e0beaeae48b97ae98e101bdfb55ca0ba7dc423174d77",
+    "requirements.txt": "e13491531df6eeb59d6420ef04d4b5651adec77439da3bccd7409e90f0988035",
+    "results/covariant_generator_phase_profiles.csv": "b3b5f47c5040133ed39ec0001c6ea7c73bdb4ef3d409c38da6589dfab538d0db",
+    "results/environment.json": "acc0761e8607afbd093f93249873d99b4ba956174bc5e2feb1e522d08eb0cd7e",
+    "results/generator_and_strain_profile.png": "c50d66722d1c4eb2f9920803976fd481085cbe09b42365104c3de705b156681c",
+    "results/generator_vs_strain_across_ramps.png": "3499033fa676c3f9396731decb64643562f572317d0b62076d9123c3de47d48c",
+    "results/principal_strain_projector_phase_profiles.csv": "252619a02dbcf50d35d2cfa5f998735b3c3c2448486a3404d381db04cf70dc72",
+    "results/projector_rotation_vs_strain_rate.png": "1cb393fcd0528728beb9d300fd7b88a44d95e7e231b5318d13e83f368f6d4e32",
+    "results/ramp_kappa_summary.csv": "2395cc9dbab63da0417460a33ba3278a0a6676aef5c99c65178e6e203ea78037",
+    "results/report.json": "154bab14c421fc7dd24064237863c7127acf199dc9b65e4f1ac4cbbd3569bb1e",
+    "run_on_server.sh": "4640e8c61c7ab76b282af1a32e420093aea76920dc68d990b7891330fd78f893",
+    "scripts/check_outputs.py": "e82a8e355f40234fd3be4041fe891e1ee3d3d4f129445c0bf27babec42119a1f",
+    "scripts/clock_math.py": "1f6d6d8a277e59df64fc304e46150a96f84ce0c72a17583d148946b9e203def0",
+    "scripts/frame_math.py": "5c6ca6b5e41b3fbb8cf67333e51ed3caf2c81fa495f96801f8226170bd8f1b72",
+    "scripts/generator_math.py": "4bd661f78dd5b40524ac55183abd6bd7de4c99b880d10bb76aa147214b333209",
+    "scripts/kinetic_metric.py": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+    "scripts/pack_sendback.py": "94ed7ca54daf3e07cd12e1516cd2b9c5efe31f32ce99ded4b373cf0f6e5b4279",
+    "scripts/plot_results.py": "870131ed67d63e5ba90814f13b8bcc321400af3f87a1dbd2a36bdc64a7ec7325",
+    "scripts/run_audit.py": "08c560200fec3e2a7b9210771069b8893bd58814eb3de816d184ad7d4497e666",
+    "scripts/strain_math.py": "b017c4e5876fd795880072d11562351da9a8506b052623feffba5ee02b1442e4",
+    "scripts/verify_parent.py": "9f738368d5db347ea51856a7fb6a8dc79cd8ac72356c9c82245dca7cb8ca30e0",
+    "tests/test_generator_math.py": "4526dc3f8f3c7f947ab35cbf53af6fa2423535ea27c9e7701fe087e9f20677a1",
+    "v18_49l_server.log": "90709227961a1fbd898dfd731acf4ff40194d41a54105d0a79236ec0c9812644"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "version": "v18.48z",
+  "status": "FULL_AUTHENTIC_11D_NORMAL_FORM_DIAGNOSTIC",
+  "parent_Y_sha256": "7134cbc160e07f3383151e02fecccb53fcdb3549a61cf4b5f11ea38b102846ec",
+  "parent_authenticated_11D_profiles": 46,
+  "historical_original_11D_states": 328,
+  "cross_branch_W_screen_rows": 8,
+  "fresh_11D_integration_count": 14,
+  "fresh_continuous_root_comparisons": 48,
+  "archived_grid_root_comparisons": 184,
+  "high_order_jet_fits": 276,
+  "maximum_relative_jet_curvature_deviation_in_selected_window": 0.0004098690899256489,
+  "max_full_11D_replay_error": 3.424991987393049e-13,
+  "maximum_mechanical_ledger_relative_error": 1.651082222331457e-11,
+  "max_quadratic_relative_gap_error_direct": 0.0008677058143330312,
+  "max_quartic_relative_gap_error_direct": 3.102950627742267e-05,
+  "max_sextic_relative_gap_error_direct": 1.2939389753074417e-06,
+  "minimum_full_11D_separation_direct": 1.8876808229083155,
+  "max_affine_parameterization_ratio_error": 4.440892098500626e-16,
+  "model_conclusion": "Near-critical squared-gap ratio follows smooth nondegenerate-maximum Taylor geometry; not a physical invariant, universal critical exponent theorem, or material-lobe merger.",
+  "scope": "Physical direct validation only phaseblind branch0, both kappa values, six ramp durations per kappa; other branches only authenticated W negative/contrast screening."
+}
