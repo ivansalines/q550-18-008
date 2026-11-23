@@ -1,0 +1,28 @@
+{
+  "root": "q550_response_arc_length_comoving_composition_v18_50g_bundle",
+  "version": "v18.50g",
+  "files": {
+    "README.md": "6f78db829dcd37f6fe1873cd8236a66fb2abfa903275448a9fe99f7bbd83ef50",
+    "SCIENTIFIC_DECISION_RULES.md": "d31e4b5a4a8bb27d2ed60283f4618e3bebe71b1b7fcac088185bf630f2e0535c",
+    "SCIENTIFIC_REPORT.md": "80a0517075e50deac0d1df623cdfb7daf44a1b57a4847fe376856d892b494615",
+    "inputs/q550_vector_cancellation_geometry_response_composition_continuation_v18_50f_authenticated_server_sendback.zip": "d17d1284fe5ab2db018295307a8e0c283490f3a7c40d5fb2fd87149465760b69",
+    "requirements.txt": "fa00ba819ee0e3cfa7077f6c610d1f48fabaae339a8f9448e426946c2c0046f4",
+    "results/cancellation_vs_response_arc.png": "cbdea4b848eaa9f7c9310902cb208bdd01f803403d21948e432464342900ba88",
+    "results/comoving_response_segment_ledger.csv": "1215f9dd88f51dad0d048d19117d494e6efe9e67af3996071bb909c036daa3c3",
+    "results/comoving_signed_increment_ledger.png": "dd0dbd895140a8c4d798940d57347b651c6c0b70e087a7fe1fd721a1b6d162da",
+    "results/metric_arc_length_control.png": "2fba6a42a34b2eee49bd9b5bd7eaed2438a75cf8188e65964b3d50a2d69ec3d0",
+    "results/report.json": "645964d7886501a2d8ec52c943c47342224431f022cc53bc2016cbec8c50ad7d",
+    "results/response_gain_over_horizon.png": "b7a9e5cc2e6f4df633384686acdd5ac57d2a64dd0dcfd326e58bd6793c33261a",
+    "results/sampled_response_arc_case_summary.csv": "a95493d3379ea3b789d03516d5c8fa69078bf14213f9e1dfda84761fc48343c7",
+    "results/sampled_response_arc_trace.csv": "8bd186a34b02b9e4faf3e4110c3666bff6ea9a783767bb4be25074a1eae003a6",
+    "results/sampling_resolution_lower_bound.png": "e0fe54cbf7633cf9aa9ee0256418dd3c14cb82d3ce4b789549ed24723bb3514d",
+    "run_on_server.sh": "a845d1407e018035d3d4f107994848126c5195360a501cb7b915aee8c5fd3d96",
+    "scripts/geometry_math.py": "8c048a72b99b115139e02d07b7c08fbf440629cb32e1ee9814637f571d708414",
+    "scripts/pack_sendback.py": "ac86fc5b63be55f44456d2b934b4da19df5862dbb2a311eb45576fd72e9f22be",
+    "scripts/plot_results.py": "9e88bbd6e216671b60afae377470670f871071fa5a09f71dae4ab142c707e5cb",
+    "scripts/run_audit.py": "cd4d34a9a6fd9bdcabda9648c554ee641a775458e077e11910ad8e225da5f391",
+    "scripts/verify_ancestry.py": "82f7ba672a35e9776fc6edcd27739098efee3e48dbe80f00a7745400b396708c",
+    "tests/test_geometry.py": "434a9afd954aa849b8cbb804210288f79b8d7064864b9d4948bd51b8a8ed5c19",
+    "v18_50g_server.log": "5afa4f611552bae6f00ce94fb3840560c9d4becaf4f854058d45ab9a63cd3be6"
+  }
+}

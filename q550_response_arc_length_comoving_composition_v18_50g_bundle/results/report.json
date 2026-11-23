@@ -1,0 +1,66 @@
+{
+  "version": "v18.50g",
+  "title": "Response Arc-Length & Co-Moving Composition Audit",
+  "classification": "SAMPLED_RESPONSE_ARC_DIAGNOSTIC_NOT_CONTINUOUS_ARCLENGTH_OR_PHYSICAL_MEMORY_CERTIFICATE",
+  "ancestry": {
+    "parent_sha256": "d17d1284fe5ab2db018295307a8e0c283490f3a7c40d5fb2fd87149465760b69",
+    "v18_50f_verified_entries": 22,
+    "v18_50e_verified_entries": 20,
+    "e_sha256": "21d9f910c14148746853bd211c873a77ae965ec8cf386baff2ec2b8f0cdb8a2f"
+  },
+  "source": {
+    "verified_parent_f_rows": 100,
+    "verified_parent_e_rows": 100,
+    "cases": 20,
+    "horizons_per_case": 5,
+    "new_Q550_ODE_integrations": 0,
+    "metric_charts": 2
+  },
+  "reference": {
+    "mode": "same_seed",
+    "kind": "original",
+    "ramp_xi": 0.24,
+    "shape": "beta:2:2",
+    "metric": "parent_whitened",
+    "arc5": 17.99232709791868,
+    "arc3": 17.97686568689373,
+    "arc2": 17.915564601511118,
+    "coarse_loss_fraction": 0.0008593335893018602,
+    "straightness": 0.9957335982171844,
+    "max_composition_residual": 2.847013828207474e-05,
+    "endpoint_gain": 17.71237210657921,
+    "endpoint_cancellation": 0.05578697273142871,
+    "max_chord_turn_deg": 5.0618582139170725,
+    "samples": 5
+  },
+  "results": {
+    "max_parent_ledger_mismatch": 0.0,
+    "max_parent_split_residual": 3.592974080106908e-05,
+    "parent_arc5_range": [
+      16.719095334185646,
+      19.657202751362632
+    ],
+    "parent_three_point_underestimate_fraction_range": [
+      0.00044154414138905214,
+      0.0019579499689347285
+    ],
+    "parent_straightness_range": [
+      0.9904523733571977,
+      0.997834781863991
+    ],
+    "number_segments": 160,
+    "number_point_rows": 200
+  },
+  "important_limits": [
+    "Polyline length from only five measured horizon samples is a lower bound on true Euclidean response-curve arc-length, not the continuous arc.",
+    "Segment rate and curvature are finite sample diagnostics, not local derivatives or detected phase events.",
+    "Arc is measured in inherited metric-whitened four-component sensitivity coordinates, not physical distance or clock.",
+    "The diagonal-stress second chart changes metric intentionally to reveal coordinate sensitivity.",
+    "L and T are inherited endpoint bookkeeping contributions, not independent physical forces.",
+    "No Q550 ODE rerun or independent causal/memory/regime certification occurs in this audit."
+  ],
+  "environment": {
+    "python": "3.9.25",
+    "numpy": "2.0.2"
+  }
+}

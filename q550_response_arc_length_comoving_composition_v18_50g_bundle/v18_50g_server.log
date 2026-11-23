@@ -1,0 +1,31 @@
+test_angle (test_geometry.GeometryTests) ... ok
+test_cancellation (test_geometry.GeometryTests) ... ok
+test_change_time_param_only (test_geometry.GeometryTests) ... ok
+test_decomposition_tangent (test_geometry.GeometryTests) ... ok
+test_loop_lower_bound (test_geometry.GeometryTests) ... ok
+test_metric_convention (test_geometry.GeometryTests) ... ok
+test_straight_path (test_geometry.GeometryTests) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.010s
+
+OK
+DONE: {
+  "max_parent_ledger_mismatch": 0.0,
+  "max_parent_split_residual": 3.592974080106908e-05,
+  "parent_arc5_range": [
+    16.719095334185646,
+    19.657202751362632
+  ],
+  "parent_three_point_underestimate_fraction_range": [
+    0.00044154414138905214,
+    0.0019579499689347285
+  ],
+  "parent_straightness_range": [
+    0.9904523733571977,
+    0.997834781863991
+  ],
+  "number_segments": 160,
+  "number_point_rows": 200
+}
+PACKED /root/elab1/hysteresis/q550_response_arc_length_comoving_composition_v18_50g_bundle/q550_response_arc_length_comoving_composition_v18_50g_server_sendback.zip manifest entries 22
