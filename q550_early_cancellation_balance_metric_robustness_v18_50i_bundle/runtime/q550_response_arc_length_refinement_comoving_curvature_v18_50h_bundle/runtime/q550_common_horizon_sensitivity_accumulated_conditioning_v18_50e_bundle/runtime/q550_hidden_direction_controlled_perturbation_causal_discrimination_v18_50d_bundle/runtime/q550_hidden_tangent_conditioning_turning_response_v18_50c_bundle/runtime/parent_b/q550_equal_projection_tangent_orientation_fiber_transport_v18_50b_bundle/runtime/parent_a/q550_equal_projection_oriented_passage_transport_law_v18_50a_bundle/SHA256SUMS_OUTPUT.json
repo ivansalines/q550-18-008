@@ -1,0 +1,31 @@
+{
+  "version": "v18.50a",
+  "root": "q550_equal_projection_oriented_passage_transport_law_v18_50a_bundle",
+  "files": {
+    "README.md": "1d9b9c26fd4661cb0e52a61b9d3228df61049a002f7e79a4788b79cbd7479172",
+    "SCIENTIFIC_DECISION_RULES.md": "f9b926507458d5860c209463753ccc1a69a658acc0c16448f7458da3dfb2ecf5",
+    "SCIENTIFIC_REPORT.md": "1e384769d418e54db78d0390188eb9b5e1da016b04edb6a6b7503163f097c182",
+    "inputs/SOURCE_PINS.json": "48534d68fd0055a6a0aa184e99ec411780f79a0b6410b82df0ab7d95197cc2cb",
+    "inputs/q550_x_turning_clock_equal_projection_return_continuation_v18_49x_authenticated_server_sendback.zip": "6344878b0e62dc70956bb74c8a00aa189c273b6474c48511869f21bc2974ccba",
+    "requirements.txt": "fc427f96792059ce540ca8adc5b06cdd1692436654fc3569648ef0d16fc4577b",
+    "results/area_vs_triad_gap.png": "38e1e4109d5bea925b6b3136f85474f4280cfccffd931ede8a15c2f44347454e",
+    "results/case_summary.csv": "1c70cbdb63f3b8e5c66d7a5901292d5056bab34fabbbffbf32dfe9af40d07bb6",
+    "results/co_transport_ratio.png": "1b422ae83a7ad472603572885aada23f1f43c406aac1e82a0c7e0c7acd49c6c2",
+    "results/co_transport_ratio_diagnostic.json": "078db2c1e285a7070882533e7938eb9d67ae950275202f894e4434f21886de30",
+    "results/environment.json": "acc0761e8607afbd093f93249873d99b4ba956174bc5e2feb1e522d08eb0cd7e",
+    "results/oriented_equal_projection_passages.csv": "18f39538b56e07830a61d04795210477a202a336f33078d3893c16846fe6d182",
+    "results/oriented_passage_areas.png": "e98c42fcf14b236a164fc9df844fc8aa1e9c87f651e3d33b9c9e14d4a03826fd",
+    "results/report.json": "c943ad774e4bab156a497362922a2d504721f023df5f0d46f62411c894b8cd4e",
+    "results/sample_projected_passage.png": "82b1b4286c60045195cd81c528bc13ec99fc3066bc7682152088b325c07ff32e",
+    "results/selected_passage_trace.csv": "1ebc12cc1ef7b5ad47472eeeb6f8983fdd561f7d06aa2c762211e031cd67894a",
+    "run_on_server.sh": "376c50c9d248fb056c41cb5d2eb901a4659633ff4a3c1968a7f26e7d87874627",
+    "scripts/analyze_ratios.py": "07f97988028f6f7fa056178d8f8a4202fbf925ab0a43ed5549175b5a0b7ccc45",
+    "scripts/generate_report.py": "714b4a55c22b4fa57c14b2f14045eaa0b3f00738526d73c046af9c571e630e88",
+    "scripts/pack_sendback.py": "31d9c7533ce73d9204bee4314205ebfc706fc40630401337fbc87cd80bc144f6",
+    "scripts/passage_math.py": "fea28fa3cda4093225649876785ad4113eaeb8f7aa83c8cb746f3a7b879cd0b6",
+    "scripts/plot_results.py": "a9ff516938b0746c07fe7313c9189cb8203cf9a94d30f64b98fcd1415bc327d9",
+    "scripts/run_audit.py": "3a932082e4a2a2ac5438e46164718238aa1fe25af1fd9f4bb48a9844556bfc3a",
+    "scripts/verify_parent_x.py": "9c850366b60a4fbeff48d19a6417c09be6467bd1cbf43ffcaf0a1b74f0bc4c93",
+    "tests/test_passage_math.py": "d816cc6961f7139a1b5731ca55fb1c430a3ba6357f6ef1d8d98b1364f213c300"
+  }
+}

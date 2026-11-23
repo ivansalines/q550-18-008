@@ -1,0 +1,55 @@
+test_common_chart_scale (test_balance.GeometryAudit.test_common_chart_scale) ... ok
+test_off_axis (test_balance.GeometryAudit.test_off_axis) ... ok
+test_peak_interior (test_balance.GeometryAudit.test_peak_interior) ... ok
+test_perfect_antiparallel (test_balance.GeometryAudit.test_perfect_antiparallel) ... ok
+test_perfect_parallel (test_balance.GeometryAudit.test_perfect_parallel) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+v18.50i complete: {
+  "checks": {
+    "h_max_absolute_cancel_regression": 1.3423825384606403e-09,
+    "max_relative_response_linearization_error": 0.00021062460000202568
+  },
+  "kappa": {
+    "original": 0.16666666666666666,
+    "autonomous": 0.16659961041764054
+  },
+  "original_reference": {
+    "kind": "original",
+    "metric": "common_parent_c",
+    "epsilon": 0.0001,
+    "peak_xi": 0.0010750000000000002,
+    "peak_cancellation": 0.5793750170057219,
+    "ratio_at_peak": 1.014848244681688,
+    "cos_at_peak": -0.6462386516488641,
+    "bracket": [
+      0.0010500000000000002,
+      0.0011
+    ],
+    "interior": true,
+    "peak_index": 43,
+    "initial_cancellation": 0.0,
+    "endpoint_cancellation": 0.3367245360063533
+  },
+  "autonomous_reference": {
+    "kind": "autonomous",
+    "metric": "common_parent_c",
+    "epsilon": 0.0001,
+    "peak_xi": 0.0010750000000000002,
+    "peak_cancellation": 0.5793014530489198,
+    "ratio_at_peak": 1.015236491453673,
+    "cos_at_peak": -0.6461195629461811,
+    "bracket": [
+      0.0010500000000000002,
+      0.0011
+    ],
+    "interior": true,
+    "peak_index": 43,
+    "initial_cancellation": 0.0,
+    "endpoint_cancellation": 0.33660667085010254
+  }
+}
+Packed 19 files to /root/elab1/hysteresis/q550_early_cancellation_balance_metric_robustness_v18_50i_bundle/sendback.zip

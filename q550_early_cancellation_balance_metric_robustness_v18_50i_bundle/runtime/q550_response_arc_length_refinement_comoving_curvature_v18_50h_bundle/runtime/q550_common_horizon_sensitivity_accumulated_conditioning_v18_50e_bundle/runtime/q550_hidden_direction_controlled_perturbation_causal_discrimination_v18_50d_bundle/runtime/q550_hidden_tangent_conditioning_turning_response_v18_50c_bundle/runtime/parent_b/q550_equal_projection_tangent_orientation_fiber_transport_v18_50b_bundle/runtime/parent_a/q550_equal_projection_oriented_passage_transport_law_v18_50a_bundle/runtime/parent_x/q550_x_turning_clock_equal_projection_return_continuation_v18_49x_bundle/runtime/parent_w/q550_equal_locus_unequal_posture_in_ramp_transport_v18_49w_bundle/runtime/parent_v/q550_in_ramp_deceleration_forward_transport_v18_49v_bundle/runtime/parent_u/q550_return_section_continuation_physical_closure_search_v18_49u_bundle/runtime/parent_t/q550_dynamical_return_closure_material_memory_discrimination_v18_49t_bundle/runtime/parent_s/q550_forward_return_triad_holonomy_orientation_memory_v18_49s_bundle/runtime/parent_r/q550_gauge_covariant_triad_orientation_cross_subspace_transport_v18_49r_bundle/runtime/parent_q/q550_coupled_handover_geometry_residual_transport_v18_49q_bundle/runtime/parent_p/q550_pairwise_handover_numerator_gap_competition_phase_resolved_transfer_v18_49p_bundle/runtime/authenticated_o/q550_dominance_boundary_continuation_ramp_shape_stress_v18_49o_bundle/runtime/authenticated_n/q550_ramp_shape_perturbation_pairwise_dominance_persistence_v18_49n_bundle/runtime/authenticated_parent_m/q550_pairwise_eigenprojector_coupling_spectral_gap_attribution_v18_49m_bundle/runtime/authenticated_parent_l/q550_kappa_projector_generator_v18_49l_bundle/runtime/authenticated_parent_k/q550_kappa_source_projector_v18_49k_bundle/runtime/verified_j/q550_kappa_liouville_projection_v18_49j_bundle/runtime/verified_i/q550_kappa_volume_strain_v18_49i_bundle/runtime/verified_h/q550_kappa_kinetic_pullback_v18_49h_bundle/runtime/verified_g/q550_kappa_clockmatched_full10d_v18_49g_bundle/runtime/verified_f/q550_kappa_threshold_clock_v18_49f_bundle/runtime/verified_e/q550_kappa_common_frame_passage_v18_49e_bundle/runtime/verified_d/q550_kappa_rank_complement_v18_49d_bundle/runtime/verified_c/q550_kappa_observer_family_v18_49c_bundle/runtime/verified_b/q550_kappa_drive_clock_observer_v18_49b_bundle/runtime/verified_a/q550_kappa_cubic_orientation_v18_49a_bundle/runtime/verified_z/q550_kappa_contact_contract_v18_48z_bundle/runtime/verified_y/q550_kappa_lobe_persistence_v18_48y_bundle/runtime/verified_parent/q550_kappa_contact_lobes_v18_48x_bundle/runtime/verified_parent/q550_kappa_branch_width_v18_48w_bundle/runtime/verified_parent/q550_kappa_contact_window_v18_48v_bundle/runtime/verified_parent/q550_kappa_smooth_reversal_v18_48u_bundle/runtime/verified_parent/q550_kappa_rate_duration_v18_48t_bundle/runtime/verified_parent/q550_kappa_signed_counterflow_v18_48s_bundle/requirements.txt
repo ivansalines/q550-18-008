@@ -1,0 +1,4 @@
+# Python 3.13 required
+numpy>=2.3
+scipy>=1.15
+matplotlib>=3.8

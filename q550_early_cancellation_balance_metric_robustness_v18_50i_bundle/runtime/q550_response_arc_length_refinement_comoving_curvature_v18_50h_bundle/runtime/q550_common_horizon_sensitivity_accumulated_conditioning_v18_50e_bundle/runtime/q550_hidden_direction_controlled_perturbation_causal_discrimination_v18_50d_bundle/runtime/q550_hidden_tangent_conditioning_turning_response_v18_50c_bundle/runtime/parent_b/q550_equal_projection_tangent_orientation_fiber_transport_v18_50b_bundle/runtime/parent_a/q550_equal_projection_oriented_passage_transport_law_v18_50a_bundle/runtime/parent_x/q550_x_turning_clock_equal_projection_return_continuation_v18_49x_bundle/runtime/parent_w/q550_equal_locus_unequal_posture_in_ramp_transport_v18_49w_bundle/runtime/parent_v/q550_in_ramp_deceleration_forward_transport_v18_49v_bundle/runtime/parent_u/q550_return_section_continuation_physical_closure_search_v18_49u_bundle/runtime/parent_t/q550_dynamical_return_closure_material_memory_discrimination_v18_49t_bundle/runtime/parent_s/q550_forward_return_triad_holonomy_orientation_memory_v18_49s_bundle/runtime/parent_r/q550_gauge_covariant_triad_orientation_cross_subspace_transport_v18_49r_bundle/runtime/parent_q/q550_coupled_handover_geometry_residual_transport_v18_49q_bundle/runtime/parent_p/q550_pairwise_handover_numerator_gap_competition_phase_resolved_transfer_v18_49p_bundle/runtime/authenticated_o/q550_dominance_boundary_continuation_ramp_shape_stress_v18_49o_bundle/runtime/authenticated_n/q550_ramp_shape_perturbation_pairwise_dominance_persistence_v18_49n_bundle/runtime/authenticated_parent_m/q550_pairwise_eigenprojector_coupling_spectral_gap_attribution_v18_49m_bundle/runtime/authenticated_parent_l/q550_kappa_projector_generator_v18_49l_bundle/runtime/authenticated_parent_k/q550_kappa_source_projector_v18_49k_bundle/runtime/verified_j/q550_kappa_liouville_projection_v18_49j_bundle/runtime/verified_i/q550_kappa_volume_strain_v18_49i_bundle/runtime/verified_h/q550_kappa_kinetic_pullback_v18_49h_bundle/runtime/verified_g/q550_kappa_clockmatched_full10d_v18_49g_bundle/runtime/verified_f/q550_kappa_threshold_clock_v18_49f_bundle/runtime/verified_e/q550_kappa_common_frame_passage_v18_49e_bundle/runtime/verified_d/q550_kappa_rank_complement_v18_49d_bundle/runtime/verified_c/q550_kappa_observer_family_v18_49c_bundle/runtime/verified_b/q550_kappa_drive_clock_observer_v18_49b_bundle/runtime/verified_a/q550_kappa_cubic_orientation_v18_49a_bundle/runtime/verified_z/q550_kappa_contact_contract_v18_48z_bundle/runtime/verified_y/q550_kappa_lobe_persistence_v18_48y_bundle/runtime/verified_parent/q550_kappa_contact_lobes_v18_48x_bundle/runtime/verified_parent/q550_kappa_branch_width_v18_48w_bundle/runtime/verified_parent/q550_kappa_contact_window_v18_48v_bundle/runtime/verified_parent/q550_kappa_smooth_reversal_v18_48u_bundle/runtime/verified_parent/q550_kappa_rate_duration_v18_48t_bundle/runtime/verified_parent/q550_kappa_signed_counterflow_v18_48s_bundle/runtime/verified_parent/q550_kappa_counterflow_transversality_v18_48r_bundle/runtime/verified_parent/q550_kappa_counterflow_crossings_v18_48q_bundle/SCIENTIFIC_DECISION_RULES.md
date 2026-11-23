@@ -1,0 +1,12 @@
+# Scientific decision rules — v18.48q
+
+1. **Authenticity:** Original physical 11D source or any pinned upstream archive cannot be replaced. Verify every original SHA and archive root, including the p -> o/j -> h ancestry. Preserve all historical original scripts as bytes in the nested server archive.
+2. **Model:** The material support RHS is identical to the original; only an externally prescribed Theta clock changes. A tau-velocity sign flip is a controlled, idealized instantaneous intervention, not a passive counterflow reversal.
+3. **Mechanical balance:** The v18.48p energy E is explicitly defined from kinetic, potential, barrier, and coupling terms, with an active x force and damping. The relative numerical balance residual must be below 2e-7 for each newly integrated IVP; numerical balance is not a conserved Hamiltonian claim.
+4. **Crossing geometry:** The selected reduced coordinates are `(logrho1,logrho2,x)`. `shape_distance≈0` does not imply theta, omega, radial velocities, drive phase, or E coincide. A claimed full 11D crossing would require independent agreement of all full-state components, time/frequency criteria, and rigor.
+5. **Null turnaround exclusion:** Initial outward/return contact is true by construction and is excluded for the asynchronous comparison using u>=0.25 and s<=0.75. Minima on these boundaries must not be presented as interior intersections.
+6. **Numerical continuation:** Multi-start optimization of dense 11D IVP sections provides candidates, not a certified global minimum. Geometric cubic spline guides assist search only; every reported minimum value is recomputed from the original dense 11D solution. Differences in spline geometry are exported.
+7. **Two separate rate controls:** A speed increase with phase-closure duration reduced is not a pure speed test; fixed-duration tests deliberately do not close the phase and thus cannot be compared to phase-closed cases at identical external phase.
+8. **Temporal claims:** A progress mismatch `u+s-1` is not an intrinsic material response lag. Forward-time controlled counterflow, backward-time integration, and reverse-protocol continuation are different operations.
+9. **Stability:** All finite differences and IVP solutions are binary64 numerical measurements, no rigorous interval enclosure. Original source comparisons and ODE energy identities are recorded independently.
+10. **Genealogy:** Never omit executable Python, measured inputs and outputs, declared parameters, hash manifests, and the exact root directory inside the ZIP.

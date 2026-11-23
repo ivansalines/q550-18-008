@@ -1,0 +1,32 @@
+{
+  "version": "v18.48j",
+  "archive_root": "q550_kappa_gauge_covariant_v18_48j_bundle",
+  "file_count": 25,
+  "files": {
+    "README.md": "6cdc3f2df04184e7c701c00b5361dc8446c22a368e5c74fa7de0154247397b56",
+    "inputs/PARENT_SHA256.json": "fc35a445a6cbe8946499d3ecd06b49da8c47ddadf1155d406c33c950ccf536df",
+    "inputs/v18_48i_original_server_sendback.zip": "e351f04ea354d28a027a0af398fa2c56aaa1ab804d5a735d153ec5da67736321",
+    "reference/factorial_math.py": "4c5de14753546fa21ab106b6ed9b37f4f766a93668bafae90bef708731949206",
+    "reference/generated_base_jet.py": "43e0c0b075876d55d4c08caabfde28b38b943d689ece024451806e81067611f3",
+    "reference/structural_jet.py": "8221474a1213301af3c7395a624d10d3f0c7730893ecf5165b05039ba2cabb01",
+    "reference/test_support_mobius_monodromy_audit.py": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864",
+    "requirements.txt": "fb20ea7afc0a3c47eb8c10998d6fae3a483d5503dce9845258a510d9555aaf98",
+    "results/adjoint_frame_connection.csv": "e61d740bfb31373458a268c4518859c1697b68e2d66949a5256368fb79e79d40",
+    "results/crest_atlas.csv": "9450826baa81ca69f16d80913417eb56b7ecbb6412a70e389e33a1b7ec443f8c",
+    "results/factorial_common_gauge.csv": "693edc78f1da681d2e194691f4ece1efd3825e8d96c7ac0f9487910a1fe53a25",
+    "results/full_tensor_checks.csv": "04d5e194ead6074b8977bc0f2fb764e444f2a6646b6324cb8efe65a898493267",
+    "results/gauge_invariance.csv": "44d9837cc5185f7b368b4f1d62fb60f4541509db62abecfa6a37dc0457c9fd45",
+    "results/observer_change_negative_control.csv": "0b4527ab98b04cbf0798e4c7e287be83a29589c344af13b44ed42203a160d3c4",
+    "results/phaseblind_gauge_vs_naive.png": "9c4ba001ab4685b2e4468f96d42dc001340decdbe03c6d99b62c81eee2874b6b",
+    "results/phasecov_gauge_vs_naive.png": "ea2bf9b44835a846c5e920159ffa5bdfa0834e74539bf0b343949e7c446b5c86",
+    "results/report.json": "86df3f19c90c915503037f2d0bbe00487362e4b7b303b92ece4c7cdc78bf3c8c",
+    "run_on_server.sh": "72cf59513fc14661b7cece3b8e950a6ebe20d90f922549c67a7cd6b98a557592",
+    "scripts/gauge_math.py": "008986ba953f7e1abd419669d808e87b91f9751d63b599666d43165edce95942",
+    "scripts/pack_sendback.py": "25a757e162410d2afeeb0141ad01081be282a90587e8f4417a75b48234f8a98a",
+    "scripts/plot_results.py": "e4832a4b72d23e5d0457325eff95cedb8f9761ce138619759b80fcc4b34abe33",
+    "scripts/run_audit.py": "3062752f9cc787fdd13370c289638fd2836dd21925401b80c06ada9e4414104c",
+    "scripts/verify_parent.py": "24e2cfad38c281c64bf90016c98ddf972b35d8f7b1ff057514749cc14b83346f",
+    "tests/test_gauge.py": "c5e3d6a3fd50566f2efaadd62fb4a9c26ff8b28c971261d6d9d0d186bbf990bf",
+    "v18_48j_server.log": "2c83792ab471c67445eee1503c84c050c7fc8437f26beccaf710d6164fc2b308"
+  }
+}

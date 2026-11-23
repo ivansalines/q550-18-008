@@ -1,0 +1,11 @@
+kind,ramp_xi,shape,pairs,mechanical_ledger_error,max_area_quad_refinement,max_projector_regression,theta1_area_signs,theta2_area_signs
+autonomous,0.18,beta:2:2,3,6.309518879588083e-13,1.158095632738075e-15,0.0,[np.float64(-1.0)],[np.float64(-1.0)]
+autonomous,0.24,beta:2:2,4,1.1802364641155805e-13,2.346157597084113e-15,0.0,[np.float64(-1.0)],[np.float64(-1.0)]
+autonomous,0.24,beta:3:3,4,1.0579332548887876e-12,2.3062962265863254e-15,0.0,[np.float64(-1.0)],[np.float64(-1.0)]
+autonomous,0.327375,beta:2:2,4,2.4476323745581396e-12,2.1979268313146103e-15,0.0,[np.float64(-1.0)],[np.float64(-1.0)]
+autonomous,0.5,beta:2:2,2,2.229955803345618e-12,1.401469374307917e-15,0.0,[np.float64(-1.0)],[np.float64(-1.0)]
+original,0.18,beta:2:2,3,6.1571754639278e-13,1.160853572014335e-15,0.0,[np.float64(-1.0)],[np.float64(-1.0)]
+original,0.24,beta:2:2,4,4.1828172869795566e-13,2.347746630893162e-15,0.0,[np.float64(-1.0)],[np.float64(-1.0)]
+original,0.24,beta:3:3,4,1.0992439597456993e-12,2.3088441016916664e-15,0.0,[np.float64(-1.0)],[np.float64(-1.0)]
+original,0.327375,beta:2:2,4,2.405116036885424e-12,2.1984807908621146e-15,0.0,[np.float64(-1.0)],[np.float64(-1.0)]
+original,0.5,beta:2:2,2,4.388624880169445e-12,1.4023452063753779e-15,0.0,[np.float64(-1.0)],[np.float64(-1.0)]

@@ -1,0 +1,4 @@
+# Tested with Python 3.11 and intended for Python 3.13
+numpy
+scipy
+matplotlib

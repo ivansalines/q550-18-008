@@ -1,0 +1,415 @@
+{
+  "version": "v18.48u",
+  "status": "FULL_ORIGINAL_11D_NUMERICAL_AUDIT",
+  "title": "Smooth Drive Reversal & Phase\u2013Energy Path Dependence Audit",
+  "historical_paths_used": 8,
+  "genuine_11D_integrations": 152,
+  "expected_11D_integrations": 152,
+  "phase_matched_minima": 144,
+  "common_phase_profile_points": 11664,
+  "drive_designs": [
+    {
+      "name": "instant",
+      "kind": "instant",
+      "ramp": 0.0,
+      "dwell": 0.0
+    },
+    {
+      "name": "smooth_short",
+      "kind": "smoothstep",
+      "ramp": 0.15,
+      "dwell": 0.0
+    },
+    {
+      "name": "smooth_medium",
+      "kind": "smoothstep",
+      "ramp": 0.35,
+      "dwell": 0.0
+    },
+    {
+      "name": "smooth_long",
+      "kind": "smoothstep",
+      "ramp": 0.65,
+      "dwell": 0.0
+    },
+    {
+      "name": "smoother_medium",
+      "kind": "smootherstep",
+      "ramp": 0.35,
+      "dwell": 0.0
+    },
+    {
+      "name": "stop_dwell",
+      "kind": "stop",
+      "ramp": 0.35,
+      "dwell": 0.15
+    }
+  ],
+  "alpha_values": [
+    0.0,
+    0.75,
+    1.0
+  ],
+  "phase_window_q": [
+    0.312500001,
+    0.719999999
+  ],
+  "phase_nodes": 81,
+  "minimum_3D_gap": 0.0003237843443314903,
+  "minimum_full11D_gap": 1.1609522384765687,
+  "opposite_drive_power_at_minima": 120,
+  "maximum_original_path_regression": 1.6487418689859246e-11,
+  "maximum_return_energy_relative_residual": 1.7463539295214936e-10,
+  "maximum_phase_matched_ledger_absolute_residual": 1.7463252285215836e-10,
+  "maximum_external_phase_mismatch": 0.0,
+  "maximum_original_t_control_regression": 1.5316498069850581e-12,
+  "maximum_preparation_jump_identity_residual": 2.220446049250313e-16,
+  "family_stats": {
+    "phaseblind_d2_lam-1.00_mod+0.00": {
+      "cases": 72,
+      "min_3D_gap": {
+        "minimum": 0.0006121855640768652,
+        "median": 0.1001543656717914,
+        "maximum": 0.9827300593038252,
+        "count": 72
+      },
+      "opposite_drive_power_min_count": 60
+    },
+    "phasecov_d2_lam-1.00_mod+0.00": {
+      "cases": 72,
+      "min_3D_gap": {
+        "minimum": 0.0003237843443314903,
+        "median": 0.12418701831981227,
+        "maximum": 0.859113956380609,
+        "count": 72
+      },
+      "opposite_drive_power_min_count": 60
+    }
+  },
+  "control_stats": {
+    "instant": {
+      "0.0": {
+        "n": 8,
+        "geometry_gap_3D": {
+          "minimum": 0.3904097209774879,
+          "median": 0.6822986613752193,
+          "maximum": 0.859113956380609,
+          "count": 8
+        },
+        "energy_gap": {
+          "minimum": -0.0026472751807393724,
+          "median": 0.008034159614814351,
+          "maximum": 0.013262953096803587,
+          "count": 8
+        },
+        "drive_power_opposite_count": 4
+      },
+      "0.75": {
+        "n": 8,
+        "geometry_gap_3D": {
+          "minimum": 0.0726576754361087,
+          "median": 0.08272319911441767,
+          "maximum": 0.08607269164380531,
+          "count": 8
+        },
+        "energy_gap": {
+          "minimum": -0.2883956474363647,
+          "median": -0.28164890421060607,
+          "maximum": -0.2777622682605525,
+          "count": 8
+        },
+        "drive_power_opposite_count": 8
+      },
+      "1.0": {
+        "n": 8,
+        "geometry_gap_3D": {
+          "minimum": 0.0013678491337450055,
+          "median": 0.014078075659644482,
+          "maximum": 0.053814634810247494,
+          "count": 8
+        },
+        "energy_gap": {
+          "minimum": -0.006543158121584236,
+          "median": -0.005188402596843722,
+          "maximum": -0.001963578342247363,
+          "count": 8
+        },
+        "drive_power_opposite_count": 8
+      }
+    },
+    "smooth_short": {
+      "0.0": {
+        "n": 8,
+        "geometry_gap_3D": {
+          "minimum": 0.2100480915404266,
+          "median": 0.6245301663631032,
+          "maximum": 0.7939983555855644,
+          "count": 8
+        },
+        "energy_gap": {
+          "minimum": -0.002663104676991157,
+          "median": 0.008762361121038342,
+          "maximum": 0.01364055516728091,
+          "count": 8
+        },
+        "drive_power_opposite_count": 4
+      },
+      "0.75": {
+        "n": 8,
+        "geometry_gap_3D": {
+          "minimum": 0.05687700147889026,
+          "median": 0.07096381724152423,
+          "maximum": 0.10335249529999035,
+          "count": 8
+        },
+        "energy_gap": {
+          "minimum": -0.28699301757497797,
+          "median": -0.2826410253999727,
+          "maximum": -0.2765583748921796,
+          "count": 8
+        },
+        "drive_power_opposite_count": 8
+      },
+      "1.0": {
+        "n": 8,
+        "geometry_gap_3D": {
+          "minimum": 0.0006121855640768652,
+          "median": 0.0007433851902810813,
+          "maximum": 0.0028552356079498543,
+          "count": 8
+        },
+        "energy_gap": {
+          "minimum": -0.00635653922776136,
+          "median": -0.005922323524431672,
+          "maximum": -0.00380580567459865,
+          "count": 8
+        },
+        "drive_power_opposite_count": 8
+      }
+    },
+    "smooth_medium": {
+      "0.0": {
+        "n": 8,
+        "geometry_gap_3D": {
+          "minimum": 0.012564943607650803,
+          "median": 0.4017261084216299,
+          "maximum": 0.837087759365567,
+          "count": 8
+        },
+        "energy_gap": {
+          "minimum": -0.003507376903771009,
+          "median": 0.00784312827821132,
+          "maximum": 0.012420535898724605,
+          "count": 8
+        },
+        "drive_power_opposite_count": 4
+      },
+      "0.75": {
+        "n": 8,
+        "geometry_gap_3D": {
+          "minimum": 0.09454747506100394,
+          "median": 0.12445990776789326,
+          "maximum": 0.15451282178230646,
+          "count": 8
+        },
+        "energy_gap": {
+          "minimum": -0.29599257139591684,
+          "median": -0.28634042249177205,
+          "maximum": -0.28256145864471227,
+          "count": 8
+        },
+        "drive_power_opposite_count": 8
+      },
+      "1.0": {
+        "n": 8,
+        "geometry_gap_3D": {
+          "minimum": 0.00033027649139068867,
+          "median": 0.011764595733097322,
+          "maximum": 0.12062557998993828,
+          "count": 8
+        },
+        "energy_gap": {
+          "minimum": -0.007946462555729061,
+          "median": -0.006671047851638967,
+          "maximum": -0.0050329737496801474,
+          "count": 8
+        },
+        "drive_power_opposite_count": 8
+      }
+    },
+    "smooth_long": {
+      "0.0": {
+        "n": 8,
+        "geometry_gap_3D": {
+          "minimum": 0.014295558616438789,
+          "median": 0.24606380195607727,
+          "maximum": 0.9827300593038252,
+          "count": 8
+        },
+        "energy_gap": {
+          "minimum": -0.00607012213722391,
+          "median": 0.004154427744151201,
+          "maximum": 0.007390556205281618,
+          "count": 8
+        },
+        "drive_power_opposite_count": 4
+      },
+      "0.75": {
+        "n": 8,
+        "geometry_gap_3D": {
+          "minimum": 0.17906995171102524,
+          "median": 0.22974479851453103,
+          "maximum": 0.5577603531987998,
+          "count": 8
+        },
+        "energy_gap": {
+          "minimum": -0.3067224607760952,
+          "median": -0.29862073274047884,
+          "maximum": -0.2933757665094896,
+          "count": 8
+        },
+        "drive_power_opposite_count": 8
+      },
+      "1.0": {
+        "n": 8,
+        "geometry_gap_3D": {
+          "minimum": 0.11804009819385641,
+          "median": 0.14217417287932513,
+          "maximum": 0.284581680185515,
+          "count": 8
+        },
+        "energy_gap": {
+          "minimum": -0.007554084852150034,
+          "median": -0.006545828682078536,
+          "maximum": -0.002166311924503894,
+          "count": 8
+        },
+        "drive_power_opposite_count": 8
+      }
+    },
+    "smoother_medium": {
+      "0.0": {
+        "n": 8,
+        "geometry_gap_3D": {
+          "minimum": 0.012560703438092164,
+          "median": 0.4014847166325234,
+          "maximum": 0.8366124751208464,
+          "count": 8
+        },
+        "energy_gap": {
+          "minimum": -0.003492478764219431,
+          "median": 0.007894075495164632,
+          "maximum": 0.012498189108097968,
+          "count": 8
+        },
+        "drive_power_opposite_count": 4
+      },
+      "0.75": {
+        "n": 8,
+        "geometry_gap_3D": {
+          "minimum": 0.09453880945223143,
+          "median": 0.1246715169229326,
+          "maximum": 0.15526357931724255,
+          "count": 8
+        },
+        "energy_gap": {
+          "minimum": -0.29603567635256156,
+          "median": -0.286335615297024,
+          "maximum": -0.28257987268087903,
+          "count": 8
+        },
+        "drive_power_opposite_count": 8
+      },
+      "1.0": {
+        "n": 8,
+        "geometry_gap_3D": {
+          "minimum": 0.0003237843443314903,
+          "median": 0.012489305485485717,
+          "maximum": 0.12232062140211146,
+          "count": 8
+        },
+        "energy_gap": {
+          "minimum": -0.007980356076264572,
+          "median": -0.006704737326001187,
+          "maximum": -0.0050095868113848585,
+          "count": 8
+        },
+        "drive_power_opposite_count": 8
+      }
+    },
+    "stop_dwell": {
+      "0.0": {
+        "n": 8,
+        "geometry_gap_3D": {
+          "minimum": 0.013486832419934269,
+          "median": 0.29077565836928687,
+          "maximum": 0.9166663283333697,
+          "count": 8
+        },
+        "energy_gap": {
+          "minimum": -0.004768826137824256,
+          "median": 0.005774900216771184,
+          "maximum": 0.009484462992078946,
+          "count": 8
+        },
+        "drive_power_opposite_count": 4
+      },
+      "0.75": {
+        "n": 8,
+        "geometry_gap_3D": {
+          "minimum": 0.1483290666768398,
+          "median": 0.20088709888375333,
+          "maximum": 0.30372292741510654,
+          "count": 8
+        },
+        "energy_gap": {
+          "minimum": -0.3029518834861855,
+          "median": -0.2924608000723321,
+          "maximum": -0.2883721154230059,
+          "count": 8
+        },
+        "drive_power_opposite_count": 8
+      },
+      "1.0": {
+        "n": 8,
+        "geometry_gap_3D": {
+          "minimum": 0.030355994823988562,
+          "median": 0.12966071519041086,
+          "maximum": 0.17694687521016084,
+          "count": 8
+        },
+        "energy_gap": {
+          "minimum": -0.007761702955250138,
+          "median": -0.006485747895403127,
+          "maximum": -0.0033458979909066766,
+          "count": 8
+        },
+        "drive_power_opposite_count": 8
+      }
+    }
+  },
+  "provenance": {
+    "parent_t_server_sha256": "ecacbdb8b7a7d16e07f4dca3c545e3c80b08c71b0262f2699fbe54b2725d6615",
+    "parent_t_manifest_count": 24,
+    "parent_t_report_sha256": "a43b4b79cebc9c5b55b4be2ad2f5c9f97c730201c57961eca00cf50e9bd169cd",
+    "original_history_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+    "parent_t_source_recursion_passed": true,
+    "parent_s_to_j_verified": {
+      "parent_server_sha256": "cf865a640363ad1e08a0ccafe63fd0586d786bb869b967c43b2f1eb18e2c40a7",
+      "parent_manifest_files": 27,
+      "parent_report_sha256": "c151c37668dddf6ba844052e91306518062bbf423c66ce08118f042f945e3398",
+      "historic_11D_states_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+      "r_q_p_o_j_genealogy_verified": true,
+      "parent_s_verifier": {
+        "parent_sha256": "b601151e9bd5e81553695b4c698cd505435143a51976320055a5e0f931ee3d33",
+        "parent_r_verified_files": 24,
+        "parent_r_report_sha256": "03629aa741a2bf17f8049efeab932eaaac98f2972dbf78733106e51baf5c8c67",
+        "historical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+        "original_11D_rhs": true,
+        "parent_chain_verified": true
+      },
+      "physical_rhs_original": true
+    }
+  },
+  "scientific_boundary": "The time-varying external drive is an imposed control and all results are floating-point numerical diagnostics. The total post-turn phase excursion is identical for every design, but ramp duration changes elapsed clock time. Matched-q comparisons use post-reversal q>0 and compare the same external phase, not equal elapsed time. A 3D chart near-contact is not 11D recurrence; signed mechanical work is not entropy. No physical counterflow hysteresis theorem or intrinsic material response time follows."
+}

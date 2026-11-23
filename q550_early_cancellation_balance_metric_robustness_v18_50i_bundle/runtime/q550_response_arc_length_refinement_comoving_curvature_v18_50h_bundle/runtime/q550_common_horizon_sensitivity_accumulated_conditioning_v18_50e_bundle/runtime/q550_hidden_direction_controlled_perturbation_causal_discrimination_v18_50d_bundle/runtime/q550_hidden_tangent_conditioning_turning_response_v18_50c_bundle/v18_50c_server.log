@@ -1,0 +1,32 @@
+test_circle (test_geometry.TestGeometry.test_circle) ... ok
+test_common_scaling_invariance (test_geometry.TestGeometry.test_common_scaling_invariance) ... ok
+test_constant (test_geometry.TestGeometry.test_constant) ... ok
+test_reversal (test_geometry.TestGeometry.test_reversal) ... ok
+test_rotation_invariance (test_geometry.TestGeometry.test_rotation_invariance) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.087s
+
+OK
+v18.50c CASE autonomous 0.18 beta:2:2
+  turn xi 0.09063493 angular bending deg 7.7322 ledger 6.309518879588083e-13
+v18.50c CASE autonomous 0.24 beta:2:2
+  turn xi 0.091022719 angular bending deg 10.9412 ledger 1.1802364641155805e-13
+v18.50c CASE autonomous 0.24 beta:3:3
+  turn xi 0.091264115 angular bending deg 11.4628 ledger 1.0579332548887876e-12
+v18.50c CASE autonomous 0.327375 beta:2:2
+  turn xi 0.091281461 angular bending deg 12.5056 ledger 2.4476323745581396e-12
+v18.50c CASE autonomous 0.5 beta:2:2
+  turn xi 0.091469221 angular bending deg 13.7668 ledger 2.229955803345618e-12
+v18.50c CASE original 0.18 beta:2:2
+  turn xi 0.090659349 angular bending deg 7.7353 ledger 6.1571754639278e-13
+v18.50c CASE original 0.24 beta:2:2
+  turn xi 0.091047626 angular bending deg 10.9456 ledger 4.1828172869795566e-13
+v18.50c CASE original 0.24 beta:3:3
+  turn xi 0.091289273 angular bending deg 11.4672 ledger 1.0992439597456993e-12
+v18.50c CASE original 0.327375 beta:2:2
+  turn xi 0.091306709 angular bending deg 12.5109 ledger 2.405116036885424e-12
+v18.50c CASE original 0.5 beta:2:2
+  turn xi 0.091494724 angular bending deg 13.7731 ledger 4.388624880169445e-12
+Generated 5 figures.
+Generated scientific report.

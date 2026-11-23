@@ -1,0 +1,7 @@
+family,seed_branch,kappa_kind,gauge,original_log_interaction,metric_covariant_log_interaction,naive_euclidean_log_interaction,error_covariant
+phasecov_d2_lam-1.00_mod+0.00,0,autonomous,fixed_chart,3.05655845900697,3.05655845900697,3.05655845900697,0.0
+phasecov_d2_lam-1.00_mod+0.00,0,autonomous,common_comoving_end_frame,3.05655845900697,3.0565584590069674,3.056558459006968,2.6645352591003757e-15
+phasecov_d2_lam-1.00_mod+0.00,0,autonomous,common_anisotropic_shear,3.05655845900697,3.056558459006972,3.04502133616543,1.7763568394002505e-15
+phasecov_d2_lam-1.00_mod+0.00,0,original,fixed_chart,3.057627769851856,3.057627769851856,3.057627769851856,0.0
+phasecov_d2_lam-1.00_mod+0.00,0,original,common_comoving_end_frame,3.057627769851856,3.0576277698518486,3.057627769851849,7.549516567451064e-15
+phasecov_d2_lam-1.00_mod+0.00,0,original,common_anisotropic_shear,3.057627769851856,3.057627769851858,3.0461090936770945,1.7763568394002505e-15

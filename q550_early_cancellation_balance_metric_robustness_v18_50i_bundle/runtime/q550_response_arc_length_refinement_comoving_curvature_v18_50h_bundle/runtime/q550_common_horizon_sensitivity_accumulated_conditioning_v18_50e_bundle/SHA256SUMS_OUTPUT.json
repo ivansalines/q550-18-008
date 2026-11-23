@@ -1,0 +1,26 @@
+{
+  "root": "q550_common_horizon_sensitivity_accumulated_conditioning_v18_50e_bundle",
+  "version": "v18.50e",
+  "files": {
+    "README.md": "6f295fa9d952b53428377a33e0821c80ddd854f7d6a3b9cd21f0c01925ce138f",
+    "SCIENTIFIC_DECISION_RULES.md": "bc4f2a7da7fb2c3c80f98cc375fb41907d64cee1c13258ed4a7fa91d261fb159",
+    "SCIENTIFIC_REPORT.md": "29a255ed1ccd2445c601d5029321bc9f6fdd6d633e1a6c57a205508252bee59b",
+    "inputs/q550_hidden_direction_controlled_perturbation_causal_discrimination_v18_50d_authenticated_server_sendback.zip": "abbbdc73e4711b555dd6f2af002c452a93d1e9403a06c04dbf382d64dd1a6dfb",
+    "requirements.txt": "fc427f96792059ce540ca8adc5b06cdd1692436654fc3569648ef0d16fc4577b",
+    "results/accumulation_over_common_horizon.png": "161765d78f6d36d1b34a576c84141b210a4fd4f2189182d509aa26aef67f4840",
+    "results/baseline_replay_checks.csv": "e2b31b69c01ed2f66299c4428f70e968f393129212607a67100f9beeb07dbe03",
+    "results/common_horizon_direction_responses.csv": "b3413c3143625692abe336ded501c1b0a7e77836f18d9bf5c4c6842a064a3b23",
+    "results/common_horizon_gain_comparison.png": "b0a0fae80ed7a0c0304aa7b15930e835751ecaaf0ab1f7fbd72d2db055110e96",
+    "results/local_vs_transported_direction_response.png": "834ed8431f6c5785077c6000970f2520099ea6c5119721e62fa6aaa995d7a637",
+    "results/ramp_shape_same_seed_control.png": "ccaae5b4efbb882bca5bb477c01c6f4799efd837196ed2690241a54474e2d6ea",
+    "results/report.json": "ef4c95e27d8c382ea6277d4778b369526f33a448b74fff1f6eee1acb35bc1093",
+    "run_on_server.sh": "7729f9e7354b6c3c4ed153413b4f38921484fac365d30757045fc841957aa9aa",
+    "scripts/generate_report.py": "6289f39a84f1f7129d5bc2b8d31ae28629572fc91570cec5809f3b85132aca8a",
+    "scripts/pack_sendback.py": "c29a0a77241e83983809572c20065fdf2cf11365759d19503d92408ac5238c95",
+    "scripts/plot_results.py": "4c0530a56c7415d91e172a1cd4194866a6c464b346994924f28e5e86155a6213",
+    "scripts/response_math.py": "55ebb2c1f654dc3ebdf38c45efd328cdaad442a852f30a9a3b83e4a96bdf5ddd",
+    "scripts/run_audit.py": "9a216696f421b4d2c6d9f2b681ee1f81c213cf90458b80e1e774340428eac038",
+    "scripts/verify_parent_d.py": "21e3ba7bdc07f44dd6f20cfefd78fbf72cb31c23d835be83dca44789007b793d",
+    "tests/test_response_math.py": "66f7af21bfde3fdd655de94e45e4b766a2a51c98f6da2eb591f061f4dcdf8c24"
+  }
+}

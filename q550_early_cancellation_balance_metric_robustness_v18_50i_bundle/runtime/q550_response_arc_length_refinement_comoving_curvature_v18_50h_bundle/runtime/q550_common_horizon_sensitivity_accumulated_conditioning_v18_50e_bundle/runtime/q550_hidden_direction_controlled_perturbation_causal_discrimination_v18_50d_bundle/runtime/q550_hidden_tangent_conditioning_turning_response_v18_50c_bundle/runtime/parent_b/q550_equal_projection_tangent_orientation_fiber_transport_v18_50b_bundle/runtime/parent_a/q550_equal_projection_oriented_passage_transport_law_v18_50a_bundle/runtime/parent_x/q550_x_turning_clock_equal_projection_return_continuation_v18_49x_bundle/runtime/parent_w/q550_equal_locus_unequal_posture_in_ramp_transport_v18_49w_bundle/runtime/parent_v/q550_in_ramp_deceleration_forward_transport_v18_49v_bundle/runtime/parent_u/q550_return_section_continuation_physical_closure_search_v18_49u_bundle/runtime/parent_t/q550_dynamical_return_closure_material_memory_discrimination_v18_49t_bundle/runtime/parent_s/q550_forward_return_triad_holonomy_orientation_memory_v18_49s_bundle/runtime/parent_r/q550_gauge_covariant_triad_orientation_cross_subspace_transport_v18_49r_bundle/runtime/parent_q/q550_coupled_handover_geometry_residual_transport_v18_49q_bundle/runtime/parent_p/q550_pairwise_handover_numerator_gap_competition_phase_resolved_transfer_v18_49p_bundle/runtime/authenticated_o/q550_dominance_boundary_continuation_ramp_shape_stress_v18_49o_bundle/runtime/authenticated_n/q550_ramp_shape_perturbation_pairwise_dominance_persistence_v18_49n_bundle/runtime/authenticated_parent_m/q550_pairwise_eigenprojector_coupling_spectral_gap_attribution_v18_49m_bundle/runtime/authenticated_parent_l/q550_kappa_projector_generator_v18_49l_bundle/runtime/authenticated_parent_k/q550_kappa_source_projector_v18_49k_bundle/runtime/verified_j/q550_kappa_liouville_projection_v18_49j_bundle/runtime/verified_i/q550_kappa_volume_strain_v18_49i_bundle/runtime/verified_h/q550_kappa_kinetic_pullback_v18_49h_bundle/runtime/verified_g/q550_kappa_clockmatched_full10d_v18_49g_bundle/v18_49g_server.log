@@ -1,0 +1,81 @@
+test_bent_path_excess_positive (test_full10d_math.FullOrientationTests.test_bent_path_excess_positive) ... ok
+test_chart_metric_covariance (test_full10d_math.FullOrientationTests.test_chart_metric_covariance) ... ok
+test_great_circle (test_full10d_math.FullOrientationTests.test_great_circle) ... ok
+test_metric_cos (test_full10d_math.FullOrientationTests.test_metric_cos) ... ok
+test_norm_and_projector (test_full10d_math.FullOrientationTests.test_norm_and_projector) ... ok
+test_reverse_path_same_scalar (test_full10d_math.FullOrientationTests.test_reverse_path_same_scalar) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.030s
+
+OK
+v18.49g original   ramp=0.285000: full10D extrema path=10.755838deg, endpoint=8.437520deg; barrier at q=0.483500; 14 passages
+v18.49g original   ramp=0.292000: full10D extrema path=8.620753deg, endpoint=6.893478deg; barrier at q=0.484000; 13 passages
+v18.49g original   ramp=0.296333: full10D extrema path=7.070970deg, endpoint=5.713718deg; barrier at q=0.480500; 10 passages
+v18.49g original   ramp=0.300000: full10D extrema path=6.333944deg, endpoint=5.137516deg; barrier at q=0.479500; 9 passages
+v18.49g original   ramp=0.305000: full10D extrema path=4.785977deg, endpoint=4.001474deg; barrier at q=0.478000; 7 passages
+v18.49g original   ramp=0.309000: full10D extrema path=3.526484deg, endpoint=3.065543deg; barrier at q=0.477000; 7 passages
+v18.49g autonomous ramp=0.285000: full10D extrema path=10.865698deg, endpoint=8.592055deg; barrier at q=0.483500; 14 passages
+v18.49g autonomous ramp=0.292000: full10D extrema path=8.606397deg, endpoint=6.799931deg; barrier at q=0.481500; 13 passages
+v18.49g autonomous ramp=0.296333: full10D extrema path=7.511870deg, endpoint=6.003253deg; barrier at q=0.480500; 11 passages
+v18.49g autonomous ramp=0.300000: full10D extrema path=6.005428deg, endpoint=4.914978deg; barrier at q=0.479500; 9 passages
+v18.49g autonomous ramp=0.305000: full10D extrema path=4.710723deg, endpoint=3.982162deg; barrier at q=0.478000; 7 passages
+v18.49g autonomous ramp=0.309000: full10D extrema path=3.584572deg, endpoint=3.105784deg; barrier at q=0.479000; 7 passages
+{
+  "version": "v18.49g",
+  "status": "AUTHENTIC_11D_CLOCK_MATCHED_FULL10D_DIAGNOSTIC_ONLY",
+  "physical_integrations": 14,
+  "frame_integrations": 12,
+  "number_threshold_passages": 121,
+  "number_threshold_free_extrema_profiles": 12,
+  "clock_grid_samples": 1212,
+  "parent_f_passages": 121,
+  "ramp_set": [
+    0.285,
+    0.292,
+    0.296333,
+    0.3,
+    0.305,
+    0.309
+  ],
+  "kappa_set": [
+    "original",
+    "autonomous"
+  ],
+  "thresholds_from_parent_f": [
+    0.006,
+    0.008,
+    0.009,
+    0.01,
+    0.011,
+    0.012,
+    0.014
+  ],
+  "nearest_6_over_5_threshold_passage": {
+    "kappa_kind": "autonomous",
+    "ramp_xi": 0.292,
+    "threshold": 0.014,
+    "passage_id": 0,
+    "span_over_kappa0": 1.1994461914692947,
+    "distance_to_6_over_5": 0.000553808530705302
+  },
+  "count_passages_within_1_percent_of_6_over_5": 2,
+  "threshold_free_extrema_ratio_min": 0.46199985874165406,
+  "threshold_free_extrema_ratio_max": 0.9153682812624409,
+  "max_parent_11d_history_error": 3.424991987393049e-13,
+  "max_parent_extrema_shape_error": 0.0,
+  "max_regression_endpoint_angle_deg": 2.0028423364237824e-13,
+  "max_mechanical_ledger_error": 1.651082222331457e-11,
+  "max_clock_phase_mismatch_rad": 0.0,
+  "max_full10d_chart_covariance_error_deg": 6.10000938650046e-12,
+  "max_tangent_cotangent_duality_residual": 7.108895957933346e-16,
+  "max_full10d_arc_49_vs_97_refinement_deg": 0.00046959001849167237,
+  "nested_ancestry_authenticated_to_J": true,
+  "physical_clock": "q increases opposite to physical Theta; clock radians = -omega delta q",
+  "metric": "Euclidean 10D common frame at turning point; chart transforms must carry metric",
+  "invariant_scope": "S^9 arclength and endpoints invariant under a coherent affine chart and metric pushforward, not under replacing the metric or the observer family",
+  "interpretation": "Threshold passage ratios depend on chosen threshold. Extrema are threshold-independent but metric/coordinate dependent. Full-10D arc versus endpoint distinguishes nongeodesic direction transport from 2D return. Full-10D angle maxima at q=.75 are WINDOW-BOUNDARY maxima, not interior turning events.",
+  "limitation": "Only phaseblind branch0, 2 kappa0 and 6 ramps. No intrinsic kappa0 period, full return, material handedness or observer-free 10D metric proven."
+}
+v18.49g checks PASS 12 extrema / 121 passages / 1212 clock samples
+v18.49g plots written: 5

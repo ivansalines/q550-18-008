@@ -1,0 +1,17 @@
+{
+  "parent_version": "v18.49l",
+  "parent_sha256": "56846363bae1b67e2f1ae788c5f8c21df3574f4693497a87ec7c43a4060da308",
+  "parent_members": 28,
+  "ancestry_to_v18_48j": true,
+  "historical_parent_record": {
+    "parent_version": "v18.49k",
+    "parent_sha256": "db657e1143d61ce8b0a9e0beaeae48b97ae98e101bdfb55ca0ba7dc423174d77",
+    "parent_members": 32,
+    "ancestry_to_v18_48j": true,
+    "historical_parent_record": {
+      "source_j_sha256": "06cde264651bb9b1fec875b2344e6b71af1fd270ee75c163c43f245ad921a148",
+      "source_j_members": 29,
+      "ancestry_to_v18_48j": true
+    }
+  }
+}

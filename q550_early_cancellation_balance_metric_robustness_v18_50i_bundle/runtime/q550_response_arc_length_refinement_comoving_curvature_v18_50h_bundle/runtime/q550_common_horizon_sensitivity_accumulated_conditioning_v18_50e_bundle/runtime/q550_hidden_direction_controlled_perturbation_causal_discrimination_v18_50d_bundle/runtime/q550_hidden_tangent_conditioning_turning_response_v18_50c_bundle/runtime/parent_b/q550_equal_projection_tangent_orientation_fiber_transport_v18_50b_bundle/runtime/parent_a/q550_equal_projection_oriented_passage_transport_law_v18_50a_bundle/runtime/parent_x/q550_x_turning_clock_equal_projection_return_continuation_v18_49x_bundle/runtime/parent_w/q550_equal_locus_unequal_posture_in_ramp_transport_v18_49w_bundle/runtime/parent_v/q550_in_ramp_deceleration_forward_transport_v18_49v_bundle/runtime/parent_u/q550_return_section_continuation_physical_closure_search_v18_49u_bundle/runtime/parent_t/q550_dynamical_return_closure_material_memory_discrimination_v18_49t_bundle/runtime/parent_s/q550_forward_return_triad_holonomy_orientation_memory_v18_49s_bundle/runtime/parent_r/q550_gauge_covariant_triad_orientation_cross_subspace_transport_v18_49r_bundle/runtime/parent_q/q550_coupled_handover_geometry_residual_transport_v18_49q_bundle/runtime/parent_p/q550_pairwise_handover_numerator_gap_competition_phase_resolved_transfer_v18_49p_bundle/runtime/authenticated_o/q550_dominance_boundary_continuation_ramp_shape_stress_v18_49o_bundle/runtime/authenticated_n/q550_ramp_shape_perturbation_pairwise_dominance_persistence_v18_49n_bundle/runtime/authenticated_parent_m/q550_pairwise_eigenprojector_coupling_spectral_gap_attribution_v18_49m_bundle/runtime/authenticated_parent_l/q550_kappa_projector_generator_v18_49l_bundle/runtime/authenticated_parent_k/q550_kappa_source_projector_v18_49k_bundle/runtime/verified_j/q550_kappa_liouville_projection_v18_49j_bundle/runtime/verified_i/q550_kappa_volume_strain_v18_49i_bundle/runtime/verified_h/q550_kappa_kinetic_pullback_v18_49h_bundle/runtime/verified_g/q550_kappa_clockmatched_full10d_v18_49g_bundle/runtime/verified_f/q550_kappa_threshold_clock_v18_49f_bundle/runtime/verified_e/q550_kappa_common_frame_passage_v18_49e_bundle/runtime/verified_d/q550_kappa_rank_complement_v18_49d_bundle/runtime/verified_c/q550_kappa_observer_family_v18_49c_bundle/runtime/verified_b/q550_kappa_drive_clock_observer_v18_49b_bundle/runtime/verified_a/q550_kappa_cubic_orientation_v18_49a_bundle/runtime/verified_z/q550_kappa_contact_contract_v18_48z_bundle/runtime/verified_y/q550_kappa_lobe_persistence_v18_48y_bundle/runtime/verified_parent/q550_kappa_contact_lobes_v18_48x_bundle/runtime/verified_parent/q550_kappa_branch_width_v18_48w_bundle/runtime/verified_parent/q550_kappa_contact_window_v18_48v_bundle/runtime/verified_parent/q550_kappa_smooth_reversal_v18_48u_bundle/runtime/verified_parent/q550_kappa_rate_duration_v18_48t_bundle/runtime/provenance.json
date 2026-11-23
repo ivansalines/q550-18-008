@@ -1,0 +1,16 @@
+{
+  "parent_server_sha256": "cf865a640363ad1e08a0ccafe63fd0586d786bb869b967c43b2f1eb18e2c40a7",
+  "parent_manifest_files": 27,
+  "parent_report_sha256": "c151c37668dddf6ba844052e91306518062bbf423c66ce08118f042f945e3398",
+  "historic_11D_states_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+  "r_q_p_o_j_genealogy_verified": true,
+  "parent_s_verifier": {
+    "parent_sha256": "b601151e9bd5e81553695b4c698cd505435143a51976320055a5e0f931ee3d33",
+    "parent_r_verified_files": 24,
+    "parent_r_report_sha256": "03629aa741a2bf17f8049efeab932eaaac98f2972dbf78733106e51baf5c8c67",
+    "historical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+    "original_11D_rhs": true,
+    "parent_chain_verified": true
+  },
+  "physical_rhs_original": true
+}

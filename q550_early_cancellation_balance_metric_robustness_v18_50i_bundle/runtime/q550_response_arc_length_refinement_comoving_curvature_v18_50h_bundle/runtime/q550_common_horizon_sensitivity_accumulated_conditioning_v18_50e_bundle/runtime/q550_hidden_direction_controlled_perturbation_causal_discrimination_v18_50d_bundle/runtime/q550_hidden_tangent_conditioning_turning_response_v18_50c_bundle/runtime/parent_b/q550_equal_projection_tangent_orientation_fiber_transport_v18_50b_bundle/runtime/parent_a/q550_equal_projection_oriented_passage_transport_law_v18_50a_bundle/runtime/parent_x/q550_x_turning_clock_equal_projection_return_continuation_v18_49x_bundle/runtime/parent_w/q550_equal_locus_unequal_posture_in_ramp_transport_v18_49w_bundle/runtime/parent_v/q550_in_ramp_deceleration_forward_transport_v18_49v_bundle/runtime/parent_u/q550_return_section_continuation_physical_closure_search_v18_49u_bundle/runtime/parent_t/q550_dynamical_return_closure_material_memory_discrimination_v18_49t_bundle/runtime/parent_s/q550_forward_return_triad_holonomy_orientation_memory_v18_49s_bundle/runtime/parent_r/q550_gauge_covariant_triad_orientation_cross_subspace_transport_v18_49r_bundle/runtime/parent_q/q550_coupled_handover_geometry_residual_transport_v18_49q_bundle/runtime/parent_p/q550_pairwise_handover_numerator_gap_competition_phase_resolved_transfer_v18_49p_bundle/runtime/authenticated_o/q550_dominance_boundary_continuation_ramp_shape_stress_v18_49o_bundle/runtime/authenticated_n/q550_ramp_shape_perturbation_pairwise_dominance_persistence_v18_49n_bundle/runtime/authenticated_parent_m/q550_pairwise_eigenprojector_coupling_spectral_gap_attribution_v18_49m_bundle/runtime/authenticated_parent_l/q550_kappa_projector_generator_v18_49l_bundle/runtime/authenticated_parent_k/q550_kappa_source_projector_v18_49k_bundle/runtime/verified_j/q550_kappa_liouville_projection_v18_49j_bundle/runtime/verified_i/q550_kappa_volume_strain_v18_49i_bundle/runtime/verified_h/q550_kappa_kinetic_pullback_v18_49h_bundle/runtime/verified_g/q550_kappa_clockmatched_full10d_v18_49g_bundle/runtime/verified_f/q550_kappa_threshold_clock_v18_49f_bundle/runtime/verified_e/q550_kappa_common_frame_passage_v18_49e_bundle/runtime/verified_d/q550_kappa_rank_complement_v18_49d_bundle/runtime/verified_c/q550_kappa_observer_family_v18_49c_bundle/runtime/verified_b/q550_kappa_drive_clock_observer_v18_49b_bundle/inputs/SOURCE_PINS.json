@@ -1,0 +1,13 @@
+{
+  "source": "authentic v18.49a server sendback SHA pinned; selected source mathematics preserved byte-identically",
+  "files": {
+    "inputs/v18_49a_original_server_sendback.zip": "c31935c84b79111e09693983f5cd6164b9266cf02019d7692b161409736a904d",
+    "reference/y_original_run_audit.py": "03cbcfbe5ea6bf64338b4e6648b15db2b827b69b932fa3384df7e5be57f57af4",
+    "reference/physical_math.py": "a2e08b061c01bec726012578e006851a07dc24741001c1b6c5ae4633c881e49c",
+    "reference/parent_lobe_math.py": "0d07dc7df1d2799ac22cd6eed140b276a9fc7162732492937383534700950fe2",
+    "reference/generated_base_jet.py": "43e0c0b075876d55d4c08caabfde28b38b943d689ece024451806e81067611f3",
+    "reference/structural_jet.py": "8221474a1213301af3c7395a624d10d3f0c7730893ecf5165b05039ba2cabb01",
+    "reference/chart_math.py": "bd1ad71313810afbd63534549ef0bba3ad29702db42eec23539333f46dd5557d",
+    "reference/parent_ramp_math.py": "a3233b397efae4c0648db780468f5afd731368a14ec21174045fd31c9855e6c9"
+  }
+}

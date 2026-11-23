@@ -1,0 +1,6 @@
+{
+  "python": "3.13.16",
+  "numpy": "2.4.1",
+  "scipy": "1.17.1",
+  "samples_per_ramp": 61
+}

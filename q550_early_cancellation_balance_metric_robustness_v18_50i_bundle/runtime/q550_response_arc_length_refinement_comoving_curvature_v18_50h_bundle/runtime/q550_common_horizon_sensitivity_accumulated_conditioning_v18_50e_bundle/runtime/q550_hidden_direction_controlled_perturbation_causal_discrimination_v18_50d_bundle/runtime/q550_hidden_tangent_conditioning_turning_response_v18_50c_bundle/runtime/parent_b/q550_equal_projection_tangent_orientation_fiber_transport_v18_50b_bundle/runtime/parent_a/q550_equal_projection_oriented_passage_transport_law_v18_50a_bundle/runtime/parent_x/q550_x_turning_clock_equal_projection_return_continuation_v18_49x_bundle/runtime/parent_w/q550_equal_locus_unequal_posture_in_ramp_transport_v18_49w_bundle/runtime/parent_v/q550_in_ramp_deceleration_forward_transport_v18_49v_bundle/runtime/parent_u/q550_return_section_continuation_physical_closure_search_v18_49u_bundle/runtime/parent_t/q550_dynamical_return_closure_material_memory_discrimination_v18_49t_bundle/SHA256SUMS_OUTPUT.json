@@ -1,0 +1,28 @@
+{
+  "version": "v18.49t",
+  "root": "q550_dynamical_return_closure_material_memory_discrimination_v18_49t_bundle",
+  "files": {
+    "README.md": "c805294d08a8672f25c3dd7efc4aec61d56c40149a24a77a95512391e2816c65",
+    "SCIENTIFIC_DECISION_RULES.md": "4d6a16c2db4fd1f225e02a190a513446b69dcbf3c61c42934497990a51c2ee9f",
+    "SCIENTIFIC_REPORT.md": "9d5b13a17be99701593a7edb9bb2cd3a012c09620f4da8f7ed1a5a36449addcf",
+    "inputs/SOURCE_PINS.json": "f09a5d6fbc0d502aa74ae43236936539d6e7e5ff28d248ef5c57eb5e180034a4",
+    "inputs/q550_forward_return_triad_holonomy_orientation_memory_v18_49s_authenticated_server_sendback.zip": "755e7ef274aadb417e5eb2daddf6cf02530cc67519d58ab41666ce40a22470e1",
+    "requirements.txt": "156ec9e31c34ee6ac86f1de488fdf72936fbd5c9af57abe58a8305ea1ccaa985",
+    "results/dynamic_matched_sections.csv": "de091a6c26d5a564be41ecbe18eadefc18d30778ce338e470b36ba6bd8a5c13d",
+    "results/dynamic_return_configuration_gaps.png": "4677de2e293c491fd5a87f60c13ff682cf3f217dbd3f1d4a4638cb637f1c98cc",
+    "results/dynamic_return_energy_differences.png": "e749b7b85ef3505428ae0f39e38aae7d3f89cb6525b10f9a20fbb106b69420b2",
+    "results/environment.json": "acc0761e8607afbd093f93249873d99b4ba956174bc5e2feb1e522d08eb0cd7e",
+    "results/local_execution_log.txt": "4bf7f06f94770887569aeb49d2339adc91f9aa43d42d02cc3786b937b5251a3c",
+    "results/physical_return_global_endpoints.csv": "972f8989fca0b70158d4efc259dbf537834a4a06613865762bf00bc92a86584c",
+    "results/report.json": "eca52a7cf1c23c08e9941bb857c917f184980dfce6ecacdfaa6a643e43fa8a9d",
+    "run_on_server.sh": "552244477fb8043a7235055632571fd9cd5d8ae51502f83c2debbd4335653639",
+    "scripts/generate_report.py": "c8a50b240013c75a3a8f1e4db3ba175970c3408da2323dc5196ca2cde81f042d",
+    "scripts/pack_sendback.py": "aa6bc62cc060f1e0f799ebd656e480902004d547fe6ca58b7d2b814fb55489d9",
+    "scripts/plot_results.py": "e078f1a5bbf5fe8ba549301d5cff2c7030b82d7963d53fad9fdc8a3947dd43ee",
+    "scripts/return_math.py": "2a4744ecaa2bd6f468599bc9fab084a29700faf4506f88b668a1aa75247566ee",
+    "scripts/run_audit.py": "b9c83098665ff51a6dd131dad4b12001e00a79c11c66c16db2dbdb78284a90a7",
+    "scripts/verify_t_parent.py": "7ab9d5fa713aeb17fe862bc01e57e96ed5908b415f6df9a68b7ac0b9cb16c465",
+    "tests/test_return_math.py": "9ed44e8fbb948b4245e2b9a39da8456363b271c26e3bbbe21e1f75ace6b389e2",
+    "v18_49t_server.log": "59bbddb3130161376779996acafcfae76fce08222f3e6b1ef70629d0fd9f190a"
+  }
+}

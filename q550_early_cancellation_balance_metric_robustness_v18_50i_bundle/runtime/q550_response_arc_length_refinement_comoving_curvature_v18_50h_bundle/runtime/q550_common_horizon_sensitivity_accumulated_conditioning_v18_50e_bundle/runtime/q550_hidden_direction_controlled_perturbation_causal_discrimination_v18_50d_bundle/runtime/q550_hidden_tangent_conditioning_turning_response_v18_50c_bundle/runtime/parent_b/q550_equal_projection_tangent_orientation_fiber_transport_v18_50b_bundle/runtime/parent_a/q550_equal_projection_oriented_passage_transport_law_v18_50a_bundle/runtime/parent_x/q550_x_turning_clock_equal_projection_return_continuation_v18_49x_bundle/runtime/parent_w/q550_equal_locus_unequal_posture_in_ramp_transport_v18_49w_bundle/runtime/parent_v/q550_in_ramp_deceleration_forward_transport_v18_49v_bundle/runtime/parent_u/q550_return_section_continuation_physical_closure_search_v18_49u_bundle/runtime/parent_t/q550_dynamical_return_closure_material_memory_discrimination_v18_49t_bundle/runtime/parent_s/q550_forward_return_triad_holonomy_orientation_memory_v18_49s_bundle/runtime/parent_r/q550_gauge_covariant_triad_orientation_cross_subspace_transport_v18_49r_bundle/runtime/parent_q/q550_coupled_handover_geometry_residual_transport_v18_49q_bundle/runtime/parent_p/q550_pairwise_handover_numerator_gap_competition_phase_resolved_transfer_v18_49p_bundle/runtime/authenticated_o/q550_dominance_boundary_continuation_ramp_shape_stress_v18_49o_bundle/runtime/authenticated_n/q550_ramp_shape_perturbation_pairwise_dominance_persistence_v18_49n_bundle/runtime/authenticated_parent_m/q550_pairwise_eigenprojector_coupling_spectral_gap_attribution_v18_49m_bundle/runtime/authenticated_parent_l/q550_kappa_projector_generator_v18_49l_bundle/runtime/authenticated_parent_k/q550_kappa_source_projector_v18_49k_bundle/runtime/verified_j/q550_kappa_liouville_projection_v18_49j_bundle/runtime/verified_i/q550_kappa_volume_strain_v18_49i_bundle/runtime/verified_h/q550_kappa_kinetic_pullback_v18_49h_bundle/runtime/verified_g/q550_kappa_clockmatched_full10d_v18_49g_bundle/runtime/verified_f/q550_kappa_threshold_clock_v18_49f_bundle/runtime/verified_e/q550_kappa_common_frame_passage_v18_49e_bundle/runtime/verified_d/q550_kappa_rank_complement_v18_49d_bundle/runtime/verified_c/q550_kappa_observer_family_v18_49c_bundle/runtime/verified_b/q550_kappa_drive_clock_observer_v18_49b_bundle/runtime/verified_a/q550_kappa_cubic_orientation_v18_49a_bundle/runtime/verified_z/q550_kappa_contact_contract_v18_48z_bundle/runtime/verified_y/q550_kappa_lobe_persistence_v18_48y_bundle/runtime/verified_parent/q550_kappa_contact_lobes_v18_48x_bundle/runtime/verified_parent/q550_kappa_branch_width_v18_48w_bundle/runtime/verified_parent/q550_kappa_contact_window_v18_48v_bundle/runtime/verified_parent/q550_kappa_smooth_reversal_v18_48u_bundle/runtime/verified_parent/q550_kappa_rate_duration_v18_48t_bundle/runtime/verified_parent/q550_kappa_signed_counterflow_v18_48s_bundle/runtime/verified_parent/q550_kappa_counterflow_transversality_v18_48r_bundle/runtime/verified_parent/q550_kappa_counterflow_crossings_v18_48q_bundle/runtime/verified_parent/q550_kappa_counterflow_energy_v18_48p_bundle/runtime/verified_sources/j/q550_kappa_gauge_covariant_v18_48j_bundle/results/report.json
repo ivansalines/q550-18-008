@@ -1,0 +1,53 @@
+{
+  "version": "v18.48j",
+  "status": "ORIGINAL_Q550_AFFINE_GAUGE_COVARIANT_HESSIAN_PROJECTION_AUDIT",
+  "input": "authenticated_v18.48i_server_refined_v18.48h_11D_IVPs",
+  "no_new_original_ivp_integrations": true,
+  "genuine_physical_states": 328,
+  "physical_ivps": 8,
+  "sections_per_ivp": 41,
+  "gauges": [
+    "identity",
+    "fixed_rotation",
+    "comoving_rotation",
+    "anisotropic_shear"
+  ],
+  "observer_modes": [
+    "historical_transport",
+    "activity_sin_lie_transport",
+    "activity_cos_lie_transport"
+  ],
+  "covariance_rows": 3936,
+  "full_tensor_checks": 120,
+  "max_covariant_ratio_relative_error": 3.1171091122188613e-12,
+  "max_dense_tensor_first_float64_relative_error": 0.10108709851356648,
+  "max_naive_euclidean_ratio_relative_change": 0.6725794381576442,
+  "max_instantaneous_adjoint_connection_algebraic_residual": 1.4858705899580193e-11,
+  "max_sampled_original_adjoint_residual": 0.12267922500438418,
+  "max_sampled_moving_adjoint_residual": 0.12267922618028122,
+  "max_factorial_common_gauge_error": 7.549516567451064e-15,
+  "crest_rows": 64,
+  "factorial_rows": 6,
+  "negative_control_rows": 16,
+  "kappas": {
+    "original": 0.16666666666666666,
+    "autonomous": 0.16659961041764054
+  },
+  "provenance": {
+    "archive_i_sha256": "e351f04ea354d28a027a0af398fa2c56aaa1ab804d5a735d153ec5da67736321",
+    "archive_i_verified_members": 29,
+    "archive_h_sha256": "7b5d66f94626eff99afab32df826eb3b2adeffe54a3957f278c368cf40060533",
+    "archive_h_verified_members": 40,
+    "physical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+    "report_h_sha256": "431f0a24ebb2ceaaf253726393fefa9ca0a8c48b6d7a4c1d0ba7c139b0997fb1",
+    "historical_source_sha256": {
+      "structural_jet.py": "8221474a1213301af3c7395a624d10d3f0c7730893ecf5165b05039ba2cabb01",
+      "test_support_mobius_monodromy_audit.py": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864",
+      "generated_base_jet.py": "43e0c0b075876d55d4c08caabfde28b38b943d689ece024451806e81067611f3",
+      "factorial_math.py": "4c5de14753546fa21ab106b6ed9b37f4f766a93668bafae90bef708731949206"
+    }
+  },
+  "mathematical_scope": "Exact tensor covariance for invertible spatially linear 10D chart changes, and correct covector norms using transformed cometric; numerical double-precision evaluation.",
+  "moving_frame": "Minimal tangent-direction orthogonal frame along each actual 11D IVP; instantaneous chart connection included in observer adjoint identity.",
+  "caveat": "Coordinate covariance under consistent frame and cometric changes is mathematically required; it is not observer independence or proof of physical torsion. Sheared Euclidean norms and observer-only rotations deliberately change the measured quantity. Physical IVP states inherited from v18.48i, not re-integrated here; no interval or branch-connection certificate."
+}

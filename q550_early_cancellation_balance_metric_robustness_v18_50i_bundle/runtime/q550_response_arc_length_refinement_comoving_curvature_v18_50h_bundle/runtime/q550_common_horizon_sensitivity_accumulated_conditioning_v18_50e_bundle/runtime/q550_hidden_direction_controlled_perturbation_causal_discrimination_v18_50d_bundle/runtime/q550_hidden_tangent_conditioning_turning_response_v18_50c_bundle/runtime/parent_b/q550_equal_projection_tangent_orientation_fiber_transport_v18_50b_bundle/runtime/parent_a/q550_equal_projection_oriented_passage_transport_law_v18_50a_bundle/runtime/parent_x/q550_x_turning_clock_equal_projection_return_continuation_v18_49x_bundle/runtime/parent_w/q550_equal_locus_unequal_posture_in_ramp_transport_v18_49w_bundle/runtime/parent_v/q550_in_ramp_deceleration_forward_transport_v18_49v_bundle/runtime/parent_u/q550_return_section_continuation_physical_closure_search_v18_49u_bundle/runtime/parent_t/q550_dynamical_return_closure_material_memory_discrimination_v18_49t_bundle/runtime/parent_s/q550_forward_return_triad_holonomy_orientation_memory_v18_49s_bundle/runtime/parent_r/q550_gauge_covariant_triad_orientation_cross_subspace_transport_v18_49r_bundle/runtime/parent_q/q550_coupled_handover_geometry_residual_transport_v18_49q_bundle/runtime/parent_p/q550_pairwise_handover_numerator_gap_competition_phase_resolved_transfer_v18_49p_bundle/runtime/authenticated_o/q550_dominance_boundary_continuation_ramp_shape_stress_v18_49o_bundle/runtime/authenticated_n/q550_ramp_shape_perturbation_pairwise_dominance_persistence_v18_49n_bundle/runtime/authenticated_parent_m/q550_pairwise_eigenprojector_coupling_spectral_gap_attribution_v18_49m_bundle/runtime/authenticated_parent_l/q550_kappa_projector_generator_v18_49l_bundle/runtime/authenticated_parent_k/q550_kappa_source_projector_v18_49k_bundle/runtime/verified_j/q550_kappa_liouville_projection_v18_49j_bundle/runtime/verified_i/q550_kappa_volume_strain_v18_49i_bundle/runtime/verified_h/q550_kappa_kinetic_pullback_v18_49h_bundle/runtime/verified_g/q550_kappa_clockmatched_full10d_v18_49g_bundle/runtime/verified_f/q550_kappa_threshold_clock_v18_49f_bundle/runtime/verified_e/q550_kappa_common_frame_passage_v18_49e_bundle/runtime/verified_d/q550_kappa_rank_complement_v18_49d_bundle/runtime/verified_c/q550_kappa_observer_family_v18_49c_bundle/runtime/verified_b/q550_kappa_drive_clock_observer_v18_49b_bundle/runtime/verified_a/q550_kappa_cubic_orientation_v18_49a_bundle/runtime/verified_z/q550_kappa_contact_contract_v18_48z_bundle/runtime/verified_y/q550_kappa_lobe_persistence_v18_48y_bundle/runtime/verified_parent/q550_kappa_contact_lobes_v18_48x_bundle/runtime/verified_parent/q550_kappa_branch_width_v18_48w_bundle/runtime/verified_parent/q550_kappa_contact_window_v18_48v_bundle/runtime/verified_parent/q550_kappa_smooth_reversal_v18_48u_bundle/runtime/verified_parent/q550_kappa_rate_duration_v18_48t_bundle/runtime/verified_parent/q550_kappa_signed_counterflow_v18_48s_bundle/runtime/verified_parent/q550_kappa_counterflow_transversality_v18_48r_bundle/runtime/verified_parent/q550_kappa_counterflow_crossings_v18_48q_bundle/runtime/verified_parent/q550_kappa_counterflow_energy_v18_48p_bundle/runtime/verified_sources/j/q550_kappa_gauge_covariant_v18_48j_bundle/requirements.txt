@@ -1,0 +1,5 @@
+Python 3.13
+numpy
+scipy
+mpmath
+matplotlib (only for plots)

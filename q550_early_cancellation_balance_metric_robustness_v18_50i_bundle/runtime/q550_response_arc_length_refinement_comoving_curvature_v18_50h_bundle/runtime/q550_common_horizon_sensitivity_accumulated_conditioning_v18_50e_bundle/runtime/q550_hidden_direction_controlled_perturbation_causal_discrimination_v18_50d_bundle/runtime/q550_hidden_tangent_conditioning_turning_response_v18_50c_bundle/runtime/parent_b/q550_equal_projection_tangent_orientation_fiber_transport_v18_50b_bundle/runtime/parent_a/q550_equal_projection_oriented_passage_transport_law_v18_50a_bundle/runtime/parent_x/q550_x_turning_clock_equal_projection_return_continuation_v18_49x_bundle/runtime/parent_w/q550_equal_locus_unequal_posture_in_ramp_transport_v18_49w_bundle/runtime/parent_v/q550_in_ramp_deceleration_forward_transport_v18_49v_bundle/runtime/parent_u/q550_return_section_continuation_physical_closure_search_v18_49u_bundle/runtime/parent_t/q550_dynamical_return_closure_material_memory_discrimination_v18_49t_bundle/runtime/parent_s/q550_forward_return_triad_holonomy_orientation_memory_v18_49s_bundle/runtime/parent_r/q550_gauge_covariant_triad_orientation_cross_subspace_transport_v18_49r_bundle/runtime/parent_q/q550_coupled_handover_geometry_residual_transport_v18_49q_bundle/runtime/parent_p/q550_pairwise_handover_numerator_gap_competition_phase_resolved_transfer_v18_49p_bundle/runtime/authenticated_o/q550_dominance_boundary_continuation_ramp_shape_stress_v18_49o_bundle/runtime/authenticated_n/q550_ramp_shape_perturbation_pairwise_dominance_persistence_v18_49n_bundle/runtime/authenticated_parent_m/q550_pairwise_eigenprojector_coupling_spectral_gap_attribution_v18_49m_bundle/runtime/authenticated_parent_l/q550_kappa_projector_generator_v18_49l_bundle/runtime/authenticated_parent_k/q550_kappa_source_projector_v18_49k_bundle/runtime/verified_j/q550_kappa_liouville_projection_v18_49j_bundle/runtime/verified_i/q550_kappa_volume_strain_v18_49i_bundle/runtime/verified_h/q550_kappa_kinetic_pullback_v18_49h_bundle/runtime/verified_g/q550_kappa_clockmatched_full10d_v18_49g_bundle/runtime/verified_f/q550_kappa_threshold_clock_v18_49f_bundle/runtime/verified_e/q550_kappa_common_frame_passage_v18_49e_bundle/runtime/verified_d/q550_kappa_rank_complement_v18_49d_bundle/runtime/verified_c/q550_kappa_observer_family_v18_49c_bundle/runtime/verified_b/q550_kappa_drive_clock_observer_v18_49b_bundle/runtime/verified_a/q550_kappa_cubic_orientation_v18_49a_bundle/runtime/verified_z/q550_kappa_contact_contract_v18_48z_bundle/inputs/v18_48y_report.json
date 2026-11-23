@@ -1,0 +1,169 @@
+{
+  "version": "v18.48y",
+  "status": "FULL_FLOATING_POINT_11D_AUDIT",
+  "genuine_new_11D_integrations": 48,
+  "original_states_authenticated": 328,
+  "original_paths_total": 8,
+  "newly_integrated_paths": "phaseblind branch0 original and autonomous",
+  "return_ramps_per_kappa": 23,
+  "q_phase_samples_per_profile": 1601,
+  "phase_window": [
+    0.1,
+    0.9
+  ],
+  "thresholds": [
+    0.004,
+    0.006,
+    0.008,
+    0.01,
+    0.012,
+    0.014,
+    0.016
+  ],
+  "sublevel_thresholds": [
+    0.005,
+    0.008,
+    0.01,
+    0.012,
+    0.015
+  ],
+  "max_original_x_profile_reproduction_error": 0.0,
+  "max_original_11D_replay_error": 3.424991987393049e-13,
+  "maximum_energy_ledger_relative_error": 2.8774930355135453e-10,
+  "maximum_curvature_step_variation": 9.103344466380063e-06,
+  "threshold_brackets": [
+    {
+      "threshold": 0.004,
+      "left_ramp": 0.307,
+      "right_ramp": 0.309,
+      "left_barrier": 0.004873033348508695,
+      "right_barrier": 0.0038991089042224973,
+      "kappa_kind": "original",
+      "secant_interpolated_ramp": 0.3087928153536562
+    },
+    {
+      "threshold": 0.006,
+      "left_ramp": 0.304,
+      "right_ramp": 0.305,
+      "left_barrier": 0.006328947338378787,
+      "right_barrier": 0.005844610412350283,
+      "kappa_kind": "original",
+      "secant_interpolated_ramp": 0.3046791704714239
+    },
+    {
+      "threshold": 0.008,
+      "left_ramp": 0.3,
+      "right_ramp": 0.301,
+      "left_barrier": 0.008254128307546675,
+      "right_barrier": 0.007774790689363154,
+      "kappa_kind": "original",
+      "secant_interpolated_ramp": 0.3005301655824755
+    },
+    {
+      "threshold": 0.01,
+      "left_ramp": 0.29625,
+      "right_ramp": 0.296333,
+      "left_barrier": 0.010039144458170954,
+      "right_barrier": 0.009999855321463915,
+      "kappa_kind": "original",
+      "secant_interpolated_ramp": 0.2963326943603372
+    },
+    {
+      "threshold": 0.012,
+      "left_ramp": 0.292,
+      "right_ramp": 0.294,
+      "left_barrier": 0.012037302703412288,
+      "right_barrier": 0.011100344201196537,
+      "kappa_kind": "original",
+      "secant_interpolated_ramp": 0.29207962509187774
+    },
+    {
+      "threshold": 0.014,
+      "left_ramp": 0.285,
+      "right_ramp": 0.29,
+      "left_barrier": 0.015268909402562635,
+      "right_barrier": 0.012968233405561276,
+      "kappa_kind": "original",
+      "secant_interpolated_ramp": 0.28775768818429126
+    },
+    {
+      "threshold": 0.016,
+      "left_ramp": 0.28,
+      "right_ramp": 0.285,
+      "left_barrier": 0.017531199368294656,
+      "right_barrier": 0.015268909402562635,
+      "kappa_kind": "original",
+      "secant_interpolated_ramp": 0.28338418017028866
+    },
+    {
+      "threshold": 0.004,
+      "left_ramp": 0.307,
+      "right_ramp": 0.309,
+      "left_barrier": 0.004971277545708696,
+      "right_barrier": 0.0039979653055591735,
+      "kappa_kind": "autonomous",
+      "secant_interpolated_ramp": 0.30899581903040585
+    },
+    {
+      "threshold": 0.006,
+      "left_ramp": 0.304,
+      "right_ramp": 0.305,
+      "left_barrier": 0.006425874972019344,
+      "right_barrier": 0.005942007146329369,
+      "kappa_kind": "autonomous",
+      "secant_interpolated_ramp": 0.3048801473241418
+    },
+    {
+      "threshold": 0.008,
+      "left_ramp": 0.3,
+      "right_ramp": 0.301,
+      "left_barrier": 0.008349032471023641,
+      "right_barrier": 0.007870215465354508,
+      "kappa_kind": "autonomous",
+      "secant_interpolated_ramp": 0.3007289475246099
+    },
+    {
+      "threshold": 0.01,
+      "left_ramp": 0.2965,
+      "right_ramp": 0.29653,
+      "left_barrier": 0.010013814548582044,
+      "right_barrier": 0.009999620010640201,
+      "kappa_kind": "autonomous",
+      "secant_interpolated_ramp": 0.29652919689666263
+    },
+    {
+      "threshold": 0.012,
+      "left_ramp": 0.292,
+      "right_ramp": 0.294,
+      "left_barrier": 0.012127900503404065,
+      "right_barrier": 0.011192032202446476,
+      "kappa_kind": "autonomous",
+      "secant_interpolated_ramp": 0.29227333013261203
+    },
+    {
+      "threshold": 0.014,
+      "left_ramp": 0.285,
+      "right_ramp": 0.29,
+      "left_barrier": 0.015355667310699246,
+      "right_barrier": 0.013057736833664301,
+      "kappa_kind": "autonomous",
+      "secant_interpolated_ramp": 0.2879497570188644
+    },
+    {
+      "threshold": 0.016,
+      "left_ramp": 0.28,
+      "right_ramp": 0.285,
+      "left_barrier": 0.017615207248616673,
+      "right_barrier": 0.015355667310699246,
+      "kappa_kind": "autonomous",
+      "secant_interpolated_ramp": 0.2835741949533881
+    }
+  ],
+  "historical_authentication": {
+    "parent_server_zip_sha256": "37c4a31c62b33bbb0fb068ca1a552a3d058dafa883fcd2cb9fe6aa37859ccecd",
+    "parent_verified_files": 28,
+    "source_11D_path_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+    "recursive_ancestry_verified": true
+  },
+  "limits": "No validated interval bounds, no global topological theorem, no full-11D recurrence or energetic reversibility claim. Critical curve interpolated between genuinely integrated ramp samples."
+}

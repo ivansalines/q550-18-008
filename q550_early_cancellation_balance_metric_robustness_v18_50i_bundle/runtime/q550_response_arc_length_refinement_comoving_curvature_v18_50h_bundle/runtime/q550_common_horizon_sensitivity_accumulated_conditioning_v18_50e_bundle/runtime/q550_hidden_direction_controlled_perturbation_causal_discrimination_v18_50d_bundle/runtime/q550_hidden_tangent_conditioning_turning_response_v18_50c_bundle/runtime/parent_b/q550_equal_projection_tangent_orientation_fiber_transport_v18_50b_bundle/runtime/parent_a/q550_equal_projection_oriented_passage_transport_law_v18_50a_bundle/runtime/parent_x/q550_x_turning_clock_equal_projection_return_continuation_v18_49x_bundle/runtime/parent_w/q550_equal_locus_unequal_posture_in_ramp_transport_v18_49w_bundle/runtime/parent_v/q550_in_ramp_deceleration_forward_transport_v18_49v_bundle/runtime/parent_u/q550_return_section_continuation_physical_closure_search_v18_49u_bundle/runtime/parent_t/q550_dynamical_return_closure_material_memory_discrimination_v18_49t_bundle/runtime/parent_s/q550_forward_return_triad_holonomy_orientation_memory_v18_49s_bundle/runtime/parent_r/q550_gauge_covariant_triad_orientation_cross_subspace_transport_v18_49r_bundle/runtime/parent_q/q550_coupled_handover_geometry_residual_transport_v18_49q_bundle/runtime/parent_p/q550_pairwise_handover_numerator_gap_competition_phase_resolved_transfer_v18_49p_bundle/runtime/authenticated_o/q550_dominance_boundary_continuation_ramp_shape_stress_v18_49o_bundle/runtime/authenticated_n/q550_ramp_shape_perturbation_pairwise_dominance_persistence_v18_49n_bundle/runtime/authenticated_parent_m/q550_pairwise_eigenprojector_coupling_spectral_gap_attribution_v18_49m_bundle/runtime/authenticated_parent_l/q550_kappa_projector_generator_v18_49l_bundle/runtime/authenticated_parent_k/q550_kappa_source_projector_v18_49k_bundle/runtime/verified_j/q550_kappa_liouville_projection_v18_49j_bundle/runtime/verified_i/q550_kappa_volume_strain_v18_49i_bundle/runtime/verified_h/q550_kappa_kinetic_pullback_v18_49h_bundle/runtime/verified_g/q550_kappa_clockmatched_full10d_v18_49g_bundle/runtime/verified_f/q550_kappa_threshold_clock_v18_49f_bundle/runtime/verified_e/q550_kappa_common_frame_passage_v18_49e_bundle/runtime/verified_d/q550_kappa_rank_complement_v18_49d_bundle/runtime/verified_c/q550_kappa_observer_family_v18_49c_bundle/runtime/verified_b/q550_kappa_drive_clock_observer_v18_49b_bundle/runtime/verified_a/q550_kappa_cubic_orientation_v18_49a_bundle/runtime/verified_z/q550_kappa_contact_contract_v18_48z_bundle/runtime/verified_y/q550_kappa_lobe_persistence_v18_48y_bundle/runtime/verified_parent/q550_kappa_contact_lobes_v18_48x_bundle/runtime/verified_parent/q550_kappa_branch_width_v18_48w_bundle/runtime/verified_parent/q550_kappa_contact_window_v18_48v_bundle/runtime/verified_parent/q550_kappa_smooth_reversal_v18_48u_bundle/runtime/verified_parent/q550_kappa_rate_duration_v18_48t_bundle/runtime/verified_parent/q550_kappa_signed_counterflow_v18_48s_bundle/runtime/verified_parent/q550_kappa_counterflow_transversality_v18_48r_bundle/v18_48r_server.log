@@ -1,0 +1,33 @@
+test_fixed_duration_clock (test_transversality_math.MathTests.test_fixed_duration_clock) ... ok
+test_parallel_not_crossing (test_transversality_math.MathTests.test_parallel_not_crossing) ... ok
+test_phase_bounds (test_transversality_math.MathTests.test_phase_bounds) ... ok
+test_phase_closed_retraces_clock (test_transversality_math.MathTests.test_phase_closed_retraces_clock) ... ok
+test_projection_crossing_with_hidden_separation (test_transversality_math.MathTests.test_projection_crossing_with_hidden_separation) ... ok
+test_shape_logit (test_transversality_math.MathTests.test_shape_logit) ... ok
+test_shapes_vector (test_transversality_math.MathTests.test_shapes_vector) ... ok
+test_synthetic_phase_min (test_transversality_math.MathTests.test_synthetic_phase_min) ... ok
+test_tangent_orthogonal (test_transversality_math.MathTests.test_tangent_orthogonal) ... ok
+test_unoriented_sign (test_transversality_math.MathTests.test_unoriented_sign) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.254s
+
+OK
+v18.48r phaseblind_d2_lam-1.00_mod+0.00 branch 0 autonomous source-regression 1.695e-14
+v18.48r phaseblind_d2_lam-1.00_mod+0.00 branch 0 original source-regression 2.071e-14
+v18.48r phaseblind_d2_lam-1.00_mod+0.00 branch 1 autonomous source-regression 8.298e-12
+v18.48r phaseblind_d2_lam-1.00_mod+0.00 branch 1 original source-regression 8.898e-12
+v18.48r phasecov_d2_lam-1.00_mod+0.00 branch 0 autonomous source-regression 2.703e-13
+v18.48r phasecov_d2_lam-1.00_mod+0.00 branch 0 original source-regression 1.619e-12
+v18.48r phasecov_d2_lam-1.00_mod+0.00 branch 1 autonomous source-regression 2.754e-13
+v18.48r phasecov_d2_lam-1.00_mod+0.00 branch 1 original source-regression 2.789e-13
+{
+  "genuine_11D_integrations": 88,
+  "q_free_interior_minima": 6,
+  "refined_projection_roots": 58,
+  "resolved_2d_projection_crossings": 58,
+  "smallest_phase_conditioned_shape_distance": 0.0009631210408293364,
+  "max_historical_regression": 8.89826605616997e-12,
+  "max_energy_balance_relative_residual": 2.048708425128609e-15
+}
+v18.48r: wrote three diagnostic plots

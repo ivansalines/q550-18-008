@@ -1,0 +1,7 @@
+{
+  "parent_version": "v18.49m",
+  "parent_sha256": "baf800ffe678a13d0210b5ebe4ac40fc8dc65b599d792ce31d52c69b3d370f22",
+  "upstream_ancestry_to_v18_48j": true,
+  "parent_number_of_manifest_files": 32,
+  "nested_parent_version": "v18.49l"
+}

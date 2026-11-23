@@ -1,0 +1,30 @@
+{
+  "version": "v18.48v",
+  "files": {
+    "README.md": "cc5776da0eb031067d1536f0946d64b0078fd3fa81fca4ebc8e13a7f3cbe82c1",
+    "SCIENTIFIC_DECISION_RULES.md": "71709b6cca7f39c0d20504ffbcda286cf9ef57f58b88c6447a40c2201a9a9532",
+    "inputs/SOURCE_PINS.json": "115258df95d10beb73a8d27072cd9503641a9f897bbec66a54805c1c293ac083",
+    "inputs/v18_48u_original_server_sendback.zip": "f3df472aea5eb8e7067ee92974239984400cd9eea398e03ad0ea2c716fa9d525",
+    "reference/original_drive_math.py": "86a9069043bc1857b66a10292e0eea1fb22f72e8227bfd7641f7fa3bdc055eca",
+    "reference/physical_math.py": "a2e08b061c01bec726012578e006851a07dc24741001c1b6c5ae4633c881e49c",
+    "reference/transversality_math.py": "ff3a6192d97a13714c463be049919fb79d95e1f6fb8f802f35da28d1d99c99c4",
+    "requirements.txt": "5ad1f46f06a0cb9fa5823d0ecbb5db80f919d9caeb66125233c99cd8cf964610",
+    "results/fine_ramp_contacts.csv": "0a8f2aa671ee254619c50108ebe95d60d80fe45089329a61f571c0d4e9090d49",
+    "results/fixed_phase_energy_history.csv": "5d424ceb73efe964133d743df585da28fa87d1dcf3489147b2345e6e002f34c8",
+    "results/fixed_phase_energy_history.png": "6af7e29acacac377a3a361a8f330bcb1aedbfce758b4dd62884a8bd815b1b3ac",
+    "results/historical_replay.csv": "0a237cdfc7a8296bd4eedb642566bccd621d805a7de3cc68bf3c9b186ebe8556",
+    "results/per_path_window_optima.csv": "7e815a4ed1885711c13098043f6aa25f0815c5022d10afc35c103609216e74c1",
+    "results/phase_contact_window_width.png": "1add9dfc11cb1a33d0c26f1cbe322b585664a631830461a2785447b222bf2e04",
+    "results/ramp_window_fine_scan.png": "904dde7b8ca3f0e01413d0da1f2d885be080f725509e57abebd2f8aeec1db25b",
+    "results/ramp_window_summary.csv": "4c011912e8ec104c515521692c99e9e2a67c09a4ff0530d2c4217df9cef1925e",
+    "results/report.json": "a59fd0b555d4bf04a2e978c1cbfee409932098d55df77811eacd52f45af573f8",
+    "run_on_server.sh": "4640e8c61c7ab76b282af1a32e420093aea76920dc68d990b7891330fd78f893",
+    "scripts/check_outputs.py": "545d40d6e803b87b4e4d73fd6be1ef24c6de4dbf6fd034b2b7f71b96fd57bc6f",
+    "scripts/pack_sendback.py": "fc96bac37cf01e431de1aa05bdfa433e649964e7f00c44fb523d3800d92912af",
+    "scripts/plot_results.py": "9bc59cc3bee1d03e0f3a9c95add4a02a82173fab5a2a85c320da24f7a85e83e5",
+    "scripts/ramp_math.py": "a3233b397efae4c0648db780468f5afd731368a14ec21174045fd31c9855e6c9",
+    "scripts/run_audit.py": "06d04228a9813bd3438867e5f7d2b4d0321d0e9310d95e11fe5666af43d07f1b",
+    "scripts/verify_parent.py": "98aef95755c49c63443a0af70053a97fbf65d9e3b24270079f8abb8509122b50",
+    "tests/test_ramp_math.py": "b4756e602b9de7531f1ed5764b9b93fa7b49fce8e492ad8dd2f15ff71c5284ab"
+  }
+}

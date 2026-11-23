@@ -1,0 +1,75 @@
+{
+  "version": "v18.50h",
+  "title": "Response Arc-Length Refinement & Co-Moving Curvature Audit",
+  "classification": "DENSE_Q550_SAMPLED_RESPONSE_CURVE_WITH_EARLY_PEAK_DIAGNOSTIC_NOT_CONTINUOUS_ARC_OR_PHYSICAL_MEMORY_CERTIFICATE",
+  "ancestry": {
+    "g_zip_sha256": "61ea439035d635b0e08a7d9882bbf06c20fd83b091a224869047a9e79a889d96",
+    "g_members": 22,
+    "f_sha256": "d17d1284fe5ab2db018295307a8e0c283490f3a7c40d5fb2fd87149465760b69",
+    "f_members": 22,
+    "e_sha256": "21d9f910c14148746853bd211c873a77ae965ec8cf386baff2ec2b8f0cdb8a2f",
+    "e_members": 20,
+    "g_report_source": {
+      "verified_parent_f_rows": 100,
+      "verified_parent_e_rows": 100,
+      "cases": 20,
+      "horizons_per_case": 5,
+      "new_Q550_ODE_integrations": 0,
+      "metric_charts": 2
+    },
+    "e_parent_counts": {
+      "natural_cases": 10,
+      "same_seed_cases": 10,
+      "rows": 100,
+      "11D_IVPs_short": 60,
+      "failures": 0
+    }
+  },
+  "original_engine_counts": {
+    "natural_cases": 10,
+    "same_seed_cases": 10,
+    "rows": 660,
+    "11D_IVPs_short": 60,
+    "failures": 0
+  },
+  "grids": [
+    5,
+    9,
+    17,
+    33
+  ],
+  "case_count": 20,
+  "new_dense_response_observations": 660,
+  "authentic_5pt_regression_count": 100,
+  "max_5pt_relative_vector_regression": 3.264668852301773e-13,
+  "common_horizons_end_xi": 0.05,
+  "reference": {
+    "mode": "same_seed",
+    "kind": "original",
+    "ramp_xi": "0.24",
+    "shape": "beta:2:2",
+    "arc5": 17.99232709791868,
+    "arc9": 17.99620139388969,
+    "arc17": 17.99717053309334,
+    "arc33": 17.99741285332215,
+    "relative_arc_5_to_33_increase": 0.0002825825825589087,
+    "arc17_to_33_change_fraction": 1.3464170144095194e-05,
+    "endpoint_chord": 17.915564601511118,
+    "straightness33": 0.9954522212454595,
+    "max_sampled_cancellation": 0.5473251089201916,
+    "peak_sample_xi": 0.0015625,
+    "peak_interior": true
+  },
+  "interior_peak_count": 20,
+  "limits": [
+    "Lengths remain sampled chord sums, lower bounds not continuous arc-length.",
+    "The response vector depends on a declared common whitened chart rather than physical spatial metric.",
+    "Peak indices denote sampled peaks, not proven stationary points of continuous cancellation.",
+    "Natural_turn and same_seed are distinct interventions; comparisons are not randomized causal effects.",
+    "No physical phase clock, regime transition, material memory, or dimensional volume is established."
+  ],
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.4.1"
+  }
+}

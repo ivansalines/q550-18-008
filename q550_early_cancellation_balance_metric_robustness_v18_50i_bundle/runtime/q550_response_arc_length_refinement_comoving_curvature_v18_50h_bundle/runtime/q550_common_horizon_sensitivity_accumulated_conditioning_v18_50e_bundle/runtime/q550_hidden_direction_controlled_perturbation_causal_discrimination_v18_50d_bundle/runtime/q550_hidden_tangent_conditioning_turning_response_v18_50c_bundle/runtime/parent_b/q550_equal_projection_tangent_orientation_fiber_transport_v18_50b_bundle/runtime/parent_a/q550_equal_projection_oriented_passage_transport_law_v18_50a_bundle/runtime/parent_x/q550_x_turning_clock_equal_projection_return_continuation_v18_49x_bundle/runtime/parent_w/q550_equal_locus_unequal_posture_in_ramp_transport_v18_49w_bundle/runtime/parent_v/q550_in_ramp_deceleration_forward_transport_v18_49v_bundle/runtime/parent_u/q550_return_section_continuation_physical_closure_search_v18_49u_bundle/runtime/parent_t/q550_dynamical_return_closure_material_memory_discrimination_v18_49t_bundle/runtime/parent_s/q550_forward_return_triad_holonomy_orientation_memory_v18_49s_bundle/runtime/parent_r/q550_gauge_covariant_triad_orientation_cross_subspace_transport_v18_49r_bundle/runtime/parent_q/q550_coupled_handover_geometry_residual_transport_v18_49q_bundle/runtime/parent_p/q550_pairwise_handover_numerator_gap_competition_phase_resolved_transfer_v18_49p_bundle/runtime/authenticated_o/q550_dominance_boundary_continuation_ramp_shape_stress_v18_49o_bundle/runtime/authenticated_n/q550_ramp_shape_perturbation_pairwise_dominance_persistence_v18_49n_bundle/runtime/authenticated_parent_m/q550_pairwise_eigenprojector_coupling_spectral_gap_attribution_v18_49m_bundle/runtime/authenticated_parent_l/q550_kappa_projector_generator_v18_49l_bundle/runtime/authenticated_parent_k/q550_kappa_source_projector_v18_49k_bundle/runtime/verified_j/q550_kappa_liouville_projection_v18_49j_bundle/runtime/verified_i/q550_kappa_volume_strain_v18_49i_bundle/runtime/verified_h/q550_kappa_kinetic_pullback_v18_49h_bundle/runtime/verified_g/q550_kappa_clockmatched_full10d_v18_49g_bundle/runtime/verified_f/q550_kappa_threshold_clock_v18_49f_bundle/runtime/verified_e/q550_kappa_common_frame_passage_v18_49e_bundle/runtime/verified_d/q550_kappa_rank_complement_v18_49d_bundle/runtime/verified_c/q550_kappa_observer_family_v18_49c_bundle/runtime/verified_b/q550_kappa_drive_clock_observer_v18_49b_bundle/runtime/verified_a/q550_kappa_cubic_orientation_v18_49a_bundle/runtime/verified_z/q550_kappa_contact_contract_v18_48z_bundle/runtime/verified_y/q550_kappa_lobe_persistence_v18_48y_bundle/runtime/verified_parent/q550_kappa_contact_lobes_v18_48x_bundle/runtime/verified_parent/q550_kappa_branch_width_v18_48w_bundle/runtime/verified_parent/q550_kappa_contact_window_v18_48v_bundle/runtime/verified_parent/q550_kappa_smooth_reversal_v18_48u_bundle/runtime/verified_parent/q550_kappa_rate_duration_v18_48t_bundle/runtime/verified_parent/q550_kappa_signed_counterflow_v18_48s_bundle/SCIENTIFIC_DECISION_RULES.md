@@ -1,0 +1,11 @@
+# v18.48s — Scientific decision rules
+
+1. Use genuine original 11D RHS for new forward/return trajectories. A re-reading of `r` CSV is not a new IVP; the script truly reintegrates 88 IVPs and numerically recomputes 160 contacts and 58 projected roots.
+2. The shape chart is `(log(rho1), log(rho2), x)`. Distances and unsigned/signed tangent angles are **chart-dependent**. They are not invariant material quantities.
+3. Preserve the distinction between the **chronological angle** between return tangent `dR/du` and forward tangent `dF/ds`, and the **phase-corresponding angle** between `dR/du` and `-a*dF/ds`, with `a=rate*duration` and `s=1-au`. The latter is defined on the phase-locked pairs only; it is not independently meaningful for arbitrary asynchronous pairs.
+4. Projected 2D crossing chirality is signed and **projection-axis-order-dependent**. A zero 2D residual is insufficient for 3D, 11D, or phase coincidence. Do not call near-parallel segments crossed 3D states.
+5. Energy `E` is the declared mechanical observable of original support ODE; `dE/dxi` includes imposed external drive work, active force work, radial damping and `x` damping. A difference in signed drive powers at matched phase is **not** a standalone thermodynamic arrow.
+6. The energy gap at a meeting is reconstructed independently from the time-integrated four-component ledger: `W_F(turn)-W_F(s)+W_R(u)` because the optional reversal of all five material velocity signs preserves the initial kinetic energy at the turn. Report the absolute numerical closure residual.
+7. Roots of a **single component** of the 3D phase-locked gap are only 1D constrained coordinate crossings. They do not constitute triple zeros or full-state returns. Bracketed roots are scanned in `[lo,hi]`; no global existence/exclusion claim beyond the search settings.
+8. Descriptive labels 'near-contact', 'counterflow', and 'dance' refer to explicitly imposed controls; they do not prove universal nonreciprocity or constitutive hysteresis. A mathematically backward IVP is still separate from forward-time drive reversal.
+9. Never overwrite original v18.48r, q, p, o, j records. Verify all ancestors and preserve original SHA-256 archive bytes.

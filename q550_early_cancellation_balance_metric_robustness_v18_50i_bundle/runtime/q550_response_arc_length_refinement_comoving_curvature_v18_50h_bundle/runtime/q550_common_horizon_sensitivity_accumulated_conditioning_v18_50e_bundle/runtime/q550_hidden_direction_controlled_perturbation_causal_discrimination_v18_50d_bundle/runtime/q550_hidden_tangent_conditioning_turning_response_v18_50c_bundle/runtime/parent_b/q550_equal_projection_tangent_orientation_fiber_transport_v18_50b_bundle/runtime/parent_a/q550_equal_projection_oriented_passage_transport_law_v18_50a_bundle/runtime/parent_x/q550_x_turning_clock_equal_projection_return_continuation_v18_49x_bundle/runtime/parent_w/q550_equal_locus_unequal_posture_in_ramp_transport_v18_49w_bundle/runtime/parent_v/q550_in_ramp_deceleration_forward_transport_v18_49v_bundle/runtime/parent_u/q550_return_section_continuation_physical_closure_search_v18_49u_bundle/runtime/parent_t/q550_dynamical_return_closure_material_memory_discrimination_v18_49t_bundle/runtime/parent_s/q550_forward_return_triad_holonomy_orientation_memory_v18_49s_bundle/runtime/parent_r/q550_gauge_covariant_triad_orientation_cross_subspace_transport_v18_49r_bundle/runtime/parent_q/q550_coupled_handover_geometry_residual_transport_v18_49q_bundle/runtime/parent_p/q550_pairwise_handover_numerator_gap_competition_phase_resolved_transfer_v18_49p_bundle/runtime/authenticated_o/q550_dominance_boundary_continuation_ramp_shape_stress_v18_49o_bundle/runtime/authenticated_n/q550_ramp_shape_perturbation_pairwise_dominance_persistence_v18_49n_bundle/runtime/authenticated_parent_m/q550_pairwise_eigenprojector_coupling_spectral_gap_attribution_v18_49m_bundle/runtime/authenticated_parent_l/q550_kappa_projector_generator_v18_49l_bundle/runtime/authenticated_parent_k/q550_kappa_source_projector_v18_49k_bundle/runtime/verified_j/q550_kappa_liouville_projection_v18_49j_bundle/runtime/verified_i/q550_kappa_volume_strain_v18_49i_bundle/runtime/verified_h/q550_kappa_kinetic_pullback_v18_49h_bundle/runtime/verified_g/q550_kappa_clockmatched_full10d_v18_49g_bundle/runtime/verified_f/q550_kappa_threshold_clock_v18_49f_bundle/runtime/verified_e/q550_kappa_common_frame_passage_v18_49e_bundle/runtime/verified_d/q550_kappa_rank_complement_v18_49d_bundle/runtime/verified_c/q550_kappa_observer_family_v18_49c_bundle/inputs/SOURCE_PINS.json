@@ -1,0 +1,42 @@
+{
+  "parent_B_sha256": "f5dbf396bd07594fad196fe44ccc4fc912c883e883b3db1daf4e0c1d9e1b4ac9",
+  "reference_files": [
+    {
+      "path": "reference/physical_math.py",
+      "sha256": "a2e08b061c01bec726012578e006851a07dc24741001c1b6c5ae4633c881e49c"
+    },
+    {
+      "path": "reference/parent_ramp_math.py",
+      "sha256": "a3233b397efae4c0648db780468f5afd731368a14ec21174045fd31c9855e6c9"
+    },
+    {
+      "path": "reference/y_original_run_audit.py",
+      "sha256": "03cbcfbe5ea6bf64338b4e6648b15db2b827b69b932fa3384df7e5be57f57af4"
+    },
+    {
+      "path": "reference/structural_jet.py",
+      "sha256": "8221474a1213301af3c7395a624d10d3f0c7730893ecf5165b05039ba2cabb01"
+    },
+    {
+      "path": "reference/parent_observer_math.py",
+      "sha256": "a2de23b0acc5bdea5e6d7b1f94e0ce75379100a40c1ea80b84d4cb01e029b94e"
+    },
+    {
+      "path": "reference/persistence_math.py",
+      "sha256": "8f780107343e87edad50812ec86ac59a52f5f566ba4421450a6652551691e286"
+    },
+    {
+      "path": "reference/parent_lobe_math.py",
+      "sha256": "0d07dc7df1d2799ac22cd6eed140b276a9fc7162732492937383534700950fe2"
+    },
+    {
+      "path": "reference/chart_math.py",
+      "sha256": "bd1ad71313810afbd63534549ef0bba3ad29702db42eec23539333f46dd5557d"
+    },
+    {
+      "path": "reference/generated_base_jet.py",
+      "sha256": "43e0c0b075876d55d4c08caabfde28b38b943d689ece024451806e81067611f3"
+    }
+  ],
+  "original_root": "q550_kappa_drive_clock_observer_v18_49b_bundle"
+}

@@ -1,0 +1,7 @@
+{
+  "source_version": "v18.49n",
+  "n_parent_sha256": "35329685d48728db40eaf6d4b1eb8e8a0fe56725e02e4cae1a9687313bbd7579",
+  "n_manifest_files": 34,
+  "m_parent_sha256": "baf800ffe678a13d0210b5ebe4ac40fc8dc65b599d792ce31d52c69b3d370f22",
+  "upstream_ancestry_to_v18_48j": true
+}

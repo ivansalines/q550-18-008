@@ -1,0 +1,39 @@
+test_analytic_rhs_matches_original (test_physical_math.BalanceTests.test_analytic_rhs_matches_original) ... ok
+test_clock_flip_only (test_physical_math.BalanceTests.test_clock_flip_only) ... ok
+test_energy_differential_identity (test_physical_math.BalanceTests.test_energy_differential_identity) ... ok
+test_inverse_geometry (test_physical_math.BalanceTests.test_inverse_geometry) ... ok
+test_physical_balance_dissipation (test_physical_math.BalanceTests.test_physical_balance_dissipation) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+v18.48p phaseblind_d2_lam-1.00_mod+0.00 0 autonomous replay 1.693e-14 inverse 2.637e-15 drive-only distance 2.439e-01
+v18.48p phaseblind_d2_lam-1.00_mod+0.00 0 original replay 2.073e-14 inverse 2.722e-15 drive-only distance 2.436e-01
+v18.48p phaseblind_d2_lam-1.00_mod+0.00 1 autonomous replay 8.298e-12 inverse 4.100e-14 drive-only distance 5.183e-01
+v18.48p phaseblind_d2_lam-1.00_mod+0.00 1 original replay 8.898e-12 inverse 3.736e-14 drive-only distance 5.187e-01
+v18.48p phasecov_d2_lam-1.00_mod+0.00 0 autonomous replay 2.703e-13 inverse 4.888e-15 drive-only distance 5.456e-01
+v18.48p phasecov_d2_lam-1.00_mod+0.00 0 original replay 1.619e-12 inverse 6.764e-15 drive-only distance 5.459e-01
+v18.48p phasecov_d2_lam-1.00_mod+0.00 1 autonomous replay 2.754e-13 inverse 2.704e-15 drive-only distance 2.019e-02
+v18.48p phasecov_d2_lam-1.00_mod+0.00 1 original replay 2.789e-13 inverse 2.034e-15 drive-only distance 2.044e-02
+{
+  "integrations": 40,
+  "max_energy_balance_relative_residual": 1.7676832220203664e-15,
+  "forward_regression": 8.898254276697429e-12,
+  "inverse_endpoint_shape": {
+    "min": 0.0,
+    "median": 1.0187741501876998e-15,
+    "max": 3.153756515674034e-14
+  },
+  "reverse_drive_endpoint_shape": {
+    "min": 0.02019012541296342,
+    "median": 0.3810870231546195,
+    "max": 0.5458851589739014
+  },
+  "reverse_drive_flip_endpoint_shape": {
+    "min": 0.017078781373470152,
+    "median": 0.13735628970926406,
+    "max": 0.23486029717640244
+  }
+}
+Rendered 3 original-data figures

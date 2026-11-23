@@ -1,0 +1,32 @@
+{
+  "version": "v18.48o",
+  "file_count": 26,
+  "files": {
+    "ENVIRONMENT.json": "e1cdad23c1750dd1705559d5758bf8b78ac8e9f9a25761e0eaf16c45d2617e2c",
+    "README.md": "09de071fcad2e7da739435c5280e1040a044cb48402a98c1fa6d6eb5c65a67a8",
+    "SCIENTIFIC_DECISION_RULES.md": "9ee57a060e0e95363de0b1250d0b45891941bf133ce3f921440e50d024f98192",
+    "inputs/SOURCE_PINS.json": "83bf10c799ef4204d9a205f4fa9aed4ddf46d3fc7333daac1525a33a68f085ef",
+    "inputs/v18_48n_original_server_sendback.zip": "59b27532ebc698da7d37416f5e4ead6da71def116ec6af215febf185d286ebb8",
+    "requirements.txt": "f64001456d4f4db42f94346c324c7ed0069c34cb08ed68362032e58b8def5092",
+    "results/comoving_frame_quality.csv": "bf89a72715ee73e45ce8118ab3890cec57f9061b90fe468918487d0f5f4f58d2",
+    "results/impulse_stability.csv": "ceb9a03da9f291bc4f00c466e24e65da2f5d8f798aef6515733cfa6f0dfa59be",
+    "results/lag_cases.csv": "fb263968958eeb895f785d760565d3a676d9c5b7daa34baf0de6e3b5af02d99a",
+    "results/lag_scans_full.csv": "64b61acb4c5f518c226c2b913d318b0cf70aa0c78ad7e6e96e976ef251c1bcd2",
+    "results/phase_states.csv": "f5b2ed61778fd0927cba85a8f4c65b2e5986b33d7afe14911bbdf40322fa2935",
+    "results/phase_steps.csv": "cf21503cc16ac128ae15ffcb60bb48fd8ba99cc0ea6d5b4bf4a420c701e684ea",
+    "results/phaseblind_branch0_comoving_rhythm.png": "4976e1635e24ef7fda3cf33246acef44aa6ecc5a452cc1ff7e453c996f3d204f",
+    "results/phaseblind_branch0_lag_compare.png": "e2b54175b5a2b03acffd30f8589bc20a8f186856c97140c5704381fa26911bb2",
+    "results/phasecov_branch0_comoving_rhythm.png": "20e4202e5610bef1ec2bac9a138e50e1f634e0969c39fc2f282ee00e7b5d1f39",
+    "results/phasecov_branch0_lag_compare.png": "0bd40ae1eda951ce3eb949b9d17c5494f789e0838ae25db11d9a2dac3cdb3b56",
+    "results/phasecov_impulse_stability.png": "1fb09168d6e1e30ba3d7c942d6cde9f6bc5c8d158f1f41781d0afccf5da021b1",
+    "results/preflight_console.log": "6a32a4dca8c220cf6b435ef35bba30ee86c406e45b6173552a0908407cc25b5d",
+    "results/report.json": "45f2e8833ff299a7314bb4f229d3bae3f865c98cca92560d9d0e9c9ae6834d8b",
+    "run_on_server.sh": "565be50d613cfd52d6a43b454a7e82ee7c9ee2350e7c33afe098d692e7928cc9",
+    "scripts/pack_sendback.py": "e30edb182333ea2a354c006b0272ab535d4eaa895cb612a529bfad6d72509413",
+    "scripts/phase_transport.py": "9089ed0b881c23a2315697e8d99ccf5f4a11fbf42bbeb5a614bb33893f1a7903",
+    "scripts/plot_results.py": "2c97dcab29175ad29718f28d847388c77ed44d361f799db37c62363140387548",
+    "scripts/run_audit.py": "5ec7971ff299a6f287765e1093bb347baeb0bbdd93994cc69dd449aa20db8768",
+    "scripts/verify_parent.py": "98d4576e38288e14e8159cdebd23ab89534b52f50e22c6f86827f091c2a9e310",
+    "tests/test_phase_transport.py": "6fc4addc3e9ebd23f6704d144ca95e94bde01e70979c055be4a32e0049ba2e54"
+  }
+}

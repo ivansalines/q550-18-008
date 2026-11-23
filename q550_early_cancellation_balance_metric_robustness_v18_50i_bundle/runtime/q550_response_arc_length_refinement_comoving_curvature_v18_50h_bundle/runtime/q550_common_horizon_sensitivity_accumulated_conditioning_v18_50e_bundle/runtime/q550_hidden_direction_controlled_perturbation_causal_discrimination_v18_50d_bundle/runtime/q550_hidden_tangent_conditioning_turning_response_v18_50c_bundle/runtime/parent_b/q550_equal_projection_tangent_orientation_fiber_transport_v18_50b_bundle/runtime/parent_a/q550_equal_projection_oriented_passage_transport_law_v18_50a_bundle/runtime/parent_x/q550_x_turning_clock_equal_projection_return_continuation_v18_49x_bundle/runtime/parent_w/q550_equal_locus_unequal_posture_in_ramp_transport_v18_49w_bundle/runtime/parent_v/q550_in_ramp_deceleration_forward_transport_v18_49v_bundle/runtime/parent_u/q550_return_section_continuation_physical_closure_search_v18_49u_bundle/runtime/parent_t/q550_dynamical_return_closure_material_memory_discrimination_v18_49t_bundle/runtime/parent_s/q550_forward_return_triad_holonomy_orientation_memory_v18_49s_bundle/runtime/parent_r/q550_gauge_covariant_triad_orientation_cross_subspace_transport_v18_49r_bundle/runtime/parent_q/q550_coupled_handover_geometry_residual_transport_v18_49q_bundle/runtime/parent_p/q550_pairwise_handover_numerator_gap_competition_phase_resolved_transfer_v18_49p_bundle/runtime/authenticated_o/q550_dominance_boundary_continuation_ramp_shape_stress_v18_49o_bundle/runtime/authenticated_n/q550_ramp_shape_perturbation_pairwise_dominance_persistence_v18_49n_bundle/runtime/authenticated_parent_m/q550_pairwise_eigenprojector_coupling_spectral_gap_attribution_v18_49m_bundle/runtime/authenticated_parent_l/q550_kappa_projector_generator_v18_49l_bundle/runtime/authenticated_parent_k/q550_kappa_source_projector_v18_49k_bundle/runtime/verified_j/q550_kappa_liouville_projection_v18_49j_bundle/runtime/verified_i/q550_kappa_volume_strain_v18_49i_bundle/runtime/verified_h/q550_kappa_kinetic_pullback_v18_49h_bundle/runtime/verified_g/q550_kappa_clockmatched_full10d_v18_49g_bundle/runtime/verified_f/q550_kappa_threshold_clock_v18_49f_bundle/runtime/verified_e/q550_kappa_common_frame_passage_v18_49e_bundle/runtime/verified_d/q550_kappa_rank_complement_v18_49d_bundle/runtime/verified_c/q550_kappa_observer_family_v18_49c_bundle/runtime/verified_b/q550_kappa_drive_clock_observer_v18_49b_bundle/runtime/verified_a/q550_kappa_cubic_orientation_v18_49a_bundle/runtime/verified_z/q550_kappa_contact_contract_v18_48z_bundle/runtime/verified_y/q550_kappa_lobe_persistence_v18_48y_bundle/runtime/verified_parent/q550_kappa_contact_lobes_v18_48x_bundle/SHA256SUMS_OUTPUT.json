@@ -1,0 +1,33 @@
+{
+  "version": "v18.48x",
+  "files": {
+    "README.md": "1df7bde327f5ab14dba64e8f17da01d8c2871611c40aaea148f2a9f4f6b50af1",
+    "SCIENTIFIC_DECISION_RULES.md": "9ad629b118ecae1ffbf39436e244977953f08eafc0c6e1ee87a534ff0c99b4f5",
+    "inputs/SOURCE_PINS.json": "93e44dae7c2ca6e774af768a3bd1868afc4b9fa6e823f24accdf153cddcfccbb",
+    "inputs/v18_48w_original_server_sendback.zip": "d750577fb44b2d0bd605395c4398762c74045b05e0995d6b92b2edb46e7d6e9f",
+    "reference/original_drive_math.py": "86a9069043bc1857b66a10292e0eea1fb22f72e8227bfd7641f7fa3bdc055eca",
+    "reference/parent_ramp_math.py": "a3233b397efae4c0648db780468f5afd731368a14ec21174045fd31c9855e6c9",
+    "reference/physical_math.py": "a2e08b061c01bec726012578e006851a07dc24741001c1b6c5ae4633c881e49c",
+    "reference/transversality_math.py": "ff3a6192d97a13714c463be049919fb79d95e1f6fb8f802f35da28d1d99c99c4",
+    "requirements.txt": "e13491531df6eeb59d6420ef04d4b5651adec77439da3bccd7409e90f0988035",
+    "results/candidate_two_to_one_brackets.csv": "30ec57aa0b0d96e987bbc213fc5be53d93518949fb04a7ec3b8347c179cb2c97",
+    "results/critical_barrier_refinement.csv": "ae86a12310e5ecb7c195df54fb491a68ad2b494b3ae5d2fd7a8b20087cdc2782",
+    "results/critical_barrier_zero_brackets.png": "c44eebbf9fcef592cfa8810717c9430c7742b28468af27cba791eb2b90082f32",
+    "results/extended_lobe_intervals.csv": "46b701416b270027a382e54dd56f93614481adb3e79caad3dfdbaa7413c3e0b5",
+    "results/focus_lobe_profiles.csv": "e8a96146122a97df3dc8886d73e23480c6cf7a65e0666636cd0e235ba8680625",
+    "results/lobe_barrier_profile.png": "8fad9151fcb2f4e6b46dcef68e992c57a3135051eb8ae23742f80c9fbdef6d80",
+    "results/original_w_width_regression.csv": "51a30788a7f606f6fc5c6e073b8bced0b3f38ef45972429c3d343f649ccb77f7",
+    "results/phase_boundary_control_other_branches.png": "fe60db9b5f37062f7f14ee5867912291125ae5c9938b5f84f06df3dc974ec1b4",
+    "results/phase_lobe_summary.csv": "e5c23b7efa2be84d3dbe27a59e6356a9cc5b3e4aa60e43aa72520a0868ce99ad",
+    "results/phase_ramp_contact_lobe_map.png": "57dd0f335d5ee476f468011aa98622c8d1ab6cc50b8e2ea52b46649345268a49",
+    "results/report.json": "2601efc35a5a8f804127cea838e0855d95c1f35fdb25930076fd226df37162fd",
+    "run_on_server.sh": "4640e8c61c7ab76b282af1a32e420093aea76920dc68d990b7891330fd78f893",
+    "scripts/check_outputs.py": "b6c612158afa2d1c309fbf532c2bc5eddf5049a105a7b97fe34c3edd7aa83226",
+    "scripts/lobe_math.py": "0d07dc7df1d2799ac22cd6eed140b276a9fc7162732492937383534700950fe2",
+    "scripts/pack_sendback.py": "7d2312a2e35f26f87c987faf9b7c12e525c2ac22adc8f611bacffeccce53d944",
+    "scripts/plot_results.py": "35dbb41d1ee905847ffdaa00a8b57c33a2efaf20ae80fd741249da24ce4d26da",
+    "scripts/run_audit.py": "7e548429e43634bf89813222f1f9ebf6179be830c935a0970c45254d4bcdef07",
+    "scripts/verify_parent.py": "95fb40f786f4671defea69900e11cf383d97218aa4636fb156b47e15cc9f1d75",
+    "tests/test_lobes.py": "9dc6ddc2819793fb6a6a5ae39da9d4277906b43ce799aab28cdf199bcbcb790f"
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "version": "v18.50i",
+  "title": "Early Cancellation Balance & Metric-Robustness Audit",
+  "classification": "IN_MODEL_EARLY_CANCELLATION_METRIC_AND_AMP_STRESS_NOT_PHYSICAL_INVARIANCE_OR_MEMORY_CERTIFICATE",
+  "parent_h_sha256": "3ab6090f5f782e0f989e12f2ab6f04c0149ea88dba132283c888c462d451fd75",
+  "authentic_parent_h_members": 15,
+  "genealogy": {
+    "g_zip_sha256": "61ea439035d635b0e08a7d9882bbf06c20fd83b091a224869047a9e79a889d96",
+    "g_members": 22,
+    "f_sha256": "d17d1284fe5ab2db018295307a8e0c283490f3a7c40d5fb2fd87149465760b69",
+    "f_members": 22,
+    "e_sha256": "21d9f910c14148746853bd211c873a77ae965ec8cf386baff2ec2b8f0cdb8a2f",
+    "e_members": 20,
+    "g_report_source": {
+      "verified_parent_f_rows": 100,
+      "verified_parent_e_rows": 100,
+      "cases": 20,
+      "horizons_per_case": 5,
+      "new_Q550_ODE_integrations": 0,
+      "metric_charts": 2
+    },
+    "e_parent_counts": {
+      "natural_cases": 10,
+      "same_seed_cases": 10,
+      "rows": 100,
+      "11D_IVPs_short": 60,
+      "failures": 0
+    }
+  },
+  "kappa0": {
+    "original": 0.16666666666666666,
+    "autonomous": 0.16659961041764054
+  },
+  "grid": {
+    "xi_start": 2.5e-05,
+    "xi_end": 0.004,
+    "samples": 160,
+    "augmented_horizons": [
+      0.0125,
+      0.05
+    ]
+  },
+  "metric_charts": {
+    "common_parent_c": [
+      0.4097637633145177,
+      0.7568576061702721,
+      0.001465554758842691,
+      0.5425124004276005
+    ],
+    "raw_coordinate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "angles_weighted_2x": [
+      0.20488188165725885,
+      0.37842880308513605,
+      0.001465554758842691,
+      0.5425124004276005
+    ],
+    "rates_weighted_2x": [
+      0.4097637633145177,
+      0.7568576061702721,
+      0.0007327773794213455,
+      0.27125620021380026
+    ],
+    "common_uniform_rescale_3x": [
+      1.229291289943553,
+      2.270572818510816,
+      0.004396664276528073,
+      1.6275372012828015
+    ]
+  },
+  "epsilons": [
+    1e-05,
+    0.0001,
+    0.001
+  ],
+  "counts": {
+    "physical_ivps": 14,
+    "new_response_rows": 4890,
+    "peak_cases": 30,
+    "h_reference_regression_points": 163
+  },
+  "checks": {
+    "h_max_absolute_cancel_regression": 1.3423825384606403e-09,
+    "max_relative_response_linearization_error": 0.00021062460000202568
+  },
+  "reference_peak_comparison": {
+    "original": {
+      "common_parent_c": {
+        "kind": "original",
+        "metric": "common_parent_c",
+        "epsilon": 0.0001,
+        "peak_xi": 0.0010750000000000002,
+        "peak_cancellation": 0.5793750170057219,
+        "ratio_at_peak": 1.014848244681688,
+        "cos_at_peak": -0.6462386516488641,
+        "bracket": [
+          0.0010500000000000002,
+          0.0011
+        ],
+        "interior": true,
+        "peak_index": 43,
+        "initial_cancellation": 0.0,
+        "endpoint_cancellation": 0.3367245360063533
+      },
+      "raw_coordinate": {
+        "kind": "original",
+        "metric": "raw_coordinate",
+        "epsilon": 0.0001,
+        "peak_xi": 0.004,
+        "peak_cancellation": 0.026220656607435777,
+        "ratio_at_peak": 0.01711090359674072,
+        "cos_at_peak": -0.5645009904465265,
+        "bracket": null,
+        "interior": false,
+        "peak_index": 160,
+        "initial_cancellation": 0.0,
+        "endpoint_cancellation": 0.026220656607435777
+      },
+      "angles_weighted_2x": {
+        "kind": "original",
+        "metric": "angles_weighted_2x",
+        "epsilon": 0.0001,
+        "peak_xi": 0.0014750000000000002,
+        "peak_cancellation": 0.574534353707289,
+        "ratio_at_peak": 1.0049022502322624,
+        "cos_at_peak": -0.6379677605173126,
+        "bracket": [
+          0.0014500000000000001,
+          0.0015
+        ],
+        "interior": true,
+        "peak_index": 59,
+        "initial_cancellation": 0.0,
+        "endpoint_cancellation": 0.4100782248279985
+      },
+      "rates_weighted_2x": {
+        "kind": "original",
+        "metric": "rates_weighted_2x",
+        "epsilon": 0.0001,
+        "peak_xi": 0.000725,
+        "peak_cancellation": 0.6460688370208094,
+        "ratio_at_peak": 1.0240191411900057,
+        "cos_at_peak": -0.7497118702997848,
+        "bracket": [
+          0.0007,
+          0.00075
+        ],
+        "interior": true,
+        "peak_index": 29,
+        "initial_cancellation": 0.0,
+        "endpoint_cancellation": 0.2719703377555204
+      }
+    },
+    "autonomous": {
+      "common_parent_c": {
+        "kind": "autonomous",
+        "metric": "common_parent_c",
+        "epsilon": 0.0001,
+        "peak_xi": 0.0010750000000000002,
+        "peak_cancellation": 0.5793014530489198,
+        "ratio_at_peak": 1.015236491453673,
+        "cos_at_peak": -0.6461195629461811,
+        "bracket": [
+          0.0010500000000000002,
+          0.0011
+        ],
+        "interior": true,
+        "peak_index": 43,
+        "initial_cancellation": 0.0,
+        "endpoint_cancellation": 0.33660667085010254
+      },
+      "raw_coordinate": {
+        "kind": "autonomous",
+        "metric": "raw_coordinate",
+        "epsilon": 0.0001,
+        "peak_xi": 0.004,
+        "peak_cancellation": 0.026224393499584497,
+        "ratio_at_peak": 0.01711137341442302,
+        "cos_at_peak": -0.564679479961462,
+        "bracket": null,
+        "interior": false,
+        "peak_index": 160,
+        "initial_cancellation": 0.0,
+        "endpoint_cancellation": 0.026224393499584497
+      },
+      "angles_weighted_2x": {
+        "kind": "autonomous",
+        "metric": "angles_weighted_2x",
+        "epsilon": 0.0001,
+        "peak_xi": 0.0014750000000000002,
+        "peak_cancellation": 0.574352369702231,
+        "ratio_at_peak": 1.005318207347745,
+        "cos_at_peak": -0.6376597079229853,
+        "bracket": [
+          0.0014500000000000001,
+          0.0015
+        ],
+        "interior": true,
+        "peak_index": 59,
+        "initial_cancellation": 0.0,
+        "endpoint_cancellation": 0.409875346002749
+      },
+      "rates_weighted_2x": {
+        "kind": "autonomous",
+        "metric": "rates_weighted_2x",
+        "epsilon": 0.0001,
+        "peak_xi": 0.000725,
+        "peak_cancellation": 0.6460982880143983,
+        "ratio_at_peak": 1.0242875097100383,
+        "cos_at_peak": -0.7497590400712631,
+        "bracket": [
+          0.0007,
+          0.00075
+        ],
+        "interior": true,
+        "peak_index": 29,
+        "initial_cancellation": 0.0,
+        "endpoint_cancellation": 0.2719242407170017
+      }
+    }
+  },
+  "limits": [
+    "Cancellation is coordinate-chart dependent and neither a mechanical energy nor an invariant physical scalar.",
+    "The ratio of local/transport norms and their cosine describe a declared finite-difference decomposition, not a separate causal pathway.",
+    "Every reported extremum is sampled within a bounded zoom; no certified continuous stationary point or bifurcation.",
+    "Metric and kick amplitude controls test numerical sensitivity of the model, not physical observer equivalence.",
+    "Separate natural seeds under original and autonomous kappa; comparisons are not common-state interventions.",
+    "No material-memory certificate, cubical packing realization or physical instability is inferred."
+  ],
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1"
+  }
+}

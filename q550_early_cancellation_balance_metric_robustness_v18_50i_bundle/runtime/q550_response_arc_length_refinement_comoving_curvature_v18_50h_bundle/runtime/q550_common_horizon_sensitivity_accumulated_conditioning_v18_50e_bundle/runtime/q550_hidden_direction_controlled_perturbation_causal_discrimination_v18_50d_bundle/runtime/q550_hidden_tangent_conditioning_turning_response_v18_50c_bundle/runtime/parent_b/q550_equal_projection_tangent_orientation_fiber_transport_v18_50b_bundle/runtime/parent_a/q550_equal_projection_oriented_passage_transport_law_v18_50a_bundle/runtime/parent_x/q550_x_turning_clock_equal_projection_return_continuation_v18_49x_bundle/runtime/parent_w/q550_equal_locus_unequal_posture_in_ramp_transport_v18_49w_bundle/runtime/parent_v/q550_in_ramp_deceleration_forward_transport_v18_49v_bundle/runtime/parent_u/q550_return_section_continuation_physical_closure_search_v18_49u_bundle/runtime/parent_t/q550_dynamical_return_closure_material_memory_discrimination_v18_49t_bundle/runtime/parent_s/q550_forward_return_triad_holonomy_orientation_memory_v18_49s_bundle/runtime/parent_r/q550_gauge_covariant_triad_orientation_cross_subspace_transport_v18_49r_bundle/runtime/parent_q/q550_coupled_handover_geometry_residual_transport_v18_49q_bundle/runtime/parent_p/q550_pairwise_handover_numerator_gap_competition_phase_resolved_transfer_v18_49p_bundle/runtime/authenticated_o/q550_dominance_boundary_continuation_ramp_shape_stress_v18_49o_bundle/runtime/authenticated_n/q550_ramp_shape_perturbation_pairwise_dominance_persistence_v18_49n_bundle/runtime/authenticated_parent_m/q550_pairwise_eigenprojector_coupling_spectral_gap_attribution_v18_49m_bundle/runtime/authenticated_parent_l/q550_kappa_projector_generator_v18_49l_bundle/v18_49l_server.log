@@ -1,0 +1,41 @@
+test_diagonal_stretch_no_rotation (test_generator_math.TestGenerator.test_diagonal_stretch_no_rotation) ... ok
+test_exact_rotating_singular_directions (test_generator_math.TestGenerator.test_exact_rotating_singular_directions) ... ok
+test_fd_independent_rotating_projector (test_generator_math.TestGenerator.test_fd_independent_rotating_projector) ... ok
+test_kinetic_embedding_directional_derivative (test_generator_math.TestGenerator.test_kinetic_embedding_directional_derivative) ... ok
+test_near_degenerate_axes_rejected (test_generator_math.TestGenerator.test_near_degenerate_axes_rejected) ... ok
+test_orthogonal_basis_gauge (test_generator_math.TestGenerator.test_orthogonal_basis_gauge) ... ok
+test_strain_and_rotation_decouple (test_generator_math.TestGenerator.test_strain_and_rotation_decouple) ... ok
+test_time_dependent_gauge_connection_required (test_generator_math.TestGenerator.test_time_dependent_gauge_connection_required) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.055s
+
+OK
+v18.49l original ramp=0.285000: generator=5.49487, log-strain-rate=0.9684976
+v18.49l original ramp=0.292000: generator=5.551066, log-strain-rate=0.985714
+v18.49l original ramp=0.296333: generator=5.590208, log-strain-rate=0.997223
+v18.49l original ramp=0.300000: generator=5.626433, log-strain-rate=1.007451
+v18.49l original ramp=0.305000: generator=5.681122, log-strain-rate=1.022088
+v18.49l original ramp=0.309000: generator=5.729921, log-strain-rate=1.034347
+v18.49l autonomous ramp=0.285000: generator=5.496445, log-strain-rate=0.9692075
+v18.49l autonomous ramp=0.292000: generator=5.552613, log-strain-rate=0.9864525
+v18.49l autonomous ramp=0.296333: generator=5.591757, log-strain-rate=0.9979777
+v18.49l autonomous ramp=0.300000: generator=5.627995, log-strain-rate=1.008218
+v18.49l autonomous ramp=0.305000: generator=5.682726, log-strain-rate=1.022871
+v18.49l autonomous ramp=0.309000: generator=5.731579, log-strain-rate=1.035142
+{
+  "forward_regression": 3.424991987393049e-13,
+  "log_volume_vs_parent": 0.0,
+  "generator_vs_fd_projector": 0.007112232177793665,
+  "generator_vs_parent_speed": 0.006576633471948146,
+  "occupation_vs_parent": 8.881784197001252e-16,
+  "projector_closure": 1.7763568394002505e-15,
+  "strain_logvolume_identity": 1.554312234475219e-14,
+  "c_rate_vs_finite_difference": 3.634319171174978e-05,
+  "sigma_rate_vs_finite_difference": 0.00014623363304233639,
+  "source_vs_material_volume_rate": 2.2068147309539654e-10,
+  "projector_rate_vs_fd": 0.009583572126175,
+  "fixed_orthogonal_gauge": 9.810450829128937e-14
+}
+v18.49l AUTHENTIC_Q550_PROJECTOR_GENERATOR_ACCEPTANCE_PASSED
+v18.49l created 3 numerical figures

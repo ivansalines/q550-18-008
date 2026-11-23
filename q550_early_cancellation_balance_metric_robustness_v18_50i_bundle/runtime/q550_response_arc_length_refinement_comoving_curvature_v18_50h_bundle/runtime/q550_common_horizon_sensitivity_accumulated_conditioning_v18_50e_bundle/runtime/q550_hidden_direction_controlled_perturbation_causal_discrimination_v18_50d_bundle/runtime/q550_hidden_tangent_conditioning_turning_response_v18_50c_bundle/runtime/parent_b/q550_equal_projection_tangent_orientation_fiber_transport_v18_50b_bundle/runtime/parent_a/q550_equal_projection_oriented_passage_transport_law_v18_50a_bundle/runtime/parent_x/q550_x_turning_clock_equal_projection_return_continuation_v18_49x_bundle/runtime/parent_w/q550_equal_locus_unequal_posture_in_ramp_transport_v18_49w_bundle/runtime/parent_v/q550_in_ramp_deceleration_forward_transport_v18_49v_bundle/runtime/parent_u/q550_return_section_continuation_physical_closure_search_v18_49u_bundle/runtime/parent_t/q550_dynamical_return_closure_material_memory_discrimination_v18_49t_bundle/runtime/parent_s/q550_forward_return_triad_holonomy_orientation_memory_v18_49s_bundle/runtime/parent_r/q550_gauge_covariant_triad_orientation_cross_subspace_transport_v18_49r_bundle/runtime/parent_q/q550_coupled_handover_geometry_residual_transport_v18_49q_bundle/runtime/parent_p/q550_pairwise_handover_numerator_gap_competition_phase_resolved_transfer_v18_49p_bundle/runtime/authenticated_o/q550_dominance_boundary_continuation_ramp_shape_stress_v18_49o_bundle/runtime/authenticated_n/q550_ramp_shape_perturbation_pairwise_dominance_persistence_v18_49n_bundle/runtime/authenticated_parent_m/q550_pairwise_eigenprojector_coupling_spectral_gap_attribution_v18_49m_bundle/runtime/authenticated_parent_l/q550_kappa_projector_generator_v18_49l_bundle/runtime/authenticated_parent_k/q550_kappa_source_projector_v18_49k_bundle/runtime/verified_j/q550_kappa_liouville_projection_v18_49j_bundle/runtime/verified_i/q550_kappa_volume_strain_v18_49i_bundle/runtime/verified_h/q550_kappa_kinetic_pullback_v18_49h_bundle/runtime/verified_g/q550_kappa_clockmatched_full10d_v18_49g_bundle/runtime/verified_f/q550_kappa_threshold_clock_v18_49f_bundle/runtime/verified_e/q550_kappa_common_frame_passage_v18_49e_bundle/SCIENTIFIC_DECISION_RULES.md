@@ -1,0 +1,12 @@
+# Scientific decision rules — v18.49e
+
+1. **Authenticity gate.** The parent must be the original SHA-pinned server v18.49d sendback; all declared members, C ancestry, and further genealogy to J must pass before scientific replay.
+2. **No implicit cycle.** Kappa0 is a parameter, not a time. Comparing a numerical xi interval of length kappa0 tests a suggested scale, but does not define a physical material period.
+3. **Marker definition.** The observable threshold is the Q550 projected geometry distance `d3(q) < 0.01`. Its sign-bracketed roots are classified as **entry** when `d3` decreases and **exit** when it increases. A sublevel interval is not a full 11D recurrence.
+4. **Common frame.** The 10x10 fundamental matrix `Phi(t)` is integrated from the physical 10D tangent Jacobian along EACH newly integrated return. Cotangent rows satisfy `g(t)Phi(t) ≈ g(0)`. The material finite difference `d(t)` is pulled back as `Phi(t)^-1 d(t)` for comparison in the turning-point frame.
+5. **Linearization caveat.** This is the linear tangent map of ONE trajectory applied to a finite inter-trajectory separation. It is not the exact nonlinear transport of a finite displacement.
+6. **Metric and gauge.** Euclidean metric is declared at the initial turning-point chart. In current coordinates, its pullback-induced representation varies with time. This does not establish a physical invariant norm. Fixed invertible chart changes are explicitly checked with tangent, cotangent, and metrics transformed consistently.
+7. **Historical-family caution.** Five original historical covectors remain the fixed initial family, with SVD rank threshold `1e-10`. No synthetic new observers are added in v18.49e. A 5D observer plane cannot identify the entire 10D material displacement.
+8. **Positive evidence.** A same-frame oriented return would require a matched marker pair AND independently specified agreement of the transported material descriptor. Matching the length of one subthreshold interval to kappa0 by 1% does not suffice.
+9. **No physical reciprocity claim.** Signed phase, mechanical energy, and all 11D state variables are tracked or available in the original parent; their equality is not inferred from 3D subthreshold contact.
+10. **Numerical scope.** Double-precision IVPs; reproducible with authenticated inputs but no rigorous interval proof. Classification is conditional on the stated threshold and sampled ramp protocols.

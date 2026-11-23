@@ -1,0 +1,25 @@
+{
+  "root": "q550_early_cancellation_balance_metric_robustness_v18_50i_bundle",
+  "version": "v18.50i",
+  "files": {
+    "README.md": "bdef760ff2b4907d1cadd4e87503a604b50024015d261d1ed57b5304c5175236",
+    "SCIENTIFIC_DECISION_RULES.md": "21bddd8be6a7181adcc39f9a62c94df8d3d7fcfe5622b345d4090e165b8353f6",
+    "SCIENTIFIC_REPORT.md": "89f660dd3041637e9ea122aa08ca9462e93057da0ddbb5d29378ea6af9053aee",
+    "inputs/q550_response_arc_length_refinement_comoving_curvature_v18_50h_authenticated_server_sendback.zip": "3ab6090f5f782e0f989e12f2ab6f04c0149ea88dba132283c888c462d451fd75",
+    "requirements.txt": "8783f3b73342f90079c73c3a6c7aae22c4f22ab189934fd1856300233af4b0ba",
+    "results/amplitude_stability.png": "5b50f42d41dd91d4a190fb8534997d27dac71ad12e24e05f6e43b43bbbb230d8",
+    "results/balance_ratio_early_window.png": "5747acb2bc0eb0d70c2f5c87da289b7cbc7b6dc3d60ef4938b9e4ba7a71a0e1c",
+    "results/both_kappa_early_cancellation.png": "60b8821f0db16275aca0ed761d0927540a71fa43408e1c357daaf1648b7fdfd4",
+    "results/early_metric_amplitude_trace.csv": "d33f9b14de4d6051bce6fab3344948bdd69a521bccf9db2412968c4dede865c3",
+    "results/family_baseline_checks.csv": "400c3c921744115a901d4084a4794dbaf50299de07cd50762f60360c9c96b09f",
+    "results/metric_chart_early_cancellation.png": "f0d231d7115ac323378764dc319aed60e92b0127854e1286cfc3fe9036932636",
+    "results/peak_metric_amplitude_summary.csv": "a0e2500d6529066bbee1cb3b1f306b218d2b86245a957635d1fc7f88336b62ae",
+    "results/report.json": "5a009de3b2fe175c37fec61e1772d7f8cafee477266c857b7011d191bcb61a7c",
+    "run_on_server.sh": "64933ecf1da3db356da82f2a016c90c7e233ae3bf47fe8cd27694b69ad58c55d",
+    "scripts/pack_sendback.py": "10aaaa5152913c7a21b70d229bb475936ef62df6f6ac3b9231a28023388e06da",
+    "scripts/plot_results.py": "c1e86eadde183be699182dff40fff30ac239fbc5d37f79fdaac107298f8bbbf7",
+    "scripts/run_audit.py": "cb9b44f214ff2ba1b7602b605224a6e387b459e1ce49a789c21c5e3e072c6af0",
+    "tests/test_balance.py": "aabe210b5b902bb64b49cfb52f81149ecbbcc9abf70fe95ac1af42353092d83e",
+    "v18_50i_server.log": "04ea442097c62660c5a59e598be1c834e112de2ca73002f651d0d594d248b7d7"
+  }
+}

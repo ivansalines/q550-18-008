@@ -1,0 +1,8 @@
+{
+  "parent_version": "v18.49u",
+  "parent_file": "q550_return_section_continuation_physical_closure_search_v18_49u_authenticated_server_sendback.zip",
+  "parent_sha256": "d35dc8c12941dd1f91e2129f94f1aa283604c88d36ecd6a1908e95f56c69d9c6",
+  "parent_root": "q550_return_section_continuation_physical_closure_search_v18_49u_bundle",
+  "parent_manifest_entries": 25,
+  "parent_status": "NO_PHYSICAL_CLOSURE_IN_EXPLORED_RETURN_SECTION_DOMAIN"
+}

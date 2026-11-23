@@ -1,0 +1,157 @@
+{
+  "version": "v18.48t",
+  "title": "Counterflow Rate\u2013Duration Separation & Contact Persistence Audit",
+  "status": "complete",
+  "historical_paths_used": 8,
+  "historical_states_parent": 328,
+  "genuine_11D_integrations": 288,
+  "expected_11D_integrations": 288,
+  "independent_designs": 7,
+  "alpha_values": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "rate_duration_designs": [
+    {
+      "name": "phaseclosed_slow",
+      "rate": 0.75,
+      "duration": 1.3333333333333333
+    },
+    {
+      "name": "phaseclosed_reference",
+      "rate": 1.0,
+      "duration": 1.0
+    },
+    {
+      "name": "phaseclosed_fast",
+      "rate": 1.25,
+      "duration": 0.8
+    },
+    {
+      "name": "durationfixed_slow",
+      "rate": 0.75,
+      "duration": 1.0
+    },
+    {
+      "name": "durationfixed_fast",
+      "rate": 1.25,
+      "duration": 1.0
+    },
+    {
+      "name": "ratefixed_short",
+      "rate": 1.0,
+      "duration": 0.8
+    },
+    {
+      "name": "ratefixed_long",
+      "rate": 1.0,
+      "duration": 1.2
+    }
+  ],
+  "same_external_phase_minima": 280,
+  "common_phase_profile_points": 22680,
+  "common_phase_interval_q": [
+    0.312500001,
+    0.719999999
+  ],
+  "minima_drive_power_opposite_signs": 196,
+  "minima_interior": 194,
+  "min_3D_gap": 0.0004389088178981768,
+  "min_11D_gap": 1.0364476923419836,
+  "max_original_11D_path_regression": 1.4682871154316755e-11,
+  "max_reverse_ledger_relative_residual": 6.1096960823903146e-15,
+  "max_partial_flip_kinetic_jump_error": 2.220446049250313e-16,
+  "max_phase_locked_ledger_absolute_residual": 1.8455896533264848e-13,
+  "max_phase_clock_mismatch": 4.440892098500626e-16,
+  "original_v18_48s_control_regression": {
+    "matched_endpoints": 16,
+    "max_shape_gap": 8.2050252009358e-15,
+    "max_signed_drive_power_gap": 4.406457317085444e-11
+  },
+  "equal_rate_duration_prefix_test": {
+    "profile_pair_comparisons": 12960,
+    "max_shape_gap": 4.996003610813204e-16,
+    "max_energy_or_power_difference": 8.881784197001252e-16,
+    "interpretation": "At fixed rate and initial state, changing only the planned stopping duration cannot alter the preceding matched-phase IVP prefix."
+  },
+  "by_family": {
+    "phaseblind_d2_lam-1.00_mod+0.00": {
+      "cases": 140,
+      "shape_distance": {
+        "count": 140,
+        "min": 0.0004389088178981768,
+        "median": 0.1198957602717605,
+        "max": 0.778967239173301
+      },
+      "energy_gap": {
+        "count": 140,
+        "min": -0.3824013010406908,
+        "median": -0.2751280470200421,
+        "max": 0.020102229667554816
+      },
+      "opposite_drive_power_count": 98,
+      "interior_minima_count": 102
+    },
+    "phasecov_d2_lam-1.00_mod+0.00": {
+      "cases": 140,
+      "shape_distance": {
+        "count": 140,
+        "min": 0.0006163290289645672,
+        "median": 0.1451877692765664,
+        "max": 0.7564074200222584
+      },
+      "energy_gap": {
+        "count": 140,
+        "min": -0.39662104640626183,
+        "median": -0.2829081416256737,
+        "max": 0.020082152353491978
+      },
+      "opposite_drive_power_count": 98,
+      "interior_minima_count": 92
+    }
+  },
+  "controls": {
+    "integration": {
+      "method": "DOP853",
+      "rtol": 3e-12,
+      "atol": 3e-13,
+      "max_step": 0.025
+    },
+    "common_phase_nodes": 81,
+    "minimizer_nodes": 141,
+    "nontrivial_progress_window": [
+      0.25,
+      0.96
+    ],
+    "forward_phase_window": [
+      0.04,
+      0.75
+    ],
+    "shape_thresholds": [
+      0.0025,
+      0.005,
+      0.01,
+      0.02
+    ]
+  },
+  "provenance": {
+    "parent_server_sha256": "cf865a640363ad1e08a0ccafe63fd0586d786bb869b967c43b2f1eb18e2c40a7",
+    "parent_manifest_files": 27,
+    "parent_report_sha256": "c151c37668dddf6ba844052e91306518062bbf423c66ce08118f042f945e3398",
+    "historic_11D_states_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+    "r_q_p_o_j_genealogy_verified": true,
+    "parent_s_verifier": {
+      "parent_sha256": "b601151e9bd5e81553695b4c698cd505435143a51976320055a5e0f931ee3d33",
+      "parent_r_verified_files": 24,
+      "parent_r_report_sha256": "03629aa741a2bf17f8049efeab932eaaac98f2972dbf78733106e51baf5c8c67",
+      "historical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+      "original_11D_rhs": true,
+      "parent_chain_verified": true
+    },
+    "physical_rhs_original": true
+  },
+  "scientific_boundary": "Seven moderate controlled designs and sampled partial reversals, not a continuous proof. Same-clock shape minima are geometry 3D only, not intersections in 11D. Rate/duration/fraction are imposed controls. Partial velocity preparation has nonzero externally imposed kinetic-energy jump. The mechanical energy is model-defined, not entropy. No universal hysteresis law or intrinsic counterflow metric is certified."
+}

@@ -1,0 +1,113 @@
+{
+  "audit": "v18.49u \u2014 Return-Section Continuation & Physical Closure Search",
+  "status": "NO_PHYSICAL_CLOSURE_IN_EXPLORED_RETURN_SECTION_DOMAIN",
+  "parent": {
+    "parent_sha256": "a7e7f3cdf2707b2c35bbf06e2a36b03e35640ae3899ca4e5579e564b50999c14",
+    "parent_manifest_entries": 22,
+    "parent_status": "DYNAMIC_RETURN_NOT_CLOSED_AT_TESTED_SECTIONS",
+    "parent_and_upstream_authenticated": true
+  },
+  "counts": {
+    "physical_forward_reintegrations": 2,
+    "physical_return_reintegrations": 22,
+    "optimized_candidate_sections": 66,
+    "strict_closure_candidates": 0,
+    "tangent_forward": 2,
+    "tangent_return": 6,
+    "evaluation_failures": 0
+  },
+  "domain": {
+    "ramp_values_initial": [
+      0.12,
+      0.18,
+      0.24,
+      0.285,
+      0.327375,
+      0.36,
+      0.42,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "adaptive_refine_rounds": 1,
+    "forward_anchor_bounds": [
+      0.3,
+      0.85
+    ],
+    "return_phase_bounds_relative_to_ramp_end": [
+      0.1,
+      0.96
+    ],
+    "all_returns_exclude_turnaround": true,
+    "relative_velocity_matching_condition": "v_return + v_forward = 0",
+    "configuration_coordinates": "0,2,4,6,8,10 with indices 2,6,10 wrapped mod 2pi"
+  },
+  "best_config_candidate": {
+    "config": 0.0871547223488297,
+    "velocity": 0.24446143619546568,
+    "full": 0.2595329254920295,
+    "unwrapped_theta_turns": 0.011804852076770083,
+    "energy_difference": -0.002526962636398178,
+    "objective": "configuration",
+    "anchor_time": 0.7098777247558692,
+    "return_time": 0.32227792420439444,
+    "return_phase": 0.20227792420439444,
+    "optimized_objective_sq": 0.007595945627701595,
+    "optimization_success": true,
+    "grid_initial_score": 0.08735228232242356,
+    "boundary_hit": false,
+    "kappa_kind": "original",
+    "ramp_xi": 0.12,
+    "energy_forward_anchor": 1.4239084522520522,
+    "energy_return_match": 1.421381489615654,
+    "elapsed_time_from_anchor": 0.6124001994485253,
+    "minimum_tolerance_ratio_preprojector": 2444.6143619546565,
+    "spectral_projector_distance": null,
+    "minimum_relative_gap": null,
+    "strict_return_closed": false
+  },
+  "best_joint_candidate": {
+    "config": 0.08916698884981891,
+    "velocity": 0.15756183556875913,
+    "full": 0.18104276822988655,
+    "unwrapped_theta_turns": 0.012541059187948742,
+    "energy_difference": -0.001889329909482651,
+    "objective": "joint_full_state",
+    "anchor_time": 0.8066772545261994,
+    "return_time": 0.22,
+    "return_phase": 0.1,
+    "optimized_objective_sq": 0.03277648392834042,
+    "optimization_success": true,
+    "grid_initial_score": 0.19673703163452474,
+    "boundary_hit": true,
+    "kappa_kind": "original",
+    "ramp_xi": 0.12,
+    "energy_forward_anchor": 1.4240059533087446,
+    "energy_return_match": 1.422116623399262,
+    "elapsed_time_from_anchor": 0.41332274547380055,
+    "minimum_tolerance_ratio_preprojector": 1575.6183556875912,
+    "spectral_projector_distance": 0.49109484327206543,
+    "minimum_relative_gap": 0.09420939798433427,
+    "strict_return_closed": false
+  },
+  "tolerances": {
+    "config": 0.0001,
+    "velocity": 0.0001,
+    "energy": 1e-05,
+    "projector": 0.001,
+    "spectral_gap": 1e-06,
+    "optional_lift_turns": 0.001
+  },
+  "require_phase_lift_closure": false,
+  "limitations": [
+    "A finite coarse-to-adaptive duration search; not proof that a return section cannot exist elsewhere.",
+    "Forward/return both genuine Q550 11D integrations under an externally imposed velocity reversal; not spontaneous time reversal.",
+    "The search optimizes two section times at each duration; closure may lie outside their declared windows.",
+    "Nearest configuration, nearest velocity and nearest full reversed state are separate minima and do not imply closure.",
+    "Mechanical-energy matching is checked as an independent gate with full original work/damping/source ledger.",
+    "Common-frame spectral projectors are computed only for selected best joint candidates; missing projectors never count as matched.",
+    "Wrapped phase is a modulo-2pi matching convention; unwrapped lifted phase difference is reported separately.",
+    "A numerical closed candidate alone would NOT certify physical material memory or physical torsion.",
+    "No interval enclosure or global continuation theorem is established."
+  ]
+}

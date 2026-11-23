@@ -1,0 +1,29 @@
+{
+  "version": "v18.48t",
+  "files": {
+    "README.md": "d49a37a4fadd068e4948317219a6b4d6d0b8f19f81f1e11c48e047c3d7252f34",
+    "SCIENTIFIC_DECISION_RULES.md": "20fad7a6b67786d4447c9a1d4564e183990b13cd5634b0b0c43168d1b27157f4",
+    "inputs/SOURCE_PINS.json": "768be63ceaee276044875f4f6c75980f2a2ebea7d196bac1bacae8b5d8d6f3dc",
+    "inputs/v18_48s_original_server_sendback.zip": "cf865a640363ad1e08a0ccafe63fd0586d786bb869b967c43b2f1eb18e2c40a7",
+    "reference/physical_math.py": "a2e08b061c01bec726012578e006851a07dc24741001c1b6c5ae4633c881e49c",
+    "reference/transversality_math.py": "ff3a6192d97a13714c463be049919fb79d95e1f6fb8f802f35da28d1d99c99c4",
+    "requirements.txt": "3a0d17d1e128aabbc2f03030f000f50c82ee61bdadce3e27bfad72014f3187cc",
+    "results/alpha_rate_duration_contact.png": "65c3e2ebd412817e42a65bbdcacf197d524dc1ed51965183cf4b98b2aeabfc06",
+    "results/common_phase_contact_persistence.png": "a8d4407cda58ad004fe776d4a77f0bfcf74216254b1763b6457e9a8c5e2de2dc",
+    "results/common_phase_profiles.csv": "de6010d1f7f3caa74a48a691ff98f47652679d46888a50d5f532a4e92c1cf36d",
+    "results/historical_regression.csv": "7652da603ac079732b9c0d35c7c514c9eeaf5ad47dff86a827e0b9c37ad4cfc1",
+    "results/preparation_jump_vs_return_energy.png": "1014cd92521f9638e93a1b3ac9249d8cae4bb1ee752df8d82c1194845023be45",
+    "results/protocol_contacts.csv": "4b5b3a4f64050aab7be4af90c9397156cba4108cc0e4dd089511a676bab19675",
+    "results/report.json": "a43b4b79cebc9c5b55b4be2ad2f5c9f97c730201c57961eca00cf50e9bd169cd",
+    "results/shared_phase_profiles_alpha1.png": "36156ee9eb1ac29ae7e6835661eaf8d76646f2a0d74cadb5b7d6c3043cc1346e",
+    "run_on_server.sh": "286eed0ccfe4a9a92bf8fbd8a9dceec8418331dbcde7f1006511afebcab871de",
+    "scripts/check_outputs.py": "658bc4dc0008f7140b438870196db624e01d6000dda298d9343ddb9d0645b792",
+    "scripts/pack_sendback.py": "1c8086d21c099a9ebc3084b35f1f2050140f8cf50732193608a5caf68ce26d6d",
+    "scripts/plot_results.py": "f888ee07bba8a5b6b14b958214ee668b8b74b96d74daa52a2042b2112ac27f21",
+    "scripts/protocol_math.py": "28a99a11a90b129ba07257201329f401e0987f4ac2048f5ac11076169c9507bc",
+    "scripts/run_audit.py": "3dff996a25f72858a1a3b5f7bc353015b2609d8719c25ca452b2f46d6b56274b",
+    "scripts/verify_parent.py": "4392da1edf0f4baccfc5ef055f7709c3bdf751b306fec5d4b3f2eb7c93369571",
+    "tests/test_protocol_math.py": "4f36f114cc17aa2afb2f7a0025faafa6044daeecb74216bd7974c470dd2406f8",
+    "v18_48t_server.log": "7d39cc4f7354b7fd4f638dd4af262dc3aa1cb56200ce4ca05f56ace8c91b1b61"
+  }
+}

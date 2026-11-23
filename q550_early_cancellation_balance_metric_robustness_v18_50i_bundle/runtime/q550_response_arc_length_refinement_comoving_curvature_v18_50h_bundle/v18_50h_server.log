@@ -1,0 +1,56 @@
+test_curve_exceeds_chord (test_geometry.TestRefinement.test_curve_exceeds_chord) ... ok
+test_monotone_under_refinement (test_geometry.TestRefinement.test_monotone_under_refinement) ... ok
+test_straight_line (test_geometry.TestRefinement.test_straight_line) ... ok
+test_zero_before_kick (test_geometry.TestRefinement.test_zero_before_kick) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.007s
+
+OK
+natural autonomous 0.18 beta:2:2
+natural autonomous 0.24 beta:2:2
+natural autonomous 0.24 beta:3:3
+natural autonomous 0.327375 beta:2:2
+natural autonomous 0.5 beta:2:2
+natural original 0.18 beta:2:2
+natural original 0.24 beta:2:2
+natural original 0.24 beta:3:3
+natural original 0.327375 beta:2:2
+natural original 0.5 beta:2:2
+same seed autonomous 0.18 beta:2:2
+same seed autonomous 0.24 beta:2:2
+same seed autonomous 0.24 beta:3:3
+same seed autonomous 0.327375 beta:2:2
+same seed autonomous 0.5 beta:2:2
+same seed original 0.18 beta:2:2
+same seed original 0.24 beta:2:2
+same seed original 0.24 beta:3:3
+same seed original 0.327375 beta:2:2
+same seed original 0.5 beta:2:2
+RESULT {"natural_cases": 10, "same_seed_cases": 10, "rows": 660, "11D_IVPs_short": 60, "failures": 0} {"max_linearized_response_relative_residual": 1.8663626223391698e-06, "max_split_residual": 1.936626123815557e-09, "natural_endpoint_gain_range": [16.494036903148395, 19.251407882695624], "same_seed_endpoint_gain_range": [16.9877682176863, 18.733384303156885]}
+v18.50h COMPLETE {
+  "cases": 20,
+  "rows": 660,
+  "regression": 3.264668852301773e-13,
+  "reference": {
+    "mode": "same_seed",
+    "kind": "original",
+    "ramp_xi": "0.24",
+    "shape": "beta:2:2",
+    "arc5": 17.99232709791868,
+    "arc9": 17.99620139388969,
+    "arc17": 17.99717053309334,
+    "arc33": 17.99741285332215,
+    "relative_arc_5_to_33_increase": 0.0002825825825589087,
+    "arc17_to_33_change_fraction": 1.3464170144095194e-05,
+    "endpoint_chord": 17.915564601511118,
+    "straightness33": 0.9954522212454595,
+    "max_sampled_cancellation": 0.5473251089201916,
+    "peak_sample_xi": 0.0015625,
+    "peak_interior": true
+  }
+}
+natural original 0.24 beta:2:2
+same seed original 0.24 beta:2:2
+RESULT {"natural_cases": 1, "same_seed_cases": 1, "rows": 330, "11D_IVPs_short": 6, "failures": 0} {"max_linearized_response_relative_residual": 1.6073813931576773e-06, "max_split_residual": 1.300017196652594e-09, "natural_endpoint_gain_range": [17.712349905938396, 17.712349905938396], "same_seed_endpoint_gain_range": [17.712349905938396, 17.712349905938396]}
+EARLY ZOOM RESULT {"zoom_points": 165, "peak_sample_xi": 0.0010750000000000002, "peak_sample_cancellation": 0.5793750170304808, "neighbor_bracket": ["0.0010500000000000002", "0.0010750000000000002", "0.0011"], "peak_inside_zoom": true, "new_zoom_IVPs": 6, "limit": "Finite-sample peak in declared response-coordinate ledger; not a rigorous continuous stationary root or physical memory marker."}

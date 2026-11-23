@@ -1,0 +1,9 @@
+family,branch,kappa_kind,best_3D_distance_in_W,full_11D_distance_in_W,best_ramp_in_W,W_result_scope
+phaseblind_d2_lam-1.00_mod+0.00,0,autonomous,0.0003554507889905358,1.60024309473725,0.275,"25-ramp contact-width screening only, NOT a demonstrated 2-lobe central barrier"
+phaseblind_d2_lam-1.00_mod+0.00,0,original,0.00035616423310017654,1.6009017989391847,0.275,"25-ramp contact-width screening only, NOT a demonstrated 2-lobe central barrier"
+phaseblind_d2_lam-1.00_mod+0.00,1,autonomous,0.0002168282329748861,3.9008757026455085,0.07,"25-ramp contact-width screening only, NOT a demonstrated 2-lobe central barrier"
+phaseblind_d2_lam-1.00_mod+0.00,1,original,0.0002169183836881845,3.901914084295885,0.07,"25-ramp contact-width screening only, NOT a demonstrated 2-lobe central barrier"
+phasecov_d2_lam-1.00_mod+0.00,0,autonomous,0.001463776738873127,1.9200647512939542,0.04,"25-ramp contact-width screening only, NOT a demonstrated 2-lobe central barrier"
+phasecov_d2_lam-1.00_mod+0.00,0,original,0.0014637644723225535,1.9200070184079958,0.04,"25-ramp contact-width screening only, NOT a demonstrated 2-lobe central barrier"
+phasecov_d2_lam-1.00_mod+0.00,1,autonomous,0.0003190950317079394,1.792902272529763,0.335,"25-ramp contact-width screening only, NOT a demonstrated 2-lobe central barrier"
+phasecov_d2_lam-1.00_mod+0.00,1,original,0.0003201920665155184,1.7937470032732132,0.335,"25-ramp contact-width screening only, NOT a demonstrated 2-lobe central barrier"

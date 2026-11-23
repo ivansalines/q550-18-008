@@ -1,0 +1,5 @@
+numpy
+scipy
+matplotlib
+pandas
+# Original historical server uses Python 3.13; other versions must be documented.

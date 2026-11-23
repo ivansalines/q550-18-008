@@ -1,0 +1,4 @@
+# Tested preflight with compatible installed versions
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.7

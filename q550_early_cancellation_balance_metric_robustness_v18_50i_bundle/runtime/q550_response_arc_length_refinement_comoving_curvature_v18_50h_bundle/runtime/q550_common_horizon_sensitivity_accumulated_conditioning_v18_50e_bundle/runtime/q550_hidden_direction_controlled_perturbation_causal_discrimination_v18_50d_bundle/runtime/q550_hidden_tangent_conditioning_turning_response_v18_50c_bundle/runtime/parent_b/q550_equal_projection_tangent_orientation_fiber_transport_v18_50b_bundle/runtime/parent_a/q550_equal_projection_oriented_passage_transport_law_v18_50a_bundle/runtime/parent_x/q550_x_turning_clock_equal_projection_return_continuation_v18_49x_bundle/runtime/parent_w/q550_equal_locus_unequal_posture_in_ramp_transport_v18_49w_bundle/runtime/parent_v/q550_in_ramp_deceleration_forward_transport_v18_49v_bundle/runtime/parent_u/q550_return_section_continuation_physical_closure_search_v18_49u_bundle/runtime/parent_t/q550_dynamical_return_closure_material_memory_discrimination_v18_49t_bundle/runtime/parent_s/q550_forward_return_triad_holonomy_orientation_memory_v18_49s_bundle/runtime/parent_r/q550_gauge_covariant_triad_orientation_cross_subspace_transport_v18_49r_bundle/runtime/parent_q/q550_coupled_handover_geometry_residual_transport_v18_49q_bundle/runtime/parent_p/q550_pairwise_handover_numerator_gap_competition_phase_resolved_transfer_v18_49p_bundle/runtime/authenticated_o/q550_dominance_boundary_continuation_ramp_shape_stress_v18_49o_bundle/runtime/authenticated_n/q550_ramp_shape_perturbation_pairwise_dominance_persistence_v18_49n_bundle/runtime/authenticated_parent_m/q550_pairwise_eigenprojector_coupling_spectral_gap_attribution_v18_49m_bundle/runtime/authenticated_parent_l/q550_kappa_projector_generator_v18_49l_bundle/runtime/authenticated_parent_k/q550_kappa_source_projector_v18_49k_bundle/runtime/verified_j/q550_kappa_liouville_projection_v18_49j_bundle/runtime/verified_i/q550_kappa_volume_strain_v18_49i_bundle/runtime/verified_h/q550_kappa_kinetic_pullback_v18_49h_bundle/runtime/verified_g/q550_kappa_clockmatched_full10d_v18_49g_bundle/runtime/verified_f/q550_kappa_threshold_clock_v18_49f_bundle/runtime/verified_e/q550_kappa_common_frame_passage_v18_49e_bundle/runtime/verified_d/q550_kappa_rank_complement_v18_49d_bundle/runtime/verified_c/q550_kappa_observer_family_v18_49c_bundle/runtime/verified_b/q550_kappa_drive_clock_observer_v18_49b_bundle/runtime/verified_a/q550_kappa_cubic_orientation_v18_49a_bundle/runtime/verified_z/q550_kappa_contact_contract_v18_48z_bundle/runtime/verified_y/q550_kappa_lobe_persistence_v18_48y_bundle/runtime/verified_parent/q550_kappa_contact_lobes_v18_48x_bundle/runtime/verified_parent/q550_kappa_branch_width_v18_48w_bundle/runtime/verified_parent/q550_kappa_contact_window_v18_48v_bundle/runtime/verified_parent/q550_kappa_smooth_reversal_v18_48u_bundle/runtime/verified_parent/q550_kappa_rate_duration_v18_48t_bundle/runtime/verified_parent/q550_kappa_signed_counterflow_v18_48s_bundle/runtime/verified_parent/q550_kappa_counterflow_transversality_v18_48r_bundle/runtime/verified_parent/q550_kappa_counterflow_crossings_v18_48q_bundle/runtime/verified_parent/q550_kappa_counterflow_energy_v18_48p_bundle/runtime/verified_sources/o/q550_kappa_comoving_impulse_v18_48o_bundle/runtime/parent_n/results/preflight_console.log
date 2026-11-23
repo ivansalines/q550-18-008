@@ -1,0 +1,51 @@
+test_correlations_known_lag (test_rhythm_math.RhythmMathTests.test_correlations_known_lag) ... ok
+test_frozen_observer_reverse_antisymmetry (test_rhythm_math.RhythmMathTests.test_frozen_observer_reverse_antisymmetry) ... ok
+test_missing_lag (test_rhythm_math.RhythmMathTests.test_missing_lag) ... ok
+test_projective_quarter (test_rhythm_math.RhythmMathTests.test_projective_quarter) ... ok
+test_projective_sign (test_rhythm_math.RhythmMathTests.test_projective_sign) ... ok
+test_projector_reversal (test_rhythm_math.RhythmMathTests.test_projector_reversal) ... ok
+test_true_opposition (test_rhythm_math.RhythmMathTests.test_true_opposition) ... ok
+test_zero_coupling (test_rhythm_math.RhythmMathTests.test_zero_coupling) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.002s
+
+OK
+v18.48n phaseblind_d2_lam-1.00_mod+0.00 branch 0 autonomous cutoff 1e-06: historical Rmax 349.799 at 3.575, projector pace max 16.3912
+v18.48n phaseblind_d2_lam-1.00_mod+0.00 branch 0 autonomous cutoff 1e-10: historical Rmax 349.799 at 3.575, projector pace max 40
+v18.48n phaseblind_d2_lam-1.00_mod+0.00 branch 0 original cutoff 1e-06: historical Rmax 326.528 at 3.575, projector pace max 16.3748
+v18.48n phaseblind_d2_lam-1.00_mod+0.00 branch 0 original cutoff 1e-10: historical Rmax 326.528 at 3.575, projector pace max 40
+v18.48n phaseblind_d2_lam-1.00_mod+0.00 branch 1 autonomous cutoff 1e-06: historical Rmax 4.7857 at 4.050, projector pace max 56.3884
+v18.48n phaseblind_d2_lam-1.00_mod+0.00 branch 1 autonomous cutoff 1e-10: historical Rmax 4.7857 at 4.050, projector pace max 3.73139
+v18.48n phaseblind_d2_lam-1.00_mod+0.00 branch 1 original cutoff 1e-06: historical Rmax 4.61138 at 4.050, projector pace max 56.389
+v18.48n phaseblind_d2_lam-1.00_mod+0.00 branch 1 original cutoff 1e-10: historical Rmax 4.61138 at 4.050, projector pace max 3.72789
+v18.48n phasecov_d2_lam-1.00_mod+0.00 branch 0 autonomous cutoff 1e-06: historical Rmax 59.9957 at 4.250, projector pace max 32.9336
+v18.48n phasecov_d2_lam-1.00_mod+0.00 branch 0 autonomous cutoff 1e-10: historical Rmax 59.9957 at 4.250, projector pace max 8.00103
+v18.48n phasecov_d2_lam-1.00_mod+0.00 branch 0 original cutoff 1e-06: historical Rmax 59.9677 at 4.250, projector pace max 33.0557
+v18.48n phasecov_d2_lam-1.00_mod+0.00 branch 0 original cutoff 1e-10: historical Rmax 59.9677 at 4.250, projector pace max 8.01378
+v18.48n phasecov_d2_lam-1.00_mod+0.00 branch 1 autonomous cutoff 1e-06: historical Rmax 36.1748 at 3.500, projector pace max 39.258
+v18.48n phasecov_d2_lam-1.00_mod+0.00 branch 1 autonomous cutoff 1e-10: historical Rmax 36.1748 at 3.500, projector pace max 2.97598
+v18.48n phasecov_d2_lam-1.00_mod+0.00 branch 1 original cutoff 1e-06: historical Rmax 36.1803 at 3.500, projector pace max 39.1426
+v18.48n phasecov_d2_lam-1.00_mod+0.00 branch 1 original cutoff 1e-10: historical Rmax 36.1803 at 3.500, projector pace max 2.94015
+{
+  "version": "v18.48n",
+  "output_records": {
+    "states": 656,
+    "steps": 640,
+    "lag_scans": 624,
+    "lag_summary": 48,
+    "events": 16
+  },
+  "max_snapshot_reversal_projector_distance_error": 0.0,
+  "reference_source_cutoff_1e_6": {
+    "comparisons": 320,
+    "median_projector_pace_per_xi": 3.280569794511626,
+    "median_observer_angular_pace_deg_per_xi": 10.283239072517496,
+    "median_directed_frozen_alignment_sum": 1.1518563880486e-13,
+    "median_historical_near_plane_alignment_loss": 0.9999999999592498,
+    "median_historical_source_active_alignment_loss": 0.9999999998870114,
+    "maximum_absolute_directed_frozen_alignment_sum": 5.71210645450293e-09,
+    "ranks_different_steps": 0
+  }
+}
+v18.48n sendback manifest: 25 members; SHA256: 1c05897976a49026ce42c12abf2ee0cf848c46b4eafd808d63e7e9ccafdea12e

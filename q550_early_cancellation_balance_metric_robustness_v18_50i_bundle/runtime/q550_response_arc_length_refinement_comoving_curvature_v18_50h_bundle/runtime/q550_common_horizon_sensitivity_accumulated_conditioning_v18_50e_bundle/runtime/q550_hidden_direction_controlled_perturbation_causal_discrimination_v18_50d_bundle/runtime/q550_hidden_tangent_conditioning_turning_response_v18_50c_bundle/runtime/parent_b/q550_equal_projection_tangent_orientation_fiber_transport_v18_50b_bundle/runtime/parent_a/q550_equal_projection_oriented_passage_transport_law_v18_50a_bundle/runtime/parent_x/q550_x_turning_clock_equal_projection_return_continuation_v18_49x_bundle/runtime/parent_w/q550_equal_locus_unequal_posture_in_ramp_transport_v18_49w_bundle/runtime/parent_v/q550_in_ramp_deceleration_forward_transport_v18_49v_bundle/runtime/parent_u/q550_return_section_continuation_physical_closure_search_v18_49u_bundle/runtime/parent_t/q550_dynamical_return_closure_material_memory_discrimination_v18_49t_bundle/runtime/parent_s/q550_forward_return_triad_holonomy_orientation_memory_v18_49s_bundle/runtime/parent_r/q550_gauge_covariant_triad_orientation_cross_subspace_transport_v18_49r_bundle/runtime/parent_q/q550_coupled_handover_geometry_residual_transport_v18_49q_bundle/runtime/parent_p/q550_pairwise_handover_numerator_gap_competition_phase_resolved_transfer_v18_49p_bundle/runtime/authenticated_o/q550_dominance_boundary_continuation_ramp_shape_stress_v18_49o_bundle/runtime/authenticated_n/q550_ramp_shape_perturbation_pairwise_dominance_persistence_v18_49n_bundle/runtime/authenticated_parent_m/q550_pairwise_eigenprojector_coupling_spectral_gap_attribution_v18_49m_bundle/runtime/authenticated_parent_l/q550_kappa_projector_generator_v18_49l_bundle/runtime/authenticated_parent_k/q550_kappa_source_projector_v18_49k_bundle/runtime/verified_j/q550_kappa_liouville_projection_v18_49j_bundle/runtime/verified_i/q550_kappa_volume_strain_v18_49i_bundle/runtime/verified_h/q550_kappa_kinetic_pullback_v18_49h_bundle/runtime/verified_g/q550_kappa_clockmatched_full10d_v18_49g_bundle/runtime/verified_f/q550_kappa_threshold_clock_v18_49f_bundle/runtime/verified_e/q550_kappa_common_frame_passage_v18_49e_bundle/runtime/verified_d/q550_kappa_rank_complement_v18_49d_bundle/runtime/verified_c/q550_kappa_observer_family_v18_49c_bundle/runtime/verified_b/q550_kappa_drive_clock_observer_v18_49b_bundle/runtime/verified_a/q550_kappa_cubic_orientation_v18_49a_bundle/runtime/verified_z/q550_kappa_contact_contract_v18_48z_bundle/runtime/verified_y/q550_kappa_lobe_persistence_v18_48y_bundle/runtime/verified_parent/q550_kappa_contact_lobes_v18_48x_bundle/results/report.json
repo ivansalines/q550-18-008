@@ -1,0 +1,74 @@
+{
+  "version": "v18.48x",
+  "status": "FULL_EIGHT_PATH_FLOATING_POINT_AUDIT",
+  "historical_paths": 8,
+  "actual_new_11D_integrations": 72,
+  "phase_samples_per_profile": 1601,
+  "extended_window": [
+    0.1,
+    0.9
+  ],
+  "parent_window": [
+    0.312500001,
+    0.719999999
+  ],
+  "focusing_on": "phaseblind branch 0 two kappa choices",
+  "number_focus_ramps_per_kappa": 18,
+  "new_lobe_profile_rows": 57636,
+  "number_threshold_rows": 168,
+  "number_new_matched_profile_rows": 42,
+  "regression_rows": 16,
+  "maximum_w_width_regression_error": 4.696243394164412e-14,
+  "maximum_original_11D_replay_error": 1.6487418689859246e-11,
+  "maximum_energy_ledger_relative_error": 2.8774930355135453e-10,
+  "candidate_two_to_one_transition_brackets": [
+    {
+      "family": "phaseblind",
+      "branch": 0,
+      "kappa_kind": "original",
+      "left_ramp_xi": 0.29625,
+      "right_ramp_xi": 0.2965,
+      "bracket_width_xi": 0.00024999999999997247,
+      "event_classification": "INTERIOR_TWO_TO_ONE_NUMERICAL_MERGER",
+      "left_intervals": "[[0.3962175070384531,0.4778296574201303],[0.48540087766381984,0.5698930603833157]]",
+      "right_intervals": "[[0.3964167420809001,0.5695378593788536]]"
+    },
+    {
+      "family": "phaseblind",
+      "branch": 0,
+      "kappa_kind": "autonomous",
+      "left_ramp_xi": 0.2965,
+      "right_ramp_xi": 0.29675,
+      "bracket_width_xi": 0.000250000000000028,
+      "event_classification": "INTERIOR_TWO_TO_ONE_NUMERICAL_MERGER",
+      "left_intervals": "[[0.39616148272423385,0.47923823876854404],[0.48373515999827615,0.5696909929305336]]",
+      "right_intervals": "[[0.396360705887123,0.569335828380579]]"
+    }
+  ],
+  "refined_critical_brackets": [
+    {
+      "kappa_kind": "autonomous",
+      "ramp_duration_xi": 0.296529052734375,
+      "critical_bracket_left": 0.29652880859374997,
+      "critical_bracket_right": 0.296529296875,
+      "critical_bracket_width_xi": 4.882812500439648e-07,
+      "is_final_bracket": 1
+    },
+    {
+      "kappa_kind": "original",
+      "ramp_duration_xi": 0.29633276367187494,
+      "critical_bracket_left": 0.29633251953124995,
+      "critical_bracket_right": 0.29633300781249994,
+      "critical_bracket_width_xi": 4.882812499884537e-07,
+      "is_final_bracket": 1
+    }
+  ],
+  "critical_refinement_steps": 9,
+  "source": {
+    "original_v18_48w_server_sha256": "d750577fb44b2d0bd605395c4398762c74045b05e0995d6b92b2edb46e7d6e9f",
+    "original_parent_manifest_entries": 30,
+    "original_11D_physical_path_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+    "recursive_ancestry_SHA_verified": true
+  },
+  "interpretation": "Finite-grid and root-refined numerical subthreshold-lobe merger; no interval topology proof; q=0 excluded as imposed turn contact."
+}

@@ -1,0 +1,79 @@
+{
+  "version": "v18.49k",
+  "classification": "AUTHENTIC_Q550_CLOCK_PROJECTOR_DIAGNOSTIC_NOT_CAUSAL_CERTIFICATE",
+  "authentic_ancestry_to_v18_48j": true,
+  "kappas": {
+    "original": 0.16666666666666666,
+    "autonomous": 0.16659961041764054
+  },
+  "ramp_set": [
+    0.285,
+    0.292,
+    0.296333,
+    0.3,
+    0.305,
+    0.309
+  ],
+  "phase_interval": [
+    0.35,
+    0.65
+  ],
+  "phase_samples": 121,
+  "alphas": [
+    -1.0,
+    -0.1,
+    -0.01,
+    -0.001,
+    0.0,
+    0.001,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "physical_integrations": 14,
+  "tangent_frame_integrations": 12,
+  "minimum_all_principal_relative_eigengap": 0.043237218553860826,
+  "max_regression_or_identity_errors": {
+    "historical_forward": 3.424991987393049e-13,
+    "parent_source": 0.0,
+    "parent_occupation": 0.0,
+    "occupation_derivative_balance": 0.000159807931178646,
+    "source_identity": 2.220446049250313e-16,
+    "projector_sum": 1.887379141862766e-15,
+    "explicit_kappa_trace": 0.0,
+    "projector_halfturn_coarse_grid_difference_q": 5.940298071271943e-05
+  },
+  "alpha_zero_source_roots": [
+    {
+      "ramp_xi": 0.285,
+      "q": 0.4021691259721475
+    },
+    {
+      "ramp_xi": 0.292,
+      "q": 0.3958807534261109
+    },
+    {
+      "ramp_xi": 0.296333,
+      "q": 0.39200946715883717
+    },
+    {
+      "ramp_xi": 0.3,
+      "q": 0.38874488792312684
+    },
+    {
+      "ramp_xi": 0.305,
+      "q": 0.3843096411948582
+    },
+    {
+      "ramp_xi": 0.309,
+      "q": 0.38077389795109906
+    }
+  ],
+  "notes": [
+    "Source zeros depend on the selected volume form, even if Liouville identity holds.",
+    "Half-turn event is a continuous median of projector speed on a finite phase window, not a critical point.",
+    "A correlation across six ramp values is an association, not causal lag, invariant holonomy or physical energy transfer.",
+    "The 10D finite path separation pulled back linearly is a diagnostic, not a nonlinear parallel transport invariant.",
+    "Principal axes are compared in a declared common initial kinetic frame with tau_ref=1."
+  ]
+}

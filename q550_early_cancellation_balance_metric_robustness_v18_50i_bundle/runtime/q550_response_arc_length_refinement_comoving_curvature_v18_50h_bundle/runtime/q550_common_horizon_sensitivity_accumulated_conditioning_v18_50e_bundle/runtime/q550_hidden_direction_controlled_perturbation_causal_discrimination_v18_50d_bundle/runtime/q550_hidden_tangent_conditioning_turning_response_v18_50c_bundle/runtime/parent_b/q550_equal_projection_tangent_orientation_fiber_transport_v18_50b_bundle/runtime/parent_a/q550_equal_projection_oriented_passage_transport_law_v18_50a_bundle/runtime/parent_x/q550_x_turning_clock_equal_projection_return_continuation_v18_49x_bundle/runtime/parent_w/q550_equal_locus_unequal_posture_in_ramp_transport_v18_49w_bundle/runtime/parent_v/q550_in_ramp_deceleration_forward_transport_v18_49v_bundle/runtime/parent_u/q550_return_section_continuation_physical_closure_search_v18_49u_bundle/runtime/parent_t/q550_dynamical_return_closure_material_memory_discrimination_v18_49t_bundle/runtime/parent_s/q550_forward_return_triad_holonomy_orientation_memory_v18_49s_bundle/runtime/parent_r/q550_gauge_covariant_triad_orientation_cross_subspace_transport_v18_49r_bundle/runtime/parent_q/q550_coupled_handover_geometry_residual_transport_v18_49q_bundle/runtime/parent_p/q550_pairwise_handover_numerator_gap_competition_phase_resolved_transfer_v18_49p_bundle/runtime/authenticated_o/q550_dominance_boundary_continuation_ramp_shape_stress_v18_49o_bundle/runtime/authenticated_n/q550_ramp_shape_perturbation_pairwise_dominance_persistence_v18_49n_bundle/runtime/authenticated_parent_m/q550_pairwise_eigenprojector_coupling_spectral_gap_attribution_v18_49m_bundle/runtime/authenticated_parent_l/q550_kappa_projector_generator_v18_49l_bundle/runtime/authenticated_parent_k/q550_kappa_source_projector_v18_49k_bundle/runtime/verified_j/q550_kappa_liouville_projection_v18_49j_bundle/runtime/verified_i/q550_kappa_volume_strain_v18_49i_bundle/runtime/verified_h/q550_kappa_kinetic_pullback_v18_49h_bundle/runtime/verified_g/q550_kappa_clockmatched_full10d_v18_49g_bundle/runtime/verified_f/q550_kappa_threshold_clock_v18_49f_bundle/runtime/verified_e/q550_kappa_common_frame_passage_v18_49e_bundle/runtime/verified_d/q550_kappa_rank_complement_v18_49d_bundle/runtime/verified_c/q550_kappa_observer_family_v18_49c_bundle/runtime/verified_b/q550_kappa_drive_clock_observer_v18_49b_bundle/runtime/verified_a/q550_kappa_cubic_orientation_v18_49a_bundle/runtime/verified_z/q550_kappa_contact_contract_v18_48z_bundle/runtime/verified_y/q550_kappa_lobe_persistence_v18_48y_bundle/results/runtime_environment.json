@@ -1,0 +1,8 @@
+{
+  "python": "3.13.16",
+  "numpy": "2.4.1",
+  "scipy": "1.17.1",
+  "matplotlib": "3.10.8",
+  "model": "Original v18.48x 11D with unchanged physics SHA-256",
+  "numeric_status": "floating point; no interval certification"
+}
