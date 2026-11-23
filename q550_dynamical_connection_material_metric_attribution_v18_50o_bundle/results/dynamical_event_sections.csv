@@ -1,0 +1,7 @@
+kind,kappa0,xi,event,turn_xi,source_method,new_driven_IVPs,new_natural_seed_replay
+original,0.16666666666666666,0.0010591159204452001,parity,0.091047626229823292,natural driven Q550 10D RHS Jacobian + 4D structural jet Jacobian,1,1
+original,0.16666666666666666,0.0010639737094172499,midpoint,0.091047626229823292,natural driven Q550 10D RHS Jacobian + 4D structural jet Jacobian,1,1
+original,0.16666666666666666,0.0010688314983893,stationary,0.091047626229823292,natural driven Q550 10D RHS Jacobian + 4D structural jet Jacobian,1,1
+autonomous,0.16659961041764054,0.0010587068207811999,parity,0.091022719424577625,natural driven Q550 10D RHS Jacobian + 4D structural jet Jacobian,1,1
+autonomous,0.16659961041764054,0.00106356204268815,midpoint,0.091022719424577625,natural driven Q550 10D RHS Jacobian + 4D structural jet Jacobian,1,1
+autonomous,0.16659961041764054,0.0010684172645951001,stationary,0.091022719424577625,natural driven Q550 10D RHS Jacobian + 4D structural jet Jacobian,1,1

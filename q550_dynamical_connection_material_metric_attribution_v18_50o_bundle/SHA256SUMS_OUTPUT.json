@@ -1,0 +1,13 @@
+{
+  "file_sha256": {
+    "results/dynamical_connection_ledger.csv": "cb0fbbb82372213ac12d4faeb7d3505f5af19beb50be7eb9147c1db1334c29f7",
+    "results/dynamical_event_sections.csv": "837ad70ce2eac77fc6e676f3bf92675eb0a50f5c372d9b6d5b9e491ed5f6a835",
+    "results/identifiability_preflight.csv": "43d49e85e12c8faef2901881c6f91ebb7ea1c31cdc2312c23e51f79b8008fe6b",
+    "results/model_source_connection_angles.png": "6318d788bff641c3804ee75fc731526d7a13a699076b66f6508b8198d56371b9",
+    "results/observer_projection_leakage.png": "ea0eac7760943db0c36bab0e035b6319655e5eb7b805d854ba92efc1d79be01b",
+    "results/rank_metric_sensitivity.png": "74f7c1901327b5e0450b3a95d0fc570b1e14709ff36f6f9afdbea88e86ba2bfc",
+    "results/report.json": "bd8f3c9e66e1bd8ae2fc3e6c4ae1dd621c878a2bd97cfcf80d822cbede90b59e"
+  },
+  "mode": "regenerated",
+  "version": "v18.50o"
+}

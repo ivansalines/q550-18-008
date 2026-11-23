@@ -1,0 +1,18 @@
+{
+  "files": {
+    "README.md": "a9d4f271b9a9b7933a7fafc37fdd0dbe48defe1fc43b71981ece42955e5ea100",
+    "SCIENTIFIC_DECISION_RULES.md": "7bc9d00486d931caa1bd5e60fe05709b4e1707992fd1b7bfd636966517b39b4e",
+    "SCIENTIFIC_REPORT.md": "32981eab3cebca79c0f862225cf5c6e9a12f6d27d28d1aeed8e1e7cd57d5a1f7",
+    "inputs/q550_covariant_velocity_opposition_observer_metric_transport_v18_50n_bundle_server_sendback.zip": "9b416fa87477430fce4ce7b67caed1869ac5b3c39624c51fa9de8f285ef39187",
+    "requirements.txt": "cf378fe2b21319316ded175a89ccfb53969f0e12578cc5dc034c3c6c906b2cb1",
+    "run_on_server.sh": "102719e97eaa6e079012fd1afdbf15742d8cde141962250f87092c1ed8ae59dd",
+    "scripts/pack_sendback.py": "a6ec524ea1e1e1dd4be5437ebd24f44ebf496987b9e75c7ba0e2710db3aef3f7",
+    "scripts/run_audit.py": "78944aad68d6861353927174c41a9f829ac11fbdbceddb501a95a728a17695fa",
+    "scripts/verify_sources.py": "c1998536ccab1776f7c77d43a51d01a501e400905bc1ace8bb3d0609bed56f0e",
+    "scripts/write_output_manifest.py": "fde11f749c3568e30d5fc25eb8bfa8f85724e414d2f3e5f266049a33a23f88b4",
+    "tests/test_dynamical_connection.py": "b10c2fdfe92efa8f2b592f7613fc16a977a34089dd7e63ce6b865dca76b63965"
+  },
+  "root": "q550_dynamical_connection_material_metric_attribution_v18_50o_bundle",
+  "scope": "immutable model-audit sources; excluding regenerable results and runtime",
+  "version": "v18.50o"
+}

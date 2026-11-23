@@ -1,0 +1,5 @@
+# Requires Python >=3.11; Python 3.13 recommended for original genealogy.
+numpy>=1.26
+scipy>=1.11
+pandas>=2.1
+matplotlib>=3.7

@@ -1,0 +1,3 @@
+kind,xi,observable_dimension,measured_probe_vectors,probe_rank,unconstrained_linear_map_dimensions_at_least,probe_condition_number,uncorrected_velocity_angle_deg
+original,0.0010688314983893,4,2,2,8,2.1571828405032756,159.78518028221396
+autonomous,0.0010684172645951001,4,2,2,8,2.156731204053091,159.79596135143956

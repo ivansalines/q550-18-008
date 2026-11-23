@@ -1,0 +1,135 @@
+{
+  "version": "v18.50o",
+  "title": "Dynamical Connection & Material-Metric Attribution Audit",
+  "classification": "MODEL_RHS_DERIVED_CANDIDATE_CONNECTION_NOT_UNIQUE_PHYSICAL_MATERIAL_TRANSPORT",
+  "parent": {
+    "n": {
+      "source_count": 12,
+      "output_count": 8
+    },
+    "m": {
+      "source_count": 11,
+      "output_count": 7
+    },
+    "l": {
+      "source_count": 11,
+      "output_count": 7
+    },
+    "parent_sha256": "9b416fa87477430fce4ce7b67caed1869ac5b3c39624c51fa9de8f285ef39187"
+  },
+  "protocol": {
+    "replays": "original nonautonomous Q550 10D RHS with separately prepared natural turning states",
+    "model_jacobian": "finite-difference 10D RHS in fixed seed-normalized chart",
+    "observer_jacobian": "finite-difference original 4D structural jet observable",
+    "observer_time_derivative": "along unperturbed physical RHS trajectory",
+    "source_model_operator": "M=Bdot + B @ J_10D",
+    "projected_K": "M Bsharp with truncated SVD right inverse",
+    "metric_W": "normalized (B B^T + alpha tr(BB^T)/4 I)^-1, alpha 0.1 or 1",
+    "connection": "Gamma=1/2 W^-1 Wdot - 1/2 (K-W^-1 K^T W)",
+    "metric_compatibility": "Gamma^T W + W Gamma=Wdot",
+    "rcond": [
+      1e-06,
+      1e-10
+    ],
+    "state_fd_steps": [
+      1e-06,
+      2e-06
+    ],
+    "time_steps": [
+      1e-06,
+      2e-06
+    ]
+  },
+  "counts": {
+    "connection_measurements": 48,
+    "new_natural_seed_replays": 2,
+    "new_driven_10D_ivps": 2
+  },
+  "identifiability": [
+    {
+      "kind": "original",
+      "xi": 0.0010688314983893,
+      "observable_dimension": 4,
+      "measured_probe_vectors": 2,
+      "probe_rank": 2,
+      "unconstrained_linear_map_dimensions_at_least": 8,
+      "probe_condition_number": 2.1571828405032756,
+      "uncorrected_velocity_angle_deg": 159.78518028221396
+    },
+    {
+      "kind": "autonomous",
+      "xi": 0.0010684172645951,
+      "observable_dimension": 4,
+      "measured_probe_vectors": 2,
+      "probe_rank": 2,
+      "unconstrained_linear_map_dimensions_at_least": 8,
+      "probe_condition_number": 2.156731204053091,
+      "uncorrected_velocity_angle_deg": 159.79596135143956
+    }
+  ],
+  "natural_replays": [
+    {
+      "kind": "original",
+      "seed_turn_xi": 0.09104762622982329,
+      "turn_ledger": 1.1102230246251565e-16,
+      "integrator_nfev": 167
+    },
+    {
+      "kind": "autonomous",
+      "seed_turn_xi": 0.09102271942457762,
+      "turn_ledger": 1.5300261058115439e-15,
+      "integrator_nfev": 167
+    }
+  ],
+  "summary": {
+    "max_metric_compatibility_error": 1.5410132022591924e-10,
+    "min_observable_singular_value": 3.0102211321073093e-06,
+    "max_projection_leakage": 0.27527907698698617,
+    "min_projection_leakage": 0.27465702711034434,
+    "max_response_closure_error": 0.9078838189661589,
+    "stationary_original_angles": [
+      {
+        "alpha": 0.1,
+        "rcond": 1e-06,
+        "retained_rank": 3,
+        "candidate_angle_deg": 152.26081846258904,
+        "frozen_angle_deg": 114.15081945315151
+      },
+      {
+        "alpha": 0.1,
+        "rcond": 1e-10,
+        "retained_rank": 4,
+        "candidate_angle_deg": 179.92194359619046,
+        "frozen_angle_deg": 114.15081945315151
+      },
+      {
+        "alpha": 1.0,
+        "rcond": 1e-06,
+        "retained_rank": 3,
+        "candidate_angle_deg": 127.63851826533273,
+        "frozen_angle_deg": 140.6934422300912
+      },
+      {
+        "alpha": 1.0,
+        "rcond": 1e-10,
+        "retained_rank": 4,
+        "candidate_angle_deg": 179.97298516006828,
+        "frozen_angle_deg": 140.6934422300912
+      }
+    ]
+  },
+  "limitations": [
+    "The initial 10D state-space Euclidean metric is set in a declared seed-normalized chart; it is not derived from measured kinetic energy.",
+    "The output Gram observer, its inverse metric, SVD threshold and temporal differentiation are conventions. No unique physical material metric or connection is identified.",
+    "The local/transport response decomposition has only two 4D vectors; 4D transport is underdetermined absent the 10D model.",
+    "Projecting 10D linearized dynamics onto 4D can have a nonzero hidden-complement source; closure residual is reported, not suppressed.",
+    "The computed connection uses model RHS and observable, not L/T/R direction, but is still observer/chart dependent.",
+    "Sensitivity angles are not spatial torsion, stress, strain, or material memory; link to polymers/metallic glasses remains conceptual.",
+    "Finite differencing and interpolation have numerical errors; no interval enclosures or continuous unique-root proof."
+  ],
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1"
+  }
+}

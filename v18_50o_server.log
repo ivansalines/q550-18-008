@@ -1,0 +1,58 @@
+v18.50o SOURCE VERIFIED 11
+test_hidden_complement_nonclosure_is_not_suppressed (test_dynamical_connection.SourceConnectionTests.test_hidden_complement_nonclosure_is_not_suppressed) ... ok
+test_metric_compatible_connection (test_dynamical_connection.SourceConnectionTests.test_metric_compatible_connection) ... ok
+test_passive_rechart_at_full_rank (test_dynamical_connection.SourceConnectionTests.test_passive_rechart_at_full_rank) ... ok
+test_probe_identifiability_is_insufficient (test_dynamical_connection.SourceConnectionTests.test_probe_identifiability_is_insufficient) ... ok
+test_projected_generator_does_not_require_response (test_dynamical_connection.SourceConnectionTests.test_projected_generator_does_not_require_response) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+STAGING AND AUTHENTICATING ORIGINAL Q550 MODEL ...
+SOURCE SAMPLED original xi 0.0010591159204452
+SOURCE SAMPLED original xi 0.00106397370941725
+SOURCE SAMPLED original xi 0.0010688314983893
+SOURCE SAMPLED autonomous xi 0.0010587068207812
+SOURCE SAMPLED autonomous xi 0.00106356204268815
+SOURCE SAMPLED autonomous xi 0.0010684172645951
+CLEANING temporary historical solver runtime ...
+v18.50o COMPLETED {
+  "max_metric_compatibility_error": 1.5410132022591924e-10,
+  "min_observable_singular_value": 3.0102211321073093e-06,
+  "max_projection_leakage": 0.27527907698698617,
+  "min_projection_leakage": 0.27465702711034434,
+  "max_response_closure_error": 0.9078838189661589,
+  "stationary_original_angles": [
+    {
+      "alpha": 0.1,
+      "rcond": 1e-06,
+      "retained_rank": 3,
+      "candidate_angle_deg": 152.26081846258904,
+      "frozen_angle_deg": 114.15081945315151
+    },
+    {
+      "alpha": 0.1,
+      "rcond": 1e-10,
+      "retained_rank": 4,
+      "candidate_angle_deg": 179.92194359619046,
+      "frozen_angle_deg": 114.15081945315151
+    },
+    {
+      "alpha": 1.0,
+      "rcond": 1e-06,
+      "retained_rank": 3,
+      "candidate_angle_deg": 127.63851826533273,
+      "frozen_angle_deg": 140.6934422300912
+    },
+    {
+      "alpha": 1.0,
+      "rcond": 1e-10,
+      "retained_rank": 4,
+      "candidate_angle_deg": 179.97298516006828,
+      "frozen_angle_deg": 140.6934422300912
+    }
+  ]
+}
+v18.50o OUTPUT MANIFEST WRITTEN 7
+v18.50o SENDBACK /root/elab1/hysteresis/q550_dynamical_connection_material_metric_attribution_v18_50o_bundle_server_sendback.zip members 20 bytes 56989649

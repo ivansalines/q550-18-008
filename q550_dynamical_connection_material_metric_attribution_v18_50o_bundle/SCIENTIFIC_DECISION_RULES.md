@@ -1,0 +1,10 @@
+# v18.50o — Scientific decision rules
+
+1. **Genealogy:** n, m, l sources and execution results must authenticate against their own manifests. The original physical model must be staged from verified ancestor code, not replaced by a surrogate.
+2. **Response independence:** construct the model generator `J`, structural observable derivative `B`, and `Bdot` without using the response vectors `L,T,R`, their derivatives, or any response-locked angular velocity. Response vectors may be loaded for comparison, but cannot influence the construction of `K`, its metric, or its connection.
+3. **Model projection and nonclosure:** for `Y=B u`, `Ydot=(Bdot+B J)u` only under the 10D variational dynamics. `K=(Bdot+B J)Bsharp` describes an output-space candidate; its missing hidden-complement term `E=(Bdot+B J)(I-Bsharp B)` must be recorded. A large `E` prohibits declaring an autonomous 4D transport law.
+4. **Metric:** construct the time-dependent observer metric `Wα=(BBᵀ+α tr(BBᵀ)I/4)⁻¹` with trace normalization, α∈{0.1,1}. State coordinates use fixed per-coordinate seed normalization. This is a *model-jet observation metric* and is **not** an independently derived physical kinetic metric.
+5. **Connection:** define `ΩW=(K-W⁻¹KᵀW)/2`, `Γ=W⁻¹Wdot/2−ΩW`, and `Dv=v′+Γv`. Check metric compatibility `ΓᵀW+WΓ=Wdot`. A valid identity is algebraic; it does not validate the physical interpretation of Γ.
+6. **Numerics:** compare 1e−6 versus 2e−6 finite-difference state and temporal steps; inspect singular values, retained rank and rcond∈{1e−6,1e−10}; separately report hidden-complement leakage and closure error with measured response. No unqualified 4D material-transport certificate.
+7. **Attribution:** compare model-jet connection-corrected angles with frozen-metric and response-locked angles from n. Differences, including acute signs, are reported without claiming a new physical flip or material memory.
+8. **Provenance:** keep immutable source manifest distinct from output manifest, never put `runtime/` or temporary 1.4 GB history in sendback. Preserve scripts, parent ZIP, summary and console log outside the hashed source tree.
