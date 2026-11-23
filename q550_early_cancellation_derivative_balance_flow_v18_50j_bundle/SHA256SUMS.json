@@ -1,0 +1,23 @@
+{
+  "root": "q550_early_cancellation_derivative_balance_flow_v18_50j_bundle",
+  "version": "v18.50j",
+  "files": {
+    "README.md": "7cb84f3538fc67bf719549b63aa26dffc675ef84e2dbb0c64bdf1e1c4b92133c",
+    "SCIENTIFIC_DECISION_RULES.md": "2e4617fe1b09248d1c4a72832d5570ac0c2527712f46ae8b3d405ca4e89a2313",
+    "SCIENTIFIC_REPORT.md": "27c536d479c38a994154ba5e58fab9c546f302764d8bbb9fd48be0f11ea05724",
+    "inputs/q550_early_cancellation_balance_metric_robustness_v18_50i_authenticated_bundle.zip": "7007f083462b8d867383570911f293c2a86eb17357f0358068101dd81820aa9c",
+    "requirements.txt": "48061e7fa7686b876b0221aaf663c6576c4aacc7227c1bb192d6250c5d037494",
+    "results/autonomous_event_order.png": "5f948cdd2384777a70966e17d8f85a4a0a6ce2ec4fb0b3687b9fa5dc2d014070",
+    "results/derivative_balance_events.csv": "34b9b82dd9647ea8685c7bc85a42c2afd8b9ae9d40afd34b45ffeb5a81a670c1",
+    "results/derivative_balance_phase_ledger.csv": "373f60655d0182887943a27b5650c19629c83dd7f5c498d7563533824efb8dd3",
+    "results/derivative_competition_reference.png": "43a8743f00ee8f234b067ebbde65258c788c77e722a7e8c12bc7ff45b396104e",
+    "results/metric_event_order.png": "a238c65bb443e61f97f9340e94700d27204181168ebac3bb2680b8ea535e82e7",
+    "results/original_event_order.png": "922f3edf4b2d935d181e48807288c9993d7cdf41c0c9dd15ca72cec4189ab40a",
+    "results/report.json": "52b8bf682dedb66bc3c63c9f9d3749810530e7741545a3af7ab681571b01e9f7",
+    "run_on_server.sh": "3d950a756557f240d7c85279d757471f6bc090590fbcb00208e107133a963be2",
+    "scripts/run_audit.py": "2b5d7eec46eb534298bdacc0ae1185359f781db30bc15e2c6dedb762810a11eb",
+    "scripts/verify_bundle.py": "0cf8a696e87a3786f4bc812f5b5942590c62bd4da784bc3bf1e21dfe7de7012a",
+    "tests/test_audit_rules.py": "a80cf70f0b0b12397e0ff9afda96e85d32c06ec999a4c84ed37f5411ed023abf",
+    "tests/test_derivatives.py": "4154bc81671a881b262782a441bcc9e7e073d547eb79b66a91605d5fa1c9f1e9"
+  }
+}
