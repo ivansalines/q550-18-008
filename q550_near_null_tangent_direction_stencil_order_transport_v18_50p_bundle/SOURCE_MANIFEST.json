@@ -1,0 +1,16 @@
+{
+  "root": "q550_near_null_tangent_direction_stencil_order_transport_v18_50p_bundle",
+  "files": {
+    "README.md": "c438d7bd617cbedeabc5049d562dd56c036097978df69a4754ad639a6fa1dab4",
+    "SCIENTIFIC_DECISION_RULES.md": "43ff6ec452f123a31227b22b03089a22b75436019946c2e558fb00c48cb50f00",
+    "SCIENTIFIC_REPORT.md": "0b27b84ec1b298581d3fb5c3f522ab156edf4ded44d3133fc09ab6215d1fd1ee",
+    "inputs/q550_dynamical_connection_material_metric_attribution_v18_50o_bundle_server_sendback.zip": "ee8bf5b15723403678ea3cf29fed9cdd314cc8164f1ff61752bbabeae6d51bfc",
+    "requirements.txt": "a61e33006faae355659e6a074705adbe6cd4c20d3bf4fe0ab0ebd8d17c635298",
+    "run_on_server.sh": "3d9b198f99ea1719d785850f9a45008daf6aa0c55cc240e3fd9efc181bbdd10f",
+    "scripts/pack_sendback.py": "ae326d9de73dfa912b52099fd80fc1bef9bc785f47c7569eebfbe5c7967fff3d",
+    "scripts/run_audit.py": "0d428d3d1267bbf6ff1337ebc98f7db421e896bf058729e13e3faec20df0416e",
+    "scripts/verify_source_manifest.py": "010e3f9b15fac29b2133465deba1ec311788064b6c328a2b4f35ad2fc2ee858c",
+    "scripts/write_output_manifest.py": "c3e5899a086857f1355371175f6d6e58d55c5413b34058eb3cc9ad5a6fbb9624",
+    "tests/test_stencil_scaling.py": "7d94518a309b684a8a66d11ca5b6a991dbf64c4637fbf5c41c68ad7890e8bc7d"
+  }
+}

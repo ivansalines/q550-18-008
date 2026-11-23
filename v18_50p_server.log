@@ -1,0 +1,75 @@
+v18.50p SOURCE IDENTITY VERIFIED 11
+v18.50p authenticated parent and stencil-order tests PASS
+v18.50p AUTHENTICATED PARENT {"source": 11, "outputs": 7, "h2_s4_ratios": [4.000154489634169, 4.000048899692622, 3.9999893700128206, 4.000054295236396, 3.9999996510379323, 3.999912817198934]}
+STAGING AUTHENTICATED ORIGINAL 10D Q550 SOLVER ...
+REPLAYING ORIGINAL Q550 10D original
+10D WEAK DIRECTION COMPLETE original samples 17
+REPLAYING ORIGINAL Q550 10D autonomous
+10D WEAK DIRECTION COMPLETE autonomous samples 17
+v18.50p COMPLETED {
+  "counts": {
+    "preflight_six_sections": 6,
+    "dense_svd_rows": 306,
+    "ten_d_transport_rows": 34
+  },
+  "diagnostics": {
+    "central_s4_range": [
+      1.8782288945647015e-07,
+      4.8178088839406174e-05
+    ],
+    "richardson_s4_range": [
+      2.3825550030007166e-11,
+      8.285033029026948e-10
+    ],
+    "transported_q_abs_cos_range": [
+      0.9999999988862243,
+      1.0
+    ],
+    "richardson_vs_central_abs_cos_range": [
+      0.028041966956492987,
+      0.8000869770964827
+    ],
+    "small_step_ratio_by_kind": {
+      "original": [
+        3.9999996510379323,
+        3.99998100041464,
+        4.000024020458814,
+        4.0000183582381865,
+        4.000029224673526,
+        3.9999622427766868,
+        3.999989797982441,
+        3.999976843871552,
+        4.000054295236396,
+        3.99998016209243,
+        4.000083953399807,
+        3.999968341822807,
+        3.9999919572395903,
+        4.000074903127712,
+        3.9999739394751965,
+        4.000032642638068,
+        3.999912817198934
+      ],
+      "autonomous": [
+        4.000048899692622,
+        3.9999865810277773,
+        3.999938997368466,
+        3.9999901704767784,
+        4.000022379299438,
+        3.9999519129974788,
+        4.000017561457133,
+        4.000073036387831,
+        4.000154489634169,
+        3.9999488421971368,
+        4.000020715328293,
+        3.9999796713480835,
+        3.999985025570769,
+        4.000061321429049,
+        4.000021315069808,
+        3.999879446568242,
+        3.9999893700128206
+      ]
+    }
+  }
+}
+v18.50p OUTPUT MANIFEST WRITTEN 7
+v18.50p SENDBACK CREATED /root/elab1/hysteresis/q550_near_null_tangent_direction_stencil_order_transport_v18_50p_bundle_server_sendback.zip files 20 bytes 57336442

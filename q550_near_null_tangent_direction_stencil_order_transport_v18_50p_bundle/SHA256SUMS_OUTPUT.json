@@ -1,0 +1,12 @@
+{
+  "root": "q550_near_null_tangent_direction_stencil_order_transport_v18_50p_bundle",
+  "file_sha256": {
+    "results/historical_quadratic_scaling.png": "27dc952b0de51073f262318334ac4ba880eab1c4b4dc9c820fc92ba9936f3124",
+    "results/historical_stencil_scaling.csv": "faecab67d93cc72bb319d3925e0b17001c8693690bde6f623c44ec773b97fc0d",
+    "results/report.json": "9242f36602a9355bc688202498f3c9499073a064c1e2cec5844e60303a54000c",
+    "results/stencil_order_near_null.png": "0c435b9a84a7fc3c62c3812319001105c8d549d95d7bc541fa22918c876f53b8",
+    "results/ten_d_stencil_singular_spectrum.csv": "c3ba15cdc927aec10e5cb6655d688076c9f3437b751a1c99755650eb9effcde8",
+    "results/weak_direction_10d_transport.png": "16824df8d0e81cc6eb742b916eb6d4c7fa5453acd61e1ca525b6d19d32485d12",
+    "results/weak_direction_tangent_transport.csv": "fcffcf29b5c43fc9d3c9db61707c0a99c4ffcc2367ad01db0a9109e6c5205a1d"
+  }
+}
