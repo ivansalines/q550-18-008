@@ -1,0 +1,56 @@
+{
+  "version": "v18.50f",
+  "title": "Vector Cancellation Geometry & Response-Composition Continuation Audit",
+  "classification": "VERIFIED_V18_50E_VECTOR_LEDGER_POSTPROCESSING_NOT_INDEPENDENT_CAUSAL_OR_MATERIAL_CERTIFICATE",
+  "ancestry": {
+    "zip_sha256": "21d9f910c14148746853bd211c873a77ae965ec8cf386baff2ec2b8f0cdb8a2f",
+    "verified_entries": 20,
+    "version": "v18.50e"
+  },
+  "source": {
+    "parent_csv_rows": 100,
+    "case_count": 20,
+    "horizon_count_per_case": 5,
+    "new_Q550_ODE_integrations": 0
+  },
+  "metric": "common_4d_parent_c; vectors inherited from v18.50e, not a physical metric",
+  "results": {
+    "negative_local_transport_inner_products": 80,
+    "eligible_nonzero_transport_rows": 80,
+    "max_IVP_vs_vector_split_relative_residual": 1.866343543287813e-06,
+    "max_endpoint_gain_parent_mismatch": 3.284838861716821e-05,
+    "same_seed_cancellation_fraction_range": [
+      0.0540180253313704,
+      0.058462483583427635
+    ],
+    "natural_cancellation_fraction_range": [
+      0.05309809500340056,
+      0.05968516894141677
+    ],
+    "reference_original_cubic_024_same_seed": {
+      "mode": "same_seed",
+      "kind": "original",
+      "ramp_xi": 0.24,
+      "shape": "beta:2:2",
+      "endpoint_gain": 17.71237210657921,
+      "endpoint_local": 0.574069230371571,
+      "endpoint_transported": 18.184803603460995,
+      "alignment_cos": -0.8280465150991391,
+      "alignment_angle_deg": 145.89858770803002,
+      "cancellation_fraction": 0.05578697273142871,
+      "transport_share": 0.9693974560488406,
+      "residual_rel": 1.607360877199563e-06
+    }
+  },
+  "limitations": [
+    "The L + T split is an endpoint-coordinate ledger; it is not a uniquely causally separable decomposition.",
+    "The angle and cancellation fraction depend on the parent selected metric; no physical scalar invariant is asserted.",
+    "All samples are computed from existing v18.50e data. This is an independent algebraic review, not new dynamical integration.",
+    "Finite differences across four horizons do not locate new physical turning events or regime thresholds.",
+    "The Gram determinant is a squared oriented-area magnitude without intrinsic signed chirality."
+  ],
+  "environment": {
+    "python": "3.9.25",
+    "numpy": "2.0.2"
+  }
+}

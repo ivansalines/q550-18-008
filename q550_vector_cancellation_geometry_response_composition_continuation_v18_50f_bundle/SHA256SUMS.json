@@ -1,0 +1,28 @@
+{
+  "root": "q550_vector_cancellation_geometry_response_composition_continuation_v18_50f_bundle",
+  "version": "v18.50f",
+  "files": {
+    "README.md": "dae2713687dcae99a8415fcea05f3c60782363d1927ba2ce14e8c5c71ce228e3",
+    "SCIENTIFIC_DECISION_RULES.md": "cc8be80a4e8a3f6d55f8272f80a530199d2dd06e639204edc55caa57fd159f2c",
+    "SCIENTIFIC_REPORT.md": "61120f027a1e03b9273849a5b46b47e61019c4b4bc57bfeb0d3515d80609e45d",
+    "inputs/q550_common_horizon_sensitivity_accumulated_conditioning_v18_50e_authenticated_server_sendback.zip": "21d9f910c14148746853bd211c873a77ae965ec8cf386baff2ec2b8f0cdb8a2f",
+    "requirements.txt": "e1add69d26f3160e743fd36e7a0a7c5529e5168215c8979ad87bdb176e2ca92f",
+    "results/endpoint_protocol_contrasts.csv": "0291c350247a2b96fa9dfe9708bdd2a95d2b68fac301419464c7d73c6a1c9272",
+    "results/natural_vs_common_seed_cancellation.png": "0f4b65d5be95b80156ad93236a70d037f226568935eb479fb66301b017d366af",
+    "results/opposition_vs_cancellation.png": "aded9addfbe498caccf704c9517561b31488477669f4a695f428df22ce5c600d",
+    "results/orientation_vs_duration.png": "6db5ea2b5d76275ab89c792babffe13ea2d8d3c09d99c1b08ad0889443d89e96",
+    "results/reference_response_composition.png": "faf5da513c0192bd00a6d1c20361d1b9951431eee4614c3002d6c3cef9cacac3",
+    "results/report.json": "9185e37fff4fa5a4af930bd4d6d3dfcbda73ccd13eb459b1cde994cbba770928",
+    "results/response_direction_continuation.csv": "11760a1f4ad83c187dc7690bb6bf7fe3448e722a5458e746dd3c9f4e838088b3",
+    "results/response_vector_gram_ledger.csv": "c33270ecd9bd8ff54ac9e0ec6f9a98aae43d7e9b39093cc75baf7e4d65be4aa7",
+    "run_on_server.sh": "8d6b19461859db2a5612017ced4fa763b14b2ddded87ee1b3646c9c2aff5fa45",
+    "scripts/generate_report.py": "5204cc95e29925b33287fef6b35075ad7da8736dabdcb600a3a5fa6fa6c1d596",
+    "scripts/geometry_math.py": "0c5df34e3d140ac7adfdbf3c4689ccee03c9f1a1872000b850e02edeafdc37f9",
+    "scripts/pack_sendback.py": "cd482ad4169f779e0ffb7394f69c7f296bed28f6345f5615af43c0837ceb3d57",
+    "scripts/plot_results.py": "be261425f9ce27468e8d9313ff8ac5edf9983fbea49ad24c0fdd6de5c5416ca1",
+    "scripts/run_audit.py": "99d3127b044ce95226e31d1ca72dd53b8261b63551a130cff9324c4e4139c1fe",
+    "scripts/verify_parent.py": "69f4a722b57039b53dd62cf0acf620b53918ac5c03bd3b78a17e639f4b05f920",
+    "tests/test_geometry.py": "92fdc6d00ffd38f0bbd214db2b5c98d150b6949b8bffcfb13cd866ced3437f88",
+    "v18_50f_server.log": "4568679c36633232d5f3e06c5214e1a20a4d273d8d3641a63b9ef2016b026499"
+  }
+}
