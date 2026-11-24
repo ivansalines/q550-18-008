@@ -1,0 +1,14 @@
+{
+  "version": "v18.50k",
+  "mode": "execution-specific output manifest",
+  "python": "3.9.25",
+  "file_sha256": {
+    "results/advancing_resultant_with_gate.png": "5709b37ea2c0a54c94345a9ee4062b834cd12c1c944bc765f54e87b9985c5af4",
+    "results/gate_rate_competition_reference.png": "34a2d0cbfe8a0364d9db58c97c83054d47b49559159527832b55eaca368a6581",
+    "results/geometric_gate_events.csv": "8b36e8ee6ed8ca62c5eecc303314ed615d01d4b79c6d904d145e40e1ea83be6d",
+    "results/geometric_gate_ledger.csv": "e3c1b1a1154f20d87c7a04d0ed52832a84ae7ff595c78effb917f4f97f2513f3",
+    "results/internal_orientation_balance_passage.png": "148ada02ca14e2ddd1c5ec88823c86f8b855800d8aea5c908f395ae1b74f26fc",
+    "results/metric_dependent_event_passage.png": "95882a965a101b8a3f291ca20f1909ee79ab92ff164ecdf0966da3a9cc592bdb",
+    "results/report.json": "72911ec0f31b88b3832d53bd256158de160c1c7234a2315905bd0957fa0bfd50"
+  }
+}

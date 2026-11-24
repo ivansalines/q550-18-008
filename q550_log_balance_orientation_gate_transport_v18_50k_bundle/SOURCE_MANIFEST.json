@@ -1,0 +1,21 @@
+{
+  "root": "q550_log_balance_orientation_gate_transport_v18_50k_bundle",
+  "version": "v18.50k",
+  "scope": "immutable source files excluding regenerated results, logs, and per-run output manifest",
+  "files": {
+    "README.md": "f903bf8a2eb5b5431ddc1938b051a5481c8f7c42aa747c2f534e125894b2f508",
+    "SCIENTIFIC_DECISION_RULES.md": "cbe5de05e5214d88419d8964a08c1973cc538bdc6f9a440cee7b36c24c241fb6",
+    "SCIENTIFIC_REPORT.md": "e7b1e808d3e63659a90d89d5ae218a7041a6976a932e4203b6bb15700e362c77",
+    "inputs/SOURCE_PINS.json": "956109cac0ca520a79823f758a822f2885f0438ad37d085b97770242f9aa9197",
+    "inputs/q550_early_cancellation_derivative_balance_flow_v18_50j_server_sendback.zip": "97c63ef5bf908fa5cf3c6a4acce85a6b53d19245778dcf64b8b55621bcdec419",
+    "requirements.txt": "923635c0afd01b4c8d852fa8c57b24d5d2bf62efc38e11eebc643e0410669feb",
+    "run_on_server.sh": "3712a73af8ea1ee70cd69be2356532bf2fd71343e11f02f085310eabd20850f2",
+    "scripts/gate_math.py": "ce3e82bfb757e77eb0701b401c777dd05c0b0e187d6db3137bc3f981e8f293bf",
+    "scripts/run_audit.py": "5bbd5072fa0b45a70d053a71e9abb423a24a63f8f151950838d7703f7e12b6cd",
+    "scripts/verify_parent.py": "721d67443e91b10595898bce23fb0756d906bd9e8a8cd4e7cc10de7883664fac",
+    "scripts/verify_source_manifest.py": "39950b171b1547513e517eafe81f97529d17d15acfeafdae44c75fa9258872f2",
+    "scripts/write_output_manifest.py": "9d37703d068f7108f55c69a9117566ad0e420a3067df557c782440d6124fe68a",
+    "tests/test_decision_rules.py": "b3abe0d96c198cb9d6b3cdd7383e55a2a9bb742cafb77b95bf733581485b97c4",
+    "tests/test_gate_math.py": "12908419d89dd5a23baf3439f35b6479f5ad2c66ddb9e5551811f7df9b6b0700"
+  }
+}

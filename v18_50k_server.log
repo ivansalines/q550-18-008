@@ -1,0 +1,9 @@
+v18.50k parent verified:  17 original manifest members;  4 known Matplotlib metadata differences
+v18.50k: analytic symmetry, parity-gate, derivative finite differences PASS 1.8189894035458565e-12
+v18.50k completed | 30 configurations | 4800 rows | 24 paired internal events
+Reference | parity 0.0010591159232858248 stationary 0.0010688353243933368 delay 9.719401107512052e-06 angle 130.25541734275654 gate rates 2.094688684874625 -2.0946886848746202 d||R||/dxi 131.77002545434382
+Autonomous | parity 0.0010587068193520575 stationary 0.0010684237535576893
+v18.50k: 24 event-order and 6 raw-control tests PASS
+v18.50k immutable source hashes PASS: 14/14
+v18.50k execution manifest written: 7 result files
+v18.50k PASS: source identity, algebra, event sequence, output manifest
